@@ -1,0 +1,41 @@
+name: Publish Codex RTS
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Verify exact runtime payload
+        run: |
+          python3 - <<'PYCODE'
+          import json,pathlib,hashlib
+          manifest=json.load(open('deployment-manifest.json'))
+          expected={e['path']:e for e in manifest['files']}
+          root=pathlib.Path('site')
+          actual={str(p.relative_to(root)) for p in root.rglob('*') if p.is_file()}
+          assert actual==set(expected)
+          for name,e in expected.items():
+            p=root/name
+            assert not p.is_symlink()
+            b=p.read_bytes()
+            assert len(b)==e['bytes'] and hashlib.sha256(b).hexdigest()==e['sha256'],name
+            assert not b.startswith(b'version https://git-lfs.github.com/spec/v1')
+          print(manifest['version'],len(expected),'runtime files verified')
+          PYCODE
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
+        id: deployment

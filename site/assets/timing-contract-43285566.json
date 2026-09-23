@@ -1,0 +1,156 @@
+{
+  "schema": "raider-modular-operational-action-timing-pilot/v1",
+  "phase": "ART 11.50C R1 correction 2 — Raider Stronger Attack Recoil Snap Timing Pilot",
+  "status": "owner-approved-locked-final-handoff-ready-for-pm-review",
+  "sourceActionManifest": {
+    "path": "art/candidates/art-11-50c-r1-raider-modular-operational-full-strip-production/runtime-2x/action-manifest.json",
+    "bytes": 1877842,
+    "sha256": "59d6804f72f9ac02546b99e53f3d74031ed21bdf0c5af23e2d033b1121652fdf"
+  },
+  "scope": "approved-timing-metadata-over-unchanged-parent-full-strips",
+  "framePayloadAuthority": "unchanged ART 11.50C R1 PNG references",
+  "playbackClock": "performance.now absolute-deadline scheduler backed by setTimeout; no CSS animation",
+  "durationSemantics": "Each duration holds the named frame before advancing to the next logical frame; the terminal frame duration is the endpoint hold.",
+  "actions": {
+    "tank-attack": {
+      "frameCount": 6,
+      "durationMs": 1000,
+      "eventFrame": "f02",
+      "currentFrameDurationsMs": [
+        240,
+        80,
+        160,
+        180,
+        170,
+        170
+      ],
+      "uniformFrameDurationsMs": [
+        167,
+        167,
+        166,
+        167,
+        167,
+        166
+      ],
+      "correctionFrameDurationsMs": [
+        150,
+        50,
+        180,
+        220,
+        200,
+        200
+      ],
+      "normalizedCorrectionDurations": [
+        0.15,
+        0.05,
+        0.18,
+        0.22,
+        0.2,
+        0.2
+      ],
+      "recoilBU": [
+        0,
+        0.1225,
+        0.245,
+        0.163333333,
+        0.081666667,
+        0
+      ],
+      "startFramePayloadChanged": false,
+      "maxRecoilFramePayloadChanged": false,
+      "returnFramePayloadChanged": false,
+      "eventOwnershipChanged": false,
+      "directionSpecificTiming": false,
+      "endpointBehavior": "single-shot holds terminal F05; optional review loop restarts at F00 only after the full terminal hold"
+    },
+    "siege-attack": {
+      "frameCount": 6,
+      "durationMs": 1500,
+      "eventFrame": "f02",
+      "currentFrameDurationsMs": [
+        360,
+        120,
+        240,
+        270,
+        255,
+        255
+      ],
+      "uniformFrameDurationsMs": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250
+      ],
+      "correctionFrameDurationsMs": [
+        225,
+        75,
+        270,
+        330,
+        300,
+        300
+      ],
+      "normalizedCorrectionDurations": [
+        0.15,
+        0.05,
+        0.18,
+        0.22,
+        0.2,
+        0.2
+      ],
+      "recoilBU": [
+        0,
+        0.165,
+        0.33,
+        0.22,
+        0.11,
+        0
+      ],
+      "startFramePayloadChanged": false,
+      "maxRecoilFramePayloadChanged": false,
+      "returnFramePayloadChanged": false,
+      "eventOwnershipChanged": false,
+      "directionSpecificTiming": false,
+      "endpointBehavior": "single-shot holds terminal F05; optional review loop restarts at F00 only after the full terminal hold"
+    }
+  },
+  "frozen": {
+    "tankMove": true,
+    "allPngPixels": true,
+    "transparencyTrimCoordinatesAnchorsLayerMembership": true,
+    "eventFrameAndGameplayEventOwnership": true
+  },
+  "gates": {
+    "pmIndependentArt1150cR1Correction2TechnicalVerification": "false-not-performed-owner-direct",
+    "ownerReviewRouted": true,
+    "ownerManualVisualQa": "passed",
+    "ownerVisualAcceptance": true,
+    "art1150cR1Correction2Accepted": true,
+    "art1150cR1Correction2Locked": true,
+    "art1150cR1Accepted": true,
+    "readyForCodeIntegration": true,
+    "assetHandoffCreated": true,
+    "fullStripsRegenerated": false,
+    "allowManifestReadyPromotion": false,
+    "selectorFreeActivationAuthorized": false,
+    "codeConsumptionAuthorized": false,
+    "laterArtStageAuthorized": false,
+    "preserveCurrentRuntimeFallback": true
+  },
+  "ownerVerdict": {
+    "mode": "OWNER_DIRECT",
+    "exactStatement": "5322通过",
+    "recordedAt": "2026-08-26",
+    "manualVisualQa": "passed",
+    "visualAcceptance": true
+  },
+  "applicationContract": {
+    "owner": "ART 11.50C R1 correction 2 timing metadata",
+    "applicationCount": 1,
+    "replacesOnly": "parent action-manifest frameDurationsMs for tank-attack and siege-attack",
+    "leavesParentManifestBytesUnchanged": true,
+    "tankMoveOverride": null,
+    "directionExceptions": []
+  }
+}
