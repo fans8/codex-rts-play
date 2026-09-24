@@ -3,9 +3,7 @@
   "sourceId": "166ae9d8e6f9d67cc0ddda0257163d1b95375927b4edbbddc4a8f42e17f38cda",
   "acceptedReviewSourceId": "241631b72133f5ee3e75ef8974313ff113c9137a135362069fb9a23616922ebb",
   "assetBuildId": "d4a92aceb016c5d3956a4b20a8db825eaca4d0bef23ccac663f2e77247af4a96",
-  "files": 2281,
-  "bytes": 210541262,
-  "entries": [
+  "files": [
     {
       "path": "assets/000a3ff841ac1b92f3e7ebdf7d814927afede4e896a175fbe5e87a6e78ec5929-270e59f7.png",
       "bytes": 10191,
@@ -11411,5 +11409,7 @@
       "bytes": 325,
       "sha256": "95a857d6eaf97e80cbe90c15f0c1520b02e4bf5f91f5683ba7e3d3644f3c1f69"
     }
-  ]
+  ],
+  "bytes": 210541262,
+  "fileCount": 2281
 }
