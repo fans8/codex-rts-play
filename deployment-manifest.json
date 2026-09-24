@@ -1,10 +1,10 @@
 {
   "version": "2026.09.24-r6",
-  "sourceId": "4ca12eff37531dd144be31c1cfaaa9bc4af588c333c826b0b1c6b9822b57bda2",
+  "sourceId": "166ae9d8e6f9d67cc0ddda0257163d1b95375927b4edbbddc4a8f42e17f38cda",
   "acceptedReviewSourceId": "241631b72133f5ee3e75ef8974313ff113c9137a135362069fb9a23616922ebb",
   "assetBuildId": "d4a92aceb016c5d3956a4b20a8db825eaca4d0bef23ccac663f2e77247af4a96",
   "files": 2281,
-  "bytes": 210541471,
+  "bytes": 210541262,
   "entries": [
     {
       "path": "assets/000a3ff841ac1b92f3e7ebdf7d814927afede4e896a175fbe5e87a6e78ec5929-270e59f7.png",
@@ -11403,13 +11403,13 @@
     },
     {
       "path": "play/index.html",
-      "bytes": 1870,
-      "sha256": "40d66ced895f38defd34854122d8a0f0497eaff02e4c51982a3bf36b02c3f31a"
+      "bytes": 1661,
+      "sha256": "a9dd9ee40278b0ea70e789ebfb56577719622d2eacdcf8abf09ad025ed6e1ffe"
     },
     {
       "path": "release-version.json",
       "bytes": 325,
-      "sha256": "76d6c560ece97334212eb6d4bc6c6e33dec73a6547683bfaf70f2b0d38b49cd6"
+      "sha256": "95a857d6eaf97e80cbe90c15f0c1520b02e4bf5f91f5683ba7e3d3644f3c1f69"
     }
   ]
 }
