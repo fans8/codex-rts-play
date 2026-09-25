@@ -1,7 +1,9 @@
 {
-  "version": "2026.09.25-r7",
-  "sourceId": "10d1da74c928646de0f641e46bb42d953fc1b2bfd8dfc8607031a5773cdd2a6e",
+  "version": "2026.09.25-r8",
+  "sourceId": "ae85578e41e4a296f74bff515caeffc8dac071fa36ce4b291c3084fe98084ed5",
   "assetBuildId": "d4a92aceb016c5d3956a4b20a8db825eaca4d0bef23ccac663f2e77247af4a96",
   "acceptedReviewSourceId": "7f4296249696475aaa0ddd707ef624aaf7e4bfe691b5f144ffd714e6fe39d446",
-  "channel": "public-test"
+  "channel": "public-test",
+  "candidateReviewSourceId": "e5d05d5f99a991648d2ee503eb23e42902946628e87259a857d33176d9a3f076",
+  "performanceCandidateStatus": "owner_pending"
 }
