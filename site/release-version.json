@@ -1,8 +1,17 @@
 {
-  "version": "2026.09.26-r9",
-  "sourceId": "a5e37a4c498541966cd084f63905ff657f8ac83b579b0e082abd24bb82bc5f4a",
-  "assetBuildId": "d4a92aceb016c5d3956a4b20a8db825eaca4d0bef23ccac663f2e77247af4a96",
-  "acceptedReviewSourceId": "2bafbbf8610afa9bddc870250d488958987d6decb1ac25391440e2a57f55f96a",
+  "version": "2026.10.01-f3",
+  "sourceId": "e7ab9b9ff88b6fd9842026a371dccf7d1c30ebcd3281bcfde40264becc772617",
+  "assetBuildId": "24f09854e97c67ab18200dc992788e8d991424851b7dd8f817998b0f8863f1d6",
+  "captureCapability": {
+    "version": 1,
+    "enabled": true
+  },
+  "f3ContractSha256": "59582123a38545ccf825e67220c45626bd651b60888a09e5f0be03a0b7138fbd",
+  "acceptedReviewSourceId": "592e3d58155a2123ca2ae58500d9b4f8b99df8e7f2ea88f0049f9dcc3ded0226",
+  "ownerAcceptanceRequired": false,
+  "ownerAcceptanceSha256": "5e790657e319c7a6018e672dc453951e857dc58512153a202183d97f31b0a38c",
+  "authorityRegistrySha256": "f96e7672011e187a6dc33887444d573164602026ad16d2e2ef345229c2816fdf",
+  "highLoadPerformanceThresholdPassed": false,
   "channel": "development-release",
-  "performanceCandidateStatus": "accepted_current"
+  "performanceCandidateStatus": "owner_accepted_with_disclosed_limits"
 }
