@@ -1,6 +1,6 @@
 {
   "schemaVersion": "code-12.34a-runtime-asset-build-manifest-v2",
-  "buildId": "d4a92aceb016c5d3956a4b20a8db825eaca4d0bef23ccac663f2e77247af4a96",
+  "buildId": "24f09854e97c67ab18200dc992788e8d991424851b7dd8f817998b0f8863f1d6",
   "entries": [
     {
       "path": "assets/000a3ff841ac1b92f3e7ebdf7d814927afede4e896a175fbe5e87a6e78ec5929-270e59f7.png",
@@ -9241,6 +9241,454 @@
       "encodedBytes": 15492,
       "sha256": "0c4488e0f3c87d88774278ecac327913433d2b3bc006106b6dcf2017f0ce9efb",
       "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/audio/air-fire.mp3",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/audio/air-fire.mp3",
+      "encodedBytes": 18861,
+      "sha256": "eb587ead0a2e79fe14622d72397298a03aef955dd81f6bd3aec19b765de34dc9",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/audio/air-fire.webm",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/audio/air-fire.webm",
+      "encodedBytes": 12538,
+      "sha256": "a8b7193ca43ee82caa9b49ff94b9cedfafb7838f0ca7c34cb889607f10fd1e85",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/audio/air-impact.mp3",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/audio/air-impact.mp3",
+      "encodedBytes": 16941,
+      "sha256": "1b035d0f493df5e06a288c20743f8e692b99ebef0acbc4f78c240805e90e5e07",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/audio/air-impact.webm",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/audio/air-impact.webm",
+      "encodedBytes": 11937,
+      "sha256": "8bdd9c54141f63c80a86c828b1899535485fbfa47c5c5bd51d202d45ac741af6",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/audio/attack.mp3",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/audio/attack.mp3",
+      "encodedBytes": 18861,
+      "sha256": "0beabda4be81c5b04a4ee4feee7046603c658e24329a035ec4b23bd2e7707fbc",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/audio/attack.webm",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/audio/attack.webm",
+      "encodedBytes": 19229,
+      "sha256": "0770d7c406fa038a2765aed5687dc1e0ac4b40c9368da516515c9f915f3189d9",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/audio/death.mp3",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/audio/death.mp3",
+      "encodedBytes": 26541,
+      "sha256": "1100cde206c994e50ca435d52e16a609f4648c00f8725d56ffebcfd60286b555",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/audio/death.webm",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/audio/death.webm",
+      "encodedBytes": 18867,
+      "sha256": "cc8f5e15780c858f2336e8735562a8334990521bafd95c18ed9faf00c8befbd4",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/audio/ground-fire.mp3",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/audio/ground-fire.mp3",
+      "encodedBytes": 6189,
+      "sha256": "f6cc6b0be0cc3134e2e88143138a01f10db9a017b7263e06914ce08f6bad4c0a",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/audio/ground-fire.webm",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/audio/ground-fire.webm",
+      "encodedBytes": 6119,
+      "sha256": "f82fe08ac11bec1fde203dbfd27011ffabb0725b34797d03b1ce0a0435ef0c69",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/audio/ground-impact.mp3",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/audio/ground-impact.mp3",
+      "encodedBytes": 8493,
+      "sha256": "efcb5866c4e0d1d5b32135a8851e814f290548d681b76fffbb761014f3bd4471",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/audio/ground-impact.webm",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/audio/ground-impact.webm",
+      "encodedBytes": 6685,
+      "sha256": "7d0cbb95987a205a9cc0abba5c0364f55563ede3022608deb8cdd99e2603bc9a",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/audio/move.mp3",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/audio/move.mp3",
+      "encodedBytes": 18477,
+      "sha256": "47fa233e0678b43958d4c65af33965954c500bae854b95476893a06e6a5ffbb7",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/audio/move.webm",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/audio/move.webm",
+      "encodedBytes": 17650,
+      "sha256": "89e031639156c561ed4a54aad032002b4418a2eceae283d6834feafa96d30ab8",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/audio/ready.mp3",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/audio/ready.mp3",
+      "encodedBytes": 25389,
+      "sha256": "8d09c46f687ad20b00eed46e2728782e2c4efe5bd4fa523e00e6c9d95771e99f",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/audio/ready.webm",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/audio/ready.webm",
+      "encodedBytes": 28621,
+      "sha256": "82a2d00e80dd863e79eeb84f591e73b31b6932ac77d38c2e009128965194587a",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/audio/selected.mp3",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/audio/selected.mp3",
+      "encodedBytes": 18093,
+      "sha256": "e4e6620437dda75f4d71f16cd6ec7d4e4e78b8cebcc47170ec4fb229f674bc8f",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/audio/selected.webm",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/audio/selected.webm",
+      "encodedBytes": 17795,
+      "sha256": "9d6f6fc74aea1cd20f13408b0badcf2d65616afce0879a1cdc920a3e46be6379",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-bank-left-body-0-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-bank-left-body-0-1x.webp",
+      "encodedBytes": 346980,
+      "sha256": "a1cad8bf8e42b3bb5e0a995b7d72220ea90df211adceccaae8d0580b5db49ea3",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-bank-left-body-0-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-bank-left-body-0-2x.webp",
+      "encodedBytes": 938310,
+      "sha256": "861dc13447e4098ea5d2a26f56e8ca988fb17feaf159ab0f2bffbc41be3506de",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-bank-left-mask-0-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-bank-left-mask-0-1x.webp",
+      "encodedBytes": 205100,
+      "sha256": "e7bff23e1a870c42c7fa3d6aca6f82d1b0225c63552ccdeaed71ef3892946f7d",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-bank-left-mask-0-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-bank-left-mask-0-2x.webp",
+      "encodedBytes": 353960,
+      "sha256": "549c7796aadcc6e58192ba493ea6e1ae75b6d5bf5262f75efbc9f800f118e1f0",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-bank-left-shadow-0-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-bank-left-shadow-0-1x.webp",
+      "encodedBytes": 59648,
+      "sha256": "2d8f8662030311120f2e13fb5ba6b183f0d40c4793a2af3c810169647be9acef",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-bank-left-shadow-0-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-bank-left-shadow-0-2x.webp",
+      "encodedBytes": 143116,
+      "sha256": "5fabce48f7eaa0f015c36fddc0aa9f46e0eb0fc6a9593fcf0e371f5821a01fb7",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-bank-right-body-0-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-bank-right-body-0-1x.webp",
+      "encodedBytes": 346842,
+      "sha256": "2f0b496c8c0ab8337bafe3064730593af226b66a0df6c4f55c215919a48b91dd",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-bank-right-body-0-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-bank-right-body-0-2x.webp",
+      "encodedBytes": 937670,
+      "sha256": "a0a4a6dd860018ff2f929523c00b5d7a3fd19e3c6889d41307b076cd03b2909b",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-bank-right-mask-0-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-bank-right-mask-0-1x.webp",
+      "encodedBytes": 204798,
+      "sha256": "6ae3c8d81a085ce5b03f2f74cb221166c2695ade1fffdf56b3ffeffb24fd434a",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-bank-right-mask-0-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-bank-right-mask-0-2x.webp",
+      "encodedBytes": 354800,
+      "sha256": "84052fd2b1e2ac088754d02451a3a23d96ef51f263883053e4a25acc4291c444",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-bank-right-shadow-0-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-bank-right-shadow-0-1x.webp",
+      "encodedBytes": 59608,
+      "sha256": "b400ea620b51637f31a9a5a9325ae4f0b835506acdbc3349fc31a050aad433e8",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-bank-right-shadow-0-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-bank-right-shadow-0-2x.webp",
+      "encodedBytes": 143168,
+      "sha256": "868063b2715d0bd3ca0e94756a8f0bcd28ce0244fb57cb21fb1abb95c3520475",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-effects-engine-0-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-effects-engine-0-1x.webp",
+      "encodedBytes": 422,
+      "sha256": "d50576fdd7148eb7b28cab777e1b374633e37ce9912f11ab3f9c5cba571c7d52",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-effects-engine-0-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-effects-engine-0-2x.webp",
+      "encodedBytes": 518,
+      "sha256": "2108cefc0a79eb1aa2786d81ad266c9be49e5bef04b2c27ef0a4de706cad779b",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-effects-muzzle-0-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-effects-muzzle-0-1x.webp",
+      "encodedBytes": 104,
+      "sha256": "36dce2d914a6fb8d24458598d8c4c5c5a9fe651c58afedc49229e54841e77cc1",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-effects-muzzle-0-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-effects-muzzle-0-2x.webp",
+      "encodedBytes": 116,
+      "sha256": "b3c6b7e2287ed936b4d7a84e4f1d8296f86d609c52f3460c1a978b77696bc1c2",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-neutral-body-0-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-neutral-body-0-1x.webp",
+      "encodedBytes": 170670,
+      "sha256": "305521f6d6b32f94a368951c6cadb92706d41fbdf8c14f92fb82ce46e5a3def9",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-neutral-body-0-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-neutral-body-0-2x.webp",
+      "encodedBytes": 470676,
+      "sha256": "9f80bf2fe92d97792a851669dbb59fa77f2c00b82b2edcaa1e5db28314c62c43",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-neutral-mask-0-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-neutral-mask-0-1x.webp",
+      "encodedBytes": 102592,
+      "sha256": "40920ea9ef7805d8e242849b00e074f1e6479a7d3ff36fb1f81d67f2af588353",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-neutral-mask-0-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-neutral-mask-0-2x.webp",
+      "encodedBytes": 177950,
+      "sha256": "4d86918cc125366d4baf9b0a897f18dee25ce38855c0652e17f6e634caf5173c",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-neutral-shadow-0-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-neutral-shadow-0-1x.webp",
+      "encodedBytes": 29556,
+      "sha256": "5c2876e643e9dbe849ed093939eb7d2b72495341d181df79d6bc8b9494e0406f",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-neutral-shadow-0-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-neutral-shadow-0-2x.webp",
+      "encodedBytes": 71586,
+      "sha256": "e389cc51be6bbe976b629589bc5f096dd87e4c9cfb9c90d0b75a0681183278b3",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-pitch-down-body-0-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-pitch-down-body-0-1x.webp",
+      "encodedBytes": 343562,
+      "sha256": "75f81ebd6414011a897dae595834c38613ef5219d0c42cf518f08c245b2eca99",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-pitch-down-body-0-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-pitch-down-body-0-2x.webp",
+      "encodedBytes": 929220,
+      "sha256": "7cba9987eb693153b5d35c28d5466ead33749788e4a425b51dcd8a6540f8871c",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-pitch-down-mask-0-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-pitch-down-mask-0-1x.webp",
+      "encodedBytes": 202102,
+      "sha256": "7f4e30b08df23083a7680094fef7478753ea26cb4dfad01ad632091bcd574e82",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-pitch-down-mask-0-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-pitch-down-mask-0-2x.webp",
+      "encodedBytes": 350078,
+      "sha256": "3a47d1dd73d31cd556e02b35e40734c420e89f11a2b0b50b24cf2d982dfe34fe",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-pitch-down-shadow-0-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-pitch-down-shadow-0-1x.webp",
+      "encodedBytes": 57912,
+      "sha256": "797dbf98be40a9a67ae0f8f16393c4eb311a501315f1ca19daa1d64ab0df2878",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-pitch-down-shadow-0-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-pitch-down-shadow-0-2x.webp",
+      "encodedBytes": 139758,
+      "sha256": "48c28e387f66aa5fe8a5a158866970a3db7c193f45bbe904417c041b203ea569",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-pitch-up-body-0-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-pitch-up-body-0-1x.webp",
+      "encodedBytes": 347078,
+      "sha256": "5f80487e1db09bf7eebb66daaa79cb585fbc3a99d4fd111beb27a5e8954ab7cf",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-pitch-up-body-0-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-pitch-up-body-0-2x.webp",
+      "encodedBytes": 938226,
+      "sha256": "a17cf0edf9b9769a348dc3305119cf02babb6e410204958a7dd346681e75521a",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-pitch-up-mask-0-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-pitch-up-mask-0-1x.webp",
+      "encodedBytes": 204076,
+      "sha256": "f4f9d91b55a8c7263caf5d18b792dc86392f3d35de1145cc26cd72412d7e2d29",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-pitch-up-mask-0-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-pitch-up-mask-0-2x.webp",
+      "encodedBytes": 352580,
+      "sha256": "3980b0cd119b09641444a37b4ecd87da9b95155bf92ec3d2b195ceab9140e29e",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-pitch-up-shadow-0-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-pitch-up-shadow-0-1x.webp",
+      "encodedBytes": 59060,
+      "sha256": "3449a71bc40990dd53264b9ab7145bcb7598941806c60922c93e1680e30c2ced",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/body-pitch-up-shadow-0-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/body-pitch-up-shadow-0-2x.webp",
+      "encodedBytes": 142386,
+      "sha256": "dcd3205623ca1783f29eef18071bb3cda2ae3b9d1944db4f31329b0106b62d3e",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/death-selected-a-debris-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/death-selected-a-debris-1x.webp",
+      "encodedBytes": 15088,
+      "sha256": "1eafc9c557d65093411ba1e7954e32025b2f96c5388201a8a32b5a0fa6b4d658",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/death-selected-a-debris-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/death-selected-a-debris-2x.webp",
+      "encodedBytes": 41078,
+      "sha256": "2e3c2c2696b5ecc60d221661159b9749032230d74e70be93ac789826be58329c",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/death-selected-a-explosion-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/death-selected-a-explosion-1x.webp",
+      "encodedBytes": 32538,
+      "sha256": "41cb8c5df21febb8a37ce64f55825c88f568552d91fce2d2893d18add815c43a",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/death-selected-a-explosion-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/death-selected-a-explosion-2x.webp",
+      "encodedBytes": 84422,
+      "sha256": "067e42525f87bc81805a68333d0462cabfdd2e498df2c3a227237102fd38187c",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/death-selected-b-debris-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/death-selected-b-debris-1x.webp",
+      "encodedBytes": 19310,
+      "sha256": "748c912fe3de8dc76ed83fbd2339534d80cc02b21645f56ebd83635a8f070262",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/death-selected-b-debris-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/death-selected-b-debris-2x.webp",
+      "encodedBytes": 50982,
+      "sha256": "c114482d3b0e08a992dc24fb32c2886e27ac8eb0aa2e9d86952f1d802c4e009d",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/death-selected-b-explosion-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/death-selected-b-explosion-1x.webp",
+      "encodedBytes": 50892,
+      "sha256": "1e89af2a57a5ba2a09f8afadb6bc06b676b10efecd8160ae01db4d25cac9832c",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/death-selected-b-explosion-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/death-selected-b-explosion-2x.webp",
+      "encodedBytes": 137198,
+      "sha256": "a01fb041c02730771b09b5031c64abd0e0ecf5f87de1df6d78caa8b9e0253d0a",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/impact-impacts-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/impact-impacts-1x.webp",
+      "encodedBytes": 7574,
+      "sha256": "8d4413dde70cb3e87a10853ad279dfccd6c68b58ff432e3fc98aa52320840f59",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/impact-impacts-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/impact-impacts-2x.webp",
+      "encodedBytes": 21696,
+      "sha256": "438ee24d8670b91745e8db6430c5c1be601d9e47bb2a4370a73d783f80fe3dea",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/missile-missile-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/missile-missile-1x.webp",
+      "encodedBytes": 994,
+      "sha256": "fc4dbb18d1d677088b0bf161358b58c012e7dc87fa855933b8d4b75e153ac006",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-36e-stage1f/missile-missile-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-36e-stage1f/missile-missile-2x.webp",
+      "encodedBytes": 2156,
+      "sha256": "226b1f733ef9a44405591e30ea7edb511947342a6302a2130e91b1d615d73ebc",
+      "mimeType": "image/webp"
     },
     {
       "path": "assets/cc3d9b3e4c9e41b221d45755e1af613aaa8e2c0f1da560e8931ad76bfb878f57-9b2921e7.png",

@@ -1,0 +1,43 @@
+name: Verify public runtime
+on:
+  workflow_dispatch:
+  pull_request:
+    paths: ['site/**', 'deployment-manifest.json', '.github/workflows/verify-runtime.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - name: Verify approved identity and exact payload
+        run: |
+          python3 - <<'PYCODE'
+          import json,pathlib,hashlib,re
+          manifest=json.load(open('deployment-manifest.json'))
+          assert manifest['ownerAcceptanceRequired'] is False
+          assert manifest['acceptedReviewSourceId']=='592e3d58155a2123ca2ae58500d9b4f8b99df8e7f2ea88f0049f9dcc3ded0226'
+          assert manifest['sourceId']=='e7ab9b9ff88b6fd9842026a371dccf7d1c30ebcd3281bcfde40264becc772617'
+          assert manifest['ownerAcceptanceSha256']=='5e790657e319c7a6018e672dc453951e857dc58512153a202183d97f31b0a38c'
+          assert manifest['authorityRegistrySha256']=='f96e7672011e187a6dc33887444d573164602026ad16d2e2ef345229c2816fdf'
+          assert manifest['publicBase']=='/codex-rts-play/'
+          root=pathlib.Path('site')
+          expected={e['path']:e for e in manifest['files']}
+          assert len(expected)==len(manifest['files'])
+          actual={str(p.relative_to(root)) for p in root.rglob('*') if p.is_file() or p.is_symlink()}
+          assert actual==set(expected)
+          for name,e in expected.items():
+            assert not name.startswith('/') and '..' not in pathlib.Path(name).parts
+            p=root/name;assert not p.is_symlink()
+            b=p.read_bytes();assert len(b)==e['bytes'] and hashlib.sha256(b).hexdigest()==e['sha256'],name
+            assert not b.startswith(b'version https://git-lfs.github.com/spec/v1')
+            if p.suffix in ['.js','.json','.html','.css','.svg','.txt']:
+              assert not re.search(rb'/Users/peter|\.private/devlog|codex_import|BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY|gh[pousr]_[A-Za-z0-9]{30,}|AKIA[0-9A-Z]{16}',b),name
+          version=json.load(open(root/'release-version.json'))
+          for k in ['version','sourceId','assetBuildId','acceptedReviewSourceId','ownerAcceptanceSha256','authorityRegistrySha256','highLoadPerformanceThresholdPassed']:assert version[k]==manifest[k],k
+          assert version['captureCapability']=={'version':1,'enabled':True}
+          assert version['highLoadPerformanceThresholdPassed'] is False
+          assert version['performanceCandidateStatus']=='owner_accepted_with_disclosed_limits'
+          print(manifest['version'],len(expected),'approved runtime files verified; no deployment in this job')
+          PYCODE

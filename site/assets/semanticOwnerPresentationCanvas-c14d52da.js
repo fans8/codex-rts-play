@@ -1,0 +1,1 @@
+function d(e,n,i){const a=e.width,c=e.height;e.width=e.height=0,n.width=n.height=0;const t=document.createElement("canvas");t.width=a,t.height=c;const h=t.getContext("2d");return h?(h.putImageData(i,0,0),t):(t.width=t.height=0,null)}export{d as c};
