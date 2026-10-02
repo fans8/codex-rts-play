@@ -1,17 +1,45 @@
 {
-  "version": "2026.10.01-f3",
-  "sourceId": "e7ab9b9ff88b6fd9842026a371dccf7d1c30ebcd3281bcfde40264becc772617",
-  "assetBuildId": "24f09854e97c67ab18200dc992788e8d991424851b7dd8f817998b0f8863f1d6",
+  "version": "2026.10.02-raider16-shade16",
+  "sourceId": "161d71d81f0640ba9bce4359e06e81e40b75ec3146cd89fc092c542b0ca258a0",
+  "assetBuildId": "07ba900d8904174f3a23267ac952923a1b3ecf83dc5c0f6f025166e50bd12142",
   "captureCapability": {
     "version": 1,
     "enabled": true
   },
   "f3ContractSha256": "59582123a38545ccf825e67220c45626bd651b60888a09e5f0be03a0b7138fbd",
-  "acceptedReviewSourceId": "592e3d58155a2123ca2ae58500d9b4f8b99df8e7f2ea88f0049f9dcc3ded0226",
+  "acceptedReviewSourceId": "7298ca3614bd8c471d1be4d25ea8373ff9e9d8d6d02580e39b6aa678ab949cc1",
+  "raider16": {
+    "phase": "CODE12.42F Raider16 Shade16 formal publication",
+    "candidateId": "raider16-shade16-code-12-42e-v1",
+    "selector": "default-no-query",
+    "releaseSha256": "2e690ad15d446be2e24dae8704975369e67477574ba4fad333c08a3827f98bb2",
+    "handoffSha256": "43093c13f23820bac26288404aae83cc5e9717a224cef6c9d8dde464dc356d6e",
+    "artSourceId": "365982774e3157f851cf8aafd206d85de348cdd1cf16b8a6a8680676dc96b02a",
+    "artAssetBuildId": "ed460e3e771c029c8ff579d255b96db3d2939eaac7a007afd8e921ccd1f72bd9",
+    "resourceBindingSha256": "ac4fb3895ccda609e363f144310eec5fcdc3fb95f60f91cd951ab7864b47fe32",
+    "registrySha256": "4c2b309263410ccab085305a2b1343a2d19b9ad35419fd0a6a4579c7bc2b1a03",
+    "baseline": {
+      "version": "2026.10.01-shade16-formal-local",
+      "sourceId": "85b41e8d74e79ae9a04009612ea157bd81bbd528eb3186d307b44cf6d83c02f1",
+      "buildId": "6f53c4ae6228199d20ae3099a4a51b483b34a28e54ec1fc3cd56827e7ca9c987",
+      "assetBuildId": "2683f3ba4f3b23818ce33a8cbab3625e9818378987fe1732f9604435f7ffc289",
+      "sourceCommit": "2bc1a22d4f25e9dc35d51b757f3243d6ee0cd41f"
+    },
+    "adapterSha256": "4279d8ba366f410aa274b07cfd0b45a901193176a23949255a5605be856d4f0b",
+    "directionCount": 16,
+    "formalDefault16": true,
+    "ownerRuntimeAccepted": true,
+    "ownerAcceptanceSha256": "a0bea5bdb48bc4798300f9db997825fc3e1d5c9f1aa4b32217bb42eb1d31896b",
+    "acceptedReviewSourceId": "7298ca3614bd8c471d1be4d25ea8373ff9e9d8d6d02580e39b6aa678ab949cc1",
+    "acceptedReviewBuildId": "acd3fd4861201b5ea8e215fd156681eb2623f7577b7958efea5515e68a212af8",
+    "preparationContractSha256": "854ba39485d176eb22772021af788727cee9c1096a9598f037c29c161b6fd8a0"
+  },
+  "ownerRuntimeAccepted": true,
+  "formalDefault16": true,
   "ownerAcceptanceRequired": false,
-  "ownerAcceptanceSha256": "5e790657e319c7a6018e672dc453951e857dc58512153a202183d97f31b0a38c",
-  "authorityRegistrySha256": "f96e7672011e187a6dc33887444d573164602026ad16d2e2ef345229c2816fdf",
+  "ownerAcceptanceSha256": "a0bea5bdb48bc4798300f9db997825fc3e1d5c9f1aa4b32217bb42eb1d31896b",
+  "authorityRegistrySha256": "4c2b309263410ccab085305a2b1343a2d19b9ad35419fd0a6a4579c7bc2b1a03",
   "highLoadPerformanceThresholdPassed": false,
   "channel": "development-release",
-  "performanceCandidateStatus": "owner_accepted_with_disclosed_limits"
+  "performanceCandidateStatus": "owner_accepted_formal_default16"
 }

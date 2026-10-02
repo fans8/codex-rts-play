@@ -17,10 +17,10 @@ jobs:
           import json,pathlib,hashlib,re
           manifest=json.load(open('deployment-manifest.json'))
           assert manifest['ownerAcceptanceRequired'] is False
-          assert manifest['acceptedReviewSourceId']=='592e3d58155a2123ca2ae58500d9b4f8b99df8e7f2ea88f0049f9dcc3ded0226'
-          assert manifest['sourceId']=='e7ab9b9ff88b6fd9842026a371dccf7d1c30ebcd3281bcfde40264becc772617'
-          assert manifest['ownerAcceptanceSha256']=='5e790657e319c7a6018e672dc453951e857dc58512153a202183d97f31b0a38c'
-          assert manifest['authorityRegistrySha256']=='f96e7672011e187a6dc33887444d573164602026ad16d2e2ef345229c2816fdf'
+          assert manifest['acceptedReviewSourceId']=='7298ca3614bd8c471d1be4d25ea8373ff9e9d8d6d02580e39b6aa678ab949cc1'
+          assert manifest['sourceId']=='161d71d81f0640ba9bce4359e06e81e40b75ec3146cd89fc092c542b0ca258a0'
+          assert manifest['ownerAcceptanceSha256']=='a0bea5bdb48bc4798300f9db997825fc3e1d5c9f1aa4b32217bb42eb1d31896b'
+          assert manifest['authorityRegistrySha256']=='4c2b309263410ccab085305a2b1343a2d19b9ad35419fd0a6a4579c7bc2b1a03'
           assert manifest['publicBase']=='/codex-rts-play/'
           root=pathlib.Path('site')
           expected={e['path']:e for e in manifest['files']}
@@ -38,6 +38,8 @@ jobs:
           for k in ['version','sourceId','assetBuildId','acceptedReviewSourceId','ownerAcceptanceSha256','authorityRegistrySha256','highLoadPerformanceThresholdPassed']:assert version[k]==manifest[k],k
           assert version['captureCapability']=={'version':1,'enabled':True}
           assert version['highLoadPerformanceThresholdPassed'] is False
-          assert version['performanceCandidateStatus']=='owner_accepted_with_disclosed_limits'
+          assert version['performanceCandidateStatus']=='owner_accepted_formal_default16'
+          assert version['formalDefault16'] is True and version['ownerRuntimeAccepted'] is True
+          assert version['raider16']['directionCount']==16 and version['raider16']['selector']=='default-no-query'
           print(manifest['version'],len(expected),'approved runtime files verified; no deployment in this job')
           PYCODE
