@@ -1,63 +1,23 @@
 {
-  "version": "2026.10.02-raider16-shade16",
-  "sourceId": "161d71d81f0640ba9bce4359e06e81e40b75ec3146cd89fc092c542b0ca258a0",
-  "assetBuildId": "07ba900d8904174f3a23267ac952923a1b3ecf83dc5c0f6f025166e50bd12142",
-  "captureCapability": {
-    "version": 1,
-    "enabled": true
-  },
-  "f3ContractSha256": "59582123a38545ccf825e67220c45626bd651b60888a09e5f0be03a0b7138fbd",
-  "acceptedReviewSourceId": "7298ca3614bd8c471d1be4d25ea8373ff9e9d8d6d02580e39b6aa678ab949cc1",
-  "raider16": {
-    "phase": "CODE12.42F Raider16 Shade16 formal publication",
-    "candidateId": "raider16-shade16-code-12-42e-v1",
-    "selector": "default-no-query",
-    "releaseSha256": "2e690ad15d446be2e24dae8704975369e67477574ba4fad333c08a3827f98bb2",
-    "handoffSha256": "43093c13f23820bac26288404aae83cc5e9717a224cef6c9d8dde464dc356d6e",
-    "artSourceId": "365982774e3157f851cf8aafd206d85de348cdd1cf16b8a6a8680676dc96b02a",
-    "artAssetBuildId": "ed460e3e771c029c8ff579d255b96db3d2939eaac7a007afd8e921ccd1f72bd9",
-    "resourceBindingSha256": "ac4fb3895ccda609e363f144310eec5fcdc3fb95f60f91cd951ab7864b47fe32",
-    "registrySha256": "4c2b309263410ccab085305a2b1343a2d19b9ad35419fd0a6a4579c7bc2b1a03",
-    "baseline": {
-      "version": "2026.10.01-shade16-formal-local",
-      "sourceId": "85b41e8d74e79ae9a04009612ea157bd81bbd528eb3186d307b44cf6d83c02f1",
-      "buildId": "6f53c4ae6228199d20ae3099a4a51b483b34a28e54ec1fc3cd56827e7ca9c987",
-      "assetBuildId": "2683f3ba4f3b23818ce33a8cbab3625e9818378987fe1732f9604435f7ffc289",
-      "sourceCommit": "2bc1a22d4f25e9dc35d51b757f3243d6ee0cd41f"
-    },
-    "adapterSha256": "4279d8ba366f410aa274b07cfd0b45a901193176a23949255a5605be856d4f0b",
-    "directionCount": 16,
-    "formalDefault16": true,
-    "ownerRuntimeAccepted": true,
-    "ownerAcceptanceSha256": "a0bea5bdb48bc4798300f9db997825fc3e1d5c9f1aa4b32217bb42eb1d31896b",
-    "acceptedReviewSourceId": "7298ca3614bd8c471d1be4d25ea8373ff9e9d8d6d02580e39b6aa678ab949cc1",
-    "acceptedReviewBuildId": "acd3fd4861201b5ea8e215fd156681eb2623f7577b7958efea5515e68a212af8",
-    "preparationContractSha256": "854ba39485d176eb22772021af788727cee9c1096a9598f037c29c161b6fd8a0"
-  },
-  "ownerRuntimeAccepted": true,
-  "formalDefault16": true,
-  "ownerAcceptanceRequired": false,
-  "ownerAcceptanceSha256": "a0bea5bdb48bc4798300f9db997825fc3e1d5c9f1aa4b32217bb42eb1d31896b",
-  "authorityRegistrySha256": "4c2b309263410ccab085305a2b1343a2d19b9ad35419fd0a6a4579c7bc2b1a03",
-  "highLoadPerformanceThresholdPassed": false,
-  "channel": "development-release",
-  "performanceCandidateStatus": "owner_accepted_formal_default16",
+  "version": "2026.10.04-c4-latest",
+  "sourceId": "b9730591427318e88f2e911fe0de3eda6212d1c6852a3fd696df4f11361633ae",
+  "assetBuildId": "e4e106e1dc4c8e978216edba5aff1809233bf1db56dd6f4d09d16ae6b0613025",
   "publicBase": "/codex-rts-play/",
   "files": [
     {
-      "path": "assets/ReplayBrowserOverlay-ff2af1b0.js",
+      "path": "assets/ReplayBrowserOverlay-81780608.js",
       "bytes": 7291,
-      "sha256": "d0689b0d7a0be4a8c265f2f12e01f2e3fad8da84913b8e69f73f49c0f428487f"
+      "sha256": "9ac1c5e4144d46ba9e1df52f89902a390a17fa7753c77c2c75cc057ff70e259a"
     },
     {
-      "path": "assets/ReplayOperationOverlay-3ad7c3d0.js",
+      "path": "assets/ReplayOperationOverlay-ec60bd1b.js",
       "bytes": 1853,
-      "sha256": "44952115d77b88386179bb599aa9b60e3902f0bbb994ff5b92c853eb5f4dbe69"
+      "sha256": "3f79e2f915f821e1c176ea1dd08977b6903bacf18aa5fdda76c011f77ba2bc1a"
     },
     {
-      "path": "assets/ReplayPlaybackPanel-b9dcd341.js",
+      "path": "assets/ReplayPlaybackPanel-4f227ea4.js",
       "bytes": 3449,
-      "sha256": "919ca854468105af34830d19a9e81ff246382f90adcfb5169aff6f1fc4af84f7"
+      "sha256": "c95ac7c4365418b562309c4f8e06b0d55a38f04de935017a672415c21fc95feb"
     },
     {
       "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v03-c8db4cc2.mp3",
@@ -1590,19 +1550,19 @@
       "sha256": "7c5a6ade252286d5f2c5aaa7e764c6937d97d03d7d84fe683a3ceae1ce23cdcb"
     },
     {
-      "path": "assets/armoryRuntimeVisualPilot-4f700bd6.js",
-      "bytes": 112092,
-      "sha256": "17da15330810d11b2436031120ec2e03077e76fc4016fb67fd957e58d0b83b86"
+      "path": "assets/armoryRuntimeVisualPilot-9a2e4c6e.js",
+      "bytes": 112091,
+      "sha256": "d624cb29dee2ba327bc257fc466a64b42338d2dabfe4e456007bdc6c0cad67a1"
     },
     {
-      "path": "assets/barracksOwnerColorSemanticMaskRuntimePilot-6f27fd4a.js",
-      "bytes": 92206,
-      "sha256": "9775ca7b27959f69463c70d576c52718e19af8f9a66089d17e69b3def99ff534"
+      "path": "assets/barracksOwnerColorSemanticMaskRuntimePilot-e5b3a974.js",
+      "bytes": 92204,
+      "sha256": "f44f7211744506e2dc5baf187e1d16eb325a542923a3945a3bf26ea70b571698"
     },
     {
-      "path": "assets/baseStreamlinedRuntimeVisualPilot-468177f3.js",
-      "bytes": 118371,
-      "sha256": "7e44336325427c758d5c2109342aa704499271ddb339a686cf2e7d9ca4ca19b6"
+      "path": "assets/baseStreamlinedRuntimeVisualPilot-b54fc4e4.js",
+      "bytes": 118370,
+      "sha256": "019119c8fca84e85a3d7ffa97706705dc2b22479274cca51ac31ef4774c04e08"
     },
     {
       "path": "assets/body-1x-ca609f8c.png",
@@ -4355,6 +4315,326 @@
       "sha256": "faaf0d677247613588b45769cdca7d005f669da2a2b73e8e8e7013221651f299"
     },
     {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/siege/east/metal.png",
+      "bytes": 2486,
+      "sha256": "4e72037b0d7eb1cc82a15655d27be5d347665e86cedc638864e52a03d5a7d880"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/siege/east/scorch.png",
+      "bytes": 3614,
+      "sha256": "f8a5fd65ddffc3d3d7cc5054f0e055cec972d98f1957013272102ea0e8b71081"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/siege/north/metal.png",
+      "bytes": 2466,
+      "sha256": "21cc9c5902e295b4908467a269207174b6dda1673742f78b9ed0e7d7a9b0b33a"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/siege/north/scorch.png",
+      "bytes": 3107,
+      "sha256": "a73a9741bfafe14c4710123b6fde1c73be5ebb4b267f5af96865e844102ab461"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/siege/northEast/metal.png",
+      "bytes": 2450,
+      "sha256": "bfba44d8c4be58f4c4ba2f0fb8b1b3611a3338fe60036f68aeec40eb2547afb7"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/siege/northEast/scorch.png",
+      "bytes": 3056,
+      "sha256": "f6391064ce567b65c0ac4c911a64df7c67a56076e47c91fbd7039cda3977244c"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/siege/northWest/metal.png",
+      "bytes": 2506,
+      "sha256": "82a3edb0da7c54df0187cf90274f40cb962328fedbf06ca484f3c589d5b9bea8"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/siege/northWest/scorch.png",
+      "bytes": 3443,
+      "sha256": "b12948cf19cb232562ff74811f2698e9b3aa870a6e727ace0487a890be38a6bf"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/siege/south/metal.png",
+      "bytes": 2624,
+      "sha256": "01f8f7dcf8084214fcd1922e90cb1b1ca1049c6e1a4d07c8155fdd3a2b9da28c"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/siege/south/scorch.png",
+      "bytes": 2961,
+      "sha256": "1837c135e095c2fc3435673abf61b91057566c640e43a86e006bf68a871f54d2"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/siege/southEast/metal.png",
+      "bytes": 2438,
+      "sha256": "8f30254ad0baf4aa54ca1bc8f7328d593b63667e38adfffed058f82496524205"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/siege/southEast/scorch.png",
+      "bytes": 3398,
+      "sha256": "46eebaec5defacb7c249ce1625642950ef18034272348d39a09b0099a6f3d46e"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/siege/southWest/metal.png",
+      "bytes": 2597,
+      "sha256": "d41ab023e35e8fb1c5c99fa0399304a07a75b72b8c39315793008c4ae796cf43"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/siege/southWest/scorch.png",
+      "bytes": 3243,
+      "sha256": "afd90f18720a833092a62c4f4fb23b3e91c92dc780b739608eaa0f55ec9644c4"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/siege/west/metal.png",
+      "bytes": 2701,
+      "sha256": "9b08562b4bfff979ed808e5a77b8c49ee1024e68f83d879a013798613cef99e4"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/siege/west/scorch.png",
+      "bytes": 3542,
+      "sha256": "0535b3df77e93328c6d12eb00c1a0a8fb2f4b751301b40818717ab1308dffaf4"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/tank/east/metal.png",
+      "bytes": 2711,
+      "sha256": "746b06d2bfbd84a0d61d70f8eb0f1e4f8299b386f87797e6a025fe00cc0fce4d"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/tank/east/scorch.png",
+      "bytes": 3210,
+      "sha256": "cc94e19a44190a1cf4c44a87e36b16aae9bc11333dd969a0e595851224c8bd27"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/tank/north/metal.png",
+      "bytes": 2854,
+      "sha256": "c73accd1782660f4b3aca3bf05c6475411013769732808d9f9305a786e57e975"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/tank/north/scorch.png",
+      "bytes": 3022,
+      "sha256": "e50e4fd59485a0081c3d70d150724736842a33a80606bee687a40266f05abaea"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/tank/northEast/metal.png",
+      "bytes": 2749,
+      "sha256": "bf3064d3e02f3c9e2e1781cad63e363aa86b7f41ecaf68c5d9a9262165b12d02"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/tank/northEast/scorch.png",
+      "bytes": 3156,
+      "sha256": "d61b45a5b5878d18e8bbaff247a58d699227662108bb66488dc790a20c82bf15"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/tank/northWest/metal.png",
+      "bytes": 2841,
+      "sha256": "2d3df2144c411aa5403289d78988e7cffcbf240f5d2d6e962eff480ed94d420c"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/tank/northWest/scorch.png",
+      "bytes": 3157,
+      "sha256": "a02b3f29146fb52176d36bf793cea8830393a2bf597f9ae0529128c7682a8ef0"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/tank/south/metal.png",
+      "bytes": 2829,
+      "sha256": "71c8c48688aa721d853a07b967b1bcac31264cb879811f1e138a6078f970ca8b"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/tank/south/scorch.png",
+      "bytes": 2965,
+      "sha256": "4c2864ec0a15615b0839fc6fab996c15b776fb297bf0f703638cea739c68e693"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/tank/southEast/metal.png",
+      "bytes": 2884,
+      "sha256": "d848365cff170a74deb435b082771be3070c960d8b6f4fd9b26267124f68f24f"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/tank/southEast/scorch.png",
+      "bytes": 3223,
+      "sha256": "4980e4b4516b4f47d2f3279205a4c7ed6face6507883c34cacb9bad47e66a47e"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/tank/southWest/metal.png",
+      "bytes": 2833,
+      "sha256": "a88470321d99df8378c12ce5df31db6c69d01789bad8831e030a4d71c3fbecc3"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/tank/southWest/scorch.png",
+      "bytes": 3079,
+      "sha256": "6168501c293fd37c5cdcd61a61add869c66c13f323599dc3f857586ee8e69889"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/tank/west/metal.png",
+      "bytes": 2659,
+      "sha256": "8db727e00a7c4e996696cb5ecd02086974e7860cd9c37dddabd0947781312174"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/tank/west/scorch.png",
+      "bytes": 3230,
+      "sha256": "31b65217e0e4ce5faa1dc1565580b140f66149ca6fe8fa31d593d4e957e5f8b8"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/siege/east/metal.png",
+      "bytes": 6343,
+      "sha256": "c496cbe6cde467631d798b5035ff46cf54c77044c4f4d6c75191931aa6028b91"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/siege/east/scorch.png",
+      "bytes": 12398,
+      "sha256": "e2c28db371332302c3323c267fee0b95fc0438d3a1a6f32f6919efcfc69abf99"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/siege/north/metal.png",
+      "bytes": 6296,
+      "sha256": "7d0a11767f36f44ba959b2e6da966435a307d816fb52d879564bc3fa30a64278"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/siege/north/scorch.png",
+      "bytes": 11306,
+      "sha256": "91f7b083722d744d07a15d66baa05489e1820942c35a12057aba7243e34e78af"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/siege/northEast/metal.png",
+      "bytes": 5921,
+      "sha256": "a822c07c4c1054f2fb130685306fc54d5dc432082b6ad054e9facf0fffd1b124"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/siege/northEast/scorch.png",
+      "bytes": 11682,
+      "sha256": "0d99d729b655d25dbbc3cf1e75b6f1b053fb24c9103e317153ba15aa10735a8f"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/siege/northWest/metal.png",
+      "bytes": 6195,
+      "sha256": "b38000cf77ebcc3776fbd4c88545c5212677636ac6f86b5546f17b1bdf5a4ad2"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/siege/northWest/scorch.png",
+      "bytes": 12210,
+      "sha256": "3ae0ca519cedc540fba1c9ffff6f81f94ce13436dd598d5fe0e5dfb38700e633"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/siege/south/metal.png",
+      "bytes": 6419,
+      "sha256": "c6dc5035ef9b5fa9def2df07164dc2cfdd38c4f099a234d323e50e08bfeb4f8d"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/siege/south/scorch.png",
+      "bytes": 11354,
+      "sha256": "5e0968a6fc530764be9fd7d474a36001bf3c8fc6f29e99eb60e222d464c9c3b2"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/siege/southEast/metal.png",
+      "bytes": 6055,
+      "sha256": "4e93c139b95a201ce29a2dc0d5708b4b0d44ced1850269b3db295852ba265e8d"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/siege/southEast/scorch.png",
+      "bytes": 11896,
+      "sha256": "96acad3b7661c9a8b80a8a10a5213968d59f72666fcb07b468dbac2f77b44d89"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/siege/southWest/metal.png",
+      "bytes": 6432,
+      "sha256": "b0f036df6dcf62489e15c91a7d08d1ca04edf878daa47713d2e047b967f21549"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/siege/southWest/scorch.png",
+      "bytes": 11572,
+      "sha256": "42e2e482677acdfc4e40d1244b4299fbcc4cb8ab32c74fbc51c39ed34b5414bd"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/siege/west/metal.png",
+      "bytes": 6634,
+      "sha256": "e51e78d9c633e8b14bc3b77f35cfd7ec9ae584b004655326d507a73b8772256d"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/siege/west/scorch.png",
+      "bytes": 12331,
+      "sha256": "82f416c349ef31737608da6ec834869d2a7ea6e7438cef20b980ad2435a3c4f6"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/tank/east/metal.png",
+      "bytes": 6656,
+      "sha256": "aa1af05712b0e2ffbc20757434204c70b0868a1dca08579514d81d3befdec897"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/tank/east/scorch.png",
+      "bytes": 11215,
+      "sha256": "a3a8629452b759df2efe4b2056c3cd1258844a5e2d674e38bc10900eba421e6c"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/tank/north/metal.png",
+      "bytes": 7100,
+      "sha256": "bd7a075bf382fd1785b2e8f1df8d5f5b0ff4903d34d032592c4e588f51e59639"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/tank/north/scorch.png",
+      "bytes": 10442,
+      "sha256": "6fd207b47422536cd2cc19a8ca66f68eacfbe190b1a6aa2a57662ea72c5bae5e"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/tank/northEast/metal.png",
+      "bytes": 7008,
+      "sha256": "07247173382e6633e30d215125d9df8413b400fc3ca371e083468012060c66b8"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/tank/northEast/scorch.png",
+      "bytes": 10944,
+      "sha256": "024294e40207d154531e08f3357e75d4bebc00e29256c47f086c9c77c037a5fb"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/tank/northWest/metal.png",
+      "bytes": 7133,
+      "sha256": "43610182db464ca116b0f1c1033cca071f016643bc14e56381f583281bf0ffa9"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/tank/northWest/scorch.png",
+      "bytes": 10878,
+      "sha256": "a80e2547a02fd28d74faf28458c931bcaad69161cc463489c31d3194eb80c8dd"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/tank/south/metal.png",
+      "bytes": 7129,
+      "sha256": "eabdff010183227028b45ac8493f61df0f7a1cf7a7d2e5fa6d35e406027d0949"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/tank/south/scorch.png",
+      "bytes": 10464,
+      "sha256": "7f4fa81cd852245f49250ba494db5660cd69f78fc62aa68b4300b46a98301792"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/tank/southEast/metal.png",
+      "bytes": 7136,
+      "sha256": "952125e2ed9154adce405b1ac01c1b32d2a39718d827e83c4ccd0b465a623f8d"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/tank/southEast/scorch.png",
+      "bytes": 10901,
+      "sha256": "8f171ad16ae4601cea436d35f1498b1c54de572e4150fb1bdeec0fb4c47cdc48"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/tank/southWest/metal.png",
+      "bytes": 7094,
+      "sha256": "c6fbdc585a91b31fb13b23628fb995477eeb6d4d52c360f317b280cb0c7c912f"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/tank/southWest/scorch.png",
+      "bytes": 10907,
+      "sha256": "114977deb3aeed944c35f2129d4db700e1a0cab21b032d84f7594ecf33765ed5"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/tank/west/metal.png",
+      "bytes": 6699,
+      "sha256": "f0ee1615269329b4374cae09cd3669a1947f6d6c78b2e3547ddf28020d2c243f"
+    },
+    {
+      "path": "assets/candidates/raider-wreck-code-12-42g-v1/2x/tank/west/scorch.png",
+      "bytes": 11346,
+      "sha256": "a55abf00cf03d306caf5924ad939926d69b9055c7a67821b4885d6a88033985b"
+    },
+    {
       "path": "assets/candidates/shade-code-12-42c-v1/1x.json",
       "bytes": 582470,
       "sha256": "5cc8c3580319529993640a21ccea96b1090e155de8fe49842d62aef4d9571187"
@@ -4840,9 +5120,9 @@
       "sha256": "deeb5de141670b069ffb00bd31ee57b37ce12e8abd57c677c71d7229d9750373"
     },
     {
-      "path": "assets/controlTowerRuntimeVisualPilot-1c8e7d24.js",
-      "bytes": 115839,
-      "sha256": "016341031d41fa61f0ff07a29dd61003cf0e2ea40a990f7b1516c0ff17d077e5"
+      "path": "assets/controlTowerRuntimeVisualPilot-da97823e.js",
+      "bytes": 115838,
+      "sha256": "b88f92c781061b6a6c8e3a6a2dd1b1ba43aa6317a6a3b2d3a92c8d4ceb26721e"
     },
     {
       "path": "assets/effect-muzzle-flash-candidate-2x-d7c90d1f.png",
@@ -4885,9 +5165,9 @@
       "sha256": "f97bb96cef3ad714fe29c1b573fb47df8f0b7381a9f8fcb18618a02bb389f475"
     },
     {
-      "path": "assets/factoryOwnerColorSemanticMaskRuntimePilot-cc4446e5.js",
-      "bytes": 94021,
-      "sha256": "ead5db2496ba49a18859cf2dcbb5e0d80be6486a33a3f6eb7745ddb351a9d83d"
+      "path": "assets/factoryOwnerColorSemanticMaskRuntimePilot-7bb02025.js",
+      "bytes": 94019,
+      "sha256": "a8769857b67bcd196840a2475f5c961d9bc741a0b0d5b737ef43df48a255276f"
     },
     {
       "path": "assets/fixed-lights-bfcd90b1.webp",
@@ -5260,9 +5540,9 @@
       "sha256": "efac2d48b4e7668399c6606df5a9ce74ea2f500d105540ac74b9c08c1954b21b"
     },
     {
-      "path": "assets/geyserRefineryRuntimeVisualPilot-f0d0f371.js",
-      "bytes": 125322,
-      "sha256": "1b4b59c98a1f075cc291c3eef3c547dc75631b3295db17683043f89f611fb70b"
+      "path": "assets/geyserRefineryRuntimeVisualPilot-b3fc039d.js",
+      "bytes": 125320,
+      "sha256": "0b6ea2e9b87b8be7ae98be6025a313d294e82a88c7e12a29b1fbab938b15aeb3"
     },
     {
       "path": "assets/ground-blood-death-pools-a-f-balanced-carmine-source-sheet-aa1ca74b.png",
@@ -5275,9 +5555,9 @@
       "sha256": "feee21c1863b635afdcde1dc4c8a5f2bc41363440dc327515094b70f7b4caaf7"
     },
     {
-      "path": "assets/index-f1abda4d.js",
+      "path": "assets/index-e158a5e0.js",
       "bytes": 1933,
-      "sha256": "c80d51fe387f7451175eacfd2f1d71e080a2f05f8c0d7a643b0788b8fb8ed4ff"
+      "sha256": "ebe274cf1cffb2ff68d18fe88c0ebc49cde74d6e92126b8245c3d7bcdd8a66aa"
     },
     {
       "path": "assets/local-00fd79334a29afb54317-9efab76f.webp",
@@ -5450,19 +5730,19 @@
       "sha256": "8a86ea6319611527cbc04845c965042bf78738aaf949baee2e63b9263e163651"
     },
     {
-      "path": "assets/machineShopRuntimeVisualPilot-2f4c40aa.js",
-      "bytes": 114706,
-      "sha256": "466bd85cad402df13e058350442bc09d8adfbcd51d0d9f16a8d9a9018b1481ea"
-    },
-    {
-      "path": "assets/main-090c86dc.js",
-      "bytes": 6121863,
-      "sha256": "954cf6fa7a2cc05186fdd865f5ab865397b4204fed1e9e5c0a95834bff3fe425"
+      "path": "assets/machineShopRuntimeVisualPilot-1b0bd397.js",
+      "bytes": 114704,
+      "sha256": "3cb519704e6e38dcd8c8ac5ffe078225cacb703bf09e92322ca5a28b1633a554"
     },
     {
       "path": "assets/main-770ae91b.css",
       "bytes": 103034,
       "sha256": "770ae91b5c6aa6a68ff6aca08fcf701618e4fdc20669ac6b4a65570a18407c75"
+    },
+    {
+      "path": "assets/main-7f863b64.js",
+      "bytes": 6330647,
+      "sha256": "3c85567cfbdc046ebd707e112da036d7c68542dd7639fced5e67dcff82bc4558"
     },
     {
       "path": "assets/mask-1535165e.webp",
@@ -5565,9 +5845,9 @@
       "sha256": "f1b62ac11c423fe20ba958daf91eb274b26293ba20caa30668f063472068bea2"
     },
     {
-      "path": "assets/mineralFieldRuntimeVisualPilot-cfd8f63d.js",
+      "path": "assets/mineralFieldRuntimeVisualPilot-b1dd509a.js",
       "bytes": 57073,
-      "sha256": "fd1551e25b602a4cd68e5d90fdbb8460432b9b35917296666ca9577124b354f6"
+      "sha256": "ff0c680baad5c41c92a756ad6e0e406c47dd65ea1e881db8142e5b708c47dba6"
     },
     {
       "path": "assets/moving-lights-04145eea.webp",
@@ -5903,11 +6183,6 @@
       "path": "assets/raider-runtime-contract.json",
       "bytes": 2066,
       "sha256": "197bbfb4b7068ac7893196c296f5383981105e7ddbe77c35e6523266e3c55b2c"
-    },
-    {
-      "path": "assets/raiderDeathWreckRuntimePilot-6da14a4b.js",
-      "bytes": 180066,
-      "sha256": "9ad30a7491ced52cce9a5aa8d4f7d962f530b7bd09ac6cd196806fad74a36479"
     },
     {
       "path": "assets/refinery-neutral-body-page-0-30b61bf5.webp",
@@ -7725,9 +8000,9 @@
       "sha256": "47bb77eac7943ffcdffc18ab16bf28727009cda913bd9db7d3f3f71f3bde057e"
     },
     {
-      "path": "assets/scienceFacilityRuntimeVisualPilot-4b8ae3cc.js",
-      "bytes": 153940,
-      "sha256": "ec62b5cd837dd8a78134cb58e48049a5fa4ee8f7cfb037eba46fb7e42fc9ef0d"
+      "path": "assets/scienceFacilityRuntimeVisualPilot-744111ab.js",
+      "bytes": 153939,
+      "sha256": "a53901502ec3958f0f8c8842f454df5af4411f79433ae83c06f45321b1dc7690"
     },
     {
       "path": "assets/selection-portrait-enemy-building-barracks-6878cac6.png",
@@ -7895,14 +8170,14 @@
       "sha256": "cff15edd4cd5d70c3d28e1ddd57001491e7dbeb488e2aa0bf3ad6df307ee5dd2"
     },
     {
-      "path": "assets/soldierOwnerColorSemanticMaskRuntimePilot-ba8f166e.js",
-      "bytes": 1028729,
-      "sha256": "fa60a0caeb23de38218297a879c3ea72fd73304e35b757040bc43e0cbd8f5b91"
+      "path": "assets/soldierOwnerColorSemanticMaskRuntimePilot-017d0b51.js",
+      "bytes": 1028728,
+      "sha256": "ef43ab86c29e38d0ca7703cae2ffe8f64d79f9116f3bcbbdfd2aa9685c56dd3a"
     },
     {
-      "path": "assets/starportRuntimeVisualPilot-efbf6589.js",
-      "bytes": 115038,
-      "sha256": "da8142590b5786acd8a2dbb1c30d6438cc6acc5f0d47429868398e338caea3d1"
+      "path": "assets/starportRuntimeVisualPilot-c3a8f2d6.js",
+      "bytes": 115037,
+      "sha256": "4dda86e31f540adb03b281de5908f8c43d21b97dc144984b1fd024b0b8b51e58"
     },
     {
       "path": "assets/status-icon-air-1a68edcf.png",
@@ -8165,9 +8440,9 @@
       "sha256": "f7ecbb4cddac69ad4ff025f05a1cd3d039ed02b48dedff16954cd5c6906e86aa"
     },
     {
-      "path": "assets/supplyDepotRuntimeVisualPilot-6594d172.js",
-      "bytes": 144088,
-      "sha256": "3e6978d0b7daf6cc31a9a56a8e40ae47df163a67d2d6675b8f522e172b724f63"
+      "path": "assets/supplyDepotRuntimeVisualPilot-f817cd28.js",
+      "bytes": 144086,
+      "sha256": "3a1b41a363a17b5b90d7d79a3278ba593eee313d66e2edd2a98beaa81a1783d1"
     },
     {
       "path": "assets/ui.alert.addon_complete__candidate-a__selected-master-7618e634.webm",
@@ -8680,9 +8955,9 @@
       "sha256": "c5ed23af68777bd4f75b53ec2230b730b35bd76b33ecf5b139a6b5016af5b803"
     },
     {
-      "path": "assets/unitAnimationCandidateSprites-00f29526.js",
+      "path": "assets/unitAnimationCandidateSprites-fc1bdf49.js",
       "bytes": 39395,
-      "sha256": "69d5a06cd9c42843e20598af8705618cf84a745958924e9f18e7152783a14141"
+      "sha256": "241bfe7c394a3329710c3a01853674dcbb15d7c4206633f351e85b64eca3308e"
     },
     {
       "path": "assets/vespene-canister-base-vespene-canister-base-page-0-428b869e.webp",
@@ -8735,34 +9010,48 @@
       "sha256": "3725416d64207f2f9a9a27b08f7c105fd98f2aac2c7a45066079631bd120a80d"
     },
     {
-      "path": "assets/workerModularCargoRuntimePilot-fedf30a0.js",
+      "path": "assets/workerModularCargoRuntimePilot-9ee59889.js",
       "bytes": 802336,
-      "sha256": "4c92b70a7ad907d14a8bc785b46ad18c5ff9330ffbd29418f20db2733f3c70db"
+      "sha256": "0f38f76c6da7127ac7954f632d20c9b2c4027cae135aa054dfc6ce48c0c617b9"
     },
     {
-      "path": "assets/workerOwnerColorSemanticMaskRuntimePilot-ca8f53ba.js",
-      "bytes": 1037233,
-      "sha256": "dc9c0bf196bbccccb76a22a5bca8574e8178bc7c0bfa4a05ab25cf8fb8532b75"
+      "path": "assets/workerOwnerColorSemanticMaskRuntimePilot-2142ebbf.js",
+      "bytes": 1037227,
+      "sha256": "4440bdeccded5d6c74d5a35359bb5a7fe27fa92644f4c1c8c65e6aeafe144ae6"
     },
     {
       "path": "code-12-34a-runtime-asset-byte-manifest.json",
-      "bytes": 640766,
-      "sha256": "b06397ca693d29cf171c399aaa7639f75b04ca216f298e3749e8a40847d82539"
+      "bytes": 662446,
+      "sha256": "875b4c7b685b67a002b71cd3da69a8d309f206410ea3afe7d274928ddfbaf22f"
     },
     {
       "path": "index.html",
-      "bytes": 1784,
-      "sha256": "03b1eb0dfdb8b77f5d98a1f578dce8ff735ceaab3427991e92ae50a08701be2c"
+      "bytes": 2133,
+      "sha256": "6d10c3312ca5be776ded36c5a7a35c92cac2b6271edbae6f3c8621cebcb6a33e"
     },
     {
       "path": "play/index.html",
       "bytes": 1885,
-      "sha256": "999ad3eb493e818c62807f866cad41ad14e8e1b45ff184adbba1d9f8050b10f0"
+      "sha256": "16f60c7d4655e7dcd8f0eedd7290877a23a0a6be856ba5f0f6e93531ff150390"
     },
     {
       "path": "release-version.json",
-      "bytes": 2596,
-      "sha256": "4dc3276c2ed7a560b9cb41a997e19d7578873af5f0a84dd7df715e79ad417140"
+      "bytes": 7069,
+      "sha256": "0a4e488793e5a6f9c90b74756745ad14ce42b8d754ed61ce123d314388b90cd6"
     }
-  ]
+  ],
+  "ownerAcceptanceRequired": false,
+  "acceptedReviewSourceId": "c6930b7bb1a5d6c718e8273c227ea75b50058adc73656330f2d872325b701577",
+  "ownerAcceptanceSha256": "7256a39c58204525609a9bf12ac016ac54839cc98e5086b622f4d2f0cf9c88e7",
+  "authorityRegistrySha256": "d6495b2a9374982493261db07602fe0775568bf0fc54b7994227fa2a5db691ad",
+  "highLoadPerformanceThresholdPassed": false,
+  "c4": {
+    "mode": "formal",
+    "selector": "default-no-query",
+    "contractSha256": "158adbe6716e15d61970b2b216b1086996106379cda837c12b6a4a478a3d9df9",
+    "ownerAcceptanceSha256": "4c2c6ab1f45d4066618c2f348ebe61e470008d49b00f991520f2f5b4d961759e",
+    "acceptedReviewSourceId": "8dea03cf1666db8d42037b3c74478c4064d417a11e4736cd3d5788a5292399fc"
+  },
+  "c4OwnerAccepted": true,
+  "capabilitiesUnchanged": true
 }
