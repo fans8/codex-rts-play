@@ -1,1592 +1,27 @@
 {
-  "version": "2026.10.04-c-merged-latest-v2",
-  "sourceId": "772e0f85426e9f78c604c758ae42aa4b50befa59ec9de9a2a5667d478fbf34e9",
-  "assetBuildId": "71ab0db21231fb4698b89b205b61a3c23d5f0c8bfb61859ec73cc17cba528c0b",
-  "acceptedReviewSourceId": "c6930b7bb1a5d6c718e8273c227ea75b50058adc73656330f2d872325b701577",
-  "ownerAcceptanceSha256": "b06d89ee03b32918db1af8ebb6c560f81637534b6a5791336e3d343fd2184d95",
-  "authorityRegistrySha256": "d8bc0eba38d3a9a3c4b9c4bdef19d2486ee6ededfa480312ff40cf302b15faa6",
-  "highLoadPerformanceThresholdPassed": false,
-  "c4": {
-    "mode": "formal",
-    "selector": "default-no-query",
-    "contractSha256": "158adbe6716e15d61970b2b216b1086996106379cda837c12b6a4a478a3d9df9",
-    "ownerAcceptanceSha256": "4c2c6ab1f45d4066618c2f348ebe61e470008d49b00f991520f2f5b4d961759e",
-    "acceptedReviewSourceId": "8dea03cf1666db8d42037b3c74478c4064d417a11e4736cd3d5788a5292399fc"
-  },
-  "transport": {
-    "contractSha256": "1fd7b240ed084c4cd9cfa67612713f7e5a5d489fb4c59d73660af239886eaad0",
-    "registrySha256": "d8bc0eba38d3a9a3c4b9c4bdef19d2486ee6ededfa480312ff40cf302b15faa6",
-    "sourceId": "772e0f85426e9f78c604c758ae42aa4b50befa59ec9de9a2a5667d478fbf34e9",
-    "artSha256": "377bd09720d8e3fcc6740aa7697abab9b44f2b86a680fdf46fe07ca3eb9fc4b4",
-    "soundSha256": "7a897d60aeb59e0e9c94f6022b2be22e7a099c39e43e9d0c47bf5acb2bc5d5a9",
-    "baselineSourceId": "1a1c4ea78cc389728caf0e3c5d9d25cbc6f8778933820aae4ab0e621b0d6f235",
-    "mode": "formal",
-    "selector": "default-no-query",
-    "acceptedReviewSourceId": "1a1c4ea78cc389728caf0e3c5d9d25cbc6f8778933820aae4ab0e621b0d6f235",
-    "ownerAcceptanceSha256": "b06d89ee03b32918db1af8ebb6c560f81637534b6a5791336e3d343fd2184d95",
-    "operationSourceBundleSha256": "b2044ab4fef49fa1c4c105f5749f9a33a146221ce0a117439e5ab10d89e183de"
-  },
-  "publicBase": "/codex-rts-play/",
+  "version": "2026.10.05-unit-polish-latest-v1",
+  "sourceId": "3523bf056427759b92fccb1b13d28ba65a3ab640e3412c142f509572a3b1b503",
+  "assetBuildId": "f90287ad707289fe772fe884f7c85580395b5f6ee034d5878805ed606e71e49a",
+  "buildDerivationId": "a5fcf5c39768abe119c8eb7528f1c7fed8bc0260c8d77f22a7b007813c1735bb",
+  "channel": "formal-release",
+  "acceptedBehaviorSourceId": "11e967b73f47036c3c8a86c7620206b54dacfb66e2fa07208d66d4be524deb6d",
+  "selector": "default-no-query",
+  "capabilitiesUnchanged": true,
   "files": [
     {
-      "path": "assets/ReplayBrowserOverlay-3306e531.js",
-      "bytes": 7291,
-      "sha256": "a1654ef6b415492716389065777954ee5350ee9d4e355c9186f0fa1639ad26dc"
+      "path": "assets/armoryRuntimeVisualPilot-500eeea5.js",
+      "bytes": 112092,
+      "sha256": "14b5880962eda78f710a3268dc00d6a5cd6f4101e36ef47b133907570360e5b1"
     },
     {
-      "path": "assets/ReplayOperationOverlay-c1c5bbea.js",
-      "bytes": 1853,
-      "sha256": "5408ff471015d40362c1b10ebcbedbbbdccbd5a72342e057ba0fee8daec61b43"
+      "path": "assets/barracksOwnerColorSemanticMaskRuntimePilot-e3511b8f.js",
+      "bytes": 92206,
+      "sha256": "432b6e9ce12da30ff81cce6c853daab30a3fd12e070d9e5c0fbab9fc1af78fa0"
     },
     {
-      "path": "assets/ReplayPlaybackPanel-d7b28c4f.js",
-      "bytes": 3449,
-      "sha256": "f975c7563f08f2819043b441a5b999ffb782dd75e0b7d821128d16d6f79a61f0"
-    },
-    {
-      "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v03-c8db4cc2.mp3",
-      "bytes": 2733,
-      "sha256": "c8db4cc2c93b00f8d104f0303fd7da9c5905cfb0ecad7e5e750cfecdc6769efe"
-    },
-    {
-      "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v03-ecce4cfa.webm",
-      "bytes": 3368,
-      "sha256": "ecce4cfa0b8de1c78dfc6d5435c53db5450a94e56f962322086ae75bb4123582"
-    },
-    {
-      "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v04-200179e3.mp3",
-      "bytes": 2733,
-      "sha256": "200179e3e8cf822fbd3774c21dff46437bc8e79317fe6b93adf7a58db9ec13fc"
-    },
-    {
-      "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v04-4f234751.webm",
-      "bytes": 2982,
-      "sha256": "4f234751c8bb22b158ca761e7ffab5718fc5cdf2c1a07a6b257ee943d107b12b"
-    },
-    {
-      "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v11-81d8aa99.webm",
-      "bytes": 2959,
-      "sha256": "81d8aa9971adcd71683f6a47960a8aeeb0fb8c5bd4d211ff5af3c692eadfb929"
-    },
-    {
-      "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v11-8616dc40.mp3",
-      "bytes": 2733,
-      "sha256": "8616dc4048fd1143635d5b02e86db8881b186a6bc7a94e08e0cd0b4181228964"
-    },
-    {
-      "path": "assets/S12-B01__unit.soldier.weapon.fire__stable-audio-3-small-sfx-mlx__v06-13a3f136.mp3",
-      "bytes": 4653,
-      "sha256": "13a3f136c6661d58cc83cb09b181842cbaf11d74252ddd794cc9c73043495e2a"
-    },
-    {
-      "path": "assets/S12-B01__unit.soldier.weapon.fire__stable-audio-3-small-sfx-mlx__v06-912c8fa3.webm",
-      "bytes": 5145,
-      "sha256": "912c8fa3fe65e242962cc106e9efd56bda592bfbe10969871138931691feab35"
-    },
-    {
-      "path": "assets/S12-B02__combat.impact.rifle.flesh__stable-audio-3-small-sfx-mlx__v01-3eb874e5.webm",
-      "bytes": 2827,
-      "sha256": "3eb874e583147aad9d81aacbfc80e4a5aac946b2ceb98f986dc94a69030012db"
-    },
-    {
-      "path": "assets/S12-B02__combat.impact.rifle.flesh__stable-audio-3-small-sfx-mlx__v01-e68a5a4c.mp3",
-      "bytes": 3117,
-      "sha256": "e68a5a4c6bb45fcda84ca5167827fbb5ec12e0b19092374cf8f618b6f1fa2543"
-    },
-    {
-      "path": "assets/S12-B02__combat.impact.rifle.flesh__stable-audio-3-small-sfx-mlx__v04-464f08ae.webm",
-      "bytes": 2539,
-      "sha256": "464f08ae59e026e9f5073eceda23d1fb679666bbdbcf4507f821da119dcc2fd3"
-    },
-    {
-      "path": "assets/S12-B02__combat.impact.rifle.flesh__stable-audio-3-small-sfx-mlx__v04-e1facb1c.mp3",
-      "bytes": 3117,
-      "sha256": "e1facb1c730445eed82c9bb37504158b8b2b2482b38caa68bc54e8e2387aa5a8"
-    },
-    {
-      "path": "assets/S12-B02__combat.impact.rifle.flesh__stable-audio-3-small-sfx-mlx__v05-23692c80.webm",
-      "bytes": 2646,
-      "sha256": "23692c80317f2b344493637083ed79de15e96fb884a557ea78a1018045c546fa"
-    },
-    {
-      "path": "assets/S12-B02__combat.impact.rifle.flesh__stable-audio-3-small-sfx-mlx__v05-4bdfc925.mp3",
-      "bytes": 3117,
-      "sha256": "4bdfc9250b0d31dde55b79be5edcecc24558014482cd5261e1a72a0dadc2c173"
-    },
-    {
-      "path": "assets/S12-B02__combat.impact.rifle.flesh__stable-audio-3-small-sfx-mlx__v06-ac1c925a.mp3",
-      "bytes": 3117,
-      "sha256": "ac1c925a05730d0178feec6b262bb442e4d55b4be26741197fae90b870eebbe8"
-    },
-    {
-      "path": "assets/S12-B02__combat.impact.rifle.flesh__stable-audio-3-small-sfx-mlx__v06-bbbf1497.webm",
-      "bytes": 3247,
-      "sha256": "bbbf1497109a050cc7b9bc40e81f764c059068355f370e567fac8cc9eba1bb3b"
-    },
-    {
-      "path": "assets/S12-B03__combat.impact.rifle.armor__stable-audio-3-small-sfx-mlx__v01-505f7183.mp3",
-      "bytes": 3117,
-      "sha256": "505f7183545f33545c3e17d75e3230b40da355a13aca2909959f05d979643f81"
-    },
-    {
-      "path": "assets/S12-B03__combat.impact.rifle.armor__stable-audio-3-small-sfx-mlx__v01-a926f8f8.webm",
-      "bytes": 2481,
-      "sha256": "a926f8f80beb4de569949cc9f9bee4ad0b0d1446c1115d60fb7eb7338129fa02"
-    },
-    {
-      "path": "assets/S12-B03__combat.impact.rifle.armor__stable-audio-3-small-sfx-mlx__v03-27c98255.mp3",
-      "bytes": 3117,
-      "sha256": "27c982556245323a0b34f4458ee39b10ca5af3c94645935e74779a07a5f60876"
-    },
-    {
-      "path": "assets/S12-B03__combat.impact.rifle.armor__stable-audio-3-small-sfx-mlx__v03-2cc3ab6e.webm",
-      "bytes": 2515,
-      "sha256": "2cc3ab6e718c9dac8d272c9144049106620b154bb2ea7ed40e387a056cb80133"
-    },
-    {
-      "path": "assets/S12-B03__combat.impact.rifle.armor__stable-audio-3-small-sfx-mlx__v04-29d750f5.webm",
-      "bytes": 2450,
-      "sha256": "29d750f50bf64716d960431950b09e5b9b8860ac2c6344733ada8a00f01e5e2a"
-    },
-    {
-      "path": "assets/S12-B03__combat.impact.rifle.armor__stable-audio-3-small-sfx-mlx__v04-9d4b170d.mp3",
-      "bytes": 3117,
-      "sha256": "9d4b170dbad1e801b2e2f4032114b43a7cfaee8d7f17cd1386218e5bd6f66d3a"
-    },
-    {
-      "path": "assets/S12-B03__combat.impact.rifle.armor__stable-audio-3-small-sfx-mlx__v05-5ece719a.webm",
-      "bytes": 2676,
-      "sha256": "5ece719a111bb7c8b1b6719143e02db59811158d52819d9a49e3c4eda6dda9f7"
-    },
-    {
-      "path": "assets/S12-B03__combat.impact.rifle.armor__stable-audio-3-small-sfx-mlx__v05-e201319b.mp3",
-      "bytes": 3117,
-      "sha256": "e201319b816036c89731848b89fcdca0fdb511951b8272bf68b2854183d99b49"
-    },
-    {
-      "path": "assets/S12-B04__combat.impact.rifle.structure__stable-audio-3-small-sfx-mlx__v02-46b12551.webm",
-      "bytes": 3439,
-      "sha256": "46b125515edcb72c80ac2c56dbe93546721afa4752cd95d18486cd4e67332669"
-    },
-    {
-      "path": "assets/S12-B04__combat.impact.rifle.structure__stable-audio-3-small-sfx-mlx__v02-b533f0a9.mp3",
-      "bytes": 3885,
-      "sha256": "b533f0a967c6c5adfae81a99fbe7abd56eadab93d4e6f696c6dbac23b926569d"
-    },
-    {
-      "path": "assets/S12-B04__combat.impact.rifle.structure__stable-audio-3-small-sfx-mlx__v03-10493f0a.mp3",
-      "bytes": 3885,
-      "sha256": "10493f0af9fc68ffb20dce6d72afee2a2f8ffec55fae819f5436ea8ddf9a6948"
-    },
-    {
-      "path": "assets/S12-B04__combat.impact.rifle.structure__stable-audio-3-small-sfx-mlx__v03-7c40c4cc.webm",
-      "bytes": 3806,
-      "sha256": "7c40c4cce25879badbb44cbd431c3b43a68daf944c9dbb0c16a65a35df6296a0"
-    },
-    {
-      "path": "assets/S12-B04__combat.impact.rifle.structure__stable-audio-3-small-sfx-mlx__v05-0d061bb3.mp3",
-      "bytes": 3885,
-      "sha256": "0d061bb363a508b67a17c446aaa98027df5883d9d78228d748744885d773406c"
-    },
-    {
-      "path": "assets/S12-B04__combat.impact.rifle.structure__stable-audio-3-small-sfx-mlx__v05-50f5d197.webm",
-      "bytes": 3405,
-      "sha256": "50f5d1971a9011e64a51c2345461fb75a9c445fe8752deb72a8ba3416da20615"
-    },
-    {
-      "path": "assets/S12-B04__combat.impact.rifle.structure__stable-audio-3-small-sfx-mlx__v06-a609f85d.mp3",
-      "bytes": 3885,
-      "sha256": "a609f85d77b85646ef251bf58a097820ed588b32ab8bccc930d11db2510eddcd"
-    },
-    {
-      "path": "assets/S12-B04__combat.impact.rifle.structure__stable-audio-3-small-sfx-mlx__v06-f5cc54d6.webm",
-      "bytes": 3554,
-      "sha256": "f5cc54d6e0f5bce73ba0669a5234111bf64565cb74e9ab59970d5abe1f939ce8"
-    },
-    {
-      "path": "assets/S12-C01__unit.worker.attack.swing__stable-audio-3-small-sfx-mlx__v02-1526f5a8.mp3",
-      "bytes": 5037,
-      "sha256": "1526f5a8473e2284556ea9ff5e82dde439edc6ee4d0cfa01a6ad8ab6a91688aa"
-    },
-    {
-      "path": "assets/S12-C01__unit.worker.attack.swing__stable-audio-3-small-sfx-mlx__v02-cba88090.webm",
-      "bytes": 4026,
-      "sha256": "cba88090692a1f903cc822a79ec3e0a7d383c93000f63d75c6c60ecea3c43519"
-    },
-    {
-      "path": "assets/S12-C02__combat.impact.cutter.armor__stable-audio-3-small-sfx-mlx__v01-87b57d08.mp3",
-      "bytes": 3885,
-      "sha256": "87b57d08b99a2106f08b55966b62f7243480c8d60d24a3819f9b471d5b5382f0"
-    },
-    {
-      "path": "assets/S12-C02__combat.impact.cutter.armor__stable-audio-3-small-sfx-mlx__v01-cb9dc061.webm",
-      "bytes": 3328,
-      "sha256": "cb9dc0617da779ad25910c1ab5a88e0c08e1cc2823b5f3e691058de68114e22e"
-    },
-    {
-      "path": "assets/S12-C02__combat.impact.cutter.armor__stable-audio-3-small-sfx-mlx__v03-30950d28.mp3",
-      "bytes": 3885,
-      "sha256": "30950d2855a3d01b57d5e8a19262a8b3638aab4dbdffe3384d81925e64abd90a"
-    },
-    {
-      "path": "assets/S12-C02__combat.impact.cutter.armor__stable-audio-3-small-sfx-mlx__v03-4a489a7d.webm",
-      "bytes": 3607,
-      "sha256": "4a489a7defc01d1faf4d14fe735e01d8195a357f5a1ac7a3910a60f728bea6f2"
-    },
-    {
-      "path": "assets/S12-C02__combat.impact.cutter.armor__stable-audio-3-small-sfx-mlx__v05-bb8f722b.mp3",
-      "bytes": 3885,
-      "sha256": "bb8f722b4f1aa667a75781441c74dfb7cb799ca0a82a0a74b9c7ee5185521fe3"
-    },
-    {
-      "path": "assets/S12-C02__combat.impact.cutter.armor__stable-audio-3-small-sfx-mlx__v05-fee49e25.webm",
-      "bytes": 3739,
-      "sha256": "fee49e2573049366cfd92f0a7f9148653a57c86975802f9f2156e4d6de4a67e7"
-    },
-    {
-      "path": "assets/S12-C02__combat.impact.cutter.armor__stable-audio-3-small-sfx-mlx__v06-89e8191b.mp3",
-      "bytes": 3885,
-      "sha256": "89e8191be3c60a00d5c05baa4d95fd5cd5ca398272bb5cbc50d4eb7250fab3aa"
-    },
-    {
-      "path": "assets/S12-C02__combat.impact.cutter.armor__stable-audio-3-small-sfx-mlx__v06-cc580924.webm",
-      "bytes": 3291,
-      "sha256": "cc5809247608ce4f9993ddec10c92077139e5ea416b504fc3cabb655f58c1386"
-    },
-    {
-      "path": "assets/S12-C03__combat.impact.cutter.structure__stable-audio-3-small-sfx-mlx__v01-3b60198f.mp3",
-      "bytes": 4653,
-      "sha256": "3b60198feed28eaeb97fbb85283684160af6f45a9ed90ab9c51dd5ceae3acda8"
-    },
-    {
-      "path": "assets/S12-C03__combat.impact.cutter.structure__stable-audio-3-small-sfx-mlx__v01-50bff014.webm",
-      "bytes": 3860,
-      "sha256": "50bff014aa8e8725f400d54a21a049976ef71b1b340a10af95ec1506b6dff6a9"
-    },
-    {
-      "path": "assets/S12-C03__combat.impact.cutter.structure__stable-audio-3-small-sfx-mlx__v03-1169d780.webm",
-      "bytes": 4204,
-      "sha256": "1169d7808453e7f36b1c61672031297466d4c94ff4e73ff75230a7679e32d8b1"
-    },
-    {
-      "path": "assets/S12-C03__combat.impact.cutter.structure__stable-audio-3-small-sfx-mlx__v03-64773375.mp3",
-      "bytes": 4653,
-      "sha256": "647733752c8978b98f4c00d01bd28744116134bd27361683cbbf958df9d627ab"
-    },
-    {
-      "path": "assets/S12-C03__combat.impact.cutter.structure__stable-audio-3-small-sfx-mlx__v06-de8602ba.webm",
-      "bytes": 3832,
-      "sha256": "de8602ba1d24bd3a8f825380da5f8dddddfb59ca448f52b39169eef391005257"
-    },
-    {
-      "path": "assets/S12-C03__combat.impact.cutter.structure__stable-audio-3-small-sfx-mlx__v06-f158bbfc.mp3",
-      "bytes": 4653,
-      "sha256": "f158bbfc6ca6d8403fd97593223b284ec85afd7c1164f5d8caf4417118a46cd6"
-    },
-    {
-      "path": "assets/S12-C03__combat.impact.cutter.structure__stable-audio-3-small-sfx-mlx__v07-5773a960.webm",
-      "bytes": 4037,
-      "sha256": "5773a960ebb1c7d4436453617e8463b348fb482516bd18f3562e88b04a03dfcc"
-    },
-    {
-      "path": "assets/S12-C03__combat.impact.cutter.structure__stable-audio-3-small-sfx-mlx__v07-bc022b71.mp3",
-      "bytes": 4653,
-      "sha256": "bc022b71f4dd1519d0f8a85e402fae25c7501f98c7ca8ff7a4e797b076d12087"
-    },
-    {
-      "path": "assets/S12-D01__building.barracks.production.loop__stable-audio-3-small-sfx-mlx__v01-57f56862.webm",
-      "bytes": 198146,
-      "sha256": "57f56862150c63f9fc5444366dc2f6e893156b3c3ec7b307594f4fb764a667dc"
-    },
-    {
-      "path": "assets/S12-D01__building.barracks.production.loop__stable-audio-3-small-sfx-mlx__v06-f462fe74.webm",
-      "bytes": 190377,
-      "sha256": "f462fe74b52422a12dcad3df2d6436d3db05fe931bc70706eb38551c07237f24"
-    },
-    {
-      "path": "assets/S12-E01__unit.worker.gather.contact__stable-audio-3-small-sfx-mlx__v01-1cfc5593.webm",
-      "bytes": 2723,
-      "sha256": "1cfc55931640a1577cbb9d435d4155f7ac9ebec7b0342a332f039af08bd5ee01"
-    },
-    {
-      "path": "assets/S12-E01__unit.worker.gather.contact__stable-audio-3-small-sfx-mlx__v01-9eadc046.mp3",
-      "bytes": 3117,
-      "sha256": "9eadc04692a958bd245fd3e7ff3332e862350e1d551881c419c7a557efbf687a"
-    },
-    {
-      "path": "assets/S12-E02__unit.worker.repair.loop__stable-audio-3-small-sfx-mlx__v04-15a23e86.webm",
-      "bytes": 22803,
-      "sha256": "15a23e86737ca36d7c71a719759e19b279ebfb4f63c579e0aaf2a1af7c05d1e4"
-    },
-    {
-      "path": "assets/S12-E02__unit.worker.repair.loop__stable-audio-3-small-sfx-mlx__v04-303b604d.mp3",
-      "bytes": 31533,
-      "sha256": "303b604d6b446f8737fd287fea314f11edb2c46f475cea52098ee310e420be87"
-    },
-    {
-      "path": "assets/S12-E03__unit.worker.repair.pulse__stable-audio-3-small-sfx-mlx__v01-989afe07.mp3",
-      "bytes": 2733,
-      "sha256": "989afe07bc7f9ffc80219667f42c0b039baa7a31c252963301b1bd23d89669be"
-    },
-    {
-      "path": "assets/S12-E03__unit.worker.repair.pulse__stable-audio-3-small-sfx-mlx__v01-f0cec67d.webm",
-      "bytes": 2534,
-      "sha256": "f0cec67d24e037c3c9b4b63e52abd408836005bd57612cbdb52b79ab05b48188"
-    },
-    {
-      "path": "assets/S12-E04__unit.worker.build.clamp_press__stable-audio-3-small-sfx-mlx__v01-df1e3117.mp3",
-      "bytes": 3885,
-      "sha256": "df1e31171788ce9461308c32335295a63d07e456cf9426aff42cd04413d3a050"
-    },
-    {
-      "path": "assets/S12-E04__unit.worker.build.clamp_press__stable-audio-3-small-sfx-mlx__v01-fe0712d0.webm",
-      "bytes": 3301,
-      "sha256": "fe0712d0bb659bfe5fe010d573972890b45506717e375d2b811ed41ff2d97c6d"
-    },
-    {
-      "path": "assets/S12-E05__unit.worker.build.drill_lock__stable-audio-3-small-sfx-mlx__v01-58256c1d.webm",
-      "bytes": 3866,
-      "sha256": "58256c1d53d3df6789f3031fc214f280808df905f15855a9520a5934f89ac11d"
-    },
-    {
-      "path": "assets/S12-E05__unit.worker.build.drill_lock__stable-audio-3-small-sfx-mlx__v01-9054bfb8.mp3",
-      "bytes": 4653,
-      "sha256": "9054bfb8d59adbabb4242c31fd23b43eeaebc8d8fbf9f8dd4bdba797e42da731"
-    },
-    {
-      "path": "assets/S21-ATTACK-A__weapons-live__candidate-b__selected-master-ad67d2e7.webm",
-      "bytes": 17908,
-      "sha256": "ad67d2e7baf074132685a00b5286a356ee7a4aa3635b37c8a6efd0a3aec5eae8"
-    },
-    {
-      "path": "assets/S21-ATTACK-A__weapons-live__candidate-b__selected-master-b5a30df9.mp3",
-      "bytes": 19245,
-      "sha256": "b5a30df9118eaafb2e7203f020d56ab828b0d0685adea7c270f23c318c4791a9"
-    },
-    {
-      "path": "assets/S21-ATTACK-A__weapons-live__candidate-d__selected-master-cd6588c4.mp3",
-      "bytes": 20013,
-      "sha256": "cd6588c4dcf2eb2f9da8a1cf1894f7223658b1ef14f24264fedaeeaec1f205f4"
-    },
-    {
-      "path": "assets/S21-ATTACK-A__weapons-live__candidate-d__selected-master-d62af5ad.webm",
-      "bytes": 16824,
-      "sha256": "d62af5ad174cfb6a1d4a517bfa35a3ae4cce36bf23200238715ae149a1b3d0a7"
-    },
-    {
-      "path": "assets/S21-ATTACK-A__weapons-live__candidate-e__selected-master-9809ff8a.webm",
-      "bytes": 17437,
-      "sha256": "9809ff8aea136cf4a6cefd2156e0ae3987c779c91f403d9e5201a02158cbc836"
-    },
-    {
-      "path": "assets/S21-ATTACK-A__weapons-live__candidate-e__selected-master-e2dc88c3.mp3",
-      "bytes": 21165,
-      "sha256": "e2dc88c3eac862d180d417a3830ec51081313f6e1433aa03d5b08d209f5b27e9"
-    },
-    {
-      "path": "assets/S21-ATTACK-B__engaging-target__candidate-b__selected-master-2cdb51b6.mp3",
-      "bytes": 21549,
-      "sha256": "2cdb51b604804227ae04e63c3eeddcfe1389293e8d05cef8e5a1f209dfcb22a8"
-    },
-    {
-      "path": "assets/S21-ATTACK-B__engaging-target__candidate-b__selected-master-83b988d0.webm",
-      "bytes": 20079,
-      "sha256": "83b988d0d5d7469b630f4e048bf60a60561f83406968f63a14a965bc90378707"
-    },
-    {
-      "path": "assets/S21-ATTACK-B__engaging-target__candidate-d__selected-master-3ad9d89a.mp3",
-      "bytes": 24621,
-      "sha256": "3ad9d89aa50f9bda821b7e1616f4fc9484a527c2076bf5beb47db45cfdc39abb"
-    },
-    {
-      "path": "assets/S21-ATTACK-B__engaging-target__candidate-d__selected-master-9233a500.webm",
-      "bytes": 21551,
-      "sha256": "9233a50003b01433916eff52d9629d01b052772eb28e4d8e14a9dda23d6aa5de"
-    },
-    {
-      "path": "assets/S21-ATTACK-B__engaging-target__candidate-e__selected-master-33c320ec.webm",
-      "bytes": 23712,
-      "sha256": "33c320ecfc839d3fdf31ecfa7359b89a1796060316443b58a5ea3bc4a22e6cbf"
-    },
-    {
-      "path": "assets/S21-ATTACK-B__engaging-target__candidate-e__selected-master-58ba5f93.mp3",
-      "bytes": 26541,
-      "sha256": "58ba5f939a2483b238e94eeda582088ee21f3a4c077a3039bd2edb3d257d0813"
-    },
-    {
-      "path": "assets/S21-ATTACK-C__rock-and-roll__candidate-b__selected-master-131140fb.mp3",
-      "bytes": 18093,
-      "sha256": "131140fbeec948ea3440feec8c047f517b4739a2e227244dfc4f8aea00f32c00"
-    },
-    {
-      "path": "assets/S21-ATTACK-C__rock-and-roll__candidate-b__selected-master-5ddfbc64.webm",
-      "bytes": 16594,
-      "sha256": "5ddfbc64f3dc8f5e17121ecfd38dc3d842c6629b495af7bcc836248018532e92"
-    },
-    {
-      "path": "assets/S21-ATTACK-C__rock-and-roll__candidate-d__selected-master-11b92301.webm",
-      "bytes": 15425,
-      "sha256": "11b923012ac7e5a02863c6ed8679873181eee6b54d751e78329c91d7f12beec3"
-    },
-    {
-      "path": "assets/S21-ATTACK-C__rock-and-roll__candidate-d__selected-master-dd5e1692.mp3",
-      "bytes": 17709,
-      "sha256": "dd5e1692445ebffe2acc1de8049644fbd09aa2da8bb44d03f92c832a3f7ef198"
-    },
-    {
-      "path": "assets/S21-ATTACK-C__rock-and-roll__candidate-e__selected-master-305413f4.webm",
-      "bytes": 21508,
-      "sha256": "305413f4707c53dd96b1b958fb48b31674191b272599d971c2d4eb945df89669"
-    },
-    {
-      "path": "assets/S21-ATTACK-C__rock-and-roll__candidate-e__selected-master-78118e62.mp3",
-      "bytes": 23853,
-      "sha256": "78118e624874e3ec48d55006ada04b2b4b12ecb8b4ac6eee080cd2cc2f65d705"
-    },
-    {
-      "path": "assets/S21-DEATH-A__mortal-agony-cry-r1__candidate-b__selected-master-6c037b2a.webm",
-      "bytes": 10676,
-      "sha256": "6c037b2a0b0f561c050ed32f5f5e27a5d428ef1ec81af7fa7ce6b4debc0094d1"
-    },
-    {
-      "path": "assets/S21-DEATH-A__mortal-agony-cry-r1__candidate-b__selected-master-c480d657.mp3",
-      "bytes": 13101,
-      "sha256": "c480d65751f6da2a05b98f982747fab42d2ae2e547aefae178128156ed3b5d8f"
-    },
-    {
-      "path": "assets/S21-DEATH-A__mortal-agony-cry-r1__candidate-d__selected-master-23d5cdbd.mp3",
-      "bytes": 20781,
-      "sha256": "23d5cdbd081c64bf6b88d63fc251dc6f530fa8566f6ae03c8bcff1b0f865c5c6"
-    },
-    {
-      "path": "assets/S21-DEATH-A__mortal-agony-cry-r1__candidate-d__selected-master-b8230a96.webm",
-      "bytes": 17382,
-      "sha256": "b8230a96520ad94b5f37b8ce28e3c35b1c1c322275239157dfc276ea4e1a93da"
-    },
-    {
-      "path": "assets/S21-DEATH-A__mortal-agony-cry-r1__candidate-e__selected-master-680de07a.mp3",
-      "bytes": 26541,
-      "sha256": "680de07a8de972f18b701599711344f9d82ffc975eb1b979215525d8fba8898e"
-    },
-    {
-      "path": "assets/S21-DEATH-A__mortal-agony-cry-r1__candidate-e__selected-master-bef2343f.webm",
-      "bytes": 23184,
-      "sha256": "bef2343fd62e4034b0d6f4e4d27ce2a83951d4c051b3d7f5332c58edabbef55a"
-    },
-    {
-      "path": "assets/S21-DEATH-B__nonverbal-b__candidate-b__selected-master-5188da85.webm",
-      "bytes": 9119,
-      "sha256": "5188da85f4cc8b7efa847138a4c10bb36b43e67a5dbe9b0c694e24511407bef0"
-    },
-    {
-      "path": "assets/S21-DEATH-B__nonverbal-b__candidate-b__selected-master-9e5b7c9f.mp3",
-      "bytes": 10029,
-      "sha256": "9e5b7c9fb99ffe89fba0285262e3418bba2aab60d173859d2119271ee5f5282c"
-    },
-    {
-      "path": "assets/S21-DEATH-B__nonverbal-b__candidate-d__selected-master-a613a55b.mp3",
-      "bytes": 16173,
-      "sha256": "a613a55b76bd6f95990a105d5381ec5c66154efd68f0443ab3d20dfd4539fe3c"
-    },
-    {
-      "path": "assets/S21-DEATH-B__nonverbal-b__candidate-d__selected-master-a8a5e5c6.webm",
-      "bytes": 13167,
-      "sha256": "a8a5e5c6d0efcb555ad375a583c2accb4983efcdbde72c938cf2b79b460c4120"
-    },
-    {
-      "path": "assets/S21-DEATH-B__nonverbal-b__candidate-e__selected-master-4f93ec99.mp3",
-      "bytes": 14253,
-      "sha256": "4f93ec99c8c42d9b77c0465fa8887213087c2c2f06acadd1228c7feb8d900fcb"
-    },
-    {
-      "path": "assets/S21-DEATH-B__nonverbal-b__candidate-e__selected-master-5b646a51.webm",
-      "bytes": 11394,
-      "sha256": "5b646a514714e733dcc43432bce33d2d77e715e67ef9500186825c55ea682c12"
-    },
-    {
-      "path": "assets/S21-DEATH-C__tragic-final-wail-r1__candidate-b__selected-master-4f5107ef.mp3",
-      "bytes": 24237,
-      "sha256": "4f5107ef60708f6fe8d5b81a7f7088bca1fa765e5de839ea1504f1ba65b1ea97"
-    },
-    {
-      "path": "assets/S21-DEATH-C__tragic-final-wail-r1__candidate-b__selected-master-6807126b.webm",
-      "bytes": 21402,
-      "sha256": "6807126b2af2dd06cc9c04082afb12bdbcd96f1cdee2702cf9b214b14b740689"
-    },
-    {
-      "path": "assets/S21-DEATH-C__tragic-final-wail-r1__candidate-d__selected-master-14d67b64.mp3",
-      "bytes": 17709,
-      "sha256": "14d67b643846b51dae9e149919f94595a7e9c66266c16324cdab94273ba13a49"
-    },
-    {
-      "path": "assets/S21-DEATH-C__tragic-final-wail-r1__candidate-d__selected-master-845178a1.webm",
-      "bytes": 14755,
-      "sha256": "845178a15c27e7ad7bbd275020f22dbeed4df3e83c42709a8bda7653eabebc91"
-    },
-    {
-      "path": "assets/S21-DEATH-C__tragic-final-wail-r1__candidate-e__selected-master-0f65693b.mp3",
-      "bytes": 21933,
-      "sha256": "0f65693b3ab985e66f1f452783a7942a151a342d737737e282f9532c3de92c47"
-    },
-    {
-      "path": "assets/S21-DEATH-C__tragic-final-wail-r1__candidate-e__selected-master-306c89c9.webm",
-      "bytes": 19064,
-      "sha256": "306c89c9c131060b3867aa10a3826f17ba686c9c39585023f2d92ef0151b6837"
-    },
-    {
-      "path": "assets/S21-HOLD-A__holding-here__candidate-b__selected-master-e8561e75.mp3",
-      "bytes": 16941,
-      "sha256": "e8561e75aa38b8cd7b529cb28d148c9e1e59182f1cc12c5fb85a176a9652178b"
-    },
-    {
-      "path": "assets/S21-HOLD-A__holding-here__candidate-b__selected-master-ec04e438.webm",
-      "bytes": 15425,
-      "sha256": "ec04e4389d1249e6f673dd878d94ce80d20d33779d2555bd1ca42df5a526840f"
-    },
-    {
-      "path": "assets/S21-HOLD-A__holding-here__candidate-d__selected-master-a1514f3c.mp3",
-      "bytes": 23853,
-      "sha256": "a1514f3c0bce9c7f7fc721253717c426ad1632703fd5b32c2378ec178119ee8f"
-    },
-    {
-      "path": "assets/S21-HOLD-A__holding-here__candidate-d__selected-master-b54a5c7a.webm",
-      "bytes": 21550,
-      "sha256": "b54a5c7a92f7065195a08caddcb84f00b6b1b53db778af11c274e2a7294776cd"
-    },
-    {
-      "path": "assets/S21-HOLD-A__holding-here__candidate-e__selected-master-144c5c7a.webm",
-      "bytes": 16498,
-      "sha256": "144c5c7af9fcffb20b9befec898a3d9ebdf363f5013ac86af3ae20d99c2382ec"
-    },
-    {
-      "path": "assets/S21-HOLD-A__holding-here__candidate-e__selected-master-9a0f4947.mp3",
-      "bytes": 21549,
-      "sha256": "9a0f4947e28c358a3049e0c35350562a668ae65cb8863b7234ac7030cd694ed1"
-    },
-    {
-      "path": "assets/S21-HOLD-B__position-locked__candidate-b__selected-master-15e710db.webm",
-      "bytes": 17521,
-      "sha256": "15e710db93fa3583fc743bc01ddaf2f08c2f5dca5cb0010f214189c695900efd"
-    },
-    {
-      "path": "assets/S21-HOLD-B__position-locked__candidate-b__selected-master-a6e93314.mp3",
-      "bytes": 20013,
-      "sha256": "a6e93314344a6c0bf4c23b0f2583143d89f2979bfa24b5ecfdbe42d4d993e5b4"
-    },
-    {
-      "path": "assets/S21-HOLD-B__position-locked__candidate-d__selected-master-5bd691d3.mp3",
-      "bytes": 21549,
-      "sha256": "5bd691d3f624421479c57aafdf0d1b1b5ebd02e403574f07590ab64167bf4d2c"
-    },
-    {
-      "path": "assets/S21-HOLD-B__position-locked__candidate-d__selected-master-7b4e64cd.webm",
-      "bytes": 17769,
-      "sha256": "7b4e64cdc1aa34881df7ea9d98a0ee917cde085ca4486771fd798e046db873a4"
-    },
-    {
-      "path": "assets/S21-HOLD-B__position-locked__candidate-e__selected-master-0dbdf0f8.webm",
-      "bytes": 15429,
-      "sha256": "0dbdf0f88e5ced627631fda71252a724b617ff5de0a6695f7c23d23929b85ed7"
-    },
-    {
-      "path": "assets/S21-HOLD-B__position-locked__candidate-e__selected-master-96c94afa.mp3",
-      "bytes": 17709,
-      "sha256": "96c94afa804e392bc567dba00738acbbc138da9e15f5bd41967b0aa97c5a8789"
-    },
-    {
-      "path": "assets/S21-MOVE-A__moving-now__candidate-b__selected-master-39e38b77.mp3",
-      "bytes": 16173,
-      "sha256": "39e38b77d162b9637281f7f7472d5ab3d9a6b1df7b68abe60c6b4a2ac4748f0a"
-    },
-    {
-      "path": "assets/S21-MOVE-A__moving-now__candidate-b__selected-master-d98e660c.webm",
-      "bytes": 14955,
-      "sha256": "d98e660c598839744421acbac7a6b5c8eb7b542390caa5935023704a3a25a3ed"
-    },
-    {
-      "path": "assets/S21-MOVE-A__moving-now__candidate-d__selected-master-28a8a000.webm",
-      "bytes": 13373,
-      "sha256": "28a8a0001c45f4cbccb092f24c78cb8201c511159b355b027527fdf79f67615b"
-    },
-    {
-      "path": "assets/S21-MOVE-A__moving-now__candidate-d__selected-master-877b1c34.mp3",
-      "bytes": 17709,
-      "sha256": "877b1c343874e57ccbffa99422e6bc9361c4f23390435b328a0d31d75d7c66f7"
-    },
-    {
-      "path": "assets/S21-MOVE-A__moving-now__candidate-e__selected-master-331a402b.webm",
-      "bytes": 18343,
-      "sha256": "331a402b92f9df2be19b8860ac5cc367ae9bdea265229263b1c468a2db2d03a4"
-    },
-    {
-      "path": "assets/S21-MOVE-A__moving-now__candidate-e__selected-master-912652b0.mp3",
-      "bytes": 21549,
-      "sha256": "912652b073298a6b5c97f3352c7cffec1a05e3f0bb03834f3b24ec410e2045b5"
-    },
-    {
-      "path": "assets/S21-MOVE-B__copy-advancing__candidate-b__selected-master-d776b9d2.webm",
-      "bytes": 19804,
-      "sha256": "d776b9d280fb8ab970de6e1d1c9eb11057e2cb32c695ab6d5d34c5058196bc73"
-    },
-    {
-      "path": "assets/S21-MOVE-B__copy-advancing__candidate-b__selected-master-ea72dad1.mp3",
-      "bytes": 21933,
-      "sha256": "ea72dad1715f11643b4b5c1ea44802f6de61d48e2d7afa564e9e040d5798491a"
-    },
-    {
-      "path": "assets/S21-MOVE-B__copy-advancing__candidate-d__selected-master-0732ef6d.webm",
-      "bytes": 22101,
-      "sha256": "0732ef6d5fcc3dec9228ef8248bdc77099c064e781b975d7a16c90d4d06a146e"
-    },
-    {
-      "path": "assets/S21-MOVE-B__copy-advancing__candidate-d__selected-master-9fecbab5.mp3",
-      "bytes": 25389,
-      "sha256": "9fecbab52125be593883b5a9f1c0b110a57bdd326282326120acd55d6c44c54a"
-    },
-    {
-      "path": "assets/S21-MOVE-B__copy-advancing__candidate-e__selected-master-31081bd4.mp3",
-      "bytes": 34221,
-      "sha256": "31081bd4743b9d1c3e7476c7036a12c5e098c6f3d138f6950e492102b31c172d"
-    },
-    {
-      "path": "assets/S21-MOVE-B__copy-advancing__candidate-e__selected-master-66446eee.webm",
-      "bytes": 27957,
-      "sha256": "66446eee589cf45428f07d0ed89c22a3493cfe8728e891e3c060605b5dc8ffec"
-    },
-    {
-      "path": "assets/S21-MOVE-C__taking-position__candidate-b__selected-master-213ea0ee.mp3",
-      "bytes": 19629,
-      "sha256": "213ea0ee069485a0a1767da95208ad6f1eed6a898be04d7c6529db9a4c48467d"
-    },
-    {
-      "path": "assets/S21-MOVE-C__taking-position__candidate-b__selected-master-3c5351e9.webm",
-      "bytes": 18253,
-      "sha256": "3c5351e94927bc6859970577a824f2f1e624366fc28f0dec4858507236475206"
-    },
-    {
-      "path": "assets/S21-MOVE-C__taking-position__candidate-d__selected-master-93c11e0a.mp3",
-      "bytes": 20013,
-      "sha256": "93c11e0a7abdfa6ef59b3052ea23d2a9c685526ca10b3aa45936792bbbbe6ec6"
-    },
-    {
-      "path": "assets/S21-MOVE-C__taking-position__candidate-d__selected-master-d85ff2b0.webm",
-      "bytes": 16816,
-      "sha256": "d85ff2b06b9addac092c2e40bd5a0ea782160df5cb1366ea92a7c7d937585ce7"
-    },
-    {
-      "path": "assets/S21-MOVE-C__taking-position__candidate-e__selected-master-1a6c0754.webm",
-      "bytes": 17852,
-      "sha256": "1a6c0754e99a19f7f6e58834a5956830f1613c003e46ecd23483fdfef5680ac9"
-    },
-    {
-      "path": "assets/S21-MOVE-C__taking-position__candidate-e__selected-master-9482a3ca.mp3",
-      "bytes": 18861,
-      "sha256": "9482a3caf8cd01929fd8dfb6d927607ef2a906e0d4284d277aa558f8bf6c730a"
-    },
-    {
-      "path": "assets/S21-READY-A__boots-down__candidate-b__selected-master-20c62c86.webm",
-      "bytes": 14959,
-      "sha256": "20c62c86e044a652bf519f20bd67277eee5fe1313d356f37ccc6b573dd246b30"
-    },
-    {
-      "path": "assets/S21-READY-A__boots-down__candidate-b__selected-master-6433d17e.mp3",
-      "bytes": 16941,
-      "sha256": "6433d17ec7259a492dddd8916d7406994688a9d5e2dc265695fbc168dfce91af"
-    },
-    {
-      "path": "assets/S21-READY-A__boots-down__candidate-d__selected-master-8eac3d5c.mp3",
-      "bytes": 17325,
-      "sha256": "8eac3d5c5e165ad1904ed0ff355410954961d592419b6c37001f84803021cafe"
-    },
-    {
-      "path": "assets/S21-READY-A__boots-down__candidate-d__selected-master-d72e80ca.webm",
-      "bytes": 15054,
-      "sha256": "d72e80cad575c757a71a805960b5ddc5caa8a48889a1b6c3aea68e14fec784bb"
-    },
-    {
-      "path": "assets/S21-READY-A__boots-down__candidate-e__selected-master-0357dcd5.mp3",
-      "bytes": 17709,
-      "sha256": "0357dcd50cc26ef67cebf9c460fd7683ec40ae7d3026ec36c14caed7df21d16c"
-    },
-    {
-      "path": "assets/S21-READY-A__boots-down__candidate-e__selected-master-d7fe170b.webm",
-      "bytes": 15554,
-      "sha256": "d7fe170bf488ab5a929e5f8c3a27253c583cea389871dc05d8a4b3d5723f5071"
-    },
-    {
-      "path": "assets/S21-READY-B__rifle-online__candidate-b__selected-master-b397af59.mp3",
-      "bytes": 20397,
-      "sha256": "b397af59575e6289b01bbdce1d3e49f8385c6a57b4fb0f0e472782f3b49377ba"
-    },
-    {
-      "path": "assets/S21-READY-B__rifle-online__candidate-b__selected-master-f38e7c34.webm",
-      "bytes": 18026,
-      "sha256": "f38e7c34e846c03d36773a14c09c797b615acf391163775bd2206fd81352be9e"
-    },
-    {
-      "path": "assets/S21-READY-B__rifle-online__candidate-d__selected-master-0be3397b.mp3",
-      "bytes": 23853,
-      "sha256": "0be3397b76c39474d3083a6cc4a66d9c16ed1892942779db4d7d23eba39fe8f6"
-    },
-    {
-      "path": "assets/S21-READY-B__rifle-online__candidate-d__selected-master-f13f0ca4.webm",
-      "bytes": 20987,
-      "sha256": "f13f0ca48673869482b37ef5795d8e7463cab5c31a0adff1558c2f0b1e2c5709"
-    },
-    {
-      "path": "assets/S21-READY-B__rifle-online__candidate-e__selected-master-e64c0a2e.webm",
-      "bytes": 25937,
-      "sha256": "e64c0a2efd04a49e327bcc15b0875b9e494ab8e2f5bb6bc103aad0c54390e9ba"
-    },
-    {
-      "path": "assets/S21-READY-B__rifle-online__candidate-e__selected-master-feebcc1f.mp3",
-      "bytes": 29229,
-      "sha256": "feebcc1fa6611265be0d74202a7392aaf10fbe5d5dd03a72e33f6a404eb40825"
-    },
-    {
-      "path": "assets/S21-READY-C__ready-on-your-signal__candidate-b__selected-master-d68d9a87.mp3",
-      "bytes": 22701,
-      "sha256": "d68d9a8791fe8d2c231cc31f3408ed8eda066481a54187b11fa0dad899d50bd3"
-    },
-    {
-      "path": "assets/S21-READY-C__ready-on-your-signal__candidate-b__selected-master-f09dc74f.webm",
-      "bytes": 21233,
-      "sha256": "f09dc74faca53518ce71bdb239fac14ebb2d075229874ca76437a73c7378e205"
-    },
-    {
-      "path": "assets/S21-READY-C__ready-on-your-signal__candidate-d__selected-master-0f105cc2.mp3",
-      "bytes": 27693,
-      "sha256": "0f105cc2fe5bb86d0767a17c769878da5955595525dd2e91cb46d03571ed60b0"
-    },
-    {
-      "path": "assets/S21-READY-C__ready-on-your-signal__candidate-d__selected-master-8598ea55.webm",
-      "bytes": 26579,
-      "sha256": "8598ea55042dc7bcfc25903dfa3a72e9547f69140f9da4ffa3076f276bf6b794"
-    },
-    {
-      "path": "assets/S21-READY-C__ready-on-your-signal__candidate-e__selected-master-606c5ba1.mp3",
-      "bytes": 27693,
-      "sha256": "606c5ba1ed3df6fb9a7ef8dbbc6fe588027d84c137829c31e377747eae66500f"
-    },
-    {
-      "path": "assets/S21-READY-C__ready-on-your-signal__candidate-e__selected-master-67446fa5.webm",
-      "bytes": 23681,
-      "sha256": "67446fa5d5a1b19bad229bb1d7b1c24cae3f2a6bbc10532b7925b8c6f10d2822"
-    },
-    {
-      "path": "assets/S21-SELECT-A__soldier-here__candidate-b__selected-master-ccf063ff.webm",
-      "bytes": 15970,
-      "sha256": "ccf063ff81cb20f5f4b5c46b0571cd38c3e93f9183f88adb228cb7e9e11280a0"
-    },
-    {
-      "path": "assets/S21-SELECT-A__soldier-here__candidate-b__selected-master-d423fef4.mp3",
-      "bytes": 18093,
-      "sha256": "d423fef4863a73266a6302b4a841694f73ab398318465849994c866b0b325be7"
-    },
-    {
-      "path": "assets/S21-SELECT-A__soldier-here__candidate-d__selected-master-570ec0ca.webm",
-      "bytes": 16644,
-      "sha256": "570ec0ca36df4da6315e64d2ee408de2a344d93ce97b71d213be3da0e850b6c2"
-    },
-    {
-      "path": "assets/S21-SELECT-A__soldier-here__candidate-d__selected-master-5b009ae2.mp3",
-      "bytes": 20013,
-      "sha256": "5b009ae285efa5542ed5ea832565fe5b23c6e66d53e3a5df1867419142db82e1"
-    },
-    {
-      "path": "assets/S21-SELECT-A__soldier-here__candidate-e__selected-master-22798269.webm",
-      "bytes": 19755,
-      "sha256": "2279826984511261183e795e90a12a4bf28aed4bd9b904c9cb284aab6b06e6cb"
-    },
-    {
-      "path": "assets/S21-SELECT-A__soldier-here__candidate-e__selected-master-b6c9a12c.mp3",
-      "bytes": 21549,
-      "sha256": "b6c9a12c3a4e05723e6aac8d15bc97a5122b2325c0f2040da51385fa049585aa"
-    },
-    {
-      "path": "assets/S21-SELECT-B__on-comms__candidate-b__selected-master-0c5eb4c2.webm",
-      "bytes": 15124,
-      "sha256": "0c5eb4c279c95ec9c5b367f81cb208c47048764c33a00514be446295d9f5ced5"
-    },
-    {
-      "path": "assets/S21-SELECT-B__on-comms__candidate-b__selected-master-d50ae248.mp3",
-      "bytes": 17325,
-      "sha256": "d50ae2480ef7767d94f1d8495a4859f327f3b8b5f15dc8418ef4c81079c5391b"
-    },
-    {
-      "path": "assets/S21-SELECT-B__on-comms__candidate-d__selected-master-da42e1af.mp3",
-      "bytes": 15021,
-      "sha256": "da42e1af4bbc6761affa429eca2a93c8fffd4b8f44bd76583a2704a2b33d1d5a"
-    },
-    {
-      "path": "assets/S21-SELECT-B__on-comms__candidate-d__selected-master-efeaea84.webm",
-      "bytes": 13272,
-      "sha256": "efeaea8419e0e16e136f33f2a34eeae60ff37c677fc10f4117f68339e1cb8fb7"
-    },
-    {
-      "path": "assets/S21-SELECT-B__on-comms__candidate-e__selected-master-2c3cf53d.mp3",
-      "bytes": 21549,
-      "sha256": "2c3cf53dbd41310887fb471f89b451c735377140b6c3671246d7499333496b00"
-    },
-    {
-      "path": "assets/S21-SELECT-B__on-comms__candidate-e__selected-master-e9be39cc.webm",
-      "bytes": 19515,
-      "sha256": "e9be39cc6050dfb606f4b77554e46fc6603c20e3fcc7c3a09bcf861bba68f826"
-    },
-    {
-      "path": "assets/S21-SELECT-C__whats-the-call__candidate-b__selected-master-2be5d55b.webm",
-      "bytes": 17188,
-      "sha256": "2be5d55bbae4ddcad87e9b20f3ae18e69de6e1c6c6a2273c9fe57851470f8bca"
-    },
-    {
-      "path": "assets/S21-SELECT-C__whats-the-call__candidate-b__selected-master-419013c2.mp3",
-      "bytes": 18861,
-      "sha256": "419013c2673db03dde960ffa7f120805d3e9537f64dd55737b74130d581bca9b"
-    },
-    {
-      "path": "assets/S21-SELECT-C__whats-the-call__candidate-d__selected-master-465032fe.mp3",
-      "bytes": 18477,
-      "sha256": "465032fe81eef73bb9f6a243c8b81685194b4ca590404aa8396c835be6c15abe"
-    },
-    {
-      "path": "assets/S21-SELECT-C__whats-the-call__candidate-d__selected-master-a3e1626f.webm",
-      "bytes": 16925,
-      "sha256": "a3e1626fff85049d2d9fa03a5a3c4d5f2f3db6defdcb73a3109137ab9a47e7af"
-    },
-    {
-      "path": "assets/S21-SELECT-C__whats-the-call__candidate-e__selected-master-9afc2a08.webm",
-      "bytes": 16451,
-      "sha256": "9afc2a08a1334d0c6a4bb39ab97e92fda37b4b061393694c104ab7a3e639eb1d"
-    },
-    {
-      "path": "assets/S21-SELECT-C__whats-the-call__candidate-e__selected-master-bcb2daac.mp3",
-      "bytes": 18861,
-      "sha256": "bcb2daac75fdd899ba602edcefb0167137fdd6314ed3855ff5b14386716fd74f"
-    },
-    {
-      "path": "assets/S22-ATTACK-A__tools-going-hot__candidate-b__selected-master-13a32627.webm",
-      "bytes": 23556,
-      "sha256": "13a326279835a13199018121506f7bb5771426dcd3603a6d88dfba7d42a13017"
-    },
-    {
-      "path": "assets/S22-ATTACK-A__tools-going-hot__candidate-b__selected-master-741bcaf3.mp3",
-      "bytes": 23853,
-      "sha256": "741bcaf34dec320da5f3079a91b958a94ab2302e7998991fadda3bb4ebc19c23"
-    },
-    {
-      "path": "assets/S22-ATTACK-A__tools-going-hot__candidate-c__selected-master-05dc5bec.mp3",
-      "bytes": 21549,
-      "sha256": "05dc5bece95c54f9d52faa107ec9971865ebe7e06e608570efff5deba71faa38"
-    },
-    {
-      "path": "assets/S22-ATTACK-A__tools-going-hot__candidate-c__selected-master-1582b24b.webm",
-      "bytes": 20402,
-      "sha256": "1582b24b3e8e11e3c37c766896ea6eee051d09bef7cd9125eb70b0fc532be981"
-    },
-    {
-      "path": "assets/S22-ATTACK-B__cutting-them-down__candidate-b__selected-master-9cb8765d.webm",
-      "bytes": 20042,
-      "sha256": "9cb8765d59cb9e8292abfef414f2f5a093d8b7e4785ce4f0c74ddcd1a7adbb5d"
-    },
-    {
-      "path": "assets/S22-ATTACK-B__cutting-them-down__candidate-b__selected-master-c799ca00.mp3",
-      "bytes": 18477,
-      "sha256": "c799ca008e9b33e667aa0ae85f9a0bd5efc25407c0c2c7030718e414929eb26b"
-    },
-    {
-      "path": "assets/S22-ATTACK-B__cutting-them-down__candidate-c__selected-master-86c1b7c8.mp3",
-      "bytes": 21549,
-      "sha256": "86c1b7c8bafe6ecfd9defbe82720c3b3fe6764bba4265e10c3b741859a0298fc"
-    },
-    {
-      "path": "assets/S22-ATTACK-B__cutting-them-down__candidate-c__selected-master-dee7ea1c.webm",
-      "bytes": 19176,
-      "sha256": "dee7ea1c345bdf9a1ffbc88112d9356fb6563210901958b5870648982a6aec01"
-    },
-    {
-      "path": "assets/S22-ATTACK-C__you-asked-for-it__candidate-b__selected-master-19a96580.mp3",
-      "bytes": 23853,
-      "sha256": "19a96580caf1eb3375953453485354ba10c8c89473fc5dfebe9e4a079926c70e"
-    },
-    {
-      "path": "assets/S22-ATTACK-C__you-asked-for-it__candidate-b__selected-master-bb785577.webm",
-      "bytes": 23048,
-      "sha256": "bb785577e6af3e454706284dfc93a411c27064b8de8bb0c2934f4471a78911a7"
-    },
-    {
-      "path": "assets/S22-ATTACK-C__you-asked-for-it__candidate-c__selected-master-724636ea.mp3",
-      "bytes": 25389,
-      "sha256": "724636ea2773b4175e9fa48831a0d704730de09083c1dcaa90b4bf2488547160"
-    },
-    {
-      "path": "assets/S22-ATTACK-C__you-asked-for-it__candidate-c__selected-master-e3ad361d.webm",
-      "bytes": 22687,
-      "sha256": "e3ad361d3d715b3f1d748462ae6c076602f3bf7ca7a38352386a6c18c3e9047c"
-    },
-    {
-      "path": "assets/S22-BUILD-A__breaking-ground__candidate-b__selected-master-78fadd1d.webm",
-      "bytes": 17902,
-      "sha256": "78fadd1d2523ad1f6d43061920e3b558c89bea0b635c53a5540afd0429c3b5c2"
-    },
-    {
-      "path": "assets/S22-BUILD-A__breaking-ground__candidate-b__selected-master-999f0f9c.mp3",
-      "bytes": 18861,
-      "sha256": "999f0f9c7af098bff4f59e5b6b11bf9bfd4bb3ce74a8e51120d29a8453290f09"
-    },
-    {
-      "path": "assets/S22-BUILD-A__breaking-ground__candidate-c__selected-master-a2dccc27.mp3",
-      "bytes": 15021,
-      "sha256": "a2dccc27d8da8039eaf8266e7a1d81e79c38db8e50124009f0b33a3f6731d6d8"
-    },
-    {
-      "path": "assets/S22-BUILD-A__breaking-ground__candidate-c__selected-master-ccaa537b.webm",
-      "bytes": 13632,
-      "sha256": "ccaa537be25deb3928faeb12c0da49c8eefe620fb47b4442502206f9bf4dc92b"
-    },
-    {
-      "path": "assets/S22-BUILD-B__lets-build-it__candidate-b__selected-master-d1aa6b3a.mp3",
-      "bytes": 18861,
-      "sha256": "d1aa6b3abe6a3bdd8898b29f7796032f337b85d433992cb879528da6f08e4b43"
-    },
-    {
-      "path": "assets/S22-BUILD-B__lets-build-it__candidate-b__selected-master-e3261152.webm",
-      "bytes": 18482,
-      "sha256": "e32611524389578a57dc915aafaecad93757fbbb1353732fd738847164353bd0"
-    },
-    {
-      "path": "assets/S22-BUILD-B__lets-build-it__candidate-c__selected-master-e90e6726.webm",
-      "bytes": 32357,
-      "sha256": "e90e6726cd378b7effd819a3e0a0dc1355618ec2dbee0692690c7c270f98fb49"
-    },
-    {
-      "path": "assets/S22-BUILD-B__lets-build-it__candidate-c__selected-master-f64137d2.mp3",
-      "bytes": 39213,
-      "sha256": "f64137d24670d5846528ca6962557926a8b4261b5015efe856c1bddb27f9fadb"
-    },
-    {
-      "path": "assets/S22-BUILD-C__structure-going-up__candidate-b__selected-master-492d181e.mp3",
-      "bytes": 22701,
-      "sha256": "492d181eb63504e12e2d31219fce1be5ebe31603ef7af01558c534d1a1becaf5"
-    },
-    {
-      "path": "assets/S22-BUILD-C__structure-going-up__candidate-b__selected-master-f4028d4c.webm",
-      "bytes": 20444,
-      "sha256": "f4028d4c45fa522d1f8fbaaad6d8b10d749a5220b1dc2a98b860ab4392f5f034"
-    },
-    {
-      "path": "assets/S22-BUILD-C__structure-going-up__candidate-c__selected-master-d665b11a.webm",
-      "bytes": 17055,
-      "sha256": "d665b11a3b75f171b2ec0fe47c8ce9ebc2f875889c0919b03ba88d7d09670e98"
-    },
-    {
-      "path": "assets/S22-BUILD-C__structure-going-up__candidate-c__selected-master-d92f00ba.mp3",
-      "bytes": 18477,
-      "sha256": "d92f00ba1c76b0742523653dbc575ed64882fb55a58dc340aaabbefe7f08fa88"
-    },
-    {
-      "path": "assets/S22-DEATH-A__nonverbal-a__candidate-b__selected-master-27d5cbd8.webm",
-      "bytes": 12040,
-      "sha256": "27d5cbd8987cc88b8b94b3752367376463b1a7c195a40c8a4b092fac000e397c"
-    },
-    {
-      "path": "assets/S22-DEATH-A__nonverbal-a__candidate-b__selected-master-61fe03fc.mp3",
-      "bytes": 16173,
-      "sha256": "61fe03fc12bceeb244d67ea813270d9601a1d9572f7de360bff5d8c03851499a"
-    },
-    {
-      "path": "assets/S22-DEATH-A__nonverbal-a__candidate-c__selected-master-1bc4a154.webm",
-      "bytes": 10693,
-      "sha256": "1bc4a15437ca63794aa524bab376f1ab1e0613c2175975cceefdf5465acd1543"
-    },
-    {
-      "path": "assets/S22-DEATH-A__nonverbal-a__candidate-c__selected-master-54763d13.mp3",
-      "bytes": 13869,
-      "sha256": "54763d13ca90deb706c035b5c2e7601790c294f46e11d2fe736c3a84a68234f1"
-    },
-    {
-      "path": "assets/S22-DEATH-C__nonverbal-c__candidate-b__selected-master-24c4ae54.webm",
-      "bytes": 37514,
-      "sha256": "24c4ae54cf67ecdadc7532b499cecca88b1734f3ed70efaca9faf5a6934d3de3"
-    },
-    {
-      "path": "assets/S22-DEATH-C__nonverbal-c__candidate-b__selected-master-24d673be.mp3",
-      "bytes": 38829,
-      "sha256": "24d673be81bf9233e6aa7a93474f5c179f338aafa34f64e93d5651782d19823e"
-    },
-    {
-      "path": "assets/S22-DEATH-C__nonverbal-c__candidate-c__selected-master-8dc701d5.mp3",
-      "bytes": 17325,
-      "sha256": "8dc701d5785ea02475930d7ef0446b80534a0f357a074c5184cdad4b2a777154"
-    },
-    {
-      "path": "assets/S22-DEATH-C__nonverbal-c__candidate-c__selected-master-b9a9adc7.webm",
-      "bytes": 13678,
-      "sha256": "b9a9adc7465a6e41bbb5480d31f26f45b9ce5d66179c07476db9df3eeddc8c1e"
-    },
-    {
-      "path": "assets/S22-GATHER-A__starting-extraction__candidate-b__selected-master-2300a9db.webm",
-      "bytes": 25715,
-      "sha256": "2300a9dba0afddced9c48ebe90f9221e0243df9df0f1ed26e5381cdf4b6a649d"
-    },
-    {
-      "path": "assets/S22-GATHER-A__starting-extraction__candidate-b__selected-master-55936f73.mp3",
-      "bytes": 27693,
-      "sha256": "55936f73a4935f638abea9d0247425aa5ee920c2ba16a11422eef4ef465c9b7e"
-    },
-    {
-      "path": "assets/S22-GATHER-A__starting-extraction__candidate-c__selected-master-30a65f17.mp3",
-      "bytes": 22317,
-      "sha256": "30a65f170e11129cbf47c0b1dc8c4ee6881c04280962afdb3bf1e21b511b3953"
-    },
-    {
-      "path": "assets/S22-GATHER-A__starting-extraction__candidate-c__selected-master-63bdf622.webm",
-      "bytes": 23171,
-      "sha256": "63bdf622194a7519cacf4aa2afc6737ff140c83812df2500f5273fc45dfa21bc"
-    },
-    {
-      "path": "assets/S22-GATHER-B__ill-bring-it-in__candidate-b__selected-master-202d21fd.mp3",
-      "bytes": 20013,
-      "sha256": "202d21fda111baabf513decf7f781f92c8a0f30c6fdaa64676bc08f10327b521"
-    },
-    {
-      "path": "assets/S22-GATHER-B__ill-bring-it-in__candidate-b__selected-master-85096b25.webm",
-      "bytes": 23009,
-      "sha256": "85096b25ae922095ce414f100ee06931eff93eed806d620078175277f88f7ca0"
-    },
-    {
-      "path": "assets/S22-GATHER-B__ill-bring-it-in__candidate-c__selected-master-a40dc4cf.webm",
-      "bytes": 25908,
-      "sha256": "a40dc4cfd3527764d3c7d50f68b3d7d1278f8ecf0cc98b13ceec0007d33667b0"
-    },
-    {
-      "path": "assets/S22-GATHER-B__ill-bring-it-in__candidate-c__selected-master-d436fbdc.mp3",
-      "bytes": 28461,
-      "sha256": "d436fbdc4593125d57ae7082143ef69479014569b7f3e3f25befa89bc93ecce8"
-    },
-    {
-      "path": "assets/S22-GATHER-C__resources-secured__candidate-b__selected-master-1b312faf.webm",
-      "bytes": 21722,
-      "sha256": "1b312faf2444cc6f19fd148d2127a68f507a780257415e659de634b5611fca01"
-    },
-    {
-      "path": "assets/S22-GATHER-C__resources-secured__candidate-b__selected-master-7f68da98.mp3",
-      "bytes": 23853,
-      "sha256": "7f68da989dbae178b59ac24229695846996940e4bc636fbcea48cae12abdb2ab"
-    },
-    {
-      "path": "assets/S22-GATHER-C__resources-secured__candidate-c__selected-master-ced7b6b4.webm",
-      "bytes": 23498,
-      "sha256": "ced7b6b4cb82829d3ae40c6472e1c979d8288421fa5cb108ee4512ccd1328652"
-    },
-    {
-      "path": "assets/S22-GATHER-C__resources-secured__candidate-c__selected-master-f0922b9e.mp3",
-      "bytes": 26541,
-      "sha256": "f0922b9e3d2fa838a896de491a9471cd75ae4a6b678124eb3263bb9e4f1edf0b"
-    },
-    {
-      "path": "assets/S22-HOLD-A__holding-here__candidate-b__selected-master-28382369.webm",
-      "bytes": 21400,
-      "sha256": "283823690b1daa08b4675dad34d6c1ae4ba81e438a68f0af75d15976b8fb673c"
-    },
-    {
-      "path": "assets/S22-HOLD-A__holding-here__candidate-b__selected-master-fe721dbb.mp3",
-      "bytes": 26541,
-      "sha256": "fe721dbb9456d8370c3559ed08b16ff27e4aa2a10aa881c40fce74304c725edc"
-    },
-    {
-      "path": "assets/S22-HOLD-A__holding-here__candidate-c__selected-master-01e5c5b9.mp3",
-      "bytes": 22701,
-      "sha256": "01e5c5b956c5619614f9035b54de8f193365af192ccb82989f3cef36ad3547da"
-    },
-    {
-      "path": "assets/S22-HOLD-A__holding-here__candidate-c__selected-master-84e1119e.webm",
-      "bytes": 21173,
-      "sha256": "84e1119e309d086c08d117915b3c39b4b4e6579c5dd53abcbcfaf8fd2c76f4dd"
-    },
-    {
-      "path": "assets/S22-HOLD-B__tools-down__candidate-b__selected-master-be2ddc87.webm",
-      "bytes": 30371,
-      "sha256": "be2ddc87e1199e7c9826dab6f0d12b4d9cef6fa084ed02209c6cd1bc3282fc84"
-    },
-    {
-      "path": "assets/S22-HOLD-B__tools-down__candidate-b__selected-master-ea9bce8b.mp3",
-      "bytes": 29229,
-      "sha256": "ea9bce8b9da08512b5ea4699bea27ef9ebd927ce404a490e7f248f4b23c3abc8"
-    },
-    {
-      "path": "assets/S22-HOLD-B__tools-down__candidate-c__selected-master-3c4ff17b.webm",
-      "bytes": 13327,
-      "sha256": "3c4ff17bc1eff032081245490cbe379ca16e1039d84995bd051667ddfc6d9d7b"
-    },
-    {
-      "path": "assets/S22-HOLD-B__tools-down__candidate-c__selected-master-ae366bd4.mp3",
-      "bytes": 15021,
-      "sha256": "ae366bd4ea980ed0c948f8f8ca629faca3334c218e2d8ce1e2343b91c771c06d"
-    },
-    {
-      "path": "assets/S22-MOVE-A__on-my-way__candidate-b__selected-master-d6764b46.mp3",
-      "bytes": 15789,
-      "sha256": "d6764b461b37ed7c329dde5904c0e177e07ae4dc7e8468390309fb275acaa1bb"
-    },
-    {
-      "path": "assets/S22-MOVE-A__on-my-way__candidate-b__selected-master-e02dc011.webm",
-      "bytes": 15639,
-      "sha256": "e02dc01185d00d4ce1b2263394e813d1de9fb9064736806d75782b0c1e3f1a30"
-    },
-    {
-      "path": "assets/S22-MOVE-A__on-my-way__candidate-c__selected-master-6aa21591.webm",
-      "bytes": 16732,
-      "sha256": "6aa215912690c3c9a029c456630011faa6ab34ed0d09711420645b164ea5ce80"
-    },
-    {
-      "path": "assets/S22-MOVE-A__on-my-way__candidate-c__selected-master-a00bcb85.mp3",
-      "bytes": 18861,
-      "sha256": "a00bcb85ebb0d74254b81f8dd551f4a82cc2c8bba64d3f660bfc1aae6a85fd71"
-    },
-    {
-      "path": "assets/S22-MOVE-B__heading-over__candidate-b__selected-master-4df61b2f.mp3",
-      "bytes": 17325,
-      "sha256": "4df61b2f1e2992bb848abb567a3cf8ca7b60e05cce1d08591bb623c36b8b81aa"
-    },
-    {
-      "path": "assets/S22-MOVE-B__heading-over__candidate-b__selected-master-eb46d6d1.webm",
-      "bytes": 18208,
-      "sha256": "eb46d6d1df034cb2833a4519f52b306a8842db9bcea36babe262de10c16dd346"
-    },
-    {
-      "path": "assets/S22-MOVE-B__heading-over__candidate-c__selected-master-bbebc99d.mp3",
-      "bytes": 14637,
-      "sha256": "bbebc99d3a65a88efcd00e6e5bbdebaad3cd2d26e611a185e198211a7e65892e"
-    },
-    {
-      "path": "assets/S22-MOVE-B__heading-over__candidate-c__selected-master-e56bc748.webm",
-      "bytes": 15025,
-      "sha256": "e56bc748394e076ef4b4625150fb2257ce36467b0a3366f7fab647516e715d13"
-    },
-    {
-      "path": "assets/S22-MOVE-C__moving-out__candidate-b__selected-master-62229187.webm",
-      "bytes": 18069,
-      "sha256": "62229187ad1b34ba263616911b4fd31cebfc93a95fef92b948eff1a74f2f6f80"
-    },
-    {
-      "path": "assets/S22-MOVE-C__moving-out__candidate-b__selected-master-ba71ea9e.mp3",
-      "bytes": 17709,
-      "sha256": "ba71ea9e0fac805f57437c05bfe81ac51851e0e45c609a473b561c0d05b0e1d8"
-    },
-    {
-      "path": "assets/S22-MOVE-C__moving-out__candidate-c__selected-master-4dc28f01.mp3",
-      "bytes": 15021,
-      "sha256": "4dc28f0195fb70594b5a3c4796fed6c0f24402605267060c6a43151534114f8c"
-    },
-    {
-      "path": "assets/S22-MOVE-C__moving-out__candidate-c__selected-master-e0a88686.webm",
-      "bytes": 13352,
-      "sha256": "e0a88686f2d7b72e83ca7fe4a52341a981ff1c1218074490b24c949690d3d5ab"
-    },
-    {
-      "path": "assets/S22-READY-A__tools-ready__candidate-b__selected-master-1076bfae.webm",
-      "bytes": 32999,
-      "sha256": "1076bfae13eb4b0073469858b5572c6fafd2f0a318f72e15ac664c91e7135c28"
-    },
-    {
-      "path": "assets/S22-READY-A__tools-ready__candidate-b__selected-master-c183b226.mp3",
-      "bytes": 31533,
-      "sha256": "c183b2268acb07f1ce72a5746473fea9b62fe74f6de0dd5c86dcaf8a4c494712"
-    },
-    {
-      "path": "assets/S22-READY-A__tools-ready__candidate-c__selected-master-94639024.mp3",
-      "bytes": 16173,
-      "sha256": "9463902419982456326b06eb63c7e75cc832e6d0b89919707c7ffbf770501475"
-    },
-    {
-      "path": "assets/S22-READY-A__tools-ready__candidate-c__selected-master-a48ad6ac.webm",
-      "bytes": 13918,
-      "sha256": "a48ad6ac8d1c8420ff98f4519b7bf5f020a5aa9089924c0980c034231fc442ac"
-    },
-    {
-      "path": "assets/S22-READY-B__worker-online__candidate-b__selected-master-be946543.mp3",
-      "bytes": 23853,
-      "sha256": "be946543c71d0f3f21b2d8b6b69be951a05517991a4466b12ec335d321601244"
-    },
-    {
-      "path": "assets/S22-READY-B__worker-online__candidate-b__selected-master-e69d8a45.webm",
-      "bytes": 25238,
-      "sha256": "e69d8a45b050c069e956950020874eb2c8d49096851dff43dd0078af83e2ffb5"
-    },
-    {
-      "path": "assets/S22-READY-B__worker-online__candidate-c__selected-master-1ebd3caf.webm",
-      "bytes": 18008,
-      "sha256": "1ebd3cafa8e1320067e7c8cb340ffeccd317b7859fdbcd858afbd9d2ea1ac1c2"
-    },
-    {
-      "path": "assets/S22-READY-B__worker-online__candidate-c__selected-master-890b9436.mp3",
-      "bytes": 18861,
-      "sha256": "890b94361b4f8d0f8c4c9aace6e5e66d4183708536117675b12222486c5b908a"
-    },
-    {
-      "path": "assets/S22-READY-C__reporting-for-duty__candidate-b__selected-master-4aec86ba.webm",
-      "bytes": 31056,
-      "sha256": "4aec86ba74ebe37017003afc329555ba1f98d3dfb8e515c889eb4e32827f04ab"
-    },
-    {
-      "path": "assets/S22-READY-C__reporting-for-duty__candidate-b__selected-master-ddad08f8.mp3",
-      "bytes": 28845,
-      "sha256": "ddad08f8c5cb80049dea327cd9e6d1c93218ad3b002891d0c7adc11e01f605f7"
-    },
-    {
-      "path": "assets/S22-READY-C__reporting-for-duty__candidate-c__selected-master-c46fca63.webm",
-      "bytes": 17927,
-      "sha256": "c46fca63e7597e567a5f5bc38c3c5fe88bc6d68bc53499f1d186566f4411aa75"
-    },
-    {
-      "path": "assets/S22-READY-C__reporting-for-duty__candidate-c__selected-master-cd959ac3.mp3",
-      "bytes": 20013,
-      "sha256": "cd959ac3a9f0f0f40d5af41d883e6e853c603382ca3d3cfc77f3c9854a92c303"
-    },
-    {
-      "path": "assets/S22-REPAIR-A__i-can-fix-that__candidate-b__selected-master-00a7b81e.webm",
-      "bytes": 23497,
-      "sha256": "00a7b81eed8012681b838774d2b9f871dfe9bef8bd25e56d643a5eed0966fa5c"
-    },
-    {
-      "path": "assets/S22-REPAIR-A__i-can-fix-that__candidate-b__selected-master-ceac6dba.mp3",
-      "bytes": 23853,
-      "sha256": "ceac6dba22e9195353468bcd4741435e1423a72a329312212cb884ed451e3169"
-    },
-    {
-      "path": "assets/S22-REPAIR-A__i-can-fix-that__candidate-c__selected-master-51f39b7f.mp3",
-      "bytes": 20013,
-      "sha256": "51f39b7fe5d6d3994b5a4fa98accc411585fe01efdb7adf706bd08c4979a133f"
-    },
-    {
-      "path": "assets/S22-REPAIR-A__i-can-fix-that__candidate-c__selected-master-df0d5d6a.webm",
-      "bytes": 19275,
-      "sha256": "df0d5d6a8744dda6cd8bdb9c961f0d984381db9cc099dd517cfe38389b34c3c4"
-    },
-    {
-      "path": "assets/S22-REPAIR-B__starting-repairs__candidate-b__selected-master-4c203126.webm",
-      "bytes": 21051,
-      "sha256": "4c20312622925f46593a4b481f5f1e9a7faf9fa9211e8a49e1cbf0af060db6c0"
-    },
-    {
-      "path": "assets/S22-REPAIR-B__starting-repairs__candidate-b__selected-master-e04d36ae.mp3",
-      "bytes": 22317,
-      "sha256": "e04d36aebacb6e8c3928aeac17f317d353e8d99c507a0899ac9e81335cceccc2"
-    },
-    {
-      "path": "assets/S22-REPAIR-B__starting-repairs__candidate-c__selected-master-34398504.webm",
-      "bytes": 21370,
-      "sha256": "34398504167c2cd8b5e73d34bf0a260408f60a021b41024ef0af595e0c46b19b"
-    },
-    {
-      "path": "assets/S22-REPAIR-B__starting-repairs__candidate-c__selected-master-b86b3c50.mp3",
-      "bytes": 23085,
-      "sha256": "b86b3c5012b1af894b831ef499621daedb3f231a97af0dacd3a5161c873312f0"
-    },
-    {
-      "path": "assets/S22-REPAIR-C__hold-together-for-me__candidate-b__selected-master-551491e8.webm",
-      "bytes": 27043,
-      "sha256": "551491e8524d3f96d907e20afa37c51998fb7a8aa3f1137fa3a13a2c91bc66c2"
-    },
-    {
-      "path": "assets/S22-REPAIR-C__hold-together-for-me__candidate-b__selected-master-cddd04ff.mp3",
-      "bytes": 29229,
-      "sha256": "cddd04ffe1766d96302c5011cb6fff6e85d8b87da0ee3f68745c2f0e3f0b1630"
-    },
-    {
-      "path": "assets/S22-REPAIR-C__hold-together-for-me__candidate-c__selected-master-0aea72e1.webm",
-      "bytes": 22218,
-      "sha256": "0aea72e128075534a431596776204830ac25935e401d9b97f7710b442fff2c1b"
-    },
-    {
-      "path": "assets/S22-REPAIR-C__hold-together-for-me__candidate-c__selected-master-90dd64c6.mp3",
-      "bytes": 23853,
-      "sha256": "90dd64c6ec7b32f0f0513e12090d5b5e85284bf927ba62bc6d9b9345ca66ad8e"
-    },
-    {
-      "path": "assets/S22-SELECT-A__need-a-hand__candidate-b__selected-master-08487f60.webm",
-      "bytes": 18450,
-      "sha256": "08487f602262c27c6e27b39e08e3b606f4e0af51489d7ba95afe793d1ddc60bb"
-    },
-    {
-      "path": "assets/S22-SELECT-A__need-a-hand__candidate-b__selected-master-d341ed92.mp3",
-      "bytes": 16173,
-      "sha256": "d341ed92b04277bc347c0af57b0f22415e492504657ff232d9749e98b5f63a7c"
-    },
-    {
-      "path": "assets/S22-SELECT-A__need-a-hand__candidate-c__selected-master-e7e5e75a.mp3",
-      "bytes": 16173,
-      "sha256": "e7e5e75a9dcb5cb6eaad5a7600a086b960ee047e3b6689ab12aeb8f5f21e4817"
-    },
-    {
-      "path": "assets/S22-SELECT-A__need-a-hand__candidate-c__selected-master-f1b15263.webm",
-      "bytes": 14059,
-      "sha256": "f1b15263dd5eb8ed2c814e94f24d00a805539f7d08e0e0cb939aff3c79561a3a"
-    },
-    {
-      "path": "assets/S22-SELECT-B__what-needs-fixing__candidate-b__selected-master-4d8ae890.mp3",
-      "bytes": 22701,
-      "sha256": "4d8ae890497059e4ab44d0dd5e69125e0c2bea04b894f4994653f00707546788"
-    },
-    {
-      "path": "assets/S22-SELECT-B__what-needs-fixing__candidate-b__selected-master-9d1338d3.webm",
-      "bytes": 20368,
-      "sha256": "9d1338d3b616a2f703e8e13342667155cbc300ebedf53033bcf2c682c8d64b94"
-    },
-    {
-      "path": "assets/S22-SELECT-B__what-needs-fixing__candidate-c__selected-master-7a5c8522.mp3",
-      "bytes": 19629,
-      "sha256": "7a5c8522b1db79229191cacc1819b55d2043f80712f8eaf06854c62c3e716f9b"
-    },
-    {
-      "path": "assets/S22-SELECT-B__what-needs-fixing__candidate-c__selected-master-936659a8.webm",
-      "bytes": 16787,
-      "sha256": "936659a85bacba7e8e3d199aa2e68b7c5555a4b6bc3c0da8af57539d5455ce9e"
-    },
-    {
-      "path": "assets/S22-SELECT-C__you-called__candidate-b__selected-master-5af56857.webm",
-      "bytes": 16122,
-      "sha256": "5af568573e891f6eabb34ad387a56f8db4ae57f97705c63024c8479129312a55"
-    },
-    {
-      "path": "assets/S22-SELECT-C__you-called__candidate-b__selected-master-b8ed0a17.mp3",
-      "bytes": 16173,
-      "sha256": "b8ed0a17ea2a1eb4a9feec3efe8c212fe97738755c05d8a0c443efa1c4d58187"
-    },
-    {
-      "path": "assets/S22-SELECT-C__you-called__candidate-c__selected-master-0b9e8db9.webm",
-      "bytes": 10070,
-      "sha256": "0b9e8db9abf9465921b0c314ee13e96a081585797539272833222454314e44cf"
-    },
-    {
-      "path": "assets/S22-SELECT-C__you-called__candidate-c__selected-master-25a02991.mp3",
-      "bytes": 11181,
-      "sha256": "25a02991aecf77d3331a4c08ced745bcb1f088543d6aa5edb6b54190e4de704b"
-    },
-    {
-      "path": "assets/S42-ATTACK-A__variant-a__raider-driver-r1-b__selected-master-20a45664.mp3",
-      "bytes": 29997,
-      "sha256": "20a456642f5e838d8fc96b080ff0080cf18cd7002094b73c114a47303f1dfbad"
-    },
-    {
-      "path": "assets/S42-ATTACK-A__variant-a__raider-driver-r1-b__selected-master-fe80b480.webm",
-      "bytes": 27037,
-      "sha256": "fe80b480da826c09abf8e96e78b0ee88812fc89c29f59381fb0a4b5997403a0d"
-    },
-    {
-      "path": "assets/S42-DEPLOY-A__variant-a__raider-driver-r1-b__selected-master-178d323b.mp3",
-      "bytes": 26157,
-      "sha256": "178d323b8941412393c84ddf509d7a47998c66d2d651b8c0970a16134a8218c2"
-    },
-    {
-      "path": "assets/S42-DEPLOY-A__variant-a__raider-driver-r1-b__selected-master-c2eff982.webm",
-      "bytes": 24050,
-      "sha256": "c2eff982ecbf16b579092135e81cf19bedb73798d01799b798294ab9e56582ef"
-    },
-    {
-      "path": "assets/S42-MOVE-A__variant-a__raider-driver-r1-b__selected-master-24bcd64b.mp3",
-      "bytes": 18477,
-      "sha256": "24bcd64bb93680c27fd6dcbbc4372f53531cdb8a1977b1835226e08563f2240f"
-    },
-    {
-      "path": "assets/S42-MOVE-A__variant-a__raider-driver-r1-b__selected-master-5883c70c.webm",
-      "bytes": 17020,
-      "sha256": "5883c70cf550360b5b21ce5708b2ac85305de30622fe42a976707c34a1135aa1"
-    },
-    {
-      "path": "assets/S42-READY-A__variant-a__raider-driver-r1-b__selected-master-32169c10.mp3",
-      "bytes": 23853,
-      "sha256": "32169c1083eb2c9aca0ecaaa0ea083caeaea41ce366026727264bfda87848dc3"
-    },
-    {
-      "path": "assets/S42-READY-A__variant-a__raider-driver-r1-b__selected-master-edb5ffb4.webm",
-      "bytes": 22698,
-      "sha256": "edb5ffb4b3729a34abb2ef33bd82366030469ddbd5031078dc147cc42bd3f018"
-    },
-    {
-      "path": "assets/S42-SELECT-A__variant-a__raider-driver-r1-b__selected-master-097333e8.mp3",
-      "bytes": 29229,
-      "sha256": "097333e8bc83c0b7b019a92374573d0db86591ad004b5fef0103d8cb4ec81450"
-    },
-    {
-      "path": "assets/S42-SELECT-A__variant-a__raider-driver-r1-b__selected-master-4b17705c.webm",
-      "bytes": 30680,
-      "sha256": "4b17705c892e9309f8a245d53211946c3e3dcccf6e68490c68f80b113afaf760"
-    },
-    {
-      "path": "assets/S42-UNDEPLOY-A__variant-a__raider-driver-r1-b__selected-master-ad13af44.webm",
-      "bytes": 18980,
-      "sha256": "ad13af444b6c9148c90485b38f399b3957b0e4ee97a01fdb63dd33384a6e5e72"
-    },
-    {
-      "path": "assets/S42-UNDEPLOY-A__variant-a__raider-driver-r1-b__selected-master-e5b271c0.mp3",
-      "bytes": 23853,
-      "sha256": "e5b271c03174827b2b77f270a9d3cc60caa63149e20f6f0cdadef5e690bb4331"
-    },
-    {
-      "path": "assets/S42V2-ATTACK-B__variant-b__raider-driver-r1-b__selected-master-45df6c02.webm",
-      "bytes": 28188,
-      "sha256": "45df6c02f62aa16217c66b66829e049b14480d4184cf33b02564054cc229f77b"
-    },
-    {
-      "path": "assets/S42V2-ATTACK-B__variant-b__raider-driver-r1-b__selected-master-648b4d17.mp3",
-      "bytes": 28461,
-      "sha256": "648b4d17925b6cca8fde0dd62f8cf320859115e8693349368e2efe58a5a98715"
-    },
-    {
-      "path": "assets/S42V2-ATTACK-C__variant-c__raider-driver-r1-b__selected-master-179472b8.webm",
-      "bytes": 30174,
-      "sha256": "179472b8470177b1a0f2fed2a326bad795184db2b7a5ae02f409d69f5f1bd0e9"
-    },
-    {
-      "path": "assets/S42V2-ATTACK-C__variant-c__raider-driver-r1-b__selected-master-d2f48690.mp3",
-      "bytes": 36525,
-      "sha256": "d2f486908dc8898cb2c2044c1904f1ae1032329202757df0f1ab623e7dd7b51d"
-    },
-    {
-      "path": "assets/S42V2-DEPLOY-B__variant-b__raider-driver-r1-b__selected-master-14215504.mp3",
-      "bytes": 31149,
-      "sha256": "1421550461dc7e3468fd396ad045157e6d9c269b18c1abcad91fc907d46c7702"
-    },
-    {
-      "path": "assets/S42V2-DEPLOY-B__variant-b__raider-driver-r1-b__selected-master-2d5a64df.webm",
-      "bytes": 31173,
-      "sha256": "2d5a64dfcfa59cc7f2273e0125a411fcf6594fde5a3fd80549cb07db607c8a72"
-    },
-    {
-      "path": "assets/S42V2-DEPLOY-C__variant-c__raider-driver-r1-b__selected-master-1dac55a7.mp3",
-      "bytes": 27693,
-      "sha256": "1dac55a714f293da19b81262a17d778482be679f136b3678e69174ad32d9f1e9"
-    },
-    {
-      "path": "assets/S42V2-DEPLOY-C__variant-c__raider-driver-r1-b__selected-master-676aacb1.webm",
-      "bytes": 23436,
-      "sha256": "676aacb1f3b7168af6c602a88040c4e8e3910653cb240d3aa0ecfbca3a22b278"
-    },
-    {
-      "path": "assets/S42V2-MOVE-B__variant-b__raider-driver-r1-b__selected-master-705a12c3.mp3",
-      "bytes": 31917,
-      "sha256": "705a12c33049eb0693a090b1f02a15622add36b8a7dc60e33bbc8555ec126650"
-    },
-    {
-      "path": "assets/S42V2-MOVE-B__variant-b__raider-driver-r1-b__selected-master-c010a741.webm",
-      "bytes": 28740,
-      "sha256": "c010a741a65ba1bc4442c8f64d59d1232abf0d392c0e7ad10c3de191250785cf"
-    },
-    {
-      "path": "assets/S42V2-MOVE-C__variant-c__raider-driver-r1-b__selected-master-2b5120e2.mp3",
-      "bytes": 22317,
-      "sha256": "2b5120e2de67935177e5759378c46b12c3b7c9009253ec8b52445cf9095e34e6"
-    },
-    {
-      "path": "assets/S42V2-MOVE-C__variant-c__raider-driver-r1-b__selected-master-c30cba2a.webm",
-      "bytes": 19467,
-      "sha256": "c30cba2a0e4c47ec539856d39b757b11b0e5f71a6afbc4058f3f8276cf26e931"
-    },
-    {
-      "path": "assets/S42V2-READY-B__variant-b__raider-driver-r1-b__selected-master-75e2c50c.webm",
-      "bytes": 39841,
-      "sha256": "75e2c50c7a32f54b8cda3483767a391b0e1430fb8ce9396c4c93159509eb19b4"
-    },
-    {
-      "path": "assets/S42V2-READY-B__variant-b__raider-driver-r1-b__selected-master-7766b670.mp3",
-      "bytes": 40749,
-      "sha256": "7766b67060171398892db02cef32ca83003682a0f7400d4e8b7a9729ee30c736"
-    },
-    {
-      "path": "assets/S42V2-READY-C__variant-c__raider-driver-r1-b__selected-master-3bf8b35a.mp3",
-      "bytes": 30765,
-      "sha256": "3bf8b35a4db159573e8aa71d1cd7848bba9845cfc389a1a4f006a86e22b7ae4b"
-    },
-    {
-      "path": "assets/S42V2-READY-C__variant-c__raider-driver-r1-b__selected-master-57713036.webm",
-      "bytes": 31961,
-      "sha256": "577130361f3826cc8e4e568c9d4427769567c499174902b4a513ad9e949957b8"
-    },
-    {
-      "path": "assets/S42V2-SELECT-B__variant-b__raider-driver-r1-b__selected-master-88a2d76c.mp3",
-      "bytes": 23853,
-      "sha256": "88a2d76cd47b865efed45bfb6443d35d3e22870eab35dc14dad7f03dc908a9e7"
-    },
-    {
-      "path": "assets/S42V2-SELECT-B__variant-b__raider-driver-r1-b__selected-master-f152d6d6.webm",
-      "bytes": 25738,
-      "sha256": "f152d6d65093d744ee1a83b72ed691ac958676982b60f381172dfc1b2fdcb9b5"
-    },
-    {
-      "path": "assets/S42V2-SELECT-C__variant-c__raider-driver-r1-b__selected-master-b4fdf1dc.mp3",
-      "bytes": 16173,
-      "sha256": "b4fdf1dc330bd38c1eb297760d7636bbd2b532db7c987d1493db09c89f3bc174"
-    },
-    {
-      "path": "assets/S42V2-SELECT-C__variant-c__raider-driver-r1-b__selected-master-e1de4dba.webm",
-      "bytes": 13822,
-      "sha256": "e1de4dba111cd716c85785e9e4b46504a282041cf942dce8fd492ec69e31289b"
-    },
-    {
-      "path": "assets/S42V2-UNDEPLOY-B__variant-b__raider-driver-r1-b__selected-master-6d3271ca.mp3",
-      "bytes": 30381,
-      "sha256": "6d3271ca7e9dd840927fc076eb32e71282b63909ba05526346575e0ca226955e"
-    },
-    {
-      "path": "assets/S42V2-UNDEPLOY-B__variant-b__raider-driver-r1-b__selected-master-f0cf766f.webm",
-      "bytes": 26891,
-      "sha256": "f0cf766f075563c91ca70fbffff9f1454eedf394be3200bee9f133ddd9736400"
-    },
-    {
-      "path": "assets/S42V2-UNDEPLOY-C__variant-c__raider-driver-r1-b__selected-master-147c323f.mp3",
-      "bytes": 20397,
-      "sha256": "147c323f04115d4a12ad2893d871e08b985150ce0c190c5451858b0e9c951a2a"
-    },
-    {
-      "path": "assets/S42V2-UNDEPLOY-C__variant-c__raider-driver-r1-b__selected-master-91a58661.webm",
-      "bytes": 18103,
-      "sha256": "91a586613b72eea552c4f4e91736c55eca9e6e5c0bc5a88293352626d29b6833"
-    },
-    {
-      "path": "assets/S42V3-ANNOYED-A__variant-a__raider-driver-r1-b__selected-master-00ea722b.webm",
-      "bytes": 28873,
-      "sha256": "00ea722b2a346d6c9dffc416ed7223bd65ca65f053ed5c85a1cf73c4f5ebf5f8"
-    },
-    {
-      "path": "assets/S42V3-ANNOYED-A__variant-a__raider-driver-r1-b__selected-master-4a17d6cc.mp3",
-      "bytes": 32685,
-      "sha256": "4a17d6cc32b8e7dcbdb7fa5426efeb25a036ea012f7e608f7c51eed7d744886b"
-    },
-    {
-      "path": "assets/S42V3-ANNOYED-B__variant-b__raider-driver-r1-b__selected-master-75938e8a.webm",
-      "bytes": 45078,
-      "sha256": "75938e8a28f22c79b35232ef7692ba323f084100c40af9919c00a61dda8eb8d2"
-    },
-    {
-      "path": "assets/S42V3-ANNOYED-B__variant-b__raider-driver-r1-b__selected-master-e490de8d.mp3",
-      "bytes": 44205,
-      "sha256": "e490de8dec83cac817da67218bacf71c19c0da2995bd69b7685e27731ae23edb"
-    },
-    {
-      "path": "assets/S42V3-ANNOYED-C__variant-c__raider-driver-r1-b__selected-master-2ae611c4.webm",
-      "bytes": 40553,
-      "sha256": "2ae611c407089d20fda5b771e14e3294446b8fe9e4dc7390611a466729186fb9"
-    },
-    {
-      "path": "assets/S42V3-ANNOYED-C__variant-c__raider-driver-r1-b__selected-master-7c5a6ade.mp3",
-      "bytes": 49197,
-      "sha256": "7c5a6ade252286d5f2c5aaa7e764c6937d97d03d7d84fe683a3ceae1ce23cdcb"
-    },
-    {
-      "path": "assets/armoryRuntimeVisualPilot-152904b5.js",
-      "bytes": 112091,
-      "sha256": "2ddffb58eddd9bfefa54d72ae580c8346f94d893b0790e72cc2a4b5218e45879"
-    },
-    {
-      "path": "assets/barracksOwnerColorSemanticMaskRuntimePilot-1b12dcd6.js",
-      "bytes": 92204,
-      "sha256": "e9b64f4b14181e92d414755ad37389c43877eed168d9f947d90d5b3f3f3fdc37"
-    },
-    {
-      "path": "assets/baseStreamlinedRuntimeVisualPilot-cb068884.js",
-      "bytes": 118370,
-      "sha256": "41c2b8e4e9004f70385736fb6a99351d853966181320a5353a72cb60b169e3c0"
+      "path": "assets/baseStreamlinedRuntimeVisualPilot-10039c62.js",
+      "bytes": 118371,
+      "sha256": "983223627c9fa2c25fddd322036df1c1e653772f87e29a4c89a4dec2fba84061"
     },
     {
       "path": "assets/body-1x-ca609f8c.png",
@@ -2264,6 +699,11 @@
       "sha256": "e58af846361cf502f7cf8499f55ca7f8b7bd3a90592f5fdf08bb13140725f04c"
     },
     {
+      "path": "assets/candidates/corpsman-code-12-36b-stage3d-c2-v1/1x.json",
+      "bytes": 219005,
+      "sha256": "26977d2a579c519e18e25846c0e1f02863b575b89d4a6203122615ca7c8ea052"
+    },
+    {
       "path": "assets/candidates/corpsman-code-12-36b-stage3d-c2-v1/1x/body-body.webp",
       "bytes": 774134,
       "sha256": "514663cb75ee478bc5c682a751bca75c81cdff6d98d7d49d3fe7ab7b6acf99d2"
@@ -2279,9 +719,9 @@
       "sha256": "bfa56d3a49a0965eed100ab3279b9822b2360e98ee8875ad1e544cfb1282cff6"
     },
     {
-      "path": "assets/candidates/corpsman-code-12-36b-stage3d-c2-v1/1x.json",
-      "bytes": 219005,
-      "sha256": "26977d2a579c519e18e25846c0e1f02863b575b89d4a6203122615ca7c8ea052"
+      "path": "assets/candidates/corpsman-code-12-36b-stage3d-c2-v1/2x.json",
+      "bytes": 219283,
+      "sha256": "ba5560071926d5d27142023e461d3a225205cff83933238d689cbe5b948fa4c8"
     },
     {
       "path": "assets/candidates/corpsman-code-12-36b-stage3d-c2-v1/2x/body-body.webp",
@@ -2297,11 +737,6 @@
       "path": "assets/candidates/corpsman-code-12-36b-stage3d-c2-v1/2x/vfx-rgba.webp",
       "bytes": 2042,
       "sha256": "6a38da08e450e47345802ad39cbc2ad340115c2c6c18b2eb43a173bd3d6058d5"
-    },
-    {
-      "path": "assets/candidates/corpsman-code-12-36b-stage3d-c2-v1/2x.json",
-      "bytes": 219283,
-      "sha256": "ba5560071926d5d27142023e461d3a225205cff83933238d689cbe5b948fa4c8"
     },
     {
       "path": "assets/candidates/corpsman-code-12-36b-stage3d-v1/audio/29358336e67323026d9fb7bee19e5f86353b2995d3d1e2466f3961834672e6e3.wav",
@@ -5024,6 +3459,51 @@
       "sha256": "fd225e6b83d159e4c574ff076b9593daac609a02386401206fb39b017a8fce89"
     },
     {
+      "path": "assets/candidates/shade-code-12-43e-v1/1x.json",
+      "bytes": 686627,
+      "sha256": "4792871a4c6f94ab4c35ffd55cb55350d029ec6d9d24c67f4e75e03b6c163879"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-43e-v1/2x.json",
+      "bytes": 687881,
+      "sha256": "469f32cd878518bc3fd03d49b916889ec4e74e91cf4f1eeea2dc1e17bbeee174"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-43e-v1/depth/depth-bank-left.bin",
+      "bytes": 52992,
+      "sha256": "8aa8b66db822f15c28a161c2c83c4e3b85b18d21ebcd35b43eb941044eb4fe8c"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-43e-v1/depth/depth-bank-right.bin",
+      "bytes": 52992,
+      "sha256": "c33c99ce23073f03e4b167db0d525464ed6395a8e6b439de32a8e449b373eee1"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-43e-v1/depth/depth-neutral.bin",
+      "bytes": 26496,
+      "sha256": "7d734d1822c72176808793f388edc0a301914813f23eefade164652c274ca02f"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-43e-v1/depth/depth-pitch-down.bin",
+      "bytes": 52992,
+      "sha256": "aea920ae0c2b5a675b05918c9fd4414129272a78d21a17f63d85835431d172a4"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-43e-v1/depth/depth-pitch-up.bin",
+      "bytes": 52992,
+      "sha256": "2b638f1fab0c2e084007c04199624d36874d2e90bc37076b6a4852e2db466690"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-43e-v1/pages/engine-2p5x-v1-1x.webp",
+      "bytes": 1418,
+      "sha256": "e68c68988c984bd52f5bf1f994fc145a63679ab6af1d193d4985808b1f230e13"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-43e-v1/pages/engine-2p5x-v1-2x.webp",
+      "bytes": 566,
+      "sha256": "e011682e3dbb083410625964c0298daa278958c857c1a5126461695b50931cb6"
+    },
+    {
       "path": "assets/candidates/transport-code-12-43a-v1/audio/mp3/death.mp3",
       "bytes": 55341,
       "sha256": "d1310777177b054acc25e596053f5191d0682237667ab1046fd04aa9c8ddcfda"
@@ -6614,9 +5094,9 @@
       "sha256": "deeb5de141670b069ffb00bd31ee57b37ce12e8abd57c677c71d7229d9750373"
     },
     {
-      "path": "assets/controlTowerRuntimeVisualPilot-78f27d21.js",
-      "bytes": 115838,
-      "sha256": "dbd9df8caabc5bba51a04d5135c4124b62bf332e5be406de2aaab9257d5b7305"
+      "path": "assets/controlTowerRuntimeVisualPilot-05540cc5.js",
+      "bytes": 115839,
+      "sha256": "3e77b901412626fe8a59231262826275fc74596312e7505bcd291af82b652468"
     },
     {
       "path": "assets/effect-muzzle-flash-candidate-2x-d7c90d1f.png",
@@ -6659,9 +5139,9 @@
       "sha256": "f97bb96cef3ad714fe29c1b573fb47df8f0b7381a9f8fcb18618a02bb389f475"
     },
     {
-      "path": "assets/factoryOwnerColorSemanticMaskRuntimePilot-cab821b0.js",
-      "bytes": 94019,
-      "sha256": "dbd5287a3661e7d504e567177d34051e4c72830423971ab3ba3078a36cb079c2"
+      "path": "assets/factoryOwnerColorSemanticMaskRuntimePilot-983133c2.js",
+      "bytes": 94021,
+      "sha256": "c56723df10e5bc1d9a38ec4b415195320676a575679f5f28a90a58377fc9b48c"
     },
     {
       "path": "assets/fixed-lights-bfcd90b1.webp",
@@ -7034,9 +5514,9 @@
       "sha256": "efac2d48b4e7668399c6606df5a9ce74ea2f500d105540ac74b9c08c1954b21b"
     },
     {
-      "path": "assets/geyserRefineryRuntimeVisualPilot-7e70b4c3.js",
-      "bytes": 125320,
-      "sha256": "c0cc650680e1607a9cb7be6a554b244ba8c2af59acd14d595dd5d291f54e4517"
+      "path": "assets/geyserRefineryRuntimeVisualPilot-00739677.js",
+      "bytes": 125322,
+      "sha256": "4a35cd39b4111ea0024b6edcd82fb7edc0d2e32cdcd408d1c43a3fb421f0bf40"
     },
     {
       "path": "assets/ground-blood-death-pools-a-f-balanced-carmine-source-sheet-aa1ca74b.png",
@@ -7049,9 +5529,9 @@
       "sha256": "feee21c1863b635afdcde1dc4c8a5f2bc41363440dc327515094b70f7b4caaf7"
     },
     {
-      "path": "assets/index-c6ecb34f.js",
+      "path": "assets/index-369afa90.js",
       "bytes": 1933,
-      "sha256": "bcfa14dc051287e1f68c977a0f7543f8d606336ef136513c5f0a0899e68a666c"
+      "sha256": "7e8cb0048bd4e68ad83153c10de90a0c18863c10471b700f47bd1e029ea6d066"
     },
     {
       "path": "assets/local-00fd79334a29afb54317-9efab76f.webp",
@@ -7224,9 +5704,9 @@
       "sha256": "8a86ea6319611527cbc04845c965042bf78738aaf949baee2e63b9263e163651"
     },
     {
-      "path": "assets/machineShopRuntimeVisualPilot-32afbdf8.js",
-      "bytes": 114704,
-      "sha256": "c17a9a001e87f4cebf6c6296b530789e273514bd115e737151a7037b249ef892"
+      "path": "assets/machineShopRuntimeVisualPilot-721a67d9.js",
+      "bytes": 114706,
+      "sha256": "839304b51b8c8ec843f00fcff76fad0e615db5d51d039898f7f12a7b95d3d9f8"
     },
     {
       "path": "assets/main-7c6da45e.css",
@@ -7234,9 +5714,9 @@
       "sha256": "7c6da45ec1931cd2227354d6c1f9f0eb5e9752e140cc95a68ab12ee9962c5908"
     },
     {
-      "path": "assets/main-bc0ea3d7.js",
-      "bytes": 6581537,
-      "sha256": "584243c418efe9653b925d7d84c590058b411a290983c71cc7f4c94650e16fce"
+      "path": "assets/main-adcc3504.js",
+      "bytes": 6431778,
+      "sha256": "9454708897e133cd48c41c613f00fadbf26e559c991a4df73f410d2ecba69704"
     },
     {
       "path": "assets/mask-1535165e.webp",
@@ -7339,9 +5819,9 @@
       "sha256": "f1b62ac11c423fe20ba958daf91eb274b26293ba20caa30668f063472068bea2"
     },
     {
-      "path": "assets/mineralFieldRuntimeVisualPilot-157e0725.js",
+      "path": "assets/mineralFieldRuntimeVisualPilot-311ce2a4.js",
       "bytes": 57073,
-      "sha256": "41ab0acd89c8e9a7d503103fbe3af05d5c69015745fb3e3e6fc35e329ca43050"
+      "sha256": "26fcf0721bfb2846d8c1ccacc302a74120dbc19da44910d0c5a46980772f65a0"
     },
     {
       "path": "assets/moving-lights-04145eea.webp",
@@ -7679,6 +6159,11 @@
       "sha256": "197bbfb4b7068ac7893196c296f5383981105e7ddbe77c35e6523266e3c55b2c"
     },
     {
+      "path": "assets/raiderDeathWreckRuntimePilot-49432fb4.js",
+      "bytes": 180283,
+      "sha256": "6dc7f8615372ddab0d66d7f8430613311ea2230d263c46f0ea278f010fb3a781"
+    },
+    {
       "path": "assets/refinery-neutral-body-page-0-30b61bf5.webp",
       "bytes": 299934,
       "sha256": "30b61bf552a789cd14ca80b1f234e9fb5d8779b12f6df3550b48c34b844effe9"
@@ -7699,139 +6184,24 @@
       "sha256": "70ff180dde9086ed0be842dd992b69c6d2c94488741bda8de0bf722fe822c1b0"
     },
     {
+      "path": "assets/ReplayBrowserOverlay-699c57dc.js",
+      "bytes": 7291,
+      "sha256": "857c1229c1404f98c291912d56435306ef59fa7f0c9c6a713d803eb807fe3e95"
+    },
+    {
       "path": "assets/replayCompressionWorker-2b909a4f.js",
       "bytes": 1294,
       "sha256": "db508dc01b0565b7265cc9f13a09c86672ff8a38eca7605f2bb65fcedee5a0e8"
     },
     {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-construction-finish-runtime.png",
-      "bytes": 45446,
-      "sha256": "4863cce9d997c9ad1104c7cfdb89cd2565fcd7e7752441fa8e2671428b2e74e4"
+      "path": "assets/ReplayOperationOverlay-2e29a206.js",
+      "bytes": 1853,
+      "sha256": "28486aa73a9f6ae3961a58e77855bb766c25bdcbc1c879ce020a9a0cb0bbee3c"
     },
     {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-construction-foundation-runtime.png",
-      "bytes": 27847,
-      "sha256": "d9e4c397e031c3ac8099ddf4c3391de0cb0dd3ba88381d6064ea7da7b5448cd2"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-construction-frame-runtime.png",
-      "bytes": 35302,
-      "sha256": "4334315f2b7555c342a92a23f17fa762bb4c829d120d935b064b9120d3ade003"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-construction-shell-runtime.png",
-      "bytes": 38621,
-      "sha256": "17846275cc331ededa7703ecdf2025b71759d2280de965ffcd30e26edff210e0"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-damage-i-light-runtime.png",
-      "bytes": 45918,
-      "sha256": "76a3c06dc41d267a74fb58894c7508908562df17e5307af295d7c1095a6bf76b"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-damage-ii-heavy-runtime.png",
-      "bytes": 44652,
-      "sha256": "da39b73d07f4fd7ee72d304623e7f5182bb55738e20c0aa0dba3da21ff1c97ca"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-damage-iii-critical-runtime.png",
-      "bytes": 40712,
-      "sha256": "bb7731475ade66cb6fa7e1f4d88880288b506d4dab9e82409554fb9137f522b6"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-deployment-door-cycle-16f-runtime.png",
-      "bytes": 71585,
-      "sha256": "023569a2fa1ae9c392952b09cc5658032579d09771d0251ae8614bfa71b24840"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-hp0-destroyed-wreck-runtime.png",
-      "bytes": 30836,
-      "sha256": "337c28295afab3d5991ce566118c24634125927fb4c868719060184ed3e756d5"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-production-active-loop-16f-runtime.png",
-      "bytes": 120397,
-      "sha256": "5fddb729829559d421a09ab72c4e4cc8d163cbbf09884871286a26128704b609"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/effect-building-damage-fire-spark-loop-16f-runtime.png",
-      "bytes": 39349,
-      "sha256": "a06233c4f98e9e0694ddbd39dba6de64801b968d66634dd9f5c775cf6de09bb6"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/effect-building-damage-smoke-wisp-loop-16f-runtime.png",
-      "bytes": 67834,
-      "sha256": "50f30665e7cfa3154b1847ed50a385a62e7f23b49378ba7ae071058a0dab741e"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/effect-building-destruction-core-rupture-8f-runtime.png",
-      "bytes": 65447,
-      "sha256": "d642b80df2e99ff27ec8fc67d7420394477eb416545559dc91d02a43823c129b"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-construction-finish-runtime-2x.png",
-      "bytes": 148123,
-      "sha256": "33ed7e0fad04e0cf71f15c80f2e2d46938de79ddeeccca2f0e8807060c40d21d"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-construction-foundation-runtime-2x.png",
-      "bytes": 89888,
-      "sha256": "f17a38697b81d35561b2fab50f340f0f2c76abf2126b4098f2d36a3624956793"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-construction-frame-runtime-2x.png",
-      "bytes": 111986,
-      "sha256": "e75e583a9561216c1c722131ce5b1fb54edd94d2a0d619ab8e0d254ef8c8115b"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-construction-shell-runtime-2x.png",
-      "bytes": 123681,
-      "sha256": "e301e3bbe339f74746fe9269261c9f840284afc6de9d2bb010b432cdb2ff04dd"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-damage-i-light-runtime-2x.png",
-      "bytes": 148387,
-      "sha256": "d746850110e3d24d9bc13558027f1b6bda6103a9422f9beb2acf684ff8c3029f"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-damage-ii-heavy-runtime-2x.png",
-      "bytes": 143654,
-      "sha256": "45b870847a6f09c4646985511b41f4f4c0ebca7296ebbe62a31ecbb0714d4d6b"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-damage-iii-critical-runtime-2x.png",
-      "bytes": 131123,
-      "sha256": "b719f33160df4d2f4d20ab67b41b523bd8dc5d6a8e6ebd33f839a0dc08fb0400"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-deployment-door-cycle-16f-runtime-2x.png",
-      "bytes": 222950,
-      "sha256": "85482ad2d16eb17c029cb078ea288ff8ee943f7fda4ed5b0331b208d6024b52e"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-hp0-destroyed-wreck-runtime-2x.png",
-      "bytes": 98630,
-      "sha256": "b349dfbeb5d644af369491a1dc225750c58f5a6b1504a1a6bc1e4e24b73802f6"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-production-active-loop-16f-runtime-2x.png",
-      "bytes": 392193,
-      "sha256": "28214cf4182ab82725073f049d8a92eb1117a400b52b2a2cb32e73a76b7f692e"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/effect-building-damage-fire-spark-loop-16f-runtime-2x.png",
-      "bytes": 119448,
-      "sha256": "7e1182479e7a76da4fa48bdb59fca18e22c33c9f0ebec4eec590a3abd0d02d7c"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/effect-building-damage-smoke-wisp-loop-16f-runtime-2x.png",
-      "bytes": 242054,
-      "sha256": "6bf942474b8a8feba1fdf35edd41ad09175bb6763a3a8b3daccaaa9d89b4ecb2"
-    },
-    {
-      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/effect-building-destruction-core-rupture-8f-runtime-2x.png",
-      "bytes": 213911,
-      "sha256": "859978d866822931e541962598a2a91edd167d0347e606dea6e75262fa0716e4"
+      "path": "assets/ReplayPlaybackPanel-8350ebb3.js",
+      "bytes": 3449,
+      "sha256": "f073f6b3235f1c10b0862b5b9954dec8486a845b50accbb503876bc8ea3044f9"
     },
     {
       "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1-code-12-20l-webp/package-manifest.json",
@@ -7969,252 +6339,132 @@
       "sha256": "20aaffc4e2f670db8fc359ba285be3d5351a4289cb04364ff1b1442c72e70e7f"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-command-activity-loop-16f-runtime.png",
-      "bytes": 113896,
-      "sha256": "976d7c8b67a0141d9572ac843ee188c74967eb02949f43bd2ff85db4a9e80027"
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-construction-finish-runtime.png",
+      "bytes": 45446,
+      "sha256": "4863cce9d997c9ad1104c7cfdb89cd2565fcd7e7752441fa8e2671428b2e74e4"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-construction-finish-runtime.png",
-      "bytes": 49256,
-      "sha256": "ffc2f487128e68d57d6d0251843dd6eef296c07c5b75956e95ba924f120fc092"
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-construction-foundation-runtime.png",
+      "bytes": 27847,
+      "sha256": "d9e4c397e031c3ac8099ddf4c3391de0cb0dd3ba88381d6064ea7da7b5448cd2"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-construction-foundation-runtime.png",
-      "bytes": 21147,
-      "sha256": "152854e064d04523349c2bdb4c86a0ae153bb0c066c0a449d6aaeee0d3c07ace"
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-construction-frame-runtime.png",
+      "bytes": 35302,
+      "sha256": "4334315f2b7555c342a92a23f17fa762bb4c829d120d935b064b9120d3ade003"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-construction-frame-runtime.png",
-      "bytes": 47462,
-      "sha256": "0a0243d0059658e7d156ba1264617246d99ad44ac298b7aed491205abf34a076"
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-construction-shell-runtime.png",
+      "bytes": 38621,
+      "sha256": "17846275cc331ededa7703ecdf2025b71759d2280de965ffcd30e26edff210e0"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-construction-shell-runtime.png",
-      "bytes": 36583,
-      "sha256": "73a70f18a900d132022e8186ab2b99beac7a1ad84ea5fc77aed1c74297b9f1fe"
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-damage-i-light-runtime.png",
+      "bytes": 45918,
+      "sha256": "76a3c06dc41d267a74fb58894c7508908562df17e5307af295d7c1095a6bf76b"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-damage-i-runtime.png",
-      "bytes": 47843,
-      "sha256": "112a3648a5ed10ed6fdc8fbf98a7b92ce978f2ed1893b4d096f4d7d7eedf4df6"
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-damage-ii-heavy-runtime.png",
+      "bytes": 44652,
+      "sha256": "da39b73d07f4fd7ee72d304623e7f5182bb55738e20c0aa0dba3da21ff1c97ca"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-damage-ii-runtime.png",
-      "bytes": 45644,
-      "sha256": "97a6e546f688bbe3a913daee8c9225a72200be1fb6170d0e17b3cc7e89f4c2bb"
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-damage-iii-critical-runtime.png",
+      "bytes": 40712,
+      "sha256": "bb7731475ade66cb6fa7e1f4d88880288b506d4dab9e82409554fb9137f522b6"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-damage-iii-runtime.png",
-      "bytes": 43575,
-      "sha256": "fa9952abfc073ca8278dd8bbc2022112e758382d90725b9d4d481c17c3b6157a"
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-deployment-door-cycle-16f-runtime.png",
+      "bytes": 71585,
+      "sha256": "023569a2fa1ae9c392952b09cc5658032579d09771d0251ae8614bfa71b24840"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-healthy-static-runtime.png",
-      "bytes": 49256,
-      "sha256": "ffc2f487128e68d57d6d0251843dd6eef296c07c5b75956e95ba924f120fc092"
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-hp0-destroyed-wreck-runtime.png",
+      "bytes": 30836,
+      "sha256": "337c28295afab3d5991ce566118c24634125927fb4c868719060184ed3e756d5"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-hp0-destroyed-wreck-runtime.png",
-      "bytes": 24086,
-      "sha256": "e9ecfb14c607ed4e6c14f873664c805a3f3f0d386a72e46963861521e56d170d"
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/building-barracks-player-production-active-loop-16f-runtime.png",
+      "bytes": 120397,
+      "sha256": "5fddb729829559d421a09ab72c4e4cc8d163cbbf09884871286a26128704b609"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-worker-deployment-door-cycle-16f-runtime.png",
-      "bytes": 138808,
-      "sha256": "d0560441f17aa7191882ec61c3e4e29a39aefc5f7eb0f2897b80223c91bcdfe9"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-command-activity-loop-16f-runtime-2x.png",
-      "bytes": 341411,
-      "sha256": "eeea10e22f0ad410aeeab7bdbfb219c719dce10231cf8d377866720aefc5ce2a"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-construction-finish-runtime-2x.png",
-      "bytes": 194382,
-      "sha256": "251f54340defdb9db039adf007ed8386bf0f374ca6537c1dfb996e2cc28c3bd3"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-construction-foundation-runtime-2x.png",
-      "bytes": 105816,
-      "sha256": "8cbe3a48a58bc130ea132fec86a6b1d11b149161c15a851ce576519adac5d194"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-construction-frame-runtime-2x.png",
-      "bytes": 182522,
-      "sha256": "12eba9c12fa6964d55b389c81d62452ffff10f046df004a8c9ed171a5f5653fd"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-construction-shell-runtime-2x.png",
-      "bytes": 159199,
-      "sha256": "7af213944316e3d146ddc867974bc40b9743fd08db51fd9c99dac1c363458730"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-damage-i-runtime-2x.png",
-      "bytes": 190383,
-      "sha256": "2a77ddaf7dd9be255d863acfa0b2268fa2e34fa9f8ff969ae390db663836990b"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-damage-ii-runtime-2x.png",
-      "bytes": 184485,
-      "sha256": "4563449698d76d9f4a7ce8bf4fd183a2c088de3c59e40fbcfa90daf01111dd41"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-damage-iii-runtime-2x.png",
-      "bytes": 177793,
-      "sha256": "22bfd30733ff15148d1e6406453483a7db22b0dffd5b03e1a740bfbcdf804c32"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-healthy-static-runtime-2x.png",
-      "bytes": 194381,
-      "sha256": "e2833a5efceca9e63be25a973c28b41b5b12748e59af393b731bbb0552578c71"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-hp0-destroyed-wreck-runtime-2x.png",
-      "bytes": 110879,
-      "sha256": "93b50de5503d73fd6041e2320da83aef9a5e9b948514d820d1ea0027ed133778"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-worker-deployment-door-cycle-16f-runtime-2x.png",
-      "bytes": 423764,
-      "sha256": "4f0f684ad54f862ef1aa7816c8e1303950e1c1a2a16f75b13bfa647d200a087a"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-command-activity-loop-16f-runtime-1x.png",
-      "bytes": 109829,
-      "sha256": "c903a71f4a775f310308bce32582bfab0074bba4c9f8a23c69df7ebf5620e64c"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-construction-finish-runtime-1x.png",
-      "bytes": 58052,
-      "sha256": "f93de13a6220ece487417b565709902a43fe481b26a1050caf46214029f8ac10"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-construction-foundation-runtime-1x.png",
-      "bytes": 32050,
-      "sha256": "6f8898b221e280ac5195fd46d07d0646e0458271e12266af1fdd84559889c341"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-construction-frame-runtime-1x.png",
-      "bytes": 56110,
-      "sha256": "ba35a119175bab5dc1c14ac9330e1271a005fc616bf14d4869db1affcca3ed49"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-construction-shell-runtime-1x.png",
-      "bytes": 47060,
-      "sha256": "8d5bee9d06a7b41ea6d560e3b20f8717bd442dcc0ce88c631ab3b6c6a127c258"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-damage-i-runtime-1x.png",
-      "bytes": 57047,
-      "sha256": "fdb98421f2863c9f5f8a4d97396292121ee7324c1cc6a022f1be75e347e4e54e"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-damage-ii-runtime-1x.png",
-      "bytes": 55141,
-      "sha256": "7514904049ddd9085b881fcaf4e88d6271afa14bde5c11b13bab68c2ef8767d0"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-damage-iii-runtime-1x.png",
-      "bytes": 53593,
-      "sha256": "cbaf669e6cb2e4ab8e9c0c3286d826416162b083a33112ffa2a8e9830ac50e4b"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-healthy-static-runtime-1x.png",
-      "bytes": 58052,
-      "sha256": "ca0eb685256d4f7009e89b647887847623abbefc5561929fa481ff79fc916afd"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-hp0-destroyed-wreck-runtime-1x.png",
-      "bytes": 34707,
-      "sha256": "aeb9c8edb35553c53f8b2d7cafb80f24620dcf3a5c5acc8b3bd86793966026e2"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-worker-deployment-door-cycle-16f-runtime-1x.png",
-      "bytes": 138251,
-      "sha256": "cf2a43c544d861a3fcc04a5e0a1a3933a199c4b37df022d91069e2b204a9a9c0"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-command-activity-loop-16f-runtime-2x.png",
-      "bytes": 335875,
-      "sha256": "3d646f8cddc7cb0f6a9c0bc94c7bd94e1907f204e507168c452fbee6b45e8284"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-construction-finish-runtime-2x.png",
-      "bytes": 191474,
-      "sha256": "57008a804018c278b86b7fedece30679362d4f49ed875f46215e4993f0a6b5d4"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-construction-foundation-runtime-2x.png",
-      "bytes": 105229,
-      "sha256": "d35b8070d868f7ae303c8578c5ac1c5c447e30da2f0cf6ae26f5f3df363fb421"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-construction-frame-runtime-2x.png",
-      "bytes": 181574,
-      "sha256": "776b626e46a3e2d437c84b04edbd48d24a15c07dad0b937f4a83cbd617020404"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-construction-shell-runtime-2x.png",
-      "bytes": 155418,
-      "sha256": "845dd46ff5c7bd46924a330f921674bb1244d3361e591f2e31cfa9fc1f082fbf"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-damage-i-runtime-2x.png",
-      "bytes": 188020,
-      "sha256": "3364bde3b89341b5bc5c611a1c631290a3ec2372ef0591684c62ed79a24c2583"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-damage-ii-runtime-2x.png",
-      "bytes": 181756,
-      "sha256": "bd4c8f9e73dc34ce6b960c9439f0eff43768906b5b78d0c9e70e99cd394ad293"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-damage-iii-runtime-2x.png",
-      "bytes": 176350,
-      "sha256": "161f475d1560e3d68f0904bdcf3f9be2c07b28248f674833af3938e9d5942262"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-healthy-static-runtime-2x.png",
-      "bytes": 191474,
-      "sha256": "20962d50faeb437ff59c35a52c6bf284b2ac237845586ac52e2a2dd0114f64e7"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-hp0-destroyed-wreck-runtime-2x.png",
-      "bytes": 110888,
-      "sha256": "d66859b7835f6eb75a3989ba8bb579ce368213c57a3209382b96505fe804ba0d"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-worker-deployment-door-cycle-16f-runtime-2x.png",
-      "bytes": 434773,
-      "sha256": "b132eced2d5b68fa831fe1a974444fbc4b3835b6cfeb44d84a8ec989f38d1c60"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/shared-vfx/runtime-1x/effect-building-damage-fire-spark-loop-16f-runtime.png",
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/effect-building-damage-fire-spark-loop-16f-runtime.png",
       "bytes": 39349,
       "sha256": "a06233c4f98e9e0694ddbd39dba6de64801b968d66634dd9f5c775cf6de09bb6"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/shared-vfx/runtime-1x/effect-building-damage-smoke-wisp-loop-16f-runtime.png",
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/effect-building-damage-smoke-wisp-loop-16f-runtime.png",
       "bytes": 67834,
       "sha256": "50f30665e7cfa3154b1847ed50a385a62e7f23b49378ba7ae071058a0dab741e"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/shared-vfx/runtime-1x/effect-building-destruction-core-rupture-8f-runtime.png",
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-1x/effect-building-destruction-core-rupture-8f-runtime.png",
       "bytes": 65447,
       "sha256": "d642b80df2e99ff27ec8fc67d7420394477eb416545559dc91d02a43823c129b"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/shared-vfx/runtime-2x/effect-building-damage-fire-spark-loop-16f-2x.png",
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-construction-finish-runtime-2x.png",
+      "bytes": 148123,
+      "sha256": "33ed7e0fad04e0cf71f15c80f2e2d46938de79ddeeccca2f0e8807060c40d21d"
+    },
+    {
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-construction-foundation-runtime-2x.png",
+      "bytes": 89888,
+      "sha256": "f17a38697b81d35561b2fab50f340f0f2c76abf2126b4098f2d36a3624956793"
+    },
+    {
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-construction-frame-runtime-2x.png",
+      "bytes": 111986,
+      "sha256": "e75e583a9561216c1c722131ce5b1fb54edd94d2a0d619ab8e0d254ef8c8115b"
+    },
+    {
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-construction-shell-runtime-2x.png",
+      "bytes": 123681,
+      "sha256": "e301e3bbe339f74746fe9269261c9f840284afc6de9d2bb010b432cdb2ff04dd"
+    },
+    {
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-damage-i-light-runtime-2x.png",
+      "bytes": 148387,
+      "sha256": "d746850110e3d24d9bc13558027f1b6bda6103a9422f9beb2acf684ff8c3029f"
+    },
+    {
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-damage-ii-heavy-runtime-2x.png",
+      "bytes": 143654,
+      "sha256": "45b870847a6f09c4646985511b41f4f4c0ebca7296ebbe62a31ecbb0714d4d6b"
+    },
+    {
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-damage-iii-critical-runtime-2x.png",
+      "bytes": 131123,
+      "sha256": "b719f33160df4d2f4d20ab67b41b523bd8dc5d6a8e6ebd33f839a0dc08fb0400"
+    },
+    {
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-deployment-door-cycle-16f-runtime-2x.png",
+      "bytes": 222950,
+      "sha256": "85482ad2d16eb17c029cb078ea288ff8ee943f7fda4ed5b0331b208d6024b52e"
+    },
+    {
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-hp0-destroyed-wreck-runtime-2x.png",
+      "bytes": 98630,
+      "sha256": "b349dfbeb5d644af369491a1dc225750c58f5a6b1504a1a6bc1e4e24b73802f6"
+    },
+    {
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/building-barracks-player-production-active-loop-16f-runtime-2x.png",
+      "bytes": 392193,
+      "sha256": "28214cf4182ab82725073f049d8a92eb1117a400b52b2a2cb32e73a76b7f692e"
+    },
+    {
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/effect-building-damage-fire-spark-loop-16f-runtime-2x.png",
       "bytes": 119448,
       "sha256": "7e1182479e7a76da4fa48bdb59fca18e22c33c9f0ebec4eec590a3abd0d02d7c"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/shared-vfx/runtime-2x/effect-building-damage-smoke-wisp-loop-16f-2x.png",
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/effect-building-damage-smoke-wisp-loop-16f-runtime-2x.png",
       "bytes": 242054,
       "sha256": "6bf942474b8a8feba1fdf35edd41ad09175bb6763a3a8b3daccaaa9d89b4ecb2"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/shared-vfx/runtime-2x/effect-building-destruction-core-rupture-8f-2x.png",
+      "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1/runtime-2x/effect-building-destruction-core-rupture-8f-runtime-2x.png",
       "bytes": 213911,
       "sha256": "859978d866822931e541962598a2a91edd167d0347e606dea6e75262fa0716e4"
     },
@@ -8472,6 +6722,256 @@
       "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/shared-vfx/runtime-2x/effect-building-destruction-core-rupture-8f-2x.webp",
       "bytes": 157640,
       "sha256": "20aaffc4e2f670db8fc359ba285be3d5351a4289cb04364ff1b1442c72e70e7f"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-command-activity-loop-16f-runtime.png",
+      "bytes": 113896,
+      "sha256": "976d7c8b67a0141d9572ac843ee188c74967eb02949f43bd2ff85db4a9e80027"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-construction-finish-runtime.png",
+      "bytes": 49256,
+      "sha256": "ffc2f487128e68d57d6d0251843dd6eef296c07c5b75956e95ba924f120fc092"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-construction-foundation-runtime.png",
+      "bytes": 21147,
+      "sha256": "152854e064d04523349c2bdb4c86a0ae153bb0c066c0a449d6aaeee0d3c07ace"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-construction-frame-runtime.png",
+      "bytes": 47462,
+      "sha256": "0a0243d0059658e7d156ba1264617246d99ad44ac298b7aed491205abf34a076"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-construction-shell-runtime.png",
+      "bytes": 36583,
+      "sha256": "73a70f18a900d132022e8186ab2b99beac7a1ad84ea5fc77aed1c74297b9f1fe"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-damage-i-runtime.png",
+      "bytes": 47843,
+      "sha256": "112a3648a5ed10ed6fdc8fbf98a7b92ce978f2ed1893b4d096f4d7d7eedf4df6"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-damage-ii-runtime.png",
+      "bytes": 45644,
+      "sha256": "97a6e546f688bbe3a913daee8c9225a72200be1fb6170d0e17b3cc7e89f4c2bb"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-damage-iii-runtime.png",
+      "bytes": 43575,
+      "sha256": "fa9952abfc073ca8278dd8bbc2022112e758382d90725b9d4d481c17c3b6157a"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-healthy-static-runtime.png",
+      "bytes": 49256,
+      "sha256": "ffc2f487128e68d57d6d0251843dd6eef296c07c5b75956e95ba924f120fc092"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-hp0-destroyed-wreck-runtime.png",
+      "bytes": 24086,
+      "sha256": "e9ecfb14c607ed4e6c14f873664c805a3f3f0d386a72e46963861521e56d170d"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-worker-deployment-door-cycle-16f-runtime.png",
+      "bytes": 138808,
+      "sha256": "d0560441f17aa7191882ec61c3e4e29a39aefc5f7eb0f2897b80223c91bcdfe9"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-command-activity-loop-16f-runtime-2x.png",
+      "bytes": 341411,
+      "sha256": "eeea10e22f0ad410aeeab7bdbfb219c719dce10231cf8d377866720aefc5ce2a"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-construction-finish-runtime-2x.png",
+      "bytes": 194382,
+      "sha256": "251f54340defdb9db039adf007ed8386bf0f374ca6537c1dfb996e2cc28c3bd3"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-construction-foundation-runtime-2x.png",
+      "bytes": 105816,
+      "sha256": "8cbe3a48a58bc130ea132fec86a6b1d11b149161c15a851ce576519adac5d194"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-construction-frame-runtime-2x.png",
+      "bytes": 182522,
+      "sha256": "12eba9c12fa6964d55b389c81d62452ffff10f046df004a8c9ed171a5f5653fd"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-construction-shell-runtime-2x.png",
+      "bytes": 159199,
+      "sha256": "7af213944316e3d146ddc867974bc40b9743fd08db51fd9c99dac1c363458730"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-damage-i-runtime-2x.png",
+      "bytes": 190383,
+      "sha256": "2a77ddaf7dd9be255d863acfa0b2268fa2e34fa9f8ff969ae390db663836990b"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-damage-ii-runtime-2x.png",
+      "bytes": 184485,
+      "sha256": "4563449698d76d9f4a7ce8bf4fd183a2c088de3c59e40fbcfa90daf01111dd41"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-damage-iii-runtime-2x.png",
+      "bytes": 177793,
+      "sha256": "22bfd30733ff15148d1e6406453483a7db22b0dffd5b03e1a740bfbcdf804c32"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-healthy-static-runtime-2x.png",
+      "bytes": 194381,
+      "sha256": "e2833a5efceca9e63be25a973c28b41b5b12748e59af393b731bbb0552578c71"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-hp0-destroyed-wreck-runtime-2x.png",
+      "bytes": 110879,
+      "sha256": "93b50de5503d73fd6041e2320da83aef9a5e9b948514d820d1ea0027ed133778"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-worker-deployment-door-cycle-16f-runtime-2x.png",
+      "bytes": 423764,
+      "sha256": "4f0f684ad54f862ef1aa7816c8e1303950e1c1a2a16f75b13bfa647d200a087a"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-command-activity-loop-16f-runtime-1x.png",
+      "bytes": 109829,
+      "sha256": "c903a71f4a775f310308bce32582bfab0074bba4c9f8a23c69df7ebf5620e64c"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-construction-finish-runtime-1x.png",
+      "bytes": 58052,
+      "sha256": "f93de13a6220ece487417b565709902a43fe481b26a1050caf46214029f8ac10"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-construction-foundation-runtime-1x.png",
+      "bytes": 32050,
+      "sha256": "6f8898b221e280ac5195fd46d07d0646e0458271e12266af1fdd84559889c341"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-construction-frame-runtime-1x.png",
+      "bytes": 56110,
+      "sha256": "ba35a119175bab5dc1c14ac9330e1271a005fc616bf14d4869db1affcca3ed49"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-construction-shell-runtime-1x.png",
+      "bytes": 47060,
+      "sha256": "8d5bee9d06a7b41ea6d560e3b20f8717bd442dcc0ce88c631ab3b6c6a127c258"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-damage-i-runtime-1x.png",
+      "bytes": 57047,
+      "sha256": "fdb98421f2863c9f5f8a4d97396292121ee7324c1cc6a022f1be75e347e4e54e"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-damage-ii-runtime-1x.png",
+      "bytes": 55141,
+      "sha256": "7514904049ddd9085b881fcaf4e88d6271afa14bde5c11b13bab68c2ef8767d0"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-damage-iii-runtime-1x.png",
+      "bytes": 53593,
+      "sha256": "cbaf669e6cb2e4ab8e9c0c3286d826416162b083a33112ffa2a8e9830ac50e4b"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-healthy-static-runtime-1x.png",
+      "bytes": 58052,
+      "sha256": "ca0eb685256d4f7009e89b647887847623abbefc5561929fa481ff79fc916afd"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-hp0-destroyed-wreck-runtime-1x.png",
+      "bytes": 34707,
+      "sha256": "aeb9c8edb35553c53f8b2d7cafb80f24620dcf3a5c5acc8b3bd86793966026e2"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-worker-deployment-door-cycle-16f-runtime-1x.png",
+      "bytes": 138251,
+      "sha256": "cf2a43c544d861a3fcc04a5e0a1a3933a199c4b37df022d91069e2b204a9a9c0"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-command-activity-loop-16f-runtime-2x.png",
+      "bytes": 335875,
+      "sha256": "3d646f8cddc7cb0f6a9c0bc94c7bd94e1907f204e507168c452fbee6b45e8284"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-construction-finish-runtime-2x.png",
+      "bytes": 191474,
+      "sha256": "57008a804018c278b86b7fedece30679362d4f49ed875f46215e4993f0a6b5d4"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-construction-foundation-runtime-2x.png",
+      "bytes": 105229,
+      "sha256": "d35b8070d868f7ae303c8578c5ac1c5c447e30da2f0cf6ae26f5f3df363fb421"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-construction-frame-runtime-2x.png",
+      "bytes": 181574,
+      "sha256": "776b626e46a3e2d437c84b04edbd48d24a15c07dad0b937f4a83cbd617020404"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-construction-shell-runtime-2x.png",
+      "bytes": 155418,
+      "sha256": "845dd46ff5c7bd46924a330f921674bb1244d3361e591f2e31cfa9fc1f082fbf"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-damage-i-runtime-2x.png",
+      "bytes": 188020,
+      "sha256": "3364bde3b89341b5bc5c611a1c631290a3ec2372ef0591684c62ed79a24c2583"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-damage-ii-runtime-2x.png",
+      "bytes": 181756,
+      "sha256": "bd4c8f9e73dc34ce6b960c9439f0eff43768906b5b78d0c9e70e99cd394ad293"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-damage-iii-runtime-2x.png",
+      "bytes": 176350,
+      "sha256": "161f475d1560e3d68f0904bdcf3f9be2c07b28248f674833af3938e9d5942262"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-healthy-static-runtime-2x.png",
+      "bytes": 191474,
+      "sha256": "20962d50faeb437ff59c35a52c6bf284b2ac237845586ac52e2a2dd0114f64e7"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-hp0-destroyed-wreck-runtime-2x.png",
+      "bytes": 110888,
+      "sha256": "d66859b7835f6eb75a3989ba8bb579ce368213c57a3209382b96505fe804ba0d"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-worker-deployment-door-cycle-16f-runtime-2x.png",
+      "bytes": 434773,
+      "sha256": "b132eced2d5b68fa831fe1a974444fbc4b3835b6cfeb44d84a8ec989f38d1c60"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/shared-vfx/runtime-1x/effect-building-damage-fire-spark-loop-16f-runtime.png",
+      "bytes": 39349,
+      "sha256": "a06233c4f98e9e0694ddbd39dba6de64801b968d66634dd9f5c775cf6de09bb6"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/shared-vfx/runtime-1x/effect-building-damage-smoke-wisp-loop-16f-runtime.png",
+      "bytes": 67834,
+      "sha256": "50f30665e7cfa3154b1847ed50a385a62e7f23b49378ba7ae071058a0dab741e"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/shared-vfx/runtime-1x/effect-building-destruction-core-rupture-8f-runtime.png",
+      "bytes": 65447,
+      "sha256": "d642b80df2e99ff27ec8fc67d7420394477eb416545559dc91d02a43823c129b"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/shared-vfx/runtime-2x/effect-building-damage-fire-spark-loop-16f-2x.png",
+      "bytes": 119448,
+      "sha256": "7e1182479e7a76da4fa48bdb59fca18e22c33c9f0ebec4eec590a3abd0d02d7c"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/shared-vfx/runtime-2x/effect-building-damage-smoke-wisp-loop-16f-2x.png",
+      "bytes": 242054,
+      "sha256": "6bf942474b8a8feba1fdf35edd41ad09175bb6763a3a8b3daccaaa9d89b4ecb2"
+    },
+    {
+      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/shared-vfx/runtime-2x/effect-building-destruction-core-rupture-8f-2x.png",
+      "bytes": 213911,
+      "sha256": "859978d866822931e541962598a2a91edd167d0347e606dea6e75262fa0716e4"
     },
     {
       "path": "assets/rts/building-barracks-enemy.png",
@@ -9494,9 +7994,1539 @@
       "sha256": "47bb77eac7943ffcdffc18ab16bf28727009cda913bd9db7d3f3f71f3bde057e"
     },
     {
-      "path": "assets/scienceFacilityRuntimeVisualPilot-938ad044.js",
-      "bytes": 153939,
-      "sha256": "9adbfa7c1809d053868b03d8f117f11de52ed54e271ba8c02e22316fc0dd5f7e"
+      "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v03-c8db4cc2.mp3",
+      "bytes": 2733,
+      "sha256": "c8db4cc2c93b00f8d104f0303fd7da9c5905cfb0ecad7e5e750cfecdc6769efe"
+    },
+    {
+      "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v03-ecce4cfa.webm",
+      "bytes": 3368,
+      "sha256": "ecce4cfa0b8de1c78dfc6d5435c53db5450a94e56f962322086ae75bb4123582"
+    },
+    {
+      "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v04-200179e3.mp3",
+      "bytes": 2733,
+      "sha256": "200179e3e8cf822fbd3774c21dff46437bc8e79317fe6b93adf7a58db9ec13fc"
+    },
+    {
+      "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v04-4f234751.webm",
+      "bytes": 2982,
+      "sha256": "4f234751c8bb22b158ca761e7ffab5718fc5cdf2c1a07a6b257ee943d107b12b"
+    },
+    {
+      "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v11-81d8aa99.webm",
+      "bytes": 2959,
+      "sha256": "81d8aa9971adcd71683f6a47960a8aeeb0fb8c5bd4d211ff5af3c692eadfb929"
+    },
+    {
+      "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v11-8616dc40.mp3",
+      "bytes": 2733,
+      "sha256": "8616dc4048fd1143635d5b02e86db8881b186a6bc7a94e08e0cd0b4181228964"
+    },
+    {
+      "path": "assets/S12-B01__unit.soldier.weapon.fire__stable-audio-3-small-sfx-mlx__v06-13a3f136.mp3",
+      "bytes": 4653,
+      "sha256": "13a3f136c6661d58cc83cb09b181842cbaf11d74252ddd794cc9c73043495e2a"
+    },
+    {
+      "path": "assets/S12-B01__unit.soldier.weapon.fire__stable-audio-3-small-sfx-mlx__v06-912c8fa3.webm",
+      "bytes": 5145,
+      "sha256": "912c8fa3fe65e242962cc106e9efd56bda592bfbe10969871138931691feab35"
+    },
+    {
+      "path": "assets/S12-B02__combat.impact.rifle.flesh__stable-audio-3-small-sfx-mlx__v01-3eb874e5.webm",
+      "bytes": 2827,
+      "sha256": "3eb874e583147aad9d81aacbfc80e4a5aac946b2ceb98f986dc94a69030012db"
+    },
+    {
+      "path": "assets/S12-B02__combat.impact.rifle.flesh__stable-audio-3-small-sfx-mlx__v01-e68a5a4c.mp3",
+      "bytes": 3117,
+      "sha256": "e68a5a4c6bb45fcda84ca5167827fbb5ec12e0b19092374cf8f618b6f1fa2543"
+    },
+    {
+      "path": "assets/S12-B02__combat.impact.rifle.flesh__stable-audio-3-small-sfx-mlx__v04-464f08ae.webm",
+      "bytes": 2539,
+      "sha256": "464f08ae59e026e9f5073eceda23d1fb679666bbdbcf4507f821da119dcc2fd3"
+    },
+    {
+      "path": "assets/S12-B02__combat.impact.rifle.flesh__stable-audio-3-small-sfx-mlx__v04-e1facb1c.mp3",
+      "bytes": 3117,
+      "sha256": "e1facb1c730445eed82c9bb37504158b8b2b2482b38caa68bc54e8e2387aa5a8"
+    },
+    {
+      "path": "assets/S12-B02__combat.impact.rifle.flesh__stable-audio-3-small-sfx-mlx__v05-23692c80.webm",
+      "bytes": 2646,
+      "sha256": "23692c80317f2b344493637083ed79de15e96fb884a557ea78a1018045c546fa"
+    },
+    {
+      "path": "assets/S12-B02__combat.impact.rifle.flesh__stable-audio-3-small-sfx-mlx__v05-4bdfc925.mp3",
+      "bytes": 3117,
+      "sha256": "4bdfc9250b0d31dde55b79be5edcecc24558014482cd5261e1a72a0dadc2c173"
+    },
+    {
+      "path": "assets/S12-B02__combat.impact.rifle.flesh__stable-audio-3-small-sfx-mlx__v06-ac1c925a.mp3",
+      "bytes": 3117,
+      "sha256": "ac1c925a05730d0178feec6b262bb442e4d55b4be26741197fae90b870eebbe8"
+    },
+    {
+      "path": "assets/S12-B02__combat.impact.rifle.flesh__stable-audio-3-small-sfx-mlx__v06-bbbf1497.webm",
+      "bytes": 3247,
+      "sha256": "bbbf1497109a050cc7b9bc40e81f764c059068355f370e567fac8cc9eba1bb3b"
+    },
+    {
+      "path": "assets/S12-B03__combat.impact.rifle.armor__stable-audio-3-small-sfx-mlx__v01-505f7183.mp3",
+      "bytes": 3117,
+      "sha256": "505f7183545f33545c3e17d75e3230b40da355a13aca2909959f05d979643f81"
+    },
+    {
+      "path": "assets/S12-B03__combat.impact.rifle.armor__stable-audio-3-small-sfx-mlx__v01-a926f8f8.webm",
+      "bytes": 2481,
+      "sha256": "a926f8f80beb4de569949cc9f9bee4ad0b0d1446c1115d60fb7eb7338129fa02"
+    },
+    {
+      "path": "assets/S12-B03__combat.impact.rifle.armor__stable-audio-3-small-sfx-mlx__v03-27c98255.mp3",
+      "bytes": 3117,
+      "sha256": "27c982556245323a0b34f4458ee39b10ca5af3c94645935e74779a07a5f60876"
+    },
+    {
+      "path": "assets/S12-B03__combat.impact.rifle.armor__stable-audio-3-small-sfx-mlx__v03-2cc3ab6e.webm",
+      "bytes": 2515,
+      "sha256": "2cc3ab6e718c9dac8d272c9144049106620b154bb2ea7ed40e387a056cb80133"
+    },
+    {
+      "path": "assets/S12-B03__combat.impact.rifle.armor__stable-audio-3-small-sfx-mlx__v04-29d750f5.webm",
+      "bytes": 2450,
+      "sha256": "29d750f50bf64716d960431950b09e5b9b8860ac2c6344733ada8a00f01e5e2a"
+    },
+    {
+      "path": "assets/S12-B03__combat.impact.rifle.armor__stable-audio-3-small-sfx-mlx__v04-9d4b170d.mp3",
+      "bytes": 3117,
+      "sha256": "9d4b170dbad1e801b2e2f4032114b43a7cfaee8d7f17cd1386218e5bd6f66d3a"
+    },
+    {
+      "path": "assets/S12-B03__combat.impact.rifle.armor__stable-audio-3-small-sfx-mlx__v05-5ece719a.webm",
+      "bytes": 2676,
+      "sha256": "5ece719a111bb7c8b1b6719143e02db59811158d52819d9a49e3c4eda6dda9f7"
+    },
+    {
+      "path": "assets/S12-B03__combat.impact.rifle.armor__stable-audio-3-small-sfx-mlx__v05-e201319b.mp3",
+      "bytes": 3117,
+      "sha256": "e201319b816036c89731848b89fcdca0fdb511951b8272bf68b2854183d99b49"
+    },
+    {
+      "path": "assets/S12-B04__combat.impact.rifle.structure__stable-audio-3-small-sfx-mlx__v02-46b12551.webm",
+      "bytes": 3439,
+      "sha256": "46b125515edcb72c80ac2c56dbe93546721afa4752cd95d18486cd4e67332669"
+    },
+    {
+      "path": "assets/S12-B04__combat.impact.rifle.structure__stable-audio-3-small-sfx-mlx__v02-b533f0a9.mp3",
+      "bytes": 3885,
+      "sha256": "b533f0a967c6c5adfae81a99fbe7abd56eadab93d4e6f696c6dbac23b926569d"
+    },
+    {
+      "path": "assets/S12-B04__combat.impact.rifle.structure__stable-audio-3-small-sfx-mlx__v03-10493f0a.mp3",
+      "bytes": 3885,
+      "sha256": "10493f0af9fc68ffb20dce6d72afee2a2f8ffec55fae819f5436ea8ddf9a6948"
+    },
+    {
+      "path": "assets/S12-B04__combat.impact.rifle.structure__stable-audio-3-small-sfx-mlx__v03-7c40c4cc.webm",
+      "bytes": 3806,
+      "sha256": "7c40c4cce25879badbb44cbd431c3b43a68daf944c9dbb0c16a65a35df6296a0"
+    },
+    {
+      "path": "assets/S12-B04__combat.impact.rifle.structure__stable-audio-3-small-sfx-mlx__v05-0d061bb3.mp3",
+      "bytes": 3885,
+      "sha256": "0d061bb363a508b67a17c446aaa98027df5883d9d78228d748744885d773406c"
+    },
+    {
+      "path": "assets/S12-B04__combat.impact.rifle.structure__stable-audio-3-small-sfx-mlx__v05-50f5d197.webm",
+      "bytes": 3405,
+      "sha256": "50f5d1971a9011e64a51c2345461fb75a9c445fe8752deb72a8ba3416da20615"
+    },
+    {
+      "path": "assets/S12-B04__combat.impact.rifle.structure__stable-audio-3-small-sfx-mlx__v06-a609f85d.mp3",
+      "bytes": 3885,
+      "sha256": "a609f85d77b85646ef251bf58a097820ed588b32ab8bccc930d11db2510eddcd"
+    },
+    {
+      "path": "assets/S12-B04__combat.impact.rifle.structure__stable-audio-3-small-sfx-mlx__v06-f5cc54d6.webm",
+      "bytes": 3554,
+      "sha256": "f5cc54d6e0f5bce73ba0669a5234111bf64565cb74e9ab59970d5abe1f939ce8"
+    },
+    {
+      "path": "assets/S12-C01__unit.worker.attack.swing__stable-audio-3-small-sfx-mlx__v02-1526f5a8.mp3",
+      "bytes": 5037,
+      "sha256": "1526f5a8473e2284556ea9ff5e82dde439edc6ee4d0cfa01a6ad8ab6a91688aa"
+    },
+    {
+      "path": "assets/S12-C01__unit.worker.attack.swing__stable-audio-3-small-sfx-mlx__v02-cba88090.webm",
+      "bytes": 4026,
+      "sha256": "cba88090692a1f903cc822a79ec3e0a7d383c93000f63d75c6c60ecea3c43519"
+    },
+    {
+      "path": "assets/S12-C02__combat.impact.cutter.armor__stable-audio-3-small-sfx-mlx__v01-87b57d08.mp3",
+      "bytes": 3885,
+      "sha256": "87b57d08b99a2106f08b55966b62f7243480c8d60d24a3819f9b471d5b5382f0"
+    },
+    {
+      "path": "assets/S12-C02__combat.impact.cutter.armor__stable-audio-3-small-sfx-mlx__v01-cb9dc061.webm",
+      "bytes": 3328,
+      "sha256": "cb9dc0617da779ad25910c1ab5a88e0c08e1cc2823b5f3e691058de68114e22e"
+    },
+    {
+      "path": "assets/S12-C02__combat.impact.cutter.armor__stable-audio-3-small-sfx-mlx__v03-30950d28.mp3",
+      "bytes": 3885,
+      "sha256": "30950d2855a3d01b57d5e8a19262a8b3638aab4dbdffe3384d81925e64abd90a"
+    },
+    {
+      "path": "assets/S12-C02__combat.impact.cutter.armor__stable-audio-3-small-sfx-mlx__v03-4a489a7d.webm",
+      "bytes": 3607,
+      "sha256": "4a489a7defc01d1faf4d14fe735e01d8195a357f5a1ac7a3910a60f728bea6f2"
+    },
+    {
+      "path": "assets/S12-C02__combat.impact.cutter.armor__stable-audio-3-small-sfx-mlx__v05-bb8f722b.mp3",
+      "bytes": 3885,
+      "sha256": "bb8f722b4f1aa667a75781441c74dfb7cb799ca0a82a0a74b9c7ee5185521fe3"
+    },
+    {
+      "path": "assets/S12-C02__combat.impact.cutter.armor__stable-audio-3-small-sfx-mlx__v05-fee49e25.webm",
+      "bytes": 3739,
+      "sha256": "fee49e2573049366cfd92f0a7f9148653a57c86975802f9f2156e4d6de4a67e7"
+    },
+    {
+      "path": "assets/S12-C02__combat.impact.cutter.armor__stable-audio-3-small-sfx-mlx__v06-89e8191b.mp3",
+      "bytes": 3885,
+      "sha256": "89e8191be3c60a00d5c05baa4d95fd5cd5ca398272bb5cbc50d4eb7250fab3aa"
+    },
+    {
+      "path": "assets/S12-C02__combat.impact.cutter.armor__stable-audio-3-small-sfx-mlx__v06-cc580924.webm",
+      "bytes": 3291,
+      "sha256": "cc5809247608ce4f9993ddec10c92077139e5ea416b504fc3cabb655f58c1386"
+    },
+    {
+      "path": "assets/S12-C03__combat.impact.cutter.structure__stable-audio-3-small-sfx-mlx__v01-3b60198f.mp3",
+      "bytes": 4653,
+      "sha256": "3b60198feed28eaeb97fbb85283684160af6f45a9ed90ab9c51dd5ceae3acda8"
+    },
+    {
+      "path": "assets/S12-C03__combat.impact.cutter.structure__stable-audio-3-small-sfx-mlx__v01-50bff014.webm",
+      "bytes": 3860,
+      "sha256": "50bff014aa8e8725f400d54a21a049976ef71b1b340a10af95ec1506b6dff6a9"
+    },
+    {
+      "path": "assets/S12-C03__combat.impact.cutter.structure__stable-audio-3-small-sfx-mlx__v03-1169d780.webm",
+      "bytes": 4204,
+      "sha256": "1169d7808453e7f36b1c61672031297466d4c94ff4e73ff75230a7679e32d8b1"
+    },
+    {
+      "path": "assets/S12-C03__combat.impact.cutter.structure__stable-audio-3-small-sfx-mlx__v03-64773375.mp3",
+      "bytes": 4653,
+      "sha256": "647733752c8978b98f4c00d01bd28744116134bd27361683cbbf958df9d627ab"
+    },
+    {
+      "path": "assets/S12-C03__combat.impact.cutter.structure__stable-audio-3-small-sfx-mlx__v06-de8602ba.webm",
+      "bytes": 3832,
+      "sha256": "de8602ba1d24bd3a8f825380da5f8dddddfb59ca448f52b39169eef391005257"
+    },
+    {
+      "path": "assets/S12-C03__combat.impact.cutter.structure__stable-audio-3-small-sfx-mlx__v06-f158bbfc.mp3",
+      "bytes": 4653,
+      "sha256": "f158bbfc6ca6d8403fd97593223b284ec85afd7c1164f5d8caf4417118a46cd6"
+    },
+    {
+      "path": "assets/S12-C03__combat.impact.cutter.structure__stable-audio-3-small-sfx-mlx__v07-5773a960.webm",
+      "bytes": 4037,
+      "sha256": "5773a960ebb1c7d4436453617e8463b348fb482516bd18f3562e88b04a03dfcc"
+    },
+    {
+      "path": "assets/S12-C03__combat.impact.cutter.structure__stable-audio-3-small-sfx-mlx__v07-bc022b71.mp3",
+      "bytes": 4653,
+      "sha256": "bc022b71f4dd1519d0f8a85e402fae25c7501f98c7ca8ff7a4e797b076d12087"
+    },
+    {
+      "path": "assets/S12-D01__building.barracks.production.loop__stable-audio-3-small-sfx-mlx__v01-57f56862.webm",
+      "bytes": 198146,
+      "sha256": "57f56862150c63f9fc5444366dc2f6e893156b3c3ec7b307594f4fb764a667dc"
+    },
+    {
+      "path": "assets/S12-D01__building.barracks.production.loop__stable-audio-3-small-sfx-mlx__v06-f462fe74.webm",
+      "bytes": 190377,
+      "sha256": "f462fe74b52422a12dcad3df2d6436d3db05fe931bc70706eb38551c07237f24"
+    },
+    {
+      "path": "assets/S12-E01__unit.worker.gather.contact__stable-audio-3-small-sfx-mlx__v01-1cfc5593.webm",
+      "bytes": 2723,
+      "sha256": "1cfc55931640a1577cbb9d435d4155f7ac9ebec7b0342a332f039af08bd5ee01"
+    },
+    {
+      "path": "assets/S12-E01__unit.worker.gather.contact__stable-audio-3-small-sfx-mlx__v01-9eadc046.mp3",
+      "bytes": 3117,
+      "sha256": "9eadc04692a958bd245fd3e7ff3332e862350e1d551881c419c7a557efbf687a"
+    },
+    {
+      "path": "assets/S12-E02__unit.worker.repair.loop__stable-audio-3-small-sfx-mlx__v04-15a23e86.webm",
+      "bytes": 22803,
+      "sha256": "15a23e86737ca36d7c71a719759e19b279ebfb4f63c579e0aaf2a1af7c05d1e4"
+    },
+    {
+      "path": "assets/S12-E02__unit.worker.repair.loop__stable-audio-3-small-sfx-mlx__v04-303b604d.mp3",
+      "bytes": 31533,
+      "sha256": "303b604d6b446f8737fd287fea314f11edb2c46f475cea52098ee310e420be87"
+    },
+    {
+      "path": "assets/S12-E03__unit.worker.repair.pulse__stable-audio-3-small-sfx-mlx__v01-989afe07.mp3",
+      "bytes": 2733,
+      "sha256": "989afe07bc7f9ffc80219667f42c0b039baa7a31c252963301b1bd23d89669be"
+    },
+    {
+      "path": "assets/S12-E03__unit.worker.repair.pulse__stable-audio-3-small-sfx-mlx__v01-f0cec67d.webm",
+      "bytes": 2534,
+      "sha256": "f0cec67d24e037c3c9b4b63e52abd408836005bd57612cbdb52b79ab05b48188"
+    },
+    {
+      "path": "assets/S12-E04__unit.worker.build.clamp_press__stable-audio-3-small-sfx-mlx__v01-df1e3117.mp3",
+      "bytes": 3885,
+      "sha256": "df1e31171788ce9461308c32335295a63d07e456cf9426aff42cd04413d3a050"
+    },
+    {
+      "path": "assets/S12-E04__unit.worker.build.clamp_press__stable-audio-3-small-sfx-mlx__v01-fe0712d0.webm",
+      "bytes": 3301,
+      "sha256": "fe0712d0bb659bfe5fe010d573972890b45506717e375d2b811ed41ff2d97c6d"
+    },
+    {
+      "path": "assets/S12-E05__unit.worker.build.drill_lock__stable-audio-3-small-sfx-mlx__v01-58256c1d.webm",
+      "bytes": 3866,
+      "sha256": "58256c1d53d3df6789f3031fc214f280808df905f15855a9520a5934f89ac11d"
+    },
+    {
+      "path": "assets/S12-E05__unit.worker.build.drill_lock__stable-audio-3-small-sfx-mlx__v01-9054bfb8.mp3",
+      "bytes": 4653,
+      "sha256": "9054bfb8d59adbabb4242c31fd23b43eeaebc8d8fbf9f8dd4bdba797e42da731"
+    },
+    {
+      "path": "assets/S21-ATTACK-A__weapons-live__candidate-b__selected-master-ad67d2e7.webm",
+      "bytes": 17908,
+      "sha256": "ad67d2e7baf074132685a00b5286a356ee7a4aa3635b37c8a6efd0a3aec5eae8"
+    },
+    {
+      "path": "assets/S21-ATTACK-A__weapons-live__candidate-b__selected-master-b5a30df9.mp3",
+      "bytes": 19245,
+      "sha256": "b5a30df9118eaafb2e7203f020d56ab828b0d0685adea7c270f23c318c4791a9"
+    },
+    {
+      "path": "assets/S21-ATTACK-A__weapons-live__candidate-d__selected-master-cd6588c4.mp3",
+      "bytes": 20013,
+      "sha256": "cd6588c4dcf2eb2f9da8a1cf1894f7223658b1ef14f24264fedaeeaec1f205f4"
+    },
+    {
+      "path": "assets/S21-ATTACK-A__weapons-live__candidate-d__selected-master-d62af5ad.webm",
+      "bytes": 16824,
+      "sha256": "d62af5ad174cfb6a1d4a517bfa35a3ae4cce36bf23200238715ae149a1b3d0a7"
+    },
+    {
+      "path": "assets/S21-ATTACK-A__weapons-live__candidate-e__selected-master-9809ff8a.webm",
+      "bytes": 17437,
+      "sha256": "9809ff8aea136cf4a6cefd2156e0ae3987c779c91f403d9e5201a02158cbc836"
+    },
+    {
+      "path": "assets/S21-ATTACK-A__weapons-live__candidate-e__selected-master-e2dc88c3.mp3",
+      "bytes": 21165,
+      "sha256": "e2dc88c3eac862d180d417a3830ec51081313f6e1433aa03d5b08d209f5b27e9"
+    },
+    {
+      "path": "assets/S21-ATTACK-B__engaging-target__candidate-b__selected-master-2cdb51b6.mp3",
+      "bytes": 21549,
+      "sha256": "2cdb51b604804227ae04e63c3eeddcfe1389293e8d05cef8e5a1f209dfcb22a8"
+    },
+    {
+      "path": "assets/S21-ATTACK-B__engaging-target__candidate-b__selected-master-83b988d0.webm",
+      "bytes": 20079,
+      "sha256": "83b988d0d5d7469b630f4e048bf60a60561f83406968f63a14a965bc90378707"
+    },
+    {
+      "path": "assets/S21-ATTACK-B__engaging-target__candidate-d__selected-master-3ad9d89a.mp3",
+      "bytes": 24621,
+      "sha256": "3ad9d89aa50f9bda821b7e1616f4fc9484a527c2076bf5beb47db45cfdc39abb"
+    },
+    {
+      "path": "assets/S21-ATTACK-B__engaging-target__candidate-d__selected-master-9233a500.webm",
+      "bytes": 21551,
+      "sha256": "9233a50003b01433916eff52d9629d01b052772eb28e4d8e14a9dda23d6aa5de"
+    },
+    {
+      "path": "assets/S21-ATTACK-B__engaging-target__candidate-e__selected-master-33c320ec.webm",
+      "bytes": 23712,
+      "sha256": "33c320ecfc839d3fdf31ecfa7359b89a1796060316443b58a5ea3bc4a22e6cbf"
+    },
+    {
+      "path": "assets/S21-ATTACK-B__engaging-target__candidate-e__selected-master-58ba5f93.mp3",
+      "bytes": 26541,
+      "sha256": "58ba5f939a2483b238e94eeda582088ee21f3a4c077a3039bd2edb3d257d0813"
+    },
+    {
+      "path": "assets/S21-ATTACK-C__rock-and-roll__candidate-b__selected-master-131140fb.mp3",
+      "bytes": 18093,
+      "sha256": "131140fbeec948ea3440feec8c047f517b4739a2e227244dfc4f8aea00f32c00"
+    },
+    {
+      "path": "assets/S21-ATTACK-C__rock-and-roll__candidate-b__selected-master-5ddfbc64.webm",
+      "bytes": 16594,
+      "sha256": "5ddfbc64f3dc8f5e17121ecfd38dc3d842c6629b495af7bcc836248018532e92"
+    },
+    {
+      "path": "assets/S21-ATTACK-C__rock-and-roll__candidate-d__selected-master-11b92301.webm",
+      "bytes": 15425,
+      "sha256": "11b923012ac7e5a02863c6ed8679873181eee6b54d751e78329c91d7f12beec3"
+    },
+    {
+      "path": "assets/S21-ATTACK-C__rock-and-roll__candidate-d__selected-master-dd5e1692.mp3",
+      "bytes": 17709,
+      "sha256": "dd5e1692445ebffe2acc1de8049644fbd09aa2da8bb44d03f92c832a3f7ef198"
+    },
+    {
+      "path": "assets/S21-ATTACK-C__rock-and-roll__candidate-e__selected-master-305413f4.webm",
+      "bytes": 21508,
+      "sha256": "305413f4707c53dd96b1b958fb48b31674191b272599d971c2d4eb945df89669"
+    },
+    {
+      "path": "assets/S21-ATTACK-C__rock-and-roll__candidate-e__selected-master-78118e62.mp3",
+      "bytes": 23853,
+      "sha256": "78118e624874e3ec48d55006ada04b2b4b12ecb8b4ac6eee080cd2cc2f65d705"
+    },
+    {
+      "path": "assets/S21-DEATH-A__mortal-agony-cry-r1__candidate-b__selected-master-6c037b2a.webm",
+      "bytes": 10676,
+      "sha256": "6c037b2a0b0f561c050ed32f5f5e27a5d428ef1ec81af7fa7ce6b4debc0094d1"
+    },
+    {
+      "path": "assets/S21-DEATH-A__mortal-agony-cry-r1__candidate-b__selected-master-c480d657.mp3",
+      "bytes": 13101,
+      "sha256": "c480d65751f6da2a05b98f982747fab42d2ae2e547aefae178128156ed3b5d8f"
+    },
+    {
+      "path": "assets/S21-DEATH-A__mortal-agony-cry-r1__candidate-d__selected-master-23d5cdbd.mp3",
+      "bytes": 20781,
+      "sha256": "23d5cdbd081c64bf6b88d63fc251dc6f530fa8566f6ae03c8bcff1b0f865c5c6"
+    },
+    {
+      "path": "assets/S21-DEATH-A__mortal-agony-cry-r1__candidate-d__selected-master-b8230a96.webm",
+      "bytes": 17382,
+      "sha256": "b8230a96520ad94b5f37b8ce28e3c35b1c1c322275239157dfc276ea4e1a93da"
+    },
+    {
+      "path": "assets/S21-DEATH-A__mortal-agony-cry-r1__candidate-e__selected-master-680de07a.mp3",
+      "bytes": 26541,
+      "sha256": "680de07a8de972f18b701599711344f9d82ffc975eb1b979215525d8fba8898e"
+    },
+    {
+      "path": "assets/S21-DEATH-A__mortal-agony-cry-r1__candidate-e__selected-master-bef2343f.webm",
+      "bytes": 23184,
+      "sha256": "bef2343fd62e4034b0d6f4e4d27ce2a83951d4c051b3d7f5332c58edabbef55a"
+    },
+    {
+      "path": "assets/S21-DEATH-B__nonverbal-b__candidate-b__selected-master-5188da85.webm",
+      "bytes": 9119,
+      "sha256": "5188da85f4cc8b7efa847138a4c10bb36b43e67a5dbe9b0c694e24511407bef0"
+    },
+    {
+      "path": "assets/S21-DEATH-B__nonverbal-b__candidate-b__selected-master-9e5b7c9f.mp3",
+      "bytes": 10029,
+      "sha256": "9e5b7c9fb99ffe89fba0285262e3418bba2aab60d173859d2119271ee5f5282c"
+    },
+    {
+      "path": "assets/S21-DEATH-B__nonverbal-b__candidate-d__selected-master-a613a55b.mp3",
+      "bytes": 16173,
+      "sha256": "a613a55b76bd6f95990a105d5381ec5c66154efd68f0443ab3d20dfd4539fe3c"
+    },
+    {
+      "path": "assets/S21-DEATH-B__nonverbal-b__candidate-d__selected-master-a8a5e5c6.webm",
+      "bytes": 13167,
+      "sha256": "a8a5e5c6d0efcb555ad375a583c2accb4983efcdbde72c938cf2b79b460c4120"
+    },
+    {
+      "path": "assets/S21-DEATH-B__nonverbal-b__candidate-e__selected-master-4f93ec99.mp3",
+      "bytes": 14253,
+      "sha256": "4f93ec99c8c42d9b77c0465fa8887213087c2c2f06acadd1228c7feb8d900fcb"
+    },
+    {
+      "path": "assets/S21-DEATH-B__nonverbal-b__candidate-e__selected-master-5b646a51.webm",
+      "bytes": 11394,
+      "sha256": "5b646a514714e733dcc43432bce33d2d77e715e67ef9500186825c55ea682c12"
+    },
+    {
+      "path": "assets/S21-DEATH-C__tragic-final-wail-r1__candidate-b__selected-master-4f5107ef.mp3",
+      "bytes": 24237,
+      "sha256": "4f5107ef60708f6fe8d5b81a7f7088bca1fa765e5de839ea1504f1ba65b1ea97"
+    },
+    {
+      "path": "assets/S21-DEATH-C__tragic-final-wail-r1__candidate-b__selected-master-6807126b.webm",
+      "bytes": 21402,
+      "sha256": "6807126b2af2dd06cc9c04082afb12bdbcd96f1cdee2702cf9b214b14b740689"
+    },
+    {
+      "path": "assets/S21-DEATH-C__tragic-final-wail-r1__candidate-d__selected-master-14d67b64.mp3",
+      "bytes": 17709,
+      "sha256": "14d67b643846b51dae9e149919f94595a7e9c66266c16324cdab94273ba13a49"
+    },
+    {
+      "path": "assets/S21-DEATH-C__tragic-final-wail-r1__candidate-d__selected-master-845178a1.webm",
+      "bytes": 14755,
+      "sha256": "845178a15c27e7ad7bbd275020f22dbeed4df3e83c42709a8bda7653eabebc91"
+    },
+    {
+      "path": "assets/S21-DEATH-C__tragic-final-wail-r1__candidate-e__selected-master-0f65693b.mp3",
+      "bytes": 21933,
+      "sha256": "0f65693b3ab985e66f1f452783a7942a151a342d737737e282f9532c3de92c47"
+    },
+    {
+      "path": "assets/S21-DEATH-C__tragic-final-wail-r1__candidate-e__selected-master-306c89c9.webm",
+      "bytes": 19064,
+      "sha256": "306c89c9c131060b3867aa10a3826f17ba686c9c39585023f2d92ef0151b6837"
+    },
+    {
+      "path": "assets/S21-HOLD-A__holding-here__candidate-b__selected-master-e8561e75.mp3",
+      "bytes": 16941,
+      "sha256": "e8561e75aa38b8cd7b529cb28d148c9e1e59182f1cc12c5fb85a176a9652178b"
+    },
+    {
+      "path": "assets/S21-HOLD-A__holding-here__candidate-b__selected-master-ec04e438.webm",
+      "bytes": 15425,
+      "sha256": "ec04e4389d1249e6f673dd878d94ce80d20d33779d2555bd1ca42df5a526840f"
+    },
+    {
+      "path": "assets/S21-HOLD-A__holding-here__candidate-d__selected-master-a1514f3c.mp3",
+      "bytes": 23853,
+      "sha256": "a1514f3c0bce9c7f7fc721253717c426ad1632703fd5b32c2378ec178119ee8f"
+    },
+    {
+      "path": "assets/S21-HOLD-A__holding-here__candidate-d__selected-master-b54a5c7a.webm",
+      "bytes": 21550,
+      "sha256": "b54a5c7a92f7065195a08caddcb84f00b6b1b53db778af11c274e2a7294776cd"
+    },
+    {
+      "path": "assets/S21-HOLD-A__holding-here__candidate-e__selected-master-144c5c7a.webm",
+      "bytes": 16498,
+      "sha256": "144c5c7af9fcffb20b9befec898a3d9ebdf363f5013ac86af3ae20d99c2382ec"
+    },
+    {
+      "path": "assets/S21-HOLD-A__holding-here__candidate-e__selected-master-9a0f4947.mp3",
+      "bytes": 21549,
+      "sha256": "9a0f4947e28c358a3049e0c35350562a668ae65cb8863b7234ac7030cd694ed1"
+    },
+    {
+      "path": "assets/S21-HOLD-B__position-locked__candidate-b__selected-master-15e710db.webm",
+      "bytes": 17521,
+      "sha256": "15e710db93fa3583fc743bc01ddaf2f08c2f5dca5cb0010f214189c695900efd"
+    },
+    {
+      "path": "assets/S21-HOLD-B__position-locked__candidate-b__selected-master-a6e93314.mp3",
+      "bytes": 20013,
+      "sha256": "a6e93314344a6c0bf4c23b0f2583143d89f2979bfa24b5ecfdbe42d4d993e5b4"
+    },
+    {
+      "path": "assets/S21-HOLD-B__position-locked__candidate-d__selected-master-5bd691d3.mp3",
+      "bytes": 21549,
+      "sha256": "5bd691d3f624421479c57aafdf0d1b1b5ebd02e403574f07590ab64167bf4d2c"
+    },
+    {
+      "path": "assets/S21-HOLD-B__position-locked__candidate-d__selected-master-7b4e64cd.webm",
+      "bytes": 17769,
+      "sha256": "7b4e64cdc1aa34881df7ea9d98a0ee917cde085ca4486771fd798e046db873a4"
+    },
+    {
+      "path": "assets/S21-HOLD-B__position-locked__candidate-e__selected-master-0dbdf0f8.webm",
+      "bytes": 15429,
+      "sha256": "0dbdf0f88e5ced627631fda71252a724b617ff5de0a6695f7c23d23929b85ed7"
+    },
+    {
+      "path": "assets/S21-HOLD-B__position-locked__candidate-e__selected-master-96c94afa.mp3",
+      "bytes": 17709,
+      "sha256": "96c94afa804e392bc567dba00738acbbc138da9e15f5bd41967b0aa97c5a8789"
+    },
+    {
+      "path": "assets/S21-MOVE-A__moving-now__candidate-b__selected-master-39e38b77.mp3",
+      "bytes": 16173,
+      "sha256": "39e38b77d162b9637281f7f7472d5ab3d9a6b1df7b68abe60c6b4a2ac4748f0a"
+    },
+    {
+      "path": "assets/S21-MOVE-A__moving-now__candidate-b__selected-master-d98e660c.webm",
+      "bytes": 14955,
+      "sha256": "d98e660c598839744421acbac7a6b5c8eb7b542390caa5935023704a3a25a3ed"
+    },
+    {
+      "path": "assets/S21-MOVE-A__moving-now__candidate-d__selected-master-28a8a000.webm",
+      "bytes": 13373,
+      "sha256": "28a8a0001c45f4cbccb092f24c78cb8201c511159b355b027527fdf79f67615b"
+    },
+    {
+      "path": "assets/S21-MOVE-A__moving-now__candidate-d__selected-master-877b1c34.mp3",
+      "bytes": 17709,
+      "sha256": "877b1c343874e57ccbffa99422e6bc9361c4f23390435b328a0d31d75d7c66f7"
+    },
+    {
+      "path": "assets/S21-MOVE-A__moving-now__candidate-e__selected-master-331a402b.webm",
+      "bytes": 18343,
+      "sha256": "331a402b92f9df2be19b8860ac5cc367ae9bdea265229263b1c468a2db2d03a4"
+    },
+    {
+      "path": "assets/S21-MOVE-A__moving-now__candidate-e__selected-master-912652b0.mp3",
+      "bytes": 21549,
+      "sha256": "912652b073298a6b5c97f3352c7cffec1a05e3f0bb03834f3b24ec410e2045b5"
+    },
+    {
+      "path": "assets/S21-MOVE-B__copy-advancing__candidate-b__selected-master-d776b9d2.webm",
+      "bytes": 19804,
+      "sha256": "d776b9d280fb8ab970de6e1d1c9eb11057e2cb32c695ab6d5d34c5058196bc73"
+    },
+    {
+      "path": "assets/S21-MOVE-B__copy-advancing__candidate-b__selected-master-ea72dad1.mp3",
+      "bytes": 21933,
+      "sha256": "ea72dad1715f11643b4b5c1ea44802f6de61d48e2d7afa564e9e040d5798491a"
+    },
+    {
+      "path": "assets/S21-MOVE-B__copy-advancing__candidate-d__selected-master-0732ef6d.webm",
+      "bytes": 22101,
+      "sha256": "0732ef6d5fcc3dec9228ef8248bdc77099c064e781b975d7a16c90d4d06a146e"
+    },
+    {
+      "path": "assets/S21-MOVE-B__copy-advancing__candidate-d__selected-master-9fecbab5.mp3",
+      "bytes": 25389,
+      "sha256": "9fecbab52125be593883b5a9f1c0b110a57bdd326282326120acd55d6c44c54a"
+    },
+    {
+      "path": "assets/S21-MOVE-B__copy-advancing__candidate-e__selected-master-31081bd4.mp3",
+      "bytes": 34221,
+      "sha256": "31081bd4743b9d1c3e7476c7036a12c5e098c6f3d138f6950e492102b31c172d"
+    },
+    {
+      "path": "assets/S21-MOVE-B__copy-advancing__candidate-e__selected-master-66446eee.webm",
+      "bytes": 27957,
+      "sha256": "66446eee589cf45428f07d0ed89c22a3493cfe8728e891e3c060605b5dc8ffec"
+    },
+    {
+      "path": "assets/S21-MOVE-C__taking-position__candidate-b__selected-master-213ea0ee.mp3",
+      "bytes": 19629,
+      "sha256": "213ea0ee069485a0a1767da95208ad6f1eed6a898be04d7c6529db9a4c48467d"
+    },
+    {
+      "path": "assets/S21-MOVE-C__taking-position__candidate-b__selected-master-3c5351e9.webm",
+      "bytes": 18253,
+      "sha256": "3c5351e94927bc6859970577a824f2f1e624366fc28f0dec4858507236475206"
+    },
+    {
+      "path": "assets/S21-MOVE-C__taking-position__candidate-d__selected-master-93c11e0a.mp3",
+      "bytes": 20013,
+      "sha256": "93c11e0a7abdfa6ef59b3052ea23d2a9c685526ca10b3aa45936792bbbbe6ec6"
+    },
+    {
+      "path": "assets/S21-MOVE-C__taking-position__candidate-d__selected-master-d85ff2b0.webm",
+      "bytes": 16816,
+      "sha256": "d85ff2b06b9addac092c2e40bd5a0ea782160df5cb1366ea92a7c7d937585ce7"
+    },
+    {
+      "path": "assets/S21-MOVE-C__taking-position__candidate-e__selected-master-1a6c0754.webm",
+      "bytes": 17852,
+      "sha256": "1a6c0754e99a19f7f6e58834a5956830f1613c003e46ecd23483fdfef5680ac9"
+    },
+    {
+      "path": "assets/S21-MOVE-C__taking-position__candidate-e__selected-master-9482a3ca.mp3",
+      "bytes": 18861,
+      "sha256": "9482a3caf8cd01929fd8dfb6d927607ef2a906e0d4284d277aa558f8bf6c730a"
+    },
+    {
+      "path": "assets/S21-READY-A__boots-down__candidate-b__selected-master-20c62c86.webm",
+      "bytes": 14959,
+      "sha256": "20c62c86e044a652bf519f20bd67277eee5fe1313d356f37ccc6b573dd246b30"
+    },
+    {
+      "path": "assets/S21-READY-A__boots-down__candidate-b__selected-master-6433d17e.mp3",
+      "bytes": 16941,
+      "sha256": "6433d17ec7259a492dddd8916d7406994688a9d5e2dc265695fbc168dfce91af"
+    },
+    {
+      "path": "assets/S21-READY-A__boots-down__candidate-d__selected-master-8eac3d5c.mp3",
+      "bytes": 17325,
+      "sha256": "8eac3d5c5e165ad1904ed0ff355410954961d592419b6c37001f84803021cafe"
+    },
+    {
+      "path": "assets/S21-READY-A__boots-down__candidate-d__selected-master-d72e80ca.webm",
+      "bytes": 15054,
+      "sha256": "d72e80cad575c757a71a805960b5ddc5caa8a48889a1b6c3aea68e14fec784bb"
+    },
+    {
+      "path": "assets/S21-READY-A__boots-down__candidate-e__selected-master-0357dcd5.mp3",
+      "bytes": 17709,
+      "sha256": "0357dcd50cc26ef67cebf9c460fd7683ec40ae7d3026ec36c14caed7df21d16c"
+    },
+    {
+      "path": "assets/S21-READY-A__boots-down__candidate-e__selected-master-d7fe170b.webm",
+      "bytes": 15554,
+      "sha256": "d7fe170bf488ab5a929e5f8c3a27253c583cea389871dc05d8a4b3d5723f5071"
+    },
+    {
+      "path": "assets/S21-READY-B__rifle-online__candidate-b__selected-master-b397af59.mp3",
+      "bytes": 20397,
+      "sha256": "b397af59575e6289b01bbdce1d3e49f8385c6a57b4fb0f0e472782f3b49377ba"
+    },
+    {
+      "path": "assets/S21-READY-B__rifle-online__candidate-b__selected-master-f38e7c34.webm",
+      "bytes": 18026,
+      "sha256": "f38e7c34e846c03d36773a14c09c797b615acf391163775bd2206fd81352be9e"
+    },
+    {
+      "path": "assets/S21-READY-B__rifle-online__candidate-d__selected-master-0be3397b.mp3",
+      "bytes": 23853,
+      "sha256": "0be3397b76c39474d3083a6cc4a66d9c16ed1892942779db4d7d23eba39fe8f6"
+    },
+    {
+      "path": "assets/S21-READY-B__rifle-online__candidate-d__selected-master-f13f0ca4.webm",
+      "bytes": 20987,
+      "sha256": "f13f0ca48673869482b37ef5795d8e7463cab5c31a0adff1558c2f0b1e2c5709"
+    },
+    {
+      "path": "assets/S21-READY-B__rifle-online__candidate-e__selected-master-e64c0a2e.webm",
+      "bytes": 25937,
+      "sha256": "e64c0a2efd04a49e327bcc15b0875b9e494ab8e2f5bb6bc103aad0c54390e9ba"
+    },
+    {
+      "path": "assets/S21-READY-B__rifle-online__candidate-e__selected-master-feebcc1f.mp3",
+      "bytes": 29229,
+      "sha256": "feebcc1fa6611265be0d74202a7392aaf10fbe5d5dd03a72e33f6a404eb40825"
+    },
+    {
+      "path": "assets/S21-READY-C__ready-on-your-signal__candidate-b__selected-master-d68d9a87.mp3",
+      "bytes": 22701,
+      "sha256": "d68d9a8791fe8d2c231cc31f3408ed8eda066481a54187b11fa0dad899d50bd3"
+    },
+    {
+      "path": "assets/S21-READY-C__ready-on-your-signal__candidate-b__selected-master-f09dc74f.webm",
+      "bytes": 21233,
+      "sha256": "f09dc74faca53518ce71bdb239fac14ebb2d075229874ca76437a73c7378e205"
+    },
+    {
+      "path": "assets/S21-READY-C__ready-on-your-signal__candidate-d__selected-master-0f105cc2.mp3",
+      "bytes": 27693,
+      "sha256": "0f105cc2fe5bb86d0767a17c769878da5955595525dd2e91cb46d03571ed60b0"
+    },
+    {
+      "path": "assets/S21-READY-C__ready-on-your-signal__candidate-d__selected-master-8598ea55.webm",
+      "bytes": 26579,
+      "sha256": "8598ea55042dc7bcfc25903dfa3a72e9547f69140f9da4ffa3076f276bf6b794"
+    },
+    {
+      "path": "assets/S21-READY-C__ready-on-your-signal__candidate-e__selected-master-606c5ba1.mp3",
+      "bytes": 27693,
+      "sha256": "606c5ba1ed3df6fb9a7ef8dbbc6fe588027d84c137829c31e377747eae66500f"
+    },
+    {
+      "path": "assets/S21-READY-C__ready-on-your-signal__candidate-e__selected-master-67446fa5.webm",
+      "bytes": 23681,
+      "sha256": "67446fa5d5a1b19bad229bb1d7b1c24cae3f2a6bbc10532b7925b8c6f10d2822"
+    },
+    {
+      "path": "assets/S21-SELECT-A__soldier-here__candidate-b__selected-master-ccf063ff.webm",
+      "bytes": 15970,
+      "sha256": "ccf063ff81cb20f5f4b5c46b0571cd38c3e93f9183f88adb228cb7e9e11280a0"
+    },
+    {
+      "path": "assets/S21-SELECT-A__soldier-here__candidate-b__selected-master-d423fef4.mp3",
+      "bytes": 18093,
+      "sha256": "d423fef4863a73266a6302b4a841694f73ab398318465849994c866b0b325be7"
+    },
+    {
+      "path": "assets/S21-SELECT-A__soldier-here__candidate-d__selected-master-570ec0ca.webm",
+      "bytes": 16644,
+      "sha256": "570ec0ca36df4da6315e64d2ee408de2a344d93ce97b71d213be3da0e850b6c2"
+    },
+    {
+      "path": "assets/S21-SELECT-A__soldier-here__candidate-d__selected-master-5b009ae2.mp3",
+      "bytes": 20013,
+      "sha256": "5b009ae285efa5542ed5ea832565fe5b23c6e66d53e3a5df1867419142db82e1"
+    },
+    {
+      "path": "assets/S21-SELECT-A__soldier-here__candidate-e__selected-master-22798269.webm",
+      "bytes": 19755,
+      "sha256": "2279826984511261183e795e90a12a4bf28aed4bd9b904c9cb284aab6b06e6cb"
+    },
+    {
+      "path": "assets/S21-SELECT-A__soldier-here__candidate-e__selected-master-b6c9a12c.mp3",
+      "bytes": 21549,
+      "sha256": "b6c9a12c3a4e05723e6aac8d15bc97a5122b2325c0f2040da51385fa049585aa"
+    },
+    {
+      "path": "assets/S21-SELECT-B__on-comms__candidate-b__selected-master-0c5eb4c2.webm",
+      "bytes": 15124,
+      "sha256": "0c5eb4c279c95ec9c5b367f81cb208c47048764c33a00514be446295d9f5ced5"
+    },
+    {
+      "path": "assets/S21-SELECT-B__on-comms__candidate-b__selected-master-d50ae248.mp3",
+      "bytes": 17325,
+      "sha256": "d50ae2480ef7767d94f1d8495a4859f327f3b8b5f15dc8418ef4c81079c5391b"
+    },
+    {
+      "path": "assets/S21-SELECT-B__on-comms__candidate-d__selected-master-da42e1af.mp3",
+      "bytes": 15021,
+      "sha256": "da42e1af4bbc6761affa429eca2a93c8fffd4b8f44bd76583a2704a2b33d1d5a"
+    },
+    {
+      "path": "assets/S21-SELECT-B__on-comms__candidate-d__selected-master-efeaea84.webm",
+      "bytes": 13272,
+      "sha256": "efeaea8419e0e16e136f33f2a34eeae60ff37c677fc10f4117f68339e1cb8fb7"
+    },
+    {
+      "path": "assets/S21-SELECT-B__on-comms__candidate-e__selected-master-2c3cf53d.mp3",
+      "bytes": 21549,
+      "sha256": "2c3cf53dbd41310887fb471f89b451c735377140b6c3671246d7499333496b00"
+    },
+    {
+      "path": "assets/S21-SELECT-B__on-comms__candidate-e__selected-master-e9be39cc.webm",
+      "bytes": 19515,
+      "sha256": "e9be39cc6050dfb606f4b77554e46fc6603c20e3fcc7c3a09bcf861bba68f826"
+    },
+    {
+      "path": "assets/S21-SELECT-C__whats-the-call__candidate-b__selected-master-2be5d55b.webm",
+      "bytes": 17188,
+      "sha256": "2be5d55bbae4ddcad87e9b20f3ae18e69de6e1c6c6a2273c9fe57851470f8bca"
+    },
+    {
+      "path": "assets/S21-SELECT-C__whats-the-call__candidate-b__selected-master-419013c2.mp3",
+      "bytes": 18861,
+      "sha256": "419013c2673db03dde960ffa7f120805d3e9537f64dd55737b74130d581bca9b"
+    },
+    {
+      "path": "assets/S21-SELECT-C__whats-the-call__candidate-d__selected-master-465032fe.mp3",
+      "bytes": 18477,
+      "sha256": "465032fe81eef73bb9f6a243c8b81685194b4ca590404aa8396c835be6c15abe"
+    },
+    {
+      "path": "assets/S21-SELECT-C__whats-the-call__candidate-d__selected-master-a3e1626f.webm",
+      "bytes": 16925,
+      "sha256": "a3e1626fff85049d2d9fa03a5a3c4d5f2f3db6defdcb73a3109137ab9a47e7af"
+    },
+    {
+      "path": "assets/S21-SELECT-C__whats-the-call__candidate-e__selected-master-9afc2a08.webm",
+      "bytes": 16451,
+      "sha256": "9afc2a08a1334d0c6a4bb39ab97e92fda37b4b061393694c104ab7a3e639eb1d"
+    },
+    {
+      "path": "assets/S21-SELECT-C__whats-the-call__candidate-e__selected-master-bcb2daac.mp3",
+      "bytes": 18861,
+      "sha256": "bcb2daac75fdd899ba602edcefb0167137fdd6314ed3855ff5b14386716fd74f"
+    },
+    {
+      "path": "assets/S22-ATTACK-A__tools-going-hot__candidate-b__selected-master-13a32627.webm",
+      "bytes": 23556,
+      "sha256": "13a326279835a13199018121506f7bb5771426dcd3603a6d88dfba7d42a13017"
+    },
+    {
+      "path": "assets/S22-ATTACK-A__tools-going-hot__candidate-b__selected-master-741bcaf3.mp3",
+      "bytes": 23853,
+      "sha256": "741bcaf34dec320da5f3079a91b958a94ab2302e7998991fadda3bb4ebc19c23"
+    },
+    {
+      "path": "assets/S22-ATTACK-A__tools-going-hot__candidate-c__selected-master-05dc5bec.mp3",
+      "bytes": 21549,
+      "sha256": "05dc5bece95c54f9d52faa107ec9971865ebe7e06e608570efff5deba71faa38"
+    },
+    {
+      "path": "assets/S22-ATTACK-A__tools-going-hot__candidate-c__selected-master-1582b24b.webm",
+      "bytes": 20402,
+      "sha256": "1582b24b3e8e11e3c37c766896ea6eee051d09bef7cd9125eb70b0fc532be981"
+    },
+    {
+      "path": "assets/S22-ATTACK-B__cutting-them-down__candidate-b__selected-master-9cb8765d.webm",
+      "bytes": 20042,
+      "sha256": "9cb8765d59cb9e8292abfef414f2f5a093d8b7e4785ce4f0c74ddcd1a7adbb5d"
+    },
+    {
+      "path": "assets/S22-ATTACK-B__cutting-them-down__candidate-b__selected-master-c799ca00.mp3",
+      "bytes": 18477,
+      "sha256": "c799ca008e9b33e667aa0ae85f9a0bd5efc25407c0c2c7030718e414929eb26b"
+    },
+    {
+      "path": "assets/S22-ATTACK-B__cutting-them-down__candidate-c__selected-master-86c1b7c8.mp3",
+      "bytes": 21549,
+      "sha256": "86c1b7c8bafe6ecfd9defbe82720c3b3fe6764bba4265e10c3b741859a0298fc"
+    },
+    {
+      "path": "assets/S22-ATTACK-B__cutting-them-down__candidate-c__selected-master-dee7ea1c.webm",
+      "bytes": 19176,
+      "sha256": "dee7ea1c345bdf9a1ffbc88112d9356fb6563210901958b5870648982a6aec01"
+    },
+    {
+      "path": "assets/S22-ATTACK-C__you-asked-for-it__candidate-b__selected-master-19a96580.mp3",
+      "bytes": 23853,
+      "sha256": "19a96580caf1eb3375953453485354ba10c8c89473fc5dfebe9e4a079926c70e"
+    },
+    {
+      "path": "assets/S22-ATTACK-C__you-asked-for-it__candidate-b__selected-master-bb785577.webm",
+      "bytes": 23048,
+      "sha256": "bb785577e6af3e454706284dfc93a411c27064b8de8bb0c2934f4471a78911a7"
+    },
+    {
+      "path": "assets/S22-ATTACK-C__you-asked-for-it__candidate-c__selected-master-724636ea.mp3",
+      "bytes": 25389,
+      "sha256": "724636ea2773b4175e9fa48831a0d704730de09083c1dcaa90b4bf2488547160"
+    },
+    {
+      "path": "assets/S22-ATTACK-C__you-asked-for-it__candidate-c__selected-master-e3ad361d.webm",
+      "bytes": 22687,
+      "sha256": "e3ad361d3d715b3f1d748462ae6c076602f3bf7ca7a38352386a6c18c3e9047c"
+    },
+    {
+      "path": "assets/S22-BUILD-A__breaking-ground__candidate-b__selected-master-78fadd1d.webm",
+      "bytes": 17902,
+      "sha256": "78fadd1d2523ad1f6d43061920e3b558c89bea0b635c53a5540afd0429c3b5c2"
+    },
+    {
+      "path": "assets/S22-BUILD-A__breaking-ground__candidate-b__selected-master-999f0f9c.mp3",
+      "bytes": 18861,
+      "sha256": "999f0f9c7af098bff4f59e5b6b11bf9bfd4bb3ce74a8e51120d29a8453290f09"
+    },
+    {
+      "path": "assets/S22-BUILD-A__breaking-ground__candidate-c__selected-master-a2dccc27.mp3",
+      "bytes": 15021,
+      "sha256": "a2dccc27d8da8039eaf8266e7a1d81e79c38db8e50124009f0b33a3f6731d6d8"
+    },
+    {
+      "path": "assets/S22-BUILD-A__breaking-ground__candidate-c__selected-master-ccaa537b.webm",
+      "bytes": 13632,
+      "sha256": "ccaa537be25deb3928faeb12c0da49c8eefe620fb47b4442502206f9bf4dc92b"
+    },
+    {
+      "path": "assets/S22-BUILD-B__lets-build-it__candidate-b__selected-master-d1aa6b3a.mp3",
+      "bytes": 18861,
+      "sha256": "d1aa6b3abe6a3bdd8898b29f7796032f337b85d433992cb879528da6f08e4b43"
+    },
+    {
+      "path": "assets/S22-BUILD-B__lets-build-it__candidate-b__selected-master-e3261152.webm",
+      "bytes": 18482,
+      "sha256": "e32611524389578a57dc915aafaecad93757fbbb1353732fd738847164353bd0"
+    },
+    {
+      "path": "assets/S22-BUILD-B__lets-build-it__candidate-c__selected-master-e90e6726.webm",
+      "bytes": 32357,
+      "sha256": "e90e6726cd378b7effd819a3e0a0dc1355618ec2dbee0692690c7c270f98fb49"
+    },
+    {
+      "path": "assets/S22-BUILD-B__lets-build-it__candidate-c__selected-master-f64137d2.mp3",
+      "bytes": 39213,
+      "sha256": "f64137d24670d5846528ca6962557926a8b4261b5015efe856c1bddb27f9fadb"
+    },
+    {
+      "path": "assets/S22-BUILD-C__structure-going-up__candidate-b__selected-master-492d181e.mp3",
+      "bytes": 22701,
+      "sha256": "492d181eb63504e12e2d31219fce1be5ebe31603ef7af01558c534d1a1becaf5"
+    },
+    {
+      "path": "assets/S22-BUILD-C__structure-going-up__candidate-b__selected-master-f4028d4c.webm",
+      "bytes": 20444,
+      "sha256": "f4028d4c45fa522d1f8fbaaad6d8b10d749a5220b1dc2a98b860ab4392f5f034"
+    },
+    {
+      "path": "assets/S22-BUILD-C__structure-going-up__candidate-c__selected-master-d665b11a.webm",
+      "bytes": 17055,
+      "sha256": "d665b11a3b75f171b2ec0fe47c8ce9ebc2f875889c0919b03ba88d7d09670e98"
+    },
+    {
+      "path": "assets/S22-BUILD-C__structure-going-up__candidate-c__selected-master-d92f00ba.mp3",
+      "bytes": 18477,
+      "sha256": "d92f00ba1c76b0742523653dbc575ed64882fb55a58dc340aaabbefe7f08fa88"
+    },
+    {
+      "path": "assets/S22-DEATH-A__nonverbal-a__candidate-b__selected-master-27d5cbd8.webm",
+      "bytes": 12040,
+      "sha256": "27d5cbd8987cc88b8b94b3752367376463b1a7c195a40c8a4b092fac000e397c"
+    },
+    {
+      "path": "assets/S22-DEATH-A__nonverbal-a__candidate-b__selected-master-61fe03fc.mp3",
+      "bytes": 16173,
+      "sha256": "61fe03fc12bceeb244d67ea813270d9601a1d9572f7de360bff5d8c03851499a"
+    },
+    {
+      "path": "assets/S22-DEATH-A__nonverbal-a__candidate-c__selected-master-1bc4a154.webm",
+      "bytes": 10693,
+      "sha256": "1bc4a15437ca63794aa524bab376f1ab1e0613c2175975cceefdf5465acd1543"
+    },
+    {
+      "path": "assets/S22-DEATH-A__nonverbal-a__candidate-c__selected-master-54763d13.mp3",
+      "bytes": 13869,
+      "sha256": "54763d13ca90deb706c035b5c2e7601790c294f46e11d2fe736c3a84a68234f1"
+    },
+    {
+      "path": "assets/S22-DEATH-C__nonverbal-c__candidate-b__selected-master-24c4ae54.webm",
+      "bytes": 37514,
+      "sha256": "24c4ae54cf67ecdadc7532b499cecca88b1734f3ed70efaca9faf5a6934d3de3"
+    },
+    {
+      "path": "assets/S22-DEATH-C__nonverbal-c__candidate-b__selected-master-24d673be.mp3",
+      "bytes": 38829,
+      "sha256": "24d673be81bf9233e6aa7a93474f5c179f338aafa34f64e93d5651782d19823e"
+    },
+    {
+      "path": "assets/S22-DEATH-C__nonverbal-c__candidate-c__selected-master-8dc701d5.mp3",
+      "bytes": 17325,
+      "sha256": "8dc701d5785ea02475930d7ef0446b80534a0f357a074c5184cdad4b2a777154"
+    },
+    {
+      "path": "assets/S22-DEATH-C__nonverbal-c__candidate-c__selected-master-b9a9adc7.webm",
+      "bytes": 13678,
+      "sha256": "b9a9adc7465a6e41bbb5480d31f26f45b9ce5d66179c07476db9df3eeddc8c1e"
+    },
+    {
+      "path": "assets/S22-GATHER-A__starting-extraction__candidate-b__selected-master-2300a9db.webm",
+      "bytes": 25715,
+      "sha256": "2300a9dba0afddced9c48ebe90f9221e0243df9df0f1ed26e5381cdf4b6a649d"
+    },
+    {
+      "path": "assets/S22-GATHER-A__starting-extraction__candidate-b__selected-master-55936f73.mp3",
+      "bytes": 27693,
+      "sha256": "55936f73a4935f638abea9d0247425aa5ee920c2ba16a11422eef4ef465c9b7e"
+    },
+    {
+      "path": "assets/S22-GATHER-A__starting-extraction__candidate-c__selected-master-30a65f17.mp3",
+      "bytes": 22317,
+      "sha256": "30a65f170e11129cbf47c0b1dc8c4ee6881c04280962afdb3bf1e21b511b3953"
+    },
+    {
+      "path": "assets/S22-GATHER-A__starting-extraction__candidate-c__selected-master-63bdf622.webm",
+      "bytes": 23171,
+      "sha256": "63bdf622194a7519cacf4aa2afc6737ff140c83812df2500f5273fc45dfa21bc"
+    },
+    {
+      "path": "assets/S22-GATHER-B__ill-bring-it-in__candidate-b__selected-master-202d21fd.mp3",
+      "bytes": 20013,
+      "sha256": "202d21fda111baabf513decf7f781f92c8a0f30c6fdaa64676bc08f10327b521"
+    },
+    {
+      "path": "assets/S22-GATHER-B__ill-bring-it-in__candidate-b__selected-master-85096b25.webm",
+      "bytes": 23009,
+      "sha256": "85096b25ae922095ce414f100ee06931eff93eed806d620078175277f88f7ca0"
+    },
+    {
+      "path": "assets/S22-GATHER-B__ill-bring-it-in__candidate-c__selected-master-a40dc4cf.webm",
+      "bytes": 25908,
+      "sha256": "a40dc4cfd3527764d3c7d50f68b3d7d1278f8ecf0cc98b13ceec0007d33667b0"
+    },
+    {
+      "path": "assets/S22-GATHER-B__ill-bring-it-in__candidate-c__selected-master-d436fbdc.mp3",
+      "bytes": 28461,
+      "sha256": "d436fbdc4593125d57ae7082143ef69479014569b7f3e3f25befa89bc93ecce8"
+    },
+    {
+      "path": "assets/S22-GATHER-C__resources-secured__candidate-b__selected-master-1b312faf.webm",
+      "bytes": 21722,
+      "sha256": "1b312faf2444cc6f19fd148d2127a68f507a780257415e659de634b5611fca01"
+    },
+    {
+      "path": "assets/S22-GATHER-C__resources-secured__candidate-b__selected-master-7f68da98.mp3",
+      "bytes": 23853,
+      "sha256": "7f68da989dbae178b59ac24229695846996940e4bc636fbcea48cae12abdb2ab"
+    },
+    {
+      "path": "assets/S22-GATHER-C__resources-secured__candidate-c__selected-master-ced7b6b4.webm",
+      "bytes": 23498,
+      "sha256": "ced7b6b4cb82829d3ae40c6472e1c979d8288421fa5cb108ee4512ccd1328652"
+    },
+    {
+      "path": "assets/S22-GATHER-C__resources-secured__candidate-c__selected-master-f0922b9e.mp3",
+      "bytes": 26541,
+      "sha256": "f0922b9e3d2fa838a896de491a9471cd75ae4a6b678124eb3263bb9e4f1edf0b"
+    },
+    {
+      "path": "assets/S22-HOLD-A__holding-here__candidate-b__selected-master-28382369.webm",
+      "bytes": 21400,
+      "sha256": "283823690b1daa08b4675dad34d6c1ae4ba81e438a68f0af75d15976b8fb673c"
+    },
+    {
+      "path": "assets/S22-HOLD-A__holding-here__candidate-b__selected-master-fe721dbb.mp3",
+      "bytes": 26541,
+      "sha256": "fe721dbb9456d8370c3559ed08b16ff27e4aa2a10aa881c40fce74304c725edc"
+    },
+    {
+      "path": "assets/S22-HOLD-A__holding-here__candidate-c__selected-master-01e5c5b9.mp3",
+      "bytes": 22701,
+      "sha256": "01e5c5b956c5619614f9035b54de8f193365af192ccb82989f3cef36ad3547da"
+    },
+    {
+      "path": "assets/S22-HOLD-A__holding-here__candidate-c__selected-master-84e1119e.webm",
+      "bytes": 21173,
+      "sha256": "84e1119e309d086c08d117915b3c39b4b4e6579c5dd53abcbcfaf8fd2c76f4dd"
+    },
+    {
+      "path": "assets/S22-HOLD-B__tools-down__candidate-b__selected-master-be2ddc87.webm",
+      "bytes": 30371,
+      "sha256": "be2ddc87e1199e7c9826dab6f0d12b4d9cef6fa084ed02209c6cd1bc3282fc84"
+    },
+    {
+      "path": "assets/S22-HOLD-B__tools-down__candidate-b__selected-master-ea9bce8b.mp3",
+      "bytes": 29229,
+      "sha256": "ea9bce8b9da08512b5ea4699bea27ef9ebd927ce404a490e7f248f4b23c3abc8"
+    },
+    {
+      "path": "assets/S22-HOLD-B__tools-down__candidate-c__selected-master-3c4ff17b.webm",
+      "bytes": 13327,
+      "sha256": "3c4ff17bc1eff032081245490cbe379ca16e1039d84995bd051667ddfc6d9d7b"
+    },
+    {
+      "path": "assets/S22-HOLD-B__tools-down__candidate-c__selected-master-ae366bd4.mp3",
+      "bytes": 15021,
+      "sha256": "ae366bd4ea980ed0c948f8f8ca629faca3334c218e2d8ce1e2343b91c771c06d"
+    },
+    {
+      "path": "assets/S22-MOVE-A__on-my-way__candidate-b__selected-master-d6764b46.mp3",
+      "bytes": 15789,
+      "sha256": "d6764b461b37ed7c329dde5904c0e177e07ae4dc7e8468390309fb275acaa1bb"
+    },
+    {
+      "path": "assets/S22-MOVE-A__on-my-way__candidate-b__selected-master-e02dc011.webm",
+      "bytes": 15639,
+      "sha256": "e02dc01185d00d4ce1b2263394e813d1de9fb9064736806d75782b0c1e3f1a30"
+    },
+    {
+      "path": "assets/S22-MOVE-A__on-my-way__candidate-c__selected-master-6aa21591.webm",
+      "bytes": 16732,
+      "sha256": "6aa215912690c3c9a029c456630011faa6ab34ed0d09711420645b164ea5ce80"
+    },
+    {
+      "path": "assets/S22-MOVE-A__on-my-way__candidate-c__selected-master-a00bcb85.mp3",
+      "bytes": 18861,
+      "sha256": "a00bcb85ebb0d74254b81f8dd551f4a82cc2c8bba64d3f660bfc1aae6a85fd71"
+    },
+    {
+      "path": "assets/S22-MOVE-B__heading-over__candidate-b__selected-master-4df61b2f.mp3",
+      "bytes": 17325,
+      "sha256": "4df61b2f1e2992bb848abb567a3cf8ca7b60e05cce1d08591bb623c36b8b81aa"
+    },
+    {
+      "path": "assets/S22-MOVE-B__heading-over__candidate-b__selected-master-eb46d6d1.webm",
+      "bytes": 18208,
+      "sha256": "eb46d6d1df034cb2833a4519f52b306a8842db9bcea36babe262de10c16dd346"
+    },
+    {
+      "path": "assets/S22-MOVE-B__heading-over__candidate-c__selected-master-bbebc99d.mp3",
+      "bytes": 14637,
+      "sha256": "bbebc99d3a65a88efcd00e6e5bbdebaad3cd2d26e611a185e198211a7e65892e"
+    },
+    {
+      "path": "assets/S22-MOVE-B__heading-over__candidate-c__selected-master-e56bc748.webm",
+      "bytes": 15025,
+      "sha256": "e56bc748394e076ef4b4625150fb2257ce36467b0a3366f7fab647516e715d13"
+    },
+    {
+      "path": "assets/S22-MOVE-C__moving-out__candidate-b__selected-master-62229187.webm",
+      "bytes": 18069,
+      "sha256": "62229187ad1b34ba263616911b4fd31cebfc93a95fef92b948eff1a74f2f6f80"
+    },
+    {
+      "path": "assets/S22-MOVE-C__moving-out__candidate-b__selected-master-ba71ea9e.mp3",
+      "bytes": 17709,
+      "sha256": "ba71ea9e0fac805f57437c05bfe81ac51851e0e45c609a473b561c0d05b0e1d8"
+    },
+    {
+      "path": "assets/S22-MOVE-C__moving-out__candidate-c__selected-master-4dc28f01.mp3",
+      "bytes": 15021,
+      "sha256": "4dc28f0195fb70594b5a3c4796fed6c0f24402605267060c6a43151534114f8c"
+    },
+    {
+      "path": "assets/S22-MOVE-C__moving-out__candidate-c__selected-master-e0a88686.webm",
+      "bytes": 13352,
+      "sha256": "e0a88686f2d7b72e83ca7fe4a52341a981ff1c1218074490b24c949690d3d5ab"
+    },
+    {
+      "path": "assets/S22-READY-A__tools-ready__candidate-b__selected-master-1076bfae.webm",
+      "bytes": 32999,
+      "sha256": "1076bfae13eb4b0073469858b5572c6fafd2f0a318f72e15ac664c91e7135c28"
+    },
+    {
+      "path": "assets/S22-READY-A__tools-ready__candidate-b__selected-master-c183b226.mp3",
+      "bytes": 31533,
+      "sha256": "c183b2268acb07f1ce72a5746473fea9b62fe74f6de0dd5c86dcaf8a4c494712"
+    },
+    {
+      "path": "assets/S22-READY-A__tools-ready__candidate-c__selected-master-94639024.mp3",
+      "bytes": 16173,
+      "sha256": "9463902419982456326b06eb63c7e75cc832e6d0b89919707c7ffbf770501475"
+    },
+    {
+      "path": "assets/S22-READY-A__tools-ready__candidate-c__selected-master-a48ad6ac.webm",
+      "bytes": 13918,
+      "sha256": "a48ad6ac8d1c8420ff98f4519b7bf5f020a5aa9089924c0980c034231fc442ac"
+    },
+    {
+      "path": "assets/S22-READY-B__worker-online__candidate-b__selected-master-be946543.mp3",
+      "bytes": 23853,
+      "sha256": "be946543c71d0f3f21b2d8b6b69be951a05517991a4466b12ec335d321601244"
+    },
+    {
+      "path": "assets/S22-READY-B__worker-online__candidate-b__selected-master-e69d8a45.webm",
+      "bytes": 25238,
+      "sha256": "e69d8a45b050c069e956950020874eb2c8d49096851dff43dd0078af83e2ffb5"
+    },
+    {
+      "path": "assets/S22-READY-B__worker-online__candidate-c__selected-master-1ebd3caf.webm",
+      "bytes": 18008,
+      "sha256": "1ebd3cafa8e1320067e7c8cb340ffeccd317b7859fdbcd858afbd9d2ea1ac1c2"
+    },
+    {
+      "path": "assets/S22-READY-B__worker-online__candidate-c__selected-master-890b9436.mp3",
+      "bytes": 18861,
+      "sha256": "890b94361b4f8d0f8c4c9aace6e5e66d4183708536117675b12222486c5b908a"
+    },
+    {
+      "path": "assets/S22-READY-C__reporting-for-duty__candidate-b__selected-master-4aec86ba.webm",
+      "bytes": 31056,
+      "sha256": "4aec86ba74ebe37017003afc329555ba1f98d3dfb8e515c889eb4e32827f04ab"
+    },
+    {
+      "path": "assets/S22-READY-C__reporting-for-duty__candidate-b__selected-master-ddad08f8.mp3",
+      "bytes": 28845,
+      "sha256": "ddad08f8c5cb80049dea327cd9e6d1c93218ad3b002891d0c7adc11e01f605f7"
+    },
+    {
+      "path": "assets/S22-READY-C__reporting-for-duty__candidate-c__selected-master-c46fca63.webm",
+      "bytes": 17927,
+      "sha256": "c46fca63e7597e567a5f5bc38c3c5fe88bc6d68bc53499f1d186566f4411aa75"
+    },
+    {
+      "path": "assets/S22-READY-C__reporting-for-duty__candidate-c__selected-master-cd959ac3.mp3",
+      "bytes": 20013,
+      "sha256": "cd959ac3a9f0f0f40d5af41d883e6e853c603382ca3d3cfc77f3c9854a92c303"
+    },
+    {
+      "path": "assets/S22-REPAIR-A__i-can-fix-that__candidate-b__selected-master-00a7b81e.webm",
+      "bytes": 23497,
+      "sha256": "00a7b81eed8012681b838774d2b9f871dfe9bef8bd25e56d643a5eed0966fa5c"
+    },
+    {
+      "path": "assets/S22-REPAIR-A__i-can-fix-that__candidate-b__selected-master-ceac6dba.mp3",
+      "bytes": 23853,
+      "sha256": "ceac6dba22e9195353468bcd4741435e1423a72a329312212cb884ed451e3169"
+    },
+    {
+      "path": "assets/S22-REPAIR-A__i-can-fix-that__candidate-c__selected-master-51f39b7f.mp3",
+      "bytes": 20013,
+      "sha256": "51f39b7fe5d6d3994b5a4fa98accc411585fe01efdb7adf706bd08c4979a133f"
+    },
+    {
+      "path": "assets/S22-REPAIR-A__i-can-fix-that__candidate-c__selected-master-df0d5d6a.webm",
+      "bytes": 19275,
+      "sha256": "df0d5d6a8744dda6cd8bdb9c961f0d984381db9cc099dd517cfe38389b34c3c4"
+    },
+    {
+      "path": "assets/S22-REPAIR-B__starting-repairs__candidate-b__selected-master-4c203126.webm",
+      "bytes": 21051,
+      "sha256": "4c20312622925f46593a4b481f5f1e9a7faf9fa9211e8a49e1cbf0af060db6c0"
+    },
+    {
+      "path": "assets/S22-REPAIR-B__starting-repairs__candidate-b__selected-master-e04d36ae.mp3",
+      "bytes": 22317,
+      "sha256": "e04d36aebacb6e8c3928aeac17f317d353e8d99c507a0899ac9e81335cceccc2"
+    },
+    {
+      "path": "assets/S22-REPAIR-B__starting-repairs__candidate-c__selected-master-34398504.webm",
+      "bytes": 21370,
+      "sha256": "34398504167c2cd8b5e73d34bf0a260408f60a021b41024ef0af595e0c46b19b"
+    },
+    {
+      "path": "assets/S22-REPAIR-B__starting-repairs__candidate-c__selected-master-b86b3c50.mp3",
+      "bytes": 23085,
+      "sha256": "b86b3c5012b1af894b831ef499621daedb3f231a97af0dacd3a5161c873312f0"
+    },
+    {
+      "path": "assets/S22-REPAIR-C__hold-together-for-me__candidate-b__selected-master-551491e8.webm",
+      "bytes": 27043,
+      "sha256": "551491e8524d3f96d907e20afa37c51998fb7a8aa3f1137fa3a13a2c91bc66c2"
+    },
+    {
+      "path": "assets/S22-REPAIR-C__hold-together-for-me__candidate-b__selected-master-cddd04ff.mp3",
+      "bytes": 29229,
+      "sha256": "cddd04ffe1766d96302c5011cb6fff6e85d8b87da0ee3f68745c2f0e3f0b1630"
+    },
+    {
+      "path": "assets/S22-REPAIR-C__hold-together-for-me__candidate-c__selected-master-0aea72e1.webm",
+      "bytes": 22218,
+      "sha256": "0aea72e128075534a431596776204830ac25935e401d9b97f7710b442fff2c1b"
+    },
+    {
+      "path": "assets/S22-REPAIR-C__hold-together-for-me__candidate-c__selected-master-90dd64c6.mp3",
+      "bytes": 23853,
+      "sha256": "90dd64c6ec7b32f0f0513e12090d5b5e85284bf927ba62bc6d9b9345ca66ad8e"
+    },
+    {
+      "path": "assets/S22-SELECT-A__need-a-hand__candidate-b__selected-master-08487f60.webm",
+      "bytes": 18450,
+      "sha256": "08487f602262c27c6e27b39e08e3b606f4e0af51489d7ba95afe793d1ddc60bb"
+    },
+    {
+      "path": "assets/S22-SELECT-A__need-a-hand__candidate-b__selected-master-d341ed92.mp3",
+      "bytes": 16173,
+      "sha256": "d341ed92b04277bc347c0af57b0f22415e492504657ff232d9749e98b5f63a7c"
+    },
+    {
+      "path": "assets/S22-SELECT-A__need-a-hand__candidate-c__selected-master-e7e5e75a.mp3",
+      "bytes": 16173,
+      "sha256": "e7e5e75a9dcb5cb6eaad5a7600a086b960ee047e3b6689ab12aeb8f5f21e4817"
+    },
+    {
+      "path": "assets/S22-SELECT-A__need-a-hand__candidate-c__selected-master-f1b15263.webm",
+      "bytes": 14059,
+      "sha256": "f1b15263dd5eb8ed2c814e94f24d00a805539f7d08e0e0cb939aff3c79561a3a"
+    },
+    {
+      "path": "assets/S22-SELECT-B__what-needs-fixing__candidate-b__selected-master-4d8ae890.mp3",
+      "bytes": 22701,
+      "sha256": "4d8ae890497059e4ab44d0dd5e69125e0c2bea04b894f4994653f00707546788"
+    },
+    {
+      "path": "assets/S22-SELECT-B__what-needs-fixing__candidate-b__selected-master-9d1338d3.webm",
+      "bytes": 20368,
+      "sha256": "9d1338d3b616a2f703e8e13342667155cbc300ebedf53033bcf2c682c8d64b94"
+    },
+    {
+      "path": "assets/S22-SELECT-B__what-needs-fixing__candidate-c__selected-master-7a5c8522.mp3",
+      "bytes": 19629,
+      "sha256": "7a5c8522b1db79229191cacc1819b55d2043f80712f8eaf06854c62c3e716f9b"
+    },
+    {
+      "path": "assets/S22-SELECT-B__what-needs-fixing__candidate-c__selected-master-936659a8.webm",
+      "bytes": 16787,
+      "sha256": "936659a85bacba7e8e3d199aa2e68b7c5555a4b6bc3c0da8af57539d5455ce9e"
+    },
+    {
+      "path": "assets/S22-SELECT-C__you-called__candidate-b__selected-master-5af56857.webm",
+      "bytes": 16122,
+      "sha256": "5af568573e891f6eabb34ad387a56f8db4ae57f97705c63024c8479129312a55"
+    },
+    {
+      "path": "assets/S22-SELECT-C__you-called__candidate-b__selected-master-b8ed0a17.mp3",
+      "bytes": 16173,
+      "sha256": "b8ed0a17ea2a1eb4a9feec3efe8c212fe97738755c05d8a0c443efa1c4d58187"
+    },
+    {
+      "path": "assets/S22-SELECT-C__you-called__candidate-c__selected-master-0b9e8db9.webm",
+      "bytes": 10070,
+      "sha256": "0b9e8db9abf9465921b0c314ee13e96a081585797539272833222454314e44cf"
+    },
+    {
+      "path": "assets/S22-SELECT-C__you-called__candidate-c__selected-master-25a02991.mp3",
+      "bytes": 11181,
+      "sha256": "25a02991aecf77d3331a4c08ced745bcb1f088543d6aa5edb6b54190e4de704b"
+    },
+    {
+      "path": "assets/S42-ATTACK-A__variant-a__raider-driver-r1-b__selected-master-20a45664.mp3",
+      "bytes": 29997,
+      "sha256": "20a456642f5e838d8fc96b080ff0080cf18cd7002094b73c114a47303f1dfbad"
+    },
+    {
+      "path": "assets/S42-ATTACK-A__variant-a__raider-driver-r1-b__selected-master-fe80b480.webm",
+      "bytes": 27037,
+      "sha256": "fe80b480da826c09abf8e96e78b0ee88812fc89c29f59381fb0a4b5997403a0d"
+    },
+    {
+      "path": "assets/S42-DEPLOY-A__variant-a__raider-driver-r1-b__selected-master-178d323b.mp3",
+      "bytes": 26157,
+      "sha256": "178d323b8941412393c84ddf509d7a47998c66d2d651b8c0970a16134a8218c2"
+    },
+    {
+      "path": "assets/S42-DEPLOY-A__variant-a__raider-driver-r1-b__selected-master-c2eff982.webm",
+      "bytes": 24050,
+      "sha256": "c2eff982ecbf16b579092135e81cf19bedb73798d01799b798294ab9e56582ef"
+    },
+    {
+      "path": "assets/S42-MOVE-A__variant-a__raider-driver-r1-b__selected-master-24bcd64b.mp3",
+      "bytes": 18477,
+      "sha256": "24bcd64bb93680c27fd6dcbbc4372f53531cdb8a1977b1835226e08563f2240f"
+    },
+    {
+      "path": "assets/S42-MOVE-A__variant-a__raider-driver-r1-b__selected-master-5883c70c.webm",
+      "bytes": 17020,
+      "sha256": "5883c70cf550360b5b21ce5708b2ac85305de30622fe42a976707c34a1135aa1"
+    },
+    {
+      "path": "assets/S42-READY-A__variant-a__raider-driver-r1-b__selected-master-32169c10.mp3",
+      "bytes": 23853,
+      "sha256": "32169c1083eb2c9aca0ecaaa0ea083caeaea41ce366026727264bfda87848dc3"
+    },
+    {
+      "path": "assets/S42-READY-A__variant-a__raider-driver-r1-b__selected-master-edb5ffb4.webm",
+      "bytes": 22698,
+      "sha256": "edb5ffb4b3729a34abb2ef33bd82366030469ddbd5031078dc147cc42bd3f018"
+    },
+    {
+      "path": "assets/S42-SELECT-A__variant-a__raider-driver-r1-b__selected-master-097333e8.mp3",
+      "bytes": 29229,
+      "sha256": "097333e8bc83c0b7b019a92374573d0db86591ad004b5fef0103d8cb4ec81450"
+    },
+    {
+      "path": "assets/S42-SELECT-A__variant-a__raider-driver-r1-b__selected-master-4b17705c.webm",
+      "bytes": 30680,
+      "sha256": "4b17705c892e9309f8a245d53211946c3e3dcccf6e68490c68f80b113afaf760"
+    },
+    {
+      "path": "assets/S42-UNDEPLOY-A__variant-a__raider-driver-r1-b__selected-master-ad13af44.webm",
+      "bytes": 18980,
+      "sha256": "ad13af444b6c9148c90485b38f399b3957b0e4ee97a01fdb63dd33384a6e5e72"
+    },
+    {
+      "path": "assets/S42-UNDEPLOY-A__variant-a__raider-driver-r1-b__selected-master-e5b271c0.mp3",
+      "bytes": 23853,
+      "sha256": "e5b271c03174827b2b77f270a9d3cc60caa63149e20f6f0cdadef5e690bb4331"
+    },
+    {
+      "path": "assets/S42V2-ATTACK-B__variant-b__raider-driver-r1-b__selected-master-45df6c02.webm",
+      "bytes": 28188,
+      "sha256": "45df6c02f62aa16217c66b66829e049b14480d4184cf33b02564054cc229f77b"
+    },
+    {
+      "path": "assets/S42V2-ATTACK-B__variant-b__raider-driver-r1-b__selected-master-648b4d17.mp3",
+      "bytes": 28461,
+      "sha256": "648b4d17925b6cca8fde0dd62f8cf320859115e8693349368e2efe58a5a98715"
+    },
+    {
+      "path": "assets/S42V2-ATTACK-C__variant-c__raider-driver-r1-b__selected-master-179472b8.webm",
+      "bytes": 30174,
+      "sha256": "179472b8470177b1a0f2fed2a326bad795184db2b7a5ae02f409d69f5f1bd0e9"
+    },
+    {
+      "path": "assets/S42V2-ATTACK-C__variant-c__raider-driver-r1-b__selected-master-d2f48690.mp3",
+      "bytes": 36525,
+      "sha256": "d2f486908dc8898cb2c2044c1904f1ae1032329202757df0f1ab623e7dd7b51d"
+    },
+    {
+      "path": "assets/S42V2-DEPLOY-B__variant-b__raider-driver-r1-b__selected-master-14215504.mp3",
+      "bytes": 31149,
+      "sha256": "1421550461dc7e3468fd396ad045157e6d9c269b18c1abcad91fc907d46c7702"
+    },
+    {
+      "path": "assets/S42V2-DEPLOY-B__variant-b__raider-driver-r1-b__selected-master-2d5a64df.webm",
+      "bytes": 31173,
+      "sha256": "2d5a64dfcfa59cc7f2273e0125a411fcf6594fde5a3fd80549cb07db607c8a72"
+    },
+    {
+      "path": "assets/S42V2-DEPLOY-C__variant-c__raider-driver-r1-b__selected-master-1dac55a7.mp3",
+      "bytes": 27693,
+      "sha256": "1dac55a714f293da19b81262a17d778482be679f136b3678e69174ad32d9f1e9"
+    },
+    {
+      "path": "assets/S42V2-DEPLOY-C__variant-c__raider-driver-r1-b__selected-master-676aacb1.webm",
+      "bytes": 23436,
+      "sha256": "676aacb1f3b7168af6c602a88040c4e8e3910653cb240d3aa0ecfbca3a22b278"
+    },
+    {
+      "path": "assets/S42V2-MOVE-B__variant-b__raider-driver-r1-b__selected-master-705a12c3.mp3",
+      "bytes": 31917,
+      "sha256": "705a12c33049eb0693a090b1f02a15622add36b8a7dc60e33bbc8555ec126650"
+    },
+    {
+      "path": "assets/S42V2-MOVE-B__variant-b__raider-driver-r1-b__selected-master-c010a741.webm",
+      "bytes": 28740,
+      "sha256": "c010a741a65ba1bc4442c8f64d59d1232abf0d392c0e7ad10c3de191250785cf"
+    },
+    {
+      "path": "assets/S42V2-MOVE-C__variant-c__raider-driver-r1-b__selected-master-2b5120e2.mp3",
+      "bytes": 22317,
+      "sha256": "2b5120e2de67935177e5759378c46b12c3b7c9009253ec8b52445cf9095e34e6"
+    },
+    {
+      "path": "assets/S42V2-MOVE-C__variant-c__raider-driver-r1-b__selected-master-c30cba2a.webm",
+      "bytes": 19467,
+      "sha256": "c30cba2a0e4c47ec539856d39b757b11b0e5f71a6afbc4058f3f8276cf26e931"
+    },
+    {
+      "path": "assets/S42V2-READY-B__variant-b__raider-driver-r1-b__selected-master-75e2c50c.webm",
+      "bytes": 39841,
+      "sha256": "75e2c50c7a32f54b8cda3483767a391b0e1430fb8ce9396c4c93159509eb19b4"
+    },
+    {
+      "path": "assets/S42V2-READY-B__variant-b__raider-driver-r1-b__selected-master-7766b670.mp3",
+      "bytes": 40749,
+      "sha256": "7766b67060171398892db02cef32ca83003682a0f7400d4e8b7a9729ee30c736"
+    },
+    {
+      "path": "assets/S42V2-READY-C__variant-c__raider-driver-r1-b__selected-master-3bf8b35a.mp3",
+      "bytes": 30765,
+      "sha256": "3bf8b35a4db159573e8aa71d1cd7848bba9845cfc389a1a4f006a86e22b7ae4b"
+    },
+    {
+      "path": "assets/S42V2-READY-C__variant-c__raider-driver-r1-b__selected-master-57713036.webm",
+      "bytes": 31961,
+      "sha256": "577130361f3826cc8e4e568c9d4427769567c499174902b4a513ad9e949957b8"
+    },
+    {
+      "path": "assets/S42V2-SELECT-B__variant-b__raider-driver-r1-b__selected-master-88a2d76c.mp3",
+      "bytes": 23853,
+      "sha256": "88a2d76cd47b865efed45bfb6443d35d3e22870eab35dc14dad7f03dc908a9e7"
+    },
+    {
+      "path": "assets/S42V2-SELECT-B__variant-b__raider-driver-r1-b__selected-master-f152d6d6.webm",
+      "bytes": 25738,
+      "sha256": "f152d6d65093d744ee1a83b72ed691ac958676982b60f381172dfc1b2fdcb9b5"
+    },
+    {
+      "path": "assets/S42V2-SELECT-C__variant-c__raider-driver-r1-b__selected-master-b4fdf1dc.mp3",
+      "bytes": 16173,
+      "sha256": "b4fdf1dc330bd38c1eb297760d7636bbd2b532db7c987d1493db09c89f3bc174"
+    },
+    {
+      "path": "assets/S42V2-SELECT-C__variant-c__raider-driver-r1-b__selected-master-e1de4dba.webm",
+      "bytes": 13822,
+      "sha256": "e1de4dba111cd716c85785e9e4b46504a282041cf942dce8fd492ec69e31289b"
+    },
+    {
+      "path": "assets/S42V2-UNDEPLOY-B__variant-b__raider-driver-r1-b__selected-master-6d3271ca.mp3",
+      "bytes": 30381,
+      "sha256": "6d3271ca7e9dd840927fc076eb32e71282b63909ba05526346575e0ca226955e"
+    },
+    {
+      "path": "assets/S42V2-UNDEPLOY-B__variant-b__raider-driver-r1-b__selected-master-f0cf766f.webm",
+      "bytes": 26891,
+      "sha256": "f0cf766f075563c91ca70fbffff9f1454eedf394be3200bee9f133ddd9736400"
+    },
+    {
+      "path": "assets/S42V2-UNDEPLOY-C__variant-c__raider-driver-r1-b__selected-master-147c323f.mp3",
+      "bytes": 20397,
+      "sha256": "147c323f04115d4a12ad2893d871e08b985150ce0c190c5451858b0e9c951a2a"
+    },
+    {
+      "path": "assets/S42V2-UNDEPLOY-C__variant-c__raider-driver-r1-b__selected-master-91a58661.webm",
+      "bytes": 18103,
+      "sha256": "91a586613b72eea552c4f4e91736c55eca9e6e5c0bc5a88293352626d29b6833"
+    },
+    {
+      "path": "assets/S42V3-ANNOYED-A__variant-a__raider-driver-r1-b__selected-master-00ea722b.webm",
+      "bytes": 28873,
+      "sha256": "00ea722b2a346d6c9dffc416ed7223bd65ca65f053ed5c85a1cf73c4f5ebf5f8"
+    },
+    {
+      "path": "assets/S42V3-ANNOYED-A__variant-a__raider-driver-r1-b__selected-master-4a17d6cc.mp3",
+      "bytes": 32685,
+      "sha256": "4a17d6cc32b8e7dcbdb7fa5426efeb25a036ea012f7e608f7c51eed7d744886b"
+    },
+    {
+      "path": "assets/S42V3-ANNOYED-B__variant-b__raider-driver-r1-b__selected-master-75938e8a.webm",
+      "bytes": 45078,
+      "sha256": "75938e8a28f22c79b35232ef7692ba323f084100c40af9919c00a61dda8eb8d2"
+    },
+    {
+      "path": "assets/S42V3-ANNOYED-B__variant-b__raider-driver-r1-b__selected-master-e490de8d.mp3",
+      "bytes": 44205,
+      "sha256": "e490de8dec83cac817da67218bacf71c19c0da2995bd69b7685e27731ae23edb"
+    },
+    {
+      "path": "assets/S42V3-ANNOYED-C__variant-c__raider-driver-r1-b__selected-master-2ae611c4.webm",
+      "bytes": 40553,
+      "sha256": "2ae611c407089d20fda5b771e14e3294446b8fe9e4dc7390611a466729186fb9"
+    },
+    {
+      "path": "assets/S42V3-ANNOYED-C__variant-c__raider-driver-r1-b__selected-master-7c5a6ade.mp3",
+      "bytes": 49197,
+      "sha256": "7c5a6ade252286d5f2c5aaa7e764c6937d97d03d7d84fe683a3ceae1ce23cdcb"
+    },
+    {
+      "path": "assets/scienceFacilityRuntimeVisualPilot-ac61e3a8.js",
+      "bytes": 153940,
+      "sha256": "9d75694e040cf3b1b3fd3a9b6f4b89a2fa4f13bae2969480bb9f99f08cd7ef0e"
     },
     {
       "path": "assets/selection-portrait-enemy-building-barracks-6878cac6.png",
@@ -9664,14 +9694,14 @@
       "sha256": "cff15edd4cd5d70c3d28e1ddd57001491e7dbeb488e2aa0bf3ad6df307ee5dd2"
     },
     {
-      "path": "assets/soldierOwnerColorSemanticMaskRuntimePilot-73a281cf.js",
-      "bytes": 1028728,
-      "sha256": "64daaeb2bc595510dce6ee2f81e8bab91d94621aac0927f5dfee12a160048734"
+      "path": "assets/soldierOwnerColorSemanticMaskRuntimePilot-3471417c.js",
+      "bytes": 1028729,
+      "sha256": "2fc47a258b839f0fdec15e01c84ea0cbde430d0eac368b35b5602e1b3a218713"
     },
     {
-      "path": "assets/starportRuntimeVisualPilot-9cb0a13a.js",
-      "bytes": 115037,
-      "sha256": "cc5b78c677768e68a44a03e04516d38feec23299871d740f94a8569308c8ddc1"
+      "path": "assets/starportRuntimeVisualPilot-150787aa.js",
+      "bytes": 115038,
+      "sha256": "b9d302252db5014699914f6393b4fdd2c9697e002fb36ee7a4b7ed63cc0b0c7c"
     },
     {
       "path": "assets/status-icon-air-1a68edcf.png",
@@ -9934,9 +9964,9 @@
       "sha256": "f7ecbb4cddac69ad4ff025f05a1cd3d039ed02b48dedff16954cd5c6906e86aa"
     },
     {
-      "path": "assets/supplyDepotRuntimeVisualPilot-d318a031.js",
-      "bytes": 144086,
-      "sha256": "003472d62786e3476d6c90758c03814c4dbae6165bc19203e11679559542cbbd"
+      "path": "assets/supplyDepotRuntimeVisualPilot-ec453379.js",
+      "bytes": 144088,
+      "sha256": "8b14449d6db65343107ab9bb7bcae8e815b66eeb4f743348c1501d9b48458696"
     },
     {
       "path": "assets/ui.alert.addon_complete__candidate-a__selected-master-7618e634.webm",
@@ -10449,9 +10479,9 @@
       "sha256": "c5ed23af68777bd4f75b53ec2230b730b35bd76b33ecf5b139a6b5016af5b803"
     },
     {
-      "path": "assets/unitAnimationCandidateSprites-c30f017e.js",
-      "bytes": 39395,
-      "sha256": "22f06ab89a364ae8c8843b3287e49097e8a8215068e4bbec1131408b56f0c587"
+      "path": "assets/unitAnimationCandidateSprites-e6970beb.js",
+      "bytes": 39397,
+      "sha256": "2970d7da69aab928876f1a53d75289a31a7c686da5e9a07344f1b8525fc7be79"
     },
     {
       "path": "assets/vespene-canister-base-vespene-canister-base-page-0-428b869e.webp",
@@ -10504,38 +10534,41 @@
       "sha256": "3725416d64207f2f9a9a27b08f7c105fd98f2aac2c7a45066079631bd120a80d"
     },
     {
-      "path": "assets/workerModularCargoRuntimePilot-e721553e.js",
+      "path": "assets/workerModularCargoRuntimePilot-0086bec1.js",
       "bytes": 802336,
-      "sha256": "8354ca22ffbe95fbfcd8c8f780e568f8c11e82fad94c52a4c87e65fb00b2765d"
+      "sha256": "01ebe46bceffd682e4e442cfd73b79b885f11a34c3afc251f1cedb8921d57fd6"
     },
     {
-      "path": "assets/workerOwnerColorSemanticMaskRuntimePilot-3ed39a04.js",
-      "bytes": 1037227,
-      "sha256": "ea3e2c5c4d0fec193521062e744677ffc93cbfddfa37821a5faca1d126ad5b28"
+      "path": "assets/workerOwnerColorSemanticMaskRuntimePilot-e2343f48.js",
+      "bytes": 1037233,
+      "sha256": "3d145df2a2e8f5a8c49577dd2108ebf2b89164e0e787da3860e0398c5a8748c4"
     },
     {
       "path": "code-12-34a-runtime-asset-byte-manifest.json",
-      "bytes": 773272,
-      "sha256": "a42557a773c26f3b35b83135ba77eb807d7645c24c3b975fedc093f08c1ab267"
+      "bytes": 773931,
+      "sha256": "4f041d5734122948a885d09b64bd0d43cfebc8724cf1a06efeb4223f37981754"
     },
     {
       "path": "index.html",
-      "bytes": 2363,
-      "sha256": "3dd5e08d708c9aef4df297c81686afc06cf0b3b26287f92bcbb619940c3ba90d"
+      "bytes": 1231,
+      "sha256": "fb3aa25abe9e91a1fde02cd7e53ee26c53482c744d45d4977b48b5845aba8cc4"
     },
     {
       "path": "play/index.html",
-      "bytes": 1885,
-      "sha256": "1d12d0a08b99f10bae6529998077fbb833d7824ed6e917b486ba2ecdd69c6e95"
+      "bytes": 1253,
+      "sha256": "63e8c889a23d883c291eec61bf3fdd451d012ad180cabce6488c0e125674f8da"
     },
     {
       "path": "release-version.json",
-      "bytes": 7982,
-      "sha256": "7a1aeaa31fb49efeda269cf882b4cd5f671dc1148788ad4ea734b39ee3498e18"
+      "bytes": 1045,
+      "sha256": "9dde5eee99d4f6bcbc31db415b54c4a8ac6e51de2a756c87de4f9504207c7b51"
     }
   ],
+  "publicBase": "/codex-rts-play/",
+  "fileCount": 2111,
   "ownerAcceptanceRequired": false,
-  "c4OwnerAccepted": true,
-  "transportOwnerAccepted": true,
-  "capabilitiesUnchanged": true
+  "OwnerAuthorizationSha256": "50ef2985531076d6c4ae7d40fbc0f5e20d4519242d43f3d5aef2d97b0a935479",
+  "PMDelegatedFormalAcceptanceSha256": "9f4031641e5790cc23a1ea0b4cbea02d73be6e57d315e37a8b3ec46edbb20d7f",
+  "registeredAuthoritySha256": "34827409b4ac73692c753e3c0192b07446695913af1e29266c019dbd8bc13908",
+  "immutableBuildInputRegistrySha256": "6944494970cb2ef7718280b12e69b6aef8952c7cc1c23fe3642fd63fe7a220da"
 }

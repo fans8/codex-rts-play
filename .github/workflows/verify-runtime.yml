@@ -11,44 +11,35 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
-      - name: Verify approved identity and exact payload
+      - name: Verify registered F identity, every byte and public isolation
         run: |
           python3 - <<'PYCODE'
           import json,pathlib,hashlib,re
           manifest=json.load(open('deployment-manifest.json'))
           assert manifest['ownerAcceptanceRequired'] is False
-          assert manifest['acceptedReviewSourceId']=='c6930b7bb1a5d6c718e8273c227ea75b50058adc73656330f2d872325b701577'
-          assert manifest['sourceId']=='772e0f85426e9f78c604c758ae42aa4b50befa59ec9de9a2a5667d478fbf34e9'
-          assert manifest['ownerAcceptanceSha256']=='b06d89ee03b32918db1af8ebb6c560f81637534b6a5791336e3d343fd2184d95'
-          assert manifest['authorityRegistrySha256']=='d8bc0eba38d3a9a3c4b9c4bdef19d2486ee6ededfa480312ff40cf302b15faa6'
-          assert manifest['publicBase']=='/codex-rts-play/'
-          assert manifest['version']=='2026.10.04-c-merged-latest-v2'
-          assert manifest['c4']['ownerAcceptanceSha256']=='4c2c6ab1f45d4066618c2f348ebe61e470008d49b00f991520f2f5b4d961759e'
-          assert manifest['c4']['acceptedReviewSourceId']=='8dea03cf1666db8d42037b3c74478c4064d417a11e4736cd3d5788a5292399fc'
-          assert manifest['c4']['selector']=='default-no-query'
-          root=pathlib.Path('site')
-          expected={e['path']:e for e in manifest['files']}
-          assert len(expected)==len(manifest['files'])
-          actual={str(p.relative_to(root)) for p in root.rglob('*') if p.is_file() or p.is_symlink()}
-          assert actual==set(expected)
+          assert manifest['version']=='2026.10.05-unit-polish-latest-v1'
+          assert manifest['sourceId']=='3523bf056427759b92fccb1b13d28ba65a3ab640e3412c142f509572a3b1b503'
+          assert manifest['assetBuildId']=='f90287ad707289fe772fe884f7c85580395b5f6ee034d5878805ed606e71e49a'
+          assert manifest['buildDerivationId']=='a5fcf5c39768abe119c8eb7528f1c7fed8bc0260c8d77f22a7b007813c1735bb'
+          assert manifest['OwnerAuthorizationSha256']=='50ef2985531076d6c4ae7d40fbc0f5e20d4519242d43f3d5aef2d97b0a935479'
+          assert manifest['PMDelegatedFormalAcceptanceSha256']=='9f4031641e5790cc23a1ea0b4cbea02d73be6e57d315e37a8b3ec46edbb20d7f'
+          assert manifest['registeredAuthoritySha256']=='34827409b4ac73692c753e3c0192b07446695913af1e29266c019dbd8bc13908'
+          assert manifest['publicBase']=='/codex-rts-play/' and manifest['selector']=='default-no-query'
+          root=pathlib.Path('site');expected={e['path']:e for e in manifest['files']}
+          assert len(expected)==len(manifest['files'])==2111
+          actual={str(p.relative_to(root))for p in root.rglob('*')if p.is_file() or p.is_symlink()};assert actual==set(expected)
           for name,e in expected.items():
             assert not name.startswith('/') and '..' not in pathlib.Path(name).parts
-            p=root/name;assert not p.is_symlink()
-            b=p.read_bytes();assert len(b)==e['bytes'] and hashlib.sha256(b).hexdigest()==e['sha256'],name
+            p=root/name;assert not p.is_symlink();b=p.read_bytes();assert len(b)==e['bytes'] and hashlib.sha256(b).hexdigest()==e['sha256'],name
             assert not b.startswith(b'version https://git-lfs.github.com/spec/v1')
+            assert p.suffix!='.map' and not name.startswith(('src/','docs/','internal/','tests/'))
             if p.suffix in ['.js','.json','.html','.css','.svg','.txt']:
-              assert not re.search(rb'/Users/peter|\.private/devlog|codex_import|BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY|gh[pousr]_[A-Za-z0-9]{30,}|AKIA[0-9A-Z]{16}',b),name
+              assert not re.search(rb'/Users/|/private/|\.private/|/source-v[12]/|codex_import|sourceMappingURL=|BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY|gh[pousr]_[A-Za-z0-9]{30,}|AKIA[0-9A-Z]{16}',b),name
+              assert all(t not in b for t in [b'__shadeQa',b'__transportQa',b'__raider16Qa',b'__raiderPersistentWreckQa']),name
           version=json.load(open(root/'release-version.json'))
-          for k in ['version','sourceId','assetBuildId','acceptedReviewSourceId','ownerAcceptanceSha256','authorityRegistrySha256','highLoadPerformanceThresholdPassed']:assert version[k]==manifest[k],k
-          assert version['c4']==manifest['c4']
-          assert version['transport']==manifest['transport']
-          assert manifest['transport']['selector']=='default-no-query'
-          assert manifest['transport']['acceptedReviewSourceId']=='1a1c4ea78cc389728caf0e3c5d9d25cbc6f8778933820aae4ab0e621b0d6f235'
-          assert manifest['transport']['ownerAcceptanceSha256']=='b06d89ee03b32918db1af8ebb6c560f81637534b6a5791336e3d343fd2184d95'
-          assert version['captureCapability']=={'version':1,'enabled':True}
-          assert version['highLoadPerformanceThresholdPassed'] is False
-          assert version['performanceCandidateStatus']=='owner_accepted_C_formal_latest'
-          assert version['formalDefault16'] is True and version['ownerRuntimeAccepted'] is True
-          assert version['raider16']['directionCount']==16 and version['raider16']['selector']=='default-no-query'
-          print(manifest['version'],len(expected),'approved runtime files verified; no deployment in this job')
+          for k in ['version','sourceId','assetBuildId','buildDerivationId','acceptedBehaviorSourceId','selector']:assert version[k]==manifest[k],k
+          assert version['formalDefault'] is True and version['channel']=='formal-release'
+          assert version['polish']['sourceId']==version['sourceId']
+          assert version['polish']['registrySha256']==manifest['immutableBuildInputRegistrySha256']
+          print(manifest['version'],len(expected),'registered exact F runtime files verified')
           PYCODE
