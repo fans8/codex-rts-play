@@ -18,11 +18,11 @@ jobs:
           manifest=json.load(open('deployment-manifest.json'))
           assert manifest['ownerAcceptanceRequired'] is False
           assert manifest['acceptedReviewSourceId']=='c6930b7bb1a5d6c718e8273c227ea75b50058adc73656330f2d872325b701577'
-          assert manifest['sourceId']=='b9730591427318e88f2e911fe0de3eda6212d1c6852a3fd696df4f11361633ae'
-          assert manifest['ownerAcceptanceSha256']=='7256a39c58204525609a9bf12ac016ac54839cc98e5086b622f4d2f0cf9c88e7'
-          assert manifest['authorityRegistrySha256']=='d6495b2a9374982493261db07602fe0775568bf0fc54b7994227fa2a5db691ad'
+          assert manifest['sourceId']=='772e0f85426e9f78c604c758ae42aa4b50befa59ec9de9a2a5667d478fbf34e9'
+          assert manifest['ownerAcceptanceSha256']=='b06d89ee03b32918db1af8ebb6c560f81637534b6a5791336e3d343fd2184d95'
+          assert manifest['authorityRegistrySha256']=='d8bc0eba38d3a9a3c4b9c4bdef19d2486ee6ededfa480312ff40cf302b15faa6'
           assert manifest['publicBase']=='/codex-rts-play/'
-          assert manifest['version']=='2026.10.04-c4-latest'
+          assert manifest['version']=='2026.10.04-c-merged-latest-v2'
           assert manifest['c4']['ownerAcceptanceSha256']=='4c2c6ab1f45d4066618c2f348ebe61e470008d49b00f991520f2f5b4d961759e'
           assert manifest['c4']['acceptedReviewSourceId']=='8dea03cf1666db8d42037b3c74478c4064d417a11e4736cd3d5788a5292399fc'
           assert manifest['c4']['selector']=='default-no-query'
@@ -41,9 +41,13 @@ jobs:
           version=json.load(open(root/'release-version.json'))
           for k in ['version','sourceId','assetBuildId','acceptedReviewSourceId','ownerAcceptanceSha256','authorityRegistrySha256','highLoadPerformanceThresholdPassed']:assert version[k]==manifest[k],k
           assert version['c4']==manifest['c4']
+          assert version['transport']==manifest['transport']
+          assert manifest['transport']['selector']=='default-no-query'
+          assert manifest['transport']['acceptedReviewSourceId']=='1a1c4ea78cc389728caf0e3c5d9d25cbc6f8778933820aae4ab0e621b0d6f235'
+          assert manifest['transport']['ownerAcceptanceSha256']=='b06d89ee03b32918db1af8ebb6c560f81637534b6a5791336e3d343fd2184d95'
           assert version['captureCapability']=={'version':1,'enabled':True}
           assert version['highLoadPerformanceThresholdPassed'] is False
-          assert version['performanceCandidateStatus']=='owner_accepted_c4_formal_latest'
+          assert version['performanceCandidateStatus']=='owner_accepted_C_formal_latest'
           assert version['formalDefault16'] is True and version['ownerRuntimeAccepted'] is True
           assert version['raider16']['directionCount']==16 and version['raider16']['selector']=='default-no-query'
           print(manifest['version'],len(expected),'approved runtime files verified; no deployment in this job')
