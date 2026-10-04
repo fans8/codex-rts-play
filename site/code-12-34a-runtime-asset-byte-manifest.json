@@ -1,6 +1,6 @@
 {
   "schemaVersion": "code-12.34a-runtime-asset-build-manifest-v2",
-  "buildId": "71ab0db21231fb4698b89b205b61a3c23d5f0c8bfb61859ec73cc17cba528c0b",
+  "buildId": "f90287ad707289fe772fe884f7c85580395b5f6ee034d5878805ed606e71e49a",
   "entries": [
     {
       "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v03-c8db4cc2.mp3",
@@ -6832,6 +6832,20 @@
       "urlPath": "/assets/candidates/shade-code-12-42c-v1/missile-missile-2x.webp",
       "encodedBytes": 2156,
       "sha256": "226b1f733ef9a44405591e30ea7edb511947342a6302a2130e91b1d615d73ebc",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-43e-v1/pages/engine-2p5x-v1-1x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-43e-v1/pages/engine-2p5x-v1-1x.webp",
+      "encodedBytes": 1418,
+      "sha256": "e68c68988c984bd52f5bf1f994fc145a63679ab6af1d193d4985808b1f230e13",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/shade-code-12-43e-v1/pages/engine-2p5x-v1-2x.webp",
+      "urlPath": "/assets/candidates/shade-code-12-43e-v1/pages/engine-2p5x-v1-2x.webp",
+      "encodedBytes": 566,
+      "sha256": "e011682e3dbb083410625964c0298daa278958c857c1a5126461695b50931cb6",
       "mimeType": "image/webp"
     },
     {
