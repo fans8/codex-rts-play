@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.04-c4-latest",
-  "sourceId": "b9730591427318e88f2e911fe0de3eda6212d1c6852a3fd696df4f11361633ae",
-  "assetBuildId": "e4e106e1dc4c8e978216edba5aff1809233bf1db56dd6f4d09d16ae6b0613025",
+  "version": "2026.10.04-c-merged-latest-v2",
+  "sourceId": "772e0f85426e9f78c604c758ae42aa4b50befa59ec9de9a2a5667d478fbf34e9",
+  "assetBuildId": "71ab0db21231fb4698b89b205b61a3c23d5f0c8bfb61859ec73cc17cba528c0b",
   "captureCapability": {
     "version": 1,
     "enabled": true
@@ -17,7 +17,7 @@
     "artSourceId": "365982774e3157f851cf8aafd206d85de348cdd1cf16b8a6a8680676dc96b02a",
     "artAssetBuildId": "ed460e3e771c029c8ff579d255b96db3d2939eaac7a007afd8e921ccd1f72bd9",
     "resourceBindingSha256": "ac4fb3895ccda609e363f144310eec5fcdc3fb95f60f91cd951ab7864b47fe32",
-    "registrySha256": "d6495b2a9374982493261db07602fe0775568bf0fc54b7994227fa2a5db691ad",
+    "registrySha256": "4d535420e378672536a4d79d88c9e3c15779048a873ded9da8f337e05dbc523b",
     "baseline": {
       "version": "2026.10.01-shade16-formal-local",
       "sourceId": "85b41e8d74e79ae9a04009612ea157bd81bbd528eb3186d307b44cf6d83c02f1",
@@ -98,6 +98,19 @@
   "ownerRuntimeAccepted": true,
   "defaultPromotionAuthorized": true,
   "publicationAuthorized": true,
+  "transport": {
+    "contractSha256": "1fd7b240ed084c4cd9cfa67612713f7e5a5d489fb4c59d73660af239886eaad0",
+    "registrySha256": "d8bc0eba38d3a9a3c4b9c4bdef19d2486ee6ededfa480312ff40cf302b15faa6",
+    "sourceId": "772e0f85426e9f78c604c758ae42aa4b50befa59ec9de9a2a5667d478fbf34e9",
+    "artSha256": "377bd09720d8e3fcc6740aa7697abab9b44f2b86a680fdf46fe07ca3eb9fc4b4",
+    "soundSha256": "7a897d60aeb59e0e9c94f6022b2be22e7a099c39e43e9d0c47bf5acb2bc5d5a9",
+    "baselineSourceId": "1a1c4ea78cc389728caf0e3c5d9d25cbc6f8778933820aae4ab0e621b0d6f235",
+    "mode": "formal",
+    "selector": "default-no-query",
+    "acceptedReviewSourceId": "1a1c4ea78cc389728caf0e3c5d9d25cbc6f8778933820aae4ab0e621b0d6f235",
+    "ownerAcceptanceSha256": "b06d89ee03b32918db1af8ebb6c560f81637534b6a5791336e3d343fd2184d95",
+    "operationSourceBundleSha256": "b2044ab4fef49fa1c4c105f5749f9a33a146221ce0a117439e5ab10d89e183de"
+  },
   "c4": {
     "mode": "formal",
     "selector": "default-no-query",
@@ -107,15 +120,15 @@
   },
   "formalDefault16": true,
   "ownerAcceptanceRequired": false,
-  "ownerAcceptanceSha256": "7256a39c58204525609a9bf12ac016ac54839cc98e5086b622f4d2f0cf9c88e7",
+  "ownerAcceptanceSha256": "b06d89ee03b32918db1af8ebb6c560f81637534b6a5791336e3d343fd2184d95",
   "depotOcclusion": {
     "selector": "default-no-query",
     "acceptedReviewSourceId": "c6930b7bb1a5d6c718e8273c227ea75b50058adc73656330f2d872325b701577",
     "contractSha256": "65d5a3d704e5a6348f882f4e4ba8d3adf192e5f15789fd7984a6eeb77326de1d",
     "ownerRuntimeAccepted": true
   },
-  "authorityRegistrySha256": "d6495b2a9374982493261db07602fe0775568bf0fc54b7994227fa2a5db691ad",
+  "authorityRegistrySha256": "d8bc0eba38d3a9a3c4b9c4bdef19d2486ee6ededfa480312ff40cf302b15faa6",
   "highLoadPerformanceThresholdPassed": false,
   "channel": "development-release",
-  "performanceCandidateStatus": "owner_accepted_c4_formal_latest"
+  "performanceCandidateStatus": "owner_accepted_C_formal_latest"
 }

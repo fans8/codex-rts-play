@@ -1,23 +1,47 @@
 {
-  "version": "2026.10.04-c4-latest",
-  "sourceId": "b9730591427318e88f2e911fe0de3eda6212d1c6852a3fd696df4f11361633ae",
-  "assetBuildId": "e4e106e1dc4c8e978216edba5aff1809233bf1db56dd6f4d09d16ae6b0613025",
+  "version": "2026.10.04-c-merged-latest-v2",
+  "sourceId": "772e0f85426e9f78c604c758ae42aa4b50befa59ec9de9a2a5667d478fbf34e9",
+  "assetBuildId": "71ab0db21231fb4698b89b205b61a3c23d5f0c8bfb61859ec73cc17cba528c0b",
+  "acceptedReviewSourceId": "c6930b7bb1a5d6c718e8273c227ea75b50058adc73656330f2d872325b701577",
+  "ownerAcceptanceSha256": "b06d89ee03b32918db1af8ebb6c560f81637534b6a5791336e3d343fd2184d95",
+  "authorityRegistrySha256": "d8bc0eba38d3a9a3c4b9c4bdef19d2486ee6ededfa480312ff40cf302b15faa6",
+  "highLoadPerformanceThresholdPassed": false,
+  "c4": {
+    "mode": "formal",
+    "selector": "default-no-query",
+    "contractSha256": "158adbe6716e15d61970b2b216b1086996106379cda837c12b6a4a478a3d9df9",
+    "ownerAcceptanceSha256": "4c2c6ab1f45d4066618c2f348ebe61e470008d49b00f991520f2f5b4d961759e",
+    "acceptedReviewSourceId": "8dea03cf1666db8d42037b3c74478c4064d417a11e4736cd3d5788a5292399fc"
+  },
+  "transport": {
+    "contractSha256": "1fd7b240ed084c4cd9cfa67612713f7e5a5d489fb4c59d73660af239886eaad0",
+    "registrySha256": "d8bc0eba38d3a9a3c4b9c4bdef19d2486ee6ededfa480312ff40cf302b15faa6",
+    "sourceId": "772e0f85426e9f78c604c758ae42aa4b50befa59ec9de9a2a5667d478fbf34e9",
+    "artSha256": "377bd09720d8e3fcc6740aa7697abab9b44f2b86a680fdf46fe07ca3eb9fc4b4",
+    "soundSha256": "7a897d60aeb59e0e9c94f6022b2be22e7a099c39e43e9d0c47bf5acb2bc5d5a9",
+    "baselineSourceId": "1a1c4ea78cc389728caf0e3c5d9d25cbc6f8778933820aae4ab0e621b0d6f235",
+    "mode": "formal",
+    "selector": "default-no-query",
+    "acceptedReviewSourceId": "1a1c4ea78cc389728caf0e3c5d9d25cbc6f8778933820aae4ab0e621b0d6f235",
+    "ownerAcceptanceSha256": "b06d89ee03b32918db1af8ebb6c560f81637534b6a5791336e3d343fd2184d95",
+    "operationSourceBundleSha256": "b2044ab4fef49fa1c4c105f5749f9a33a146221ce0a117439e5ab10d89e183de"
+  },
   "publicBase": "/codex-rts-play/",
   "files": [
     {
-      "path": "assets/ReplayBrowserOverlay-81780608.js",
+      "path": "assets/ReplayBrowserOverlay-3306e531.js",
       "bytes": 7291,
-      "sha256": "9ac1c5e4144d46ba9e1df52f89902a390a17fa7753c77c2c75cc057ff70e259a"
+      "sha256": "a1654ef6b415492716389065777954ee5350ee9d4e355c9186f0fa1639ad26dc"
     },
     {
-      "path": "assets/ReplayOperationOverlay-ec60bd1b.js",
+      "path": "assets/ReplayOperationOverlay-c1c5bbea.js",
       "bytes": 1853,
-      "sha256": "3f79e2f915f821e1c176ea1dd08977b6903bacf18aa5fdda76c011f77ba2bc1a"
+      "sha256": "5408ff471015d40362c1b10ebcbedbbbdccbd5a72342e057ba0fee8daec61b43"
     },
     {
-      "path": "assets/ReplayPlaybackPanel-4f227ea4.js",
+      "path": "assets/ReplayPlaybackPanel-d7b28c4f.js",
       "bytes": 3449,
-      "sha256": "c95ac7c4365418b562309c4f8e06b0d55a38f04de935017a672415c21fc95feb"
+      "sha256": "f975c7563f08f2819043b441a5b999ffb782dd75e0b7d821128d16d6f79a61f0"
     },
     {
       "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v03-c8db4cc2.mp3",
@@ -1550,19 +1574,19 @@
       "sha256": "7c5a6ade252286d5f2c5aaa7e764c6937d97d03d7d84fe683a3ceae1ce23cdcb"
     },
     {
-      "path": "assets/armoryRuntimeVisualPilot-9a2e4c6e.js",
+      "path": "assets/armoryRuntimeVisualPilot-152904b5.js",
       "bytes": 112091,
-      "sha256": "d624cb29dee2ba327bc257fc466a64b42338d2dabfe4e456007bdc6c0cad67a1"
+      "sha256": "2ddffb58eddd9bfefa54d72ae580c8346f94d893b0790e72cc2a4b5218e45879"
     },
     {
-      "path": "assets/barracksOwnerColorSemanticMaskRuntimePilot-e5b3a974.js",
+      "path": "assets/barracksOwnerColorSemanticMaskRuntimePilot-1b12dcd6.js",
       "bytes": 92204,
-      "sha256": "f44f7211744506e2dc5baf187e1d16eb325a542923a3945a3bf26ea70b571698"
+      "sha256": "e9b64f4b14181e92d414755ad37389c43877eed168d9f947d90d5b3f3f3fdc37"
     },
     {
-      "path": "assets/baseStreamlinedRuntimeVisualPilot-b54fc4e4.js",
+      "path": "assets/baseStreamlinedRuntimeVisualPilot-cb068884.js",
       "bytes": 118370,
-      "sha256": "019119c8fca84e85a3d7ffa97706705dc2b22479274cca51ac31ef4774c04e08"
+      "sha256": "41c2b8e4e9004f70385736fb6a99351d853966181320a5353a72cb60b169e3c0"
     },
     {
       "path": "assets/body-1x-ca609f8c.png",
@@ -5000,6 +5024,1476 @@
       "sha256": "fd225e6b83d159e4c574ff076b9593daac609a02386401206fb39b017a8fce89"
     },
     {
+      "path": "assets/candidates/transport-code-12-43a-v1/audio/mp3/death.mp3",
+      "bytes": 55341,
+      "sha256": "d1310777177b054acc25e596053f5191d0682237667ab1046fd04aa9c8ddcfda"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/audio/mp3/engine.mp3",
+      "bytes": 129069,
+      "sha256": "8f1e7289a99633cad90e35544ed2291f6cc79482b902e20e381093d5ed1f723e"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/audio/mp3/handling-a.mp3",
+      "bytes": 31533,
+      "sha256": "9b8b57a27ccd70229fe062f713f8e667e54e8a2ac5a30e99c0ac5679b69ef8b8"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/audio/mp3/handling-b.mp3",
+      "bytes": 28077,
+      "sha256": "450bd3ec8a3785bffe5f424422f0301bb72aa7e59121b53f7bfc8701a250c56b"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/audio/mp3/hold.mp3",
+      "bytes": 21165,
+      "sha256": "30d4982dce11de0731e9b8537c472ee314b6b03c1cc85644edeb0ee475b4765c"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/audio/mp3/move.mp3",
+      "bytes": 20013,
+      "sha256": "4d809821fd5a40dc52a8846f8123cfb9f41f58e136877db2620ab269bbf6d035"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/audio/mp3/ready.mp3",
+      "bytes": 20397,
+      "sha256": "4ec6b08f60bcbc99b21ef77e38571944875cb6d6a103a5e7b0d0db8affc5920e"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/audio/mp3/selected.mp3",
+      "bytes": 25773,
+      "sha256": "412cb35dd04fdcf8bdcd90e2beb6a2c67f47d55dd0bc1116accc3264c91e2e49"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/audio/webm-opus/death.webm",
+      "bytes": 35418,
+      "sha256": "f79e80d4256c08e2bb281ab366d8970f83ef34776c5c21439994d1780cab6415"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/audio/webm-opus/engine.webm",
+      "bytes": 95071,
+      "sha256": "a859b4eba96659fa7393e748f446e3893dcf06bac1e060eccba114acf936de1f"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/audio/webm-opus/handling-a.webm",
+      "bytes": 23629,
+      "sha256": "d03667675d45936b1a9e41577060f3b5239dfa7b780b192fd29e31ac239a875d"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/audio/webm-opus/handling-b.webm",
+      "bytes": 21354,
+      "sha256": "db287011761cdf3852dded70e04858d62a92be148d2efcfb54ce17fe0ad0b966"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/audio/webm-opus/hold.webm",
+      "bytes": 19530,
+      "sha256": "60f9e5c907cac161aa9b85c2df6f2cf619bb24c69aa9032351acbd658594da39"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/audio/webm-opus/move.webm",
+      "bytes": 17854,
+      "sha256": "f0044de6473f729ca0afb6b732759c3a8cc6a1c294a2640855f0040327e3bfe1"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/audio/webm-opus/ready.webm",
+      "bytes": 19166,
+      "sha256": "13579fb37baec24dba5f2ccedfd58073bdddd47dfeab0f83c7d1eb11b96f58ee"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/audio/webm-opus/selected.webm",
+      "bytes": 23927,
+      "sha256": "4a580fa587ab37b0f396928d31734fdccffa3b46e4b4b0f309213c74f8fcfc9c"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h000-body.png",
+      "bytes": 14002,
+      "sha256": "f5d61c008f170c7018d0a0aa20ce062d7655aef039534453748f26dbd069989f"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h000-mask.png",
+      "bytes": 4422,
+      "sha256": "af154b226bcc2171edce5851485efc165bf8b8595f7aab9fbb96fcfe3a805c2e"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h000-shadow.png",
+      "bytes": 2259,
+      "sha256": "159bb26521fe9c91da6978b370764f801a2c91fdbc101bf1098150d06cfdde3e"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h016-body.png",
+      "bytes": 18135,
+      "sha256": "9a6eb41e0c62cd7a34b1c600f7ab3455594f069e132accb157a91f96cbeeac1b"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h016-mask.png",
+      "bytes": 4747,
+      "sha256": "156ea657575615457d669b4626f6945ae57039ada332d65be2bfb0b6a9fafb49"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h016-shadow.png",
+      "bytes": 2347,
+      "sha256": "8e62819d7e0687e9fd92c3cc0bdd76cd1d2dfd31962d88d100051184fb2e0f4d"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h032-body.png",
+      "bytes": 19252,
+      "sha256": "b2e03296c4482edf311a47d3af4d540b3eab70aecda343bff6fdb5de4eed7747"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h032-mask.png",
+      "bytes": 4656,
+      "sha256": "60fd1b000b5c6ada3b476d253534f618794e583da7d028d64057852111213234"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h032-shadow.png",
+      "bytes": 2194,
+      "sha256": "e08838e5bc72855b4b812b825fb562028e9617b4a217f7e167284207746766c5"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h048-body.png",
+      "bytes": 18197,
+      "sha256": "5f9fdab427adc9913d43ec5e2392c96e07f787724b11f62947459600ff006a6a"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h048-mask.png",
+      "bytes": 5424,
+      "sha256": "87e63f7980d356fdc0948262a40a24bb99b635e85f472701664b1ce581cd78e4"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h048-shadow.png",
+      "bytes": 2245,
+      "sha256": "f9920addf0193129be4963b5c5bdda9ca89cef1ee2b982b6e9df4a9d8200ab6d"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h064-body.png",
+      "bytes": 14862,
+      "sha256": "fe4dd29cc90c56a6598bd1de4daeb75b1c3b118afc1123ed10c91e1841749428"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h064-mask.png",
+      "bytes": 4433,
+      "sha256": "a5e1e832142385726cf21de386e37e84944d65b891cdb94c447892a48335486e"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h064-shadow.png",
+      "bytes": 2077,
+      "sha256": "d9214314dd3bc9a825693fd1581050148af933aefa610e8653567020fde6ec84"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h080-body.png",
+      "bytes": 20355,
+      "sha256": "aefe3ba9b09d1b794708c6ea3b9b6b61e83e161e06f4deb2a5495b8a0e0272d2"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h080-mask.png",
+      "bytes": 5932,
+      "sha256": "e8269b8a4d11aa0155065b41676d056f5e250061c24a140a21fce5907b319a18"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h080-shadow.png",
+      "bytes": 2477,
+      "sha256": "6c438069b3051b2fa9505fd94465c2553a735ad0f8f519b9f5411cda6e51aaff"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h096-body.png",
+      "bytes": 22267,
+      "sha256": "fbe26db557023070f4294dfabec35debdb2c39f3649aa74ca749b7fd6f03f407"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h096-mask.png",
+      "bytes": 5344,
+      "sha256": "bc2216db004ab0c82e67aba177b4f5363e4c4469429ec6a073c68c7d18073750"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h096-shadow.png",
+      "bytes": 2539,
+      "sha256": "37da768d215bce1af27b022e48fb95ada176e7375d61d34a6a5a77d7e6d3d63f"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h112-body.png",
+      "bytes": 21298,
+      "sha256": "8e1de3761b3c46c1c7ace3e305d4e7c3f9277379d44e83b1a9c154bc83d012fa"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h112-mask.png",
+      "bytes": 5606,
+      "sha256": "6cf72f6d6548da777f5dedfb9af274f5f868d26aa71bce22c648e7e178095429"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h112-shadow.png",
+      "bytes": 2676,
+      "sha256": "8324e9192b1087c174e13fbe8cba622ef75ec3960be8e0892eea675fa716f2fc"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h128-body.png",
+      "bytes": 16916,
+      "sha256": "8554334dcea98c99b29853ed7697bca25e1d6c8ce4ccb2118450c5cf3c5c79b5"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h128-mask.png",
+      "bytes": 5000,
+      "sha256": "bad07b5940ecf492e6de4947785f5520e052e61cb431b63451e0c9d9cea0109d"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h128-shadow.png",
+      "bytes": 2412,
+      "sha256": "d12bd9a24b47ed3f529cc68f8f04858d1db244c8e570b73d3f301b5851360a18"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h144-body.png",
+      "bytes": 21741,
+      "sha256": "465fc80f5be9a8827a00f182e3baf6fdb088255e603433278cadbf5a573b6bd2"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h144-mask.png",
+      "bytes": 5620,
+      "sha256": "524e7ac368d235fd320ef50df0c849b77d2909784f35c8bc4dfe688b6c64cf35"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h144-shadow.png",
+      "bytes": 2703,
+      "sha256": "3cb520a0cf4d16ccb1df10fa960ae3b97838be29abe09ad57180c738c80d6bd2"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h160-body.png",
+      "bytes": 22038,
+      "sha256": "13dda4c35318c8493b2e4c169a81ae27041a0b0d7389e242c94f56201a52f160"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h160-mask.png",
+      "bytes": 5327,
+      "sha256": "29310d60114fd8cbc1aece833d12d8cae045a7f76f10a5454aa27fca4d86536b"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h160-shadow.png",
+      "bytes": 2500,
+      "sha256": "5a0d084f94dfa70d840461608f7f0b80c5d2fa6d034b18628df3c3ca6e0f6f70"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h176-body.png",
+      "bytes": 19536,
+      "sha256": "06e1b524c3dd483bd357b76d7dadc248dbaf66f5339c0a03b4b6175aaef1eb7c"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h176-mask.png",
+      "bytes": 5808,
+      "sha256": "72f22ec02ff8048f824376783db0fc5ffaf799d0ee19c484dc6c30cbc9cd59be"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h176-shadow.png",
+      "bytes": 2430,
+      "sha256": "00dccb462256b6b5953d9557bc710cb1aeb237330b3d177368fe0cfb5975b71b"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h192-body.png",
+      "bytes": 14799,
+      "sha256": "03e9d66c32fb9e79c182ced038f6de43440e1327c6ef45233e351eb12db1d222"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h192-mask.png",
+      "bytes": 4415,
+      "sha256": "9e3b4149d5a9b90187c0d1035ff3bbb22955cc30a57f0ff54c31ebb0282b27c1"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h192-shadow.png",
+      "bytes": 2011,
+      "sha256": "b7620977c9bec6bc44e1aa185e79ac6ccf150cd2c1dfe6b41b0334c334817ecc"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h208-body.png",
+      "bytes": 18631,
+      "sha256": "6d1b75926fb6b98a93fa562d3b10b32ceb08315a3390ae4e97f7f4f69844f783"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h208-mask.png",
+      "bytes": 5573,
+      "sha256": "f1b7cc53f042d0123df9d9e48106b56689ed2713d684a2c3dae753ac3979dd6d"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h208-shadow.png",
+      "bytes": 2222,
+      "sha256": "2b5839e039c34413806992e31a7249dfab65d8f945373dc8a1e257340dd107d7"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h224-body.png",
+      "bytes": 19108,
+      "sha256": "f363a3afb9769e536c956f9f89e087edba7fa96b3c47b44396bb606fbb4cf853"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h224-mask.png",
+      "bytes": 4625,
+      "sha256": "548bce793c6f76e45d201b31cf3119ea266b79571f2633380c738429fa8cc49a"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h224-shadow.png",
+      "bytes": 2200,
+      "sha256": "55f1551d9518ac2634297844c4568a5d7ed8cbba13930ee00950a78ea8b8eab9"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h240-body.png",
+      "bytes": 17667,
+      "sha256": "c540419e0da418ab29ffb0d38dbf3da48ad148bf279f886191aa660400219927"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h240-mask.png",
+      "bytes": 4634,
+      "sha256": "edb4e176c3fd079a83232288fc46fcd988b75a130155db9f7337affa1d50fe81"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/1x/h240-shadow.png",
+      "bytes": 2365,
+      "sha256": "a4c00f11d699557d0d20afea81838e1773d7f0252d93327102317e31a2459ebd"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h000-body.png",
+      "bytes": 38200,
+      "sha256": "816574ec39450403419f16d813ef451319a565fa7d621b8eacbb38cbfe936ce7"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h000-mask.png",
+      "bytes": 7817,
+      "sha256": "a33cd8610c486b3bb7261d59c0572d5060fd2d982c6353bc3e06ea1d0c80127b"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h000-shadow.png",
+      "bytes": 4765,
+      "sha256": "109178c7fe3b51d2093def5984f2623b57db3022e095119768fd437f4fe21e08"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h016-body.png",
+      "bytes": 50594,
+      "sha256": "b01881bd86b44f666ba62488383ecce092c8ab848dc3697c81b715b87c31be71"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h016-mask.png",
+      "bytes": 8590,
+      "sha256": "345bbcf26b96a16cedf446de8a865a1a557b2e8cb406b1abcc6111a6cdf6d69d"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h016-shadow.png",
+      "bytes": 4915,
+      "sha256": "5649fc3719b2460c6bfe276108aac37e75f443d75fefb57720230b613fbdf2a2"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h032-body.png",
+      "bytes": 54283,
+      "sha256": "969c8879b9a0bb87adad5adf0d1d6f7bfdf12b80d26045fab5057a4bed981d99"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h032-mask.png",
+      "bytes": 8662,
+      "sha256": "0f49322930db7a2c66052a5540559b14476e4f05ebe62a592128676a8ff8a1d1"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h032-shadow.png",
+      "bytes": 4595,
+      "sha256": "f7fa9716cd78779236536e457723ecb2df1393a75e3f6bbe645dc10da66dee85"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h048-body.png",
+      "bytes": 50978,
+      "sha256": "920a444942fd98430cbd276553491b0d41dcb3ed1c5f17bb640f685c24482797"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h048-mask.png",
+      "bytes": 9668,
+      "sha256": "8cbfbbb77821216a9c2af1c743280fe2e5db8dd016aeb0bb3e0845ef25649fc9"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h048-shadow.png",
+      "bytes": 4609,
+      "sha256": "e7555dab6de2fd267e7038fee4c8ff67ac7fe73ba5cbb6baae7f70afb9eac2c1"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h064-body.png",
+      "bytes": 41042,
+      "sha256": "78e72d21d64e2860dfbbc81666e7f9fec8f6926d36620a8b40c2cb6eaa8cc7b7"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h064-mask.png",
+      "bytes": 7684,
+      "sha256": "3dc919380a11a8e66bd05e2d96e4e160b2e2bd148c322ad1cae262b804e87f98"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h064-shadow.png",
+      "bytes": 4395,
+      "sha256": "a8a37254512daaae212e02820f5bfb0aa13c786834c32edd7faab7d37fce2d9b"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h080-body.png",
+      "bytes": 58225,
+      "sha256": "0850c24a6e6fd81da78c2ba5779ab2f2c53bd9335b4f86efed49e77ba75fab8f"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h080-mask.png",
+      "bytes": 10751,
+      "sha256": "fa07cc4bab8f3d63c0c11917d00188668255af63146d9f66d82a4b5547ed8815"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h080-shadow.png",
+      "bytes": 5119,
+      "sha256": "9c9b0f08a55ec0a404e81cf8daae01495f9d3718b1f2eca2ea2398512726a81a"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h096-body.png",
+      "bytes": 63394,
+      "sha256": "a65142ab3a36b368575d3a318e9d63b68378ffd86892753b0d8408aef9520d39"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h096-mask.png",
+      "bytes": 10233,
+      "sha256": "7a0ff27069373032f4258ed98304bc81ca1724a388f9f03f0084579b887d6eb7"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h096-shadow.png",
+      "bytes": 5192,
+      "sha256": "169697877d45e345eb2bbd6930e1d63e1a7ff8cced28579bbce52ca7e0c5147c"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h112-body.png",
+      "bytes": 59115,
+      "sha256": "fc9e1b4e92b7b9e50ceb9d9c24fe2093502f5cdfeff8254ac16c2b16a45674d0"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h112-mask.png",
+      "bytes": 10360,
+      "sha256": "ff84d1a5d1048c7ed28c0f94233ab761843b3b8823977a8d0901460382089df1"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h112-shadow.png",
+      "bytes": 5652,
+      "sha256": "ba3c24531ff6c1b511cd278838b7e2c96f766a794279b65e6581b56666007a0f"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h128-body.png",
+      "bytes": 46662,
+      "sha256": "9b64c4325493203df346cbcffdbbed430a8a754e9cfbc235f46552df74a3000d"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h128-mask.png",
+      "bytes": 8976,
+      "sha256": "52825d42ec19ba0fbae829d90ebc414aefcc602d42cec3773df2063e964bc415"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h128-shadow.png",
+      "bytes": 5219,
+      "sha256": "1df2327e3410c1560e009114448cd97902cdc2ac2b2f52cdf63737a971b21e0e"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h144-body.png",
+      "bytes": 61095,
+      "sha256": "17cafc3f03417d4eb37f3d908f934029861491f3ee8763d6a61a5c228a0d375c"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h144-mask.png",
+      "bytes": 10360,
+      "sha256": "e074af3f28865613f43e3fa1ee6ab708bf2f5314e7b7b8900a40520a82991636"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h144-shadow.png",
+      "bytes": 5518,
+      "sha256": "fa9814d4008595d6c99dc8b4577000133da6efc623e5f1ce2c213cee417bea93"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h160-body.png",
+      "bytes": 63161,
+      "sha256": "5f73ddae820467ac08065cc58a9400e67a53516c15001e2b6f894102c8783250"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h160-mask.png",
+      "bytes": 9926,
+      "sha256": "e42f06c35569de8b8d37d75d1658d41202ce08e3ed9d10330ce34e3f1f363e51"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h160-shadow.png",
+      "bytes": 5261,
+      "sha256": "42991493d81177a9119d772c7c42d28cae050b12911f96be1d91662349b7076c"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h176-body.png",
+      "bytes": 54756,
+      "sha256": "5be022ba1e608ca9f7c6b2a1c2b0d877e42ba5406896f2f92c66a4fbe4aecaeb"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h176-mask.png",
+      "bytes": 10493,
+      "sha256": "15182573811439d47fd8c4a89ee0a2f606c26e125fed05accd53c46ce350fec3"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h176-shadow.png",
+      "bytes": 5060,
+      "sha256": "857c5c9bed26c93403d8a26c39aef1d8676f2030e2a92d647e3870e08b12919b"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h192-body.png",
+      "bytes": 40934,
+      "sha256": "341bf4b0f00271f2f6cad3b67dcfdb37fc4be532d256f733dbd5259b90a3c072"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h192-mask.png",
+      "bytes": 7588,
+      "sha256": "8fb0a01627a222d4cb235c02942daaed9ae6f6f05bc8d320d7ae09a2d5f88605"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h192-shadow.png",
+      "bytes": 4244,
+      "sha256": "5166e8ecab9dee4f308967b3e1159ebb611d6791cf39e845bd62f66a2cee4b52"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h208-body.png",
+      "bytes": 52794,
+      "sha256": "13bc2959d589a56019a635352046b8653c8cfd6d76fc9703d3fab63219ffb603"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h208-mask.png",
+      "bytes": 9993,
+      "sha256": "db7a1caaca9c024c2c7b4fb3d46979e97869a691b48565692ecf289156980690"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h208-shadow.png",
+      "bytes": 4514,
+      "sha256": "0f1dd0d409ca556330d97114d5f064c104463de0e1139211e3023c6fb58536cf"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h224-body.png",
+      "bytes": 53712,
+      "sha256": "8c613c510bcade9b91cc8cdf160119b2392654ae9e13eb7ff529119b0b3da944"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h224-mask.png",
+      "bytes": 9310,
+      "sha256": "009f0deb1b5a44df046ef3bd9a92805ecc2466ae2546c084a3c347beb1541fbd"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h224-shadow.png",
+      "bytes": 4577,
+      "sha256": "ba0501052872a83e4d09ddef2f774ecfb13224cd196d2264d0f2f65558b47db2"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h240-body.png",
+      "bytes": 48034,
+      "sha256": "e72dc8a8fdbb87e8b4624560bd2f7ea44ad39434f29c9da611509bc8c14a3975"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h240-mask.png",
+      "bytes": 8572,
+      "sha256": "140174b6a63e49273edb4f995d44f57b59e148d834993b799c90078e4394c191"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/body/exports/2x/h240-shadow.png",
+      "bytes": 4969,
+      "sha256": "0c833b295b20446d38517c3cbe00c6492723a2930e2c4f0b983e74435a2fe920"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/1x/damage-fire.png",
+      "bytes": 5887,
+      "sha256": "7dc9fd402951bed64127b84135d5df06df4d125ee5b4d5dd7bed321115e89e88"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/1x/damage-smoke.png",
+      "bytes": 32671,
+      "sha256": "4e8bdb613fa9a373a03b642b2d074b262c4e370ac98391c5ddc60292e14e81be"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/1x/death-a-debris.png",
+      "bytes": 42866,
+      "sha256": "d0335c08eda21a87afb736e058a47992a670b04f6d180725f7c3f483788a9660"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/1x/death-a-fire.png",
+      "bytes": 64582,
+      "sha256": "fe5131634d64222058a34d15c304b08f022e908fa974141606c1050b20bbb5ad"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/1x/death-a-smoke.png",
+      "bytes": 71883,
+      "sha256": "1714ccad73da628b624e50432a69c5313dc10b9f80d6afd8591ae203e03dc57a"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/1x/death-b-debris.png",
+      "bytes": 46976,
+      "sha256": "539e3648968b30a7bb4b4976de8f5897bf28138f1666e50725a4bbda6f25a87e"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/1x/death-b-fire.png",
+      "bytes": 108808,
+      "sha256": "9a7fa2fd667a2d50fd8e2c2c5d1de74d70f222f072aa193a13d5d97ad899fdf5"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/1x/death-b-smoke.png",
+      "bytes": 77961,
+      "sha256": "01c681a5da063d727d0af8fb885ff1956e88631f3e8cb6e508f7f8572724d76d"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/1x/death-c-debris.png",
+      "bytes": 37088,
+      "sha256": "80f6f0d7ef671708ca401c0fe660152f6e2f4a4eb5a0ca6bb4a1118e252df22c"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/1x/death-c-fire.png",
+      "bytes": 74698,
+      "sha256": "bdfeb4b47f2134a7d5bddf40093fc6b3e547baf3b3067bcd384beccb8c7c538d"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/1x/death-c-smoke.png",
+      "bytes": 105899,
+      "sha256": "9575d78ba0f12d0a5d505872aa8ee34186269c58b09932f47eb6b95f3ec35413"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/2x/damage-fire.png",
+      "bytes": 13627,
+      "sha256": "4026ea89a9d646902161c086aa8e159823d449e3ad6a9cf1e0274455ae3cdf2d"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/2x/damage-smoke.png",
+      "bytes": 99841,
+      "sha256": "2ce2699cbd737c08961445abb526a0e385173e2bd3df780db70aedf90f729218"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/2x/death-a-debris.png",
+      "bytes": 109185,
+      "sha256": "ec8554804bccef547a1876d6ad9e19fd9f8613efdae509033e080f98afdf4f4b"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/2x/death-a-fire.png",
+      "bytes": 182415,
+      "sha256": "51b5cc601ea9dba11dd0dae6f19971452076c45e58d78cf327d12d7bef91f4f3"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/2x/death-a-smoke.png",
+      "bytes": 232757,
+      "sha256": "962384d33616d16beac793436c5b47abe01a2aaecaec503daae118aa8e97e51f"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/2x/death-b-debris.png",
+      "bytes": 121264,
+      "sha256": "abd182fbfc4c95340b997ddb09269d38c9ad59f17f5e1a54c3ba5cedf2cc6094"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/2x/death-b-fire.png",
+      "bytes": 324383,
+      "sha256": "4d615bfbaf17863b8080f006e5be7b4cc9330dbf4594197a1305c126473b01dd"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/2x/death-b-smoke.png",
+      "bytes": 254051,
+      "sha256": "b1f4d2fc79d2ebef8933fd26974cc5688218b8ae6f78a761fda6e4c55cce97c6"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/2x/death-c-debris.png",
+      "bytes": 96610,
+      "sha256": "5f6c6dfb61cd9821ec0136b8f38ad96223be7c3089c1cafb579972c8c462c4c3"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/2x/death-c-fire.png",
+      "bytes": 223037,
+      "sha256": "eb67c5fe6bf6f0e8603ff5c540e57c24b231fb9274c384e941d8a2b114de91bd"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/fx/exports/2x/death-c-smoke.png",
+      "bytes": 347488,
+      "sha256": "9eb3420b555225d3afa43857173a192eecadbad729078383397ef36d9fbcf1a1"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h000-damage-engine-left.png",
+      "bytes": 1230,
+      "sha256": "cc43a04ea802ef2251d708eee4a6def73e3cd64a8f3c4480180d212b80496d28"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h000-damage-engine-right.png",
+      "bytes": 1099,
+      "sha256": "e3f6e4bbc568d40d65af8e75c3faa9c28cbb8713dfa74349093866fabf9805f8"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h016-damage-engine-left.png",
+      "bytes": 1153,
+      "sha256": "be7221cf484b4665728374cc4a5083eac8142bc84a5ee61ca5387056438750a7"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h016-damage-engine-right.png",
+      "bytes": 1235,
+      "sha256": "499c5e4e8f3cfab7077658f1224462a0bf5d72d1fa9e844b39c1783ac1d8d3fc"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h032-damage-engine-left.png",
+      "bytes": 993,
+      "sha256": "5f489790626d878e1351da3de477f294f609b90ab32897264372557aab38cefc"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h032-damage-engine-right.png",
+      "bytes": 1215,
+      "sha256": "c323c3f5a4a1c2fa5de78fdd22ea6cf493809eeb9e836ed47134629326b2b355"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h048-damage-engine-left.png",
+      "bytes": 882,
+      "sha256": "7db97037f7d00790f899ba747e55c9cf1a85c58ca8fe93f5d2198d965498abf0"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h048-damage-engine-right.png",
+      "bytes": 1505,
+      "sha256": "b76c59d4484eaea3711136b82e12e0eb48613bb3d52ec08b40e39eb33d855034"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h064-damage-engine-left.png",
+      "bytes": 566,
+      "sha256": "59629f63344e589a582459df492671af3fd86681982dda9b72ac17956bc902e4"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h064-damage-engine-right.png",
+      "bytes": 1673,
+      "sha256": "232c1551f1c22b2589c090a3677f352a2ed59daf3d803d5534a21ae79f4fb111"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h080-damage-engine-left.png",
+      "bytes": 487,
+      "sha256": "de7b5f06f2b4d032a85fbd4888dd38f7d10e370be33593d6caff2732ee4918a7"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h080-damage-engine-right.png",
+      "bytes": 1795,
+      "sha256": "b3e7921a47b6f90fbad21a8f6ac059ea4ee86274a4b410b90c64989e29d4e4ce"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h096-damage-engine-left.png",
+      "bytes": 922,
+      "sha256": "de75f140b3799fcb7c911fc102d221da552259f2894cc82c8625f61d4fea1c1d"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h096-damage-engine-right.png",
+      "bytes": 1810,
+      "sha256": "4b43399ece52a420d1252f13fce8520347bb95f3856f48be704730969d449ad0"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h112-damage-engine-left.png",
+      "bytes": 1104,
+      "sha256": "0934552e7404e47d9643afbb1636433c2b148f5b812b38e705db550a5de584b6"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h112-damage-engine-right.png",
+      "bytes": 1802,
+      "sha256": "1a712fb95d06dede5cf8203f037c97878e7150cdba96412235b7bb63a20f8618"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h128-damage-engine-left.png",
+      "bytes": 1295,
+      "sha256": "22612b7d7f270c183fd82ee13dc5bab8bdb28be06ab025e3ab04e5d1f146234c"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h128-damage-engine-right.png",
+      "bytes": 1414,
+      "sha256": "bb59fba55099e61952dbf47edce3a452c75cb9315ca830705a1af579e8251dac"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h144-damage-engine-left.png",
+      "bytes": 1472,
+      "sha256": "c611d9948cad1186cc78fbd3f947c1d516dcfb3bd9beddb725540cc71bf9d27c"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h144-damage-engine-right.png",
+      "bytes": 1440,
+      "sha256": "ba8d931c22e84b68cfa54ff8fbd959d2e2f13ff42adee4e97aed11fe9869b94b"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h160-damage-engine-left.png",
+      "bytes": 1589,
+      "sha256": "c0cdc9577513c118c8954c672bae9c8f103a05ddd6c5255509122c3116460aa3"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h160-damage-engine-right.png",
+      "bytes": 1187,
+      "sha256": "a514bdf82ad16e7471387d569d8600ec9c787308e2e553eb99f810f419a98a85"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h176-damage-engine-left.png",
+      "bytes": 1694,
+      "sha256": "42af40795c0ad37c820257f190c768c7927f68a23198ec81def477b83ff1e4a8"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h176-damage-engine-right.png",
+      "bytes": 987,
+      "sha256": "dc446fa77908dfd1c0317e8b038f872f49b0863a07fb94a76a546e929653153f"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h192-damage-engine-left.png",
+      "bytes": 1645,
+      "sha256": "409271c6d7a26b97ab0b774f27d6965f8d8f488633bb2d35a44845f7ff7e83d8"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h192-damage-engine-right.png",
+      "bytes": 528,
+      "sha256": "96e1b39f9bac66d85f9e48e5b9d69056ea54195975401eddb48c8c94fec3af5d"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h208-damage-engine-left.png",
+      "bytes": 1649,
+      "sha256": "ad16ce8b82ee8ac1a9ca4abb0ed7faf951e921cec6f709038de2ef8cbf0c1a77"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h208-damage-engine-right.png",
+      "bytes": 565,
+      "sha256": "3230e3e08cb91e76bbedc2f38fab908dfdf35659666677227d47662cd8073f4c"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h224-damage-engine-left.png",
+      "bytes": 1508,
+      "sha256": "90b85bcb614ba43b2ec5164c7a3a1b5f5413b21215b00423f5fa048628c0472d"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h224-damage-engine-right.png",
+      "bytes": 698,
+      "sha256": "d16b82453b4ad05e83fefd127ef080887ed84a2983cdfed5836b6e0957317460"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h240-damage-engine-left.png",
+      "bytes": 1460,
+      "sha256": "1d87274c21a6070cd27339f74b4e15123aa729486675de820dcaf40082f1d6f9"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/1x/occlusion/h240-damage-engine-right.png",
+      "bytes": 985,
+      "sha256": "e1bdb2215172acbb787f1a55b67b25dbe566fbcbd1e5a98a29a8efda90d0a068"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h000-damage-engine-left.png",
+      "bytes": 1925,
+      "sha256": "b221798c955c4dd706394406f43e27d054dbefd27d71c1bca8ace3df8bc1aaa9"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h000-damage-engine-right.png",
+      "bytes": 1634,
+      "sha256": "77bd296d8733dab156acb50bf15a31db3cc690c7671a9cf0800ee28c974f0b94"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h016-damage-engine-left.png",
+      "bytes": 1865,
+      "sha256": "0511803faf20425b558a5139c50fcf033d4bbc8e54b70960be54839b6f5b4bd7"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h016-damage-engine-right.png",
+      "bytes": 1953,
+      "sha256": "1f4e9c45b51dc1efe810c9c9af4fb667fc3a98aced40e11ef666487ca5c1d0ce"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h032-damage-engine-left.png",
+      "bytes": 1635,
+      "sha256": "294961dd64ce58407a092cce895b67081de956ebe94cea86bd2a4caf8500a65a"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h032-damage-engine-right.png",
+      "bytes": 2031,
+      "sha256": "16c41296c392fab7c7347542990e85672bc0d3ba3ac30ffb372d999b89dde2d4"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h048-damage-engine-left.png",
+      "bytes": 1238,
+      "sha256": "c9a9c4f51821588ff6495818073dd7eeab3c32995fb739f3720bdda06d2333cf"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h048-damage-engine-right.png",
+      "bytes": 2480,
+      "sha256": "fd277d887b9e2bb7de8859389f2f436929a211082ba9b7f581f76c6e478c680a"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h064-damage-engine-left.png",
+      "bytes": 911,
+      "sha256": "2e78e7c2099a6e74a08b7eee36e3aa62ae63aeed2f6ef14d28e4caf5806472aa"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h064-damage-engine-right.png",
+      "bytes": 2791,
+      "sha256": "8f353d9dfe38dcd7ccad84ddb93fe6afb8d6eba143f04bc397d52eb2a690de75"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h080-damage-engine-left.png",
+      "bytes": 786,
+      "sha256": "686f49232063d59a3d6a8341afc05136e5aba16ac40afdc02339ac70eb8855ba"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h080-damage-engine-right.png",
+      "bytes": 3200,
+      "sha256": "c74eb7005c33baadc62d8f817ca44b443efbda33b4ddb6165fde6ffd824011a0"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h096-damage-engine-left.png",
+      "bytes": 1390,
+      "sha256": "5bf831b25e120f7fa5b362c12d7e932f3f956f8fedea88c2705531be94c9ea94"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h096-damage-engine-right.png",
+      "bytes": 3320,
+      "sha256": "3d9c98a64d028c29771ed8f91c1ad82256125bfcc55e4319b2e387af4c8eee5a"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h112-damage-engine-left.png",
+      "bytes": 1804,
+      "sha256": "66ffd4c83e3f1ce3f9d86aedaf16b1a2a83b69b157808b72f3322666d9a85e37"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h112-damage-engine-right.png",
+      "bytes": 2932,
+      "sha256": "702000df6f7a83329f1805bab29495738da6634fdcc5cab006731ede56fc9131"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h128-damage-engine-left.png",
+      "bytes": 2184,
+      "sha256": "de0723c741a12bfe055c4562639ce5a7cd9a4732c20cb0f669cf7975d8cf09a0"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h128-damage-engine-right.png",
+      "bytes": 2388,
+      "sha256": "be79184ad0ea8c46811d5c0078b239262ae75bc31a04a0907ef872dae0552480"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h144-damage-engine-left.png",
+      "bytes": 2369,
+      "sha256": "4b24ac480d30ad172ea68db628e3385de9df1b0c14f232509173f20c4a89caec"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h144-damage-engine-right.png",
+      "bytes": 2333,
+      "sha256": "a0692b954dca82f6d407d55ab0eacc378c45caba9fc2a60f0e87e83cd9c03863"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h160-damage-engine-left.png",
+      "bytes": 2583,
+      "sha256": "9a3e00d34b0b5adc93ca63bae4626b631ce5467e8633d9fa55d1b7f4e2222798"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h160-damage-engine-right.png",
+      "bytes": 1954,
+      "sha256": "41050b209661c311d0a58e2cb665bdc350e00164e87743e57ee9dcc15ca7d60b"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h176-damage-engine-left.png",
+      "bytes": 2832,
+      "sha256": "7f9c48a5cd61b6fd43adaef7b89916ce5da64f2b2d926e2e1de42d21049ac34e"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h176-damage-engine-right.png",
+      "bytes": 1453,
+      "sha256": "fbfd04c0978baac80c9f649e627d1733b7992491e2ea8cee3e3cabc731d50ebc"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h192-damage-engine-left.png",
+      "bytes": 2667,
+      "sha256": "2c5c65e22a46fd0981f17ede13710ed38c2695d604e53f16e5ec55758e929aba"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h192-damage-engine-right.png",
+      "bytes": 909,
+      "sha256": "a72f3aef3646078777088a465bbd5b84390fcd8b6e58b8b791243d47400a2448"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h208-damage-engine-left.png",
+      "bytes": 2640,
+      "sha256": "9531debdeb0c69ec51e2ebdbd07158c31e8a1a336d8fcf39ed32752d6dc1d862"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h208-damage-engine-right.png",
+      "bytes": 936,
+      "sha256": "bf675d716d6c7ef47b22eee2095db88ff273958c44ef86cf2060d6d4a698f3e1"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h224-damage-engine-left.png",
+      "bytes": 2511,
+      "sha256": "114444a8b60c36aa5e3507364cd5689d41a39a897cf797c2a75f6ce46eb0bd7c"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h224-damage-engine-right.png",
+      "bytes": 1149,
+      "sha256": "9ef933de7d0aad9ec33299471f4dcdd4a21d816a1c02bcbc41215e25627de2d8"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h240-damage-engine-left.png",
+      "bytes": 2540,
+      "sha256": "fb300c6e92dde3144e0e5414907bae401c71550af68dec9fea68bd0b871f4724"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/exports/2x/occlusion/h240-damage-engine-right.png",
+      "bytes": 1476,
+      "sha256": "0347060fa04dedc7b89fc7d2afee41716c2532bc2227fe803c2449b5322bc2c6"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/1x/occlusion/h000-damage-cargo-roof.png",
+      "bytes": 1081,
+      "sha256": "09763d4853cc1c96c975577eed6b2d85311b8a90d9a3ad75c45835ac791c88a4"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/1x/occlusion/h016-damage-cargo-roof.png",
+      "bytes": 1108,
+      "sha256": "37bb49d3721a981cac8db279978687c683e76b079b2898fcbd768f019ac0f208"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/1x/occlusion/h032-damage-cargo-roof.png",
+      "bytes": 1120,
+      "sha256": "35c39d0760babe82ed1c83d8d1288e956dec3a5e52e849acbfc576ba1072ae18"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/1x/occlusion/h048-damage-cargo-roof.png",
+      "bytes": 1188,
+      "sha256": "5cd5c7f77a02893f477d964f6dfb95ca0ea4a9cc9a28eedd459baba7fff9e741"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/1x/occlusion/h064-damage-cargo-roof.png",
+      "bytes": 1118,
+      "sha256": "f44c192cf65dda84032949d498daec7e2043e58c9ec83a6c8bdcec3680e17bcd"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/1x/occlusion/h080-damage-cargo-roof.png",
+      "bytes": 1365,
+      "sha256": "21ac5feb9071282a22f785a50737c12d20a6262e497219d5d0efb52601b3b60b"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/1x/occlusion/h096-damage-cargo-roof.png",
+      "bytes": 1407,
+      "sha256": "4edfc9037da6c6e658e5b0bcb730e117e65bc533ea82a762d73485599e81ee53"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/1x/occlusion/h112-damage-cargo-roof.png",
+      "bytes": 1513,
+      "sha256": "0fc27ff06e1d805f2e22a9e424878bee0f36328481c4f623620aaed6fb3c7a87"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/1x/occlusion/h128-damage-cargo-roof.png",
+      "bytes": 1383,
+      "sha256": "d4962ba25873593c73b507d5e438f2c91c862920a0b61c84ed7c573a6eef4994"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/1x/occlusion/h144-damage-cargo-roof.png",
+      "bytes": 1555,
+      "sha256": "b07f329c6a253c98a4a6e686d8a94dadfcf5113b8f8f9481eeb8f77e54488a16"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/1x/occlusion/h160-damage-cargo-roof.png",
+      "bytes": 1357,
+      "sha256": "46031e3815447ab9a3e92d8833b9d786e41de06ab8fac29fe869033d6ae5e452"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/1x/occlusion/h176-damage-cargo-roof.png",
+      "bytes": 1342,
+      "sha256": "062045e8f1ce52166256a1e1f5a974716be32c34ad354830a6f97414b6082e65"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/1x/occlusion/h192-damage-cargo-roof.png",
+      "bytes": 1151,
+      "sha256": "bd7508caffaa5cd09d34cc35dcdb1d7f2fff40aed66db453581b23c6551adcda"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/1x/occlusion/h208-damage-cargo-roof.png",
+      "bytes": 1166,
+      "sha256": "ce00d7d458e4d6754e5549f9424de7b943e0eb2bef805d9b14cdab3f1ac0f2f7"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/1x/occlusion/h224-damage-cargo-roof.png",
+      "bytes": 1105,
+      "sha256": "86baf145de09ad10e8bc60581fb07412422cc99262746a9961c5fa22a0c68255"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/1x/occlusion/h240-damage-cargo-roof.png",
+      "bytes": 1092,
+      "sha256": "a2e3359e6868625ee8d0c5fa05770a3dd52b9872bb87735b44b8a297301e21c1"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/2x/occlusion/h000-damage-cargo-roof.png",
+      "bytes": 1719,
+      "sha256": "1e8e07dc5fe2f7391f5579b35d00bcbfb68945a6f20fe7b1d283a55ca15f2e79"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/2x/occlusion/h016-damage-cargo-roof.png",
+      "bytes": 1768,
+      "sha256": "c6256d25bbb8b262edfc0842f6592fd9edb9aff2cfa2ea4a659a511a420b01f2"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/2x/occlusion/h032-damage-cargo-roof.png",
+      "bytes": 1830,
+      "sha256": "37172e6189301387472e773fd31d00187ae885d2d36557072c32b7da150f5e51"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/2x/occlusion/h048-damage-cargo-roof.png",
+      "bytes": 1814,
+      "sha256": "3464dace8071d8e11cd015a4d0611c66d430dca14f344453b15616c11ca45c05"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/2x/occlusion/h064-damage-cargo-roof.png",
+      "bytes": 1828,
+      "sha256": "30bf2089855c98a656b5bac42564af459a592f8295c2952c6f70176d18724514"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/2x/occlusion/h080-damage-cargo-roof.png",
+      "bytes": 2331,
+      "sha256": "04cb830e83b4e7adb4d9d019fe549f8e61ae0ccf5b627f36796ac4671e6bf0b1"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/2x/occlusion/h096-damage-cargo-roof.png",
+      "bytes": 2370,
+      "sha256": "88c778dda942322078891b6884f95fc076e22dbe226e94066837f57eae8bfed6"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/2x/occlusion/h112-damage-cargo-roof.png",
+      "bytes": 2496,
+      "sha256": "8fd3030c5c1eac27dd14019a773eb0b8341748285fd2c4bdcda34f4cf3921698"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/2x/occlusion/h128-damage-cargo-roof.png",
+      "bytes": 2365,
+      "sha256": "3ed2d700cb442be1fd1cdb0634fb87272205ac277d84fb44c9b9ca4e32dcd51b"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/2x/occlusion/h144-damage-cargo-roof.png",
+      "bytes": 2539,
+      "sha256": "b2dfac1eda15b4857becf316a2b2f51d4206640ab7017e96747fb8ca237dae8f"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/2x/occlusion/h160-damage-cargo-roof.png",
+      "bytes": 2277,
+      "sha256": "8bd1f6cf953de3e6bd46cae23715cce7e43fc9ab95ef50b64e189d9afb120fa1"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/2x/occlusion/h176-damage-cargo-roof.png",
+      "bytes": 2268,
+      "sha256": "1fa9ac7afd40ec715fadbbca6b508da04b58498b4deb667ffa460710f2d1dd2a"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/2x/occlusion/h192-damage-cargo-roof.png",
+      "bytes": 1789,
+      "sha256": "417a4e33b4a80631a4c675e0e4a12c1610f917544b67ac02b5479bbcfdc16848"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/2x/occlusion/h208-damage-cargo-roof.png",
+      "bytes": 1779,
+      "sha256": "66be01f7709d219941a68f2cad905e684a245ffb293a506b6b261a098b4e4718"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/2x/occlusion/h224-damage-cargo-roof.png",
+      "bytes": 1832,
+      "sha256": "3227a954f28a07389455184560993d2ae366c98a5a5801bd1489c822119e8505"
+    },
+    {
+      "path": "assets/candidates/transport-code-12-43a-v1/v2/shared/exports/2x/occlusion/h240-damage-cargo-roof.png",
+      "bytes": 1776,
+      "sha256": "310119828f9009d9c094b91764e06e67f0e7e9a3d746c88645664ef266e6be8a"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/03b4f6cd948db898b9312abf36c504217e5bf63378b40be016761496e6893394.png",
+      "bytes": 3118,
+      "sha256": "03b4f6cd948db898b9312abf36c504217e5bf63378b40be016761496e6893394"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/05a9469a4ca0475bc7e4df518f05561b06a13317ff84894aeaf87899763a3b59.png",
+      "bytes": 1621,
+      "sha256": "05a9469a4ca0475bc7e4df518f05561b06a13317ff84894aeaf87899763a3b59"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/0daf97ea4696af72be5b40708cbb6c972ef0c3693a8c144e76f9459036a85e72.png",
+      "bytes": 3158,
+      "sha256": "0daf97ea4696af72be5b40708cbb6c972ef0c3693a8c144e76f9459036a85e72"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/17fb010d114f01de8301f04a66394cc6ef887b1479552ff729c1eafa13a0199e.png",
+      "bytes": 1136,
+      "sha256": "17fb010d114f01de8301f04a66394cc6ef887b1479552ff729c1eafa13a0199e"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/199e30a94521b636a44f41a010a73347e642bdf0e4965238311cebb636bc696d.png",
+      "bytes": 1300,
+      "sha256": "199e30a94521b636a44f41a010a73347e642bdf0e4965238311cebb636bc696d"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/1df0f3770d589dc62618439d7837821360ffb36b559ff7b6603380a161f8d6a0.png",
+      "bytes": 1090,
+      "sha256": "1df0f3770d589dc62618439d7837821360ffb36b559ff7b6603380a161f8d6a0"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/1e9d5601ec2d7d8c7086155ee9d52f163a1ff0f5fc36bfc9ffc29623f3c16876.png",
+      "bytes": 1713,
+      "sha256": "1e9d5601ec2d7d8c7086155ee9d52f163a1ff0f5fc36bfc9ffc29623f3c16876"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/284e6eca9c181b83dbbf5922bb84633fda8db5b9bff183afd30dc3c6b64cdc00.png",
+      "bytes": 562,
+      "sha256": "284e6eca9c181b83dbbf5922bb84633fda8db5b9bff183afd30dc3c6b64cdc00"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/29bfca20e88c20ec9990e32d61aeff4070e54811ecf7740309adf755caecd135.png",
+      "bytes": 650,
+      "sha256": "29bfca20e88c20ec9990e32d61aeff4070e54811ecf7740309adf755caecd135"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/2a203b52351163cc2add7c60fa1918efc8ddbbbeb9f9f463d37c94618481da2d.png",
+      "bytes": 933,
+      "sha256": "2a203b52351163cc2add7c60fa1918efc8ddbbbeb9f9f463d37c94618481da2d"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/2dbead8ddf4a1e6446e6669e070d19a107e56fdd53de6b35eac76f2a32ae6f85.png",
+      "bytes": 1356,
+      "sha256": "2dbead8ddf4a1e6446e6669e070d19a107e56fdd53de6b35eac76f2a32ae6f85"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/2fc18a67fd9a522f4f9e903f18206e5265fd53738b138164b4f00ac3bf867496.png",
+      "bytes": 1845,
+      "sha256": "2fc18a67fd9a522f4f9e903f18206e5265fd53738b138164b4f00ac3bf867496"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/3a7f1ee0dfc6862b88d972639cf7af4a30adab46a7d2d9ac3a5adef3091ca0f3.png",
+      "bytes": 1540,
+      "sha256": "3a7f1ee0dfc6862b88d972639cf7af4a30adab46a7d2d9ac3a5adef3091ca0f3"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/3dc7411ecc2499393eb6513b989251f5c21f3aceadf813baea48c893e4f9b3da.png",
+      "bytes": 2714,
+      "sha256": "3dc7411ecc2499393eb6513b989251f5c21f3aceadf813baea48c893e4f9b3da"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/45211572bb0722a7c4728ad27eaa473d06cabb4c12c4fc8246550b7aedbbe4c0.png",
+      "bytes": 1334,
+      "sha256": "45211572bb0722a7c4728ad27eaa473d06cabb4c12c4fc8246550b7aedbbe4c0"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/475a46b097bf80a12abd6d700512c76953a0415cec50b6959fcd4ea85a476969.png",
+      "bytes": 750,
+      "sha256": "475a46b097bf80a12abd6d700512c76953a0415cec50b6959fcd4ea85a476969"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/578535bd797668db47858fad1608e59327708745a8232aec5c5b35ebe7824075.png",
+      "bytes": 675,
+      "sha256": "578535bd797668db47858fad1608e59327708745a8232aec5c5b35ebe7824075"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/5d6730c33bf0c296c5e5cf6ba1c87ee35eae2f248925ab44fdf13dd6b0b8c37c.png",
+      "bytes": 787,
+      "sha256": "5d6730c33bf0c296c5e5cf6ba1c87ee35eae2f248925ab44fdf13dd6b0b8c37c"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/5f37702a70246204f6961e69c3d4c90d167e5f52795ac0996262ecd372240fbd.png",
+      "bytes": 1594,
+      "sha256": "5f37702a70246204f6961e69c3d4c90d167e5f52795ac0996262ecd372240fbd"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/62658c8e9b2ee595b58f1aa41d982a62ec4e8d9e0563c37d2843733bb58d0b34.png",
+      "bytes": 708,
+      "sha256": "62658c8e9b2ee595b58f1aa41d982a62ec4e8d9e0563c37d2843733bb58d0b34"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/62ba5f0070180fd17669d20cd5ac5930211b5dd21f0d52e884bca7dc8bb57bf1.png",
+      "bytes": 1719,
+      "sha256": "62ba5f0070180fd17669d20cd5ac5930211b5dd21f0d52e884bca7dc8bb57bf1"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/64373356f210d5395d3e915c7046c413c9f53b9e9c5f0b7ff567e86c9af4d9d2.png",
+      "bytes": 2942,
+      "sha256": "64373356f210d5395d3e915c7046c413c9f53b9e9c5f0b7ff567e86c9af4d9d2"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/68f681392504511e91171ef3047916869f16d3f3aca3fbf3a76914430ff89529.png",
+      "bytes": 772,
+      "sha256": "68f681392504511e91171ef3047916869f16d3f3aca3fbf3a76914430ff89529"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/69e32de5149b6898b26035c4b3e3d3853da9ff407114a7d089a41f46338a3e98.png",
+      "bytes": 1437,
+      "sha256": "69e32de5149b6898b26035c4b3e3d3853da9ff407114a7d089a41f46338a3e98"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/6bf78ee7e8ac9f0f331216b42780b9cf2ce735f02b6d6dc9fa47f31dd3968572.png",
+      "bytes": 1437,
+      "sha256": "6bf78ee7e8ac9f0f331216b42780b9cf2ce735f02b6d6dc9fa47f31dd3968572"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/6cf903e9159061df967526a2878cf1f4e62f6c14d6ef26d765954670a25a42b8.png",
+      "bytes": 892,
+      "sha256": "6cf903e9159061df967526a2878cf1f4e62f6c14d6ef26d765954670a25a42b8"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/729264d3cbe1770ba45352807e3c8ccedc7241d8d4653d587e3b457af17a6e5e.png",
+      "bytes": 674,
+      "sha256": "729264d3cbe1770ba45352807e3c8ccedc7241d8d4653d587e3b457af17a6e5e"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/7769500bee3f70c12d96ae34706b85ddb5bfd2199c4487f7106eced8e249feee.png",
+      "bytes": 2133,
+      "sha256": "7769500bee3f70c12d96ae34706b85ddb5bfd2199c4487f7106eced8e249feee"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/7c400bca46dc3e6af17c364eb747300d4bfeea64a78eb48ca582d9f7813effec.png",
+      "bytes": 800,
+      "sha256": "7c400bca46dc3e6af17c364eb747300d4bfeea64a78eb48ca582d9f7813effec"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/7cdc1205b2e563a9e98c5828d31d34bd76a8f768d280d9b80a7fffc9fe1ee976.png",
+      "bytes": 1758,
+      "sha256": "7cdc1205b2e563a9e98c5828d31d34bd76a8f768d280d9b80a7fffc9fe1ee976"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/879807292b41b42c0492db3a8125f96166d3e6d9c5e90c9f7ada3ba08eb36f60.png",
+      "bytes": 2962,
+      "sha256": "879807292b41b42c0492db3a8125f96166d3e6d9c5e90c9f7ada3ba08eb36f60"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/8a537e5308c407b566e180f350a47004575bcede06b7a6336cd43ac0cf8a1d97.png",
+      "bytes": 2762,
+      "sha256": "8a537e5308c407b566e180f350a47004575bcede06b7a6336cd43ac0cf8a1d97"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/8dd41b966b07a4bade01dd6b2b1e4d2a6f28b8b831975243d813dc80db2ef83a.png",
+      "bytes": 1027,
+      "sha256": "8dd41b966b07a4bade01dd6b2b1e4d2a6f28b8b831975243d813dc80db2ef83a"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/8ebb0ab42017f761cf8baacc9a9ee79d6a2ea2a49e63d1e08d50040c2bc1da81.png",
+      "bytes": 916,
+      "sha256": "8ebb0ab42017f761cf8baacc9a9ee79d6a2ea2a49e63d1e08d50040c2bc1da81"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/8f2aa4f29bbccfee1699bb041d1d5e385056411f714881f10d22d14db79d2c3d.png",
+      "bytes": 986,
+      "sha256": "8f2aa4f29bbccfee1699bb041d1d5e385056411f714881f10d22d14db79d2c3d"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/907510b58bd4cbf22ee4ff94ddcd010e14c4ce34c9ed3e86a0bdf144acec3d7f.png",
+      "bytes": 2640,
+      "sha256": "907510b58bd4cbf22ee4ff94ddcd010e14c4ce34c9ed3e86a0bdf144acec3d7f"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/93ed92c31e14acdcc9ffd94d1d3f246f391cd3727ae8bc78b24e17effa2cbec8.png",
+      "bytes": 2984,
+      "sha256": "93ed92c31e14acdcc9ffd94d1d3f246f391cd3727ae8bc78b24e17effa2cbec8"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/95c19b00d95d6bc5c2cfc92f8857e0bd93a7848a96c9e9d7a47fde1921a33cc9.png",
+      "bytes": 3906,
+      "sha256": "95c19b00d95d6bc5c2cfc92f8857e0bd93a7848a96c9e9d7a47fde1921a33cc9"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/97f66e953124e5405ed2d120ef883f87b787c1acd5ecd9ebad23294b8407c980.png",
+      "bytes": 944,
+      "sha256": "97f66e953124e5405ed2d120ef883f87b787c1acd5ecd9ebad23294b8407c980"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/a0ecbee9f44af919ab7fdf1216ccb6987d89edda2d6a13389860b91abe9f20ec.png",
+      "bytes": 696,
+      "sha256": "a0ecbee9f44af919ab7fdf1216ccb6987d89edda2d6a13389860b91abe9f20ec"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/a14b43ae2045f8b4ab80a1ad217cfc31039fa710236961d1504b08d634f0c9d5.png",
+      "bytes": 664,
+      "sha256": "a14b43ae2045f8b4ab80a1ad217cfc31039fa710236961d1504b08d634f0c9d5"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/a2b215d3234a4e07c9758d7b31a918e48ce0634904fe749505ff9562581f8b87.png",
+      "bytes": 1616,
+      "sha256": "a2b215d3234a4e07c9758d7b31a918e48ce0634904fe749505ff9562581f8b87"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/a2fd48cb4bb42dbdd3ecfa3ef018b95f255446ffb0b353f9ca9b111c78abf78e.png",
+      "bytes": 1574,
+      "sha256": "a2fd48cb4bb42dbdd3ecfa3ef018b95f255446ffb0b353f9ca9b111c78abf78e"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/a47ac438cedd9c457c6a3b70c0a0f27abefc873eb89f7bf2c69ebd8058ec6027.png",
+      "bytes": 733,
+      "sha256": "a47ac438cedd9c457c6a3b70c0a0f27abefc873eb89f7bf2c69ebd8058ec6027"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/a7a05365540144b942b0be35c76b84032f07683a87eaf0e2f0d8bb1fd1478a2e.png",
+      "bytes": 1572,
+      "sha256": "a7a05365540144b942b0be35c76b84032f07683a87eaf0e2f0d8bb1fd1478a2e"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/ad46f5eef730817b60f6a07678eaa86a1221a2e86618fcdf19471603d4f2471c.png",
+      "bytes": 2671,
+      "sha256": "ad46f5eef730817b60f6a07678eaa86a1221a2e86618fcdf19471603d4f2471c"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/af49a874513819e5f869b381c48e1e353e71584f687827fcb847ff85f96e2166.png",
+      "bytes": 2475,
+      "sha256": "af49a874513819e5f869b381c48e1e353e71584f687827fcb847ff85f96e2166"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/b1172b6e62f98d93c10c4aa9f87e6387d1c9c58e94b24b559231c29e678904b5.png",
+      "bytes": 1515,
+      "sha256": "b1172b6e62f98d93c10c4aa9f87e6387d1c9c58e94b24b559231c29e678904b5"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/b1587d79a3fe5f36dd494f12e6b223acdc33a88f6f4fb2ba05f8d8a0e930cde9.png",
+      "bytes": 1214,
+      "sha256": "b1587d79a3fe5f36dd494f12e6b223acdc33a88f6f4fb2ba05f8d8a0e930cde9"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/b2c9e57d30b5a74ef383c114ea17d99651bddb61b06ee60f575f689fa888f171.png",
+      "bytes": 572,
+      "sha256": "b2c9e57d30b5a74ef383c114ea17d99651bddb61b06ee60f575f689fa888f171"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/b6afaf7b4cd9f7de3b41398fff05e5980ca32c2c978d7eae3daf512d6c4d63e0.png",
+      "bytes": 962,
+      "sha256": "b6afaf7b4cd9f7de3b41398fff05e5980ca32c2c978d7eae3daf512d6c4d63e0"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/bdac52df75da8037ae94528dc4ebe53f25dc9eacc2e77032bb3cce2def97c498.png",
+      "bytes": 2682,
+      "sha256": "bdac52df75da8037ae94528dc4ebe53f25dc9eacc2e77032bb3cce2def97c498"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/c1b934e46133ce7037857c8103892a2461a59b0fd61e522f353f2ebdbd4c521e.png",
+      "bytes": 1719,
+      "sha256": "c1b934e46133ce7037857c8103892a2461a59b0fd61e522f353f2ebdbd4c521e"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/c7a855e09ad6b0fa1c07325ecee071a23435bdf987104d9535d87a1ba7741f30.png",
+      "bytes": 8962,
+      "sha256": "c7a855e09ad6b0fa1c07325ecee071a23435bdf987104d9535d87a1ba7741f30"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/d1dfbe9ab2924a15d8255f77e702b8850b3f729e6bd3ea59ce5b34e3b49919fa.png",
+      "bytes": 1864,
+      "sha256": "d1dfbe9ab2924a15d8255f77e702b8850b3f729e6bd3ea59ce5b34e3b49919fa"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/d276b2e4de8bd68ad9a99b5f5560b795220b4381d16a3962003cb960eef7c3ec.png",
+      "bytes": 752,
+      "sha256": "d276b2e4de8bd68ad9a99b5f5560b795220b4381d16a3962003cb960eef7c3ec"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/d516fbaed04c991ed8bc5bcaaa2e4358ceced85a2037c008dc1602d6ef1ccb22.png",
+      "bytes": 9516,
+      "sha256": "d516fbaed04c991ed8bc5bcaaa2e4358ceced85a2037c008dc1602d6ef1ccb22"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/d9df1f8a47166d1505a53ed30dcc996e069ba419a2b06a6e61399ebeebdc2091.png",
+      "bytes": 2553,
+      "sha256": "d9df1f8a47166d1505a53ed30dcc996e069ba419a2b06a6e61399ebeebdc2091"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/da569ff34bdec9c59fbcf34ddec9844e1a962f6e4a05d7441b58e35e576fc7e3.png",
+      "bytes": 1819,
+      "sha256": "da569ff34bdec9c59fbcf34ddec9844e1a962f6e4a05d7441b58e35e576fc7e3"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/daca711094520c3a04e7b7f26d135c32a696ff6eb5d128fa0481d117e523da3d.png",
+      "bytes": 1258,
+      "sha256": "daca711094520c3a04e7b7f26d135c32a696ff6eb5d128fa0481d117e523da3d"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/dc22fb718c48f5a8d4326471dd5870d784181e7f58b07085954b4aed790a073b.png",
+      "bytes": 1508,
+      "sha256": "dc22fb718c48f5a8d4326471dd5870d784181e7f58b07085954b4aed790a073b"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/e2de4ecc62b48736bef3104b866c052450c447cff2d42124e0168daf4672dd3e.png",
+      "bytes": 2670,
+      "sha256": "e2de4ecc62b48736bef3104b866c052450c447cff2d42124e0168daf4672dd3e"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/e7edc7aee0c5bb0a1e8ed71925157be28c78c60f2aa7c5ce5084e252a510c76d.png",
+      "bytes": 22102,
+      "sha256": "e7edc7aee0c5bb0a1e8ed71925157be28c78c60f2aa7c5ce5084e252a510c76d"
+    },
+    {
+      "path": "assets/candidates/transport-operation-code-12-43c-v1/e994819c1475fc86c0be2d41e2e89618cafa919710a71c0e7007e5c404a54f54.png",
+      "bytes": 3228,
+      "sha256": "e994819c1475fc86c0be2d41e2e89618cafa919710a71c0e7007e5c404a54f54"
+    },
+    {
       "path": "assets/combat.impact.raider_siege_shell.armor__candidate-b__selected-master-73990876.webm",
       "bytes": 14080,
       "sha256": "739908763f329f31c26d3a9c270f6a42f67e9dc462c98dd93a33987ed92a8ce6"
@@ -5120,9 +6614,9 @@
       "sha256": "deeb5de141670b069ffb00bd31ee57b37ce12e8abd57c677c71d7229d9750373"
     },
     {
-      "path": "assets/controlTowerRuntimeVisualPilot-da97823e.js",
+      "path": "assets/controlTowerRuntimeVisualPilot-78f27d21.js",
       "bytes": 115838,
-      "sha256": "b88f92c781061b6a6c8e3a6a2dd1b1ba43aa6317a6a3b2d3a92c8d4ceb26721e"
+      "sha256": "dbd9df8caabc5bba51a04d5135c4124b62bf332e5be406de2aaab9257d5b7305"
     },
     {
       "path": "assets/effect-muzzle-flash-candidate-2x-d7c90d1f.png",
@@ -5165,9 +6659,9 @@
       "sha256": "f97bb96cef3ad714fe29c1b573fb47df8f0b7381a9f8fcb18618a02bb389f475"
     },
     {
-      "path": "assets/factoryOwnerColorSemanticMaskRuntimePilot-7bb02025.js",
+      "path": "assets/factoryOwnerColorSemanticMaskRuntimePilot-cab821b0.js",
       "bytes": 94019,
-      "sha256": "a8769857b67bcd196840a2475f5c961d9bc741a0b0d5b737ef43df48a255276f"
+      "sha256": "dbd5287a3661e7d504e567177d34051e4c72830423971ab3ba3078a36cb079c2"
     },
     {
       "path": "assets/fixed-lights-bfcd90b1.webp",
@@ -5540,9 +7034,9 @@
       "sha256": "efac2d48b4e7668399c6606df5a9ce74ea2f500d105540ac74b9c08c1954b21b"
     },
     {
-      "path": "assets/geyserRefineryRuntimeVisualPilot-b3fc039d.js",
+      "path": "assets/geyserRefineryRuntimeVisualPilot-7e70b4c3.js",
       "bytes": 125320,
-      "sha256": "0b6ea2e9b87b8be7ae98be6025a313d294e82a88c7e12a29b1fbab938b15aeb3"
+      "sha256": "c0cc650680e1607a9cb7be6a554b244ba8c2af59acd14d595dd5d291f54e4517"
     },
     {
       "path": "assets/ground-blood-death-pools-a-f-balanced-carmine-source-sheet-aa1ca74b.png",
@@ -5555,9 +7049,9 @@
       "sha256": "feee21c1863b635afdcde1dc4c8a5f2bc41363440dc327515094b70f7b4caaf7"
     },
     {
-      "path": "assets/index-e158a5e0.js",
+      "path": "assets/index-c6ecb34f.js",
       "bytes": 1933,
-      "sha256": "ebe274cf1cffb2ff68d18fe88c0ebc49cde74d6e92126b8245c3d7bcdd8a66aa"
+      "sha256": "bcfa14dc051287e1f68c977a0f7543f8d606336ef136513c5f0a0899e68a666c"
     },
     {
       "path": "assets/local-00fd79334a29afb54317-9efab76f.webp",
@@ -5730,19 +7224,19 @@
       "sha256": "8a86ea6319611527cbc04845c965042bf78738aaf949baee2e63b9263e163651"
     },
     {
-      "path": "assets/machineShopRuntimeVisualPilot-1b0bd397.js",
+      "path": "assets/machineShopRuntimeVisualPilot-32afbdf8.js",
       "bytes": 114704,
-      "sha256": "3cb519704e6e38dcd8c8ac5ffe078225cacb703bf09e92322ca5a28b1633a554"
+      "sha256": "c17a9a001e87f4cebf6c6296b530789e273514bd115e737151a7037b249ef892"
     },
     {
-      "path": "assets/main-770ae91b.css",
-      "bytes": 103034,
-      "sha256": "770ae91b5c6aa6a68ff6aca08fcf701618e4fdc20669ac6b4a65570a18407c75"
+      "path": "assets/main-7c6da45e.css",
+      "bytes": 105092,
+      "sha256": "7c6da45ec1931cd2227354d6c1f9f0eb5e9752e140cc95a68ab12ee9962c5908"
     },
     {
-      "path": "assets/main-7f863b64.js",
-      "bytes": 6330647,
-      "sha256": "3c85567cfbdc046ebd707e112da036d7c68542dd7639fced5e67dcff82bc4558"
+      "path": "assets/main-bc0ea3d7.js",
+      "bytes": 6581537,
+      "sha256": "584243c418efe9653b925d7d84c590058b411a290983c71cc7f4c94650e16fce"
     },
     {
       "path": "assets/mask-1535165e.webp",
@@ -5845,9 +7339,9 @@
       "sha256": "f1b62ac11c423fe20ba958daf91eb274b26293ba20caa30668f063472068bea2"
     },
     {
-      "path": "assets/mineralFieldRuntimeVisualPilot-b1dd509a.js",
+      "path": "assets/mineralFieldRuntimeVisualPilot-157e0725.js",
       "bytes": 57073,
-      "sha256": "ff0c680baad5c41c92a756ad6e0e406c47dd65ea1e881db8142e5b708c47dba6"
+      "sha256": "41ab0acd89c8e9a7d503103fbe3af05d5c69015745fb3e3e6fc35e329ca43050"
     },
     {
       "path": "assets/moving-lights-04145eea.webp",
@@ -8000,9 +9494,9 @@
       "sha256": "47bb77eac7943ffcdffc18ab16bf28727009cda913bd9db7d3f3f71f3bde057e"
     },
     {
-      "path": "assets/scienceFacilityRuntimeVisualPilot-744111ab.js",
+      "path": "assets/scienceFacilityRuntimeVisualPilot-938ad044.js",
       "bytes": 153939,
-      "sha256": "a53901502ec3958f0f8c8842f454df5af4411f79433ae83c06f45321b1dc7690"
+      "sha256": "9adbfa7c1809d053868b03d8f117f11de52ed54e271ba8c02e22316fc0dd5f7e"
     },
     {
       "path": "assets/selection-portrait-enemy-building-barracks-6878cac6.png",
@@ -8170,14 +9664,14 @@
       "sha256": "cff15edd4cd5d70c3d28e1ddd57001491e7dbeb488e2aa0bf3ad6df307ee5dd2"
     },
     {
-      "path": "assets/soldierOwnerColorSemanticMaskRuntimePilot-017d0b51.js",
+      "path": "assets/soldierOwnerColorSemanticMaskRuntimePilot-73a281cf.js",
       "bytes": 1028728,
-      "sha256": "ef43ab86c29e38d0ca7703cae2ffe8f64d79f9116f3bcbbdfd2aa9685c56dd3a"
+      "sha256": "64daaeb2bc595510dce6ee2f81e8bab91d94621aac0927f5dfee12a160048734"
     },
     {
-      "path": "assets/starportRuntimeVisualPilot-c3a8f2d6.js",
+      "path": "assets/starportRuntimeVisualPilot-9cb0a13a.js",
       "bytes": 115037,
-      "sha256": "4dda86e31f540adb03b281de5908f8c43d21b97dc144984b1fd024b0b8b51e58"
+      "sha256": "cc5b78c677768e68a44a03e04516d38feec23299871d740f94a8569308c8ddc1"
     },
     {
       "path": "assets/status-icon-air-1a68edcf.png",
@@ -8440,9 +9934,9 @@
       "sha256": "f7ecbb4cddac69ad4ff025f05a1cd3d039ed02b48dedff16954cd5c6906e86aa"
     },
     {
-      "path": "assets/supplyDepotRuntimeVisualPilot-f817cd28.js",
+      "path": "assets/supplyDepotRuntimeVisualPilot-d318a031.js",
       "bytes": 144086,
-      "sha256": "3a1b41a363a17b5b90d7d79a3278ba593eee313d66e2edd2a98beaa81a1783d1"
+      "sha256": "003472d62786e3476d6c90758c03814c4dbae6165bc19203e11679559542cbbd"
     },
     {
       "path": "assets/ui.alert.addon_complete__candidate-a__selected-master-7618e634.webm",
@@ -8955,9 +10449,9 @@
       "sha256": "c5ed23af68777bd4f75b53ec2230b730b35bd76b33ecf5b139a6b5016af5b803"
     },
     {
-      "path": "assets/unitAnimationCandidateSprites-fc1bdf49.js",
+      "path": "assets/unitAnimationCandidateSprites-c30f017e.js",
       "bytes": 39395,
-      "sha256": "241bfe7c394a3329710c3a01853674dcbb15d7c4206633f351e85b64eca3308e"
+      "sha256": "22f06ab89a364ae8c8843b3287e49097e8a8215068e4bbec1131408b56f0c587"
     },
     {
       "path": "assets/vespene-canister-base-vespene-canister-base-page-0-428b869e.webp",
@@ -9010,48 +10504,38 @@
       "sha256": "3725416d64207f2f9a9a27b08f7c105fd98f2aac2c7a45066079631bd120a80d"
     },
     {
-      "path": "assets/workerModularCargoRuntimePilot-9ee59889.js",
+      "path": "assets/workerModularCargoRuntimePilot-e721553e.js",
       "bytes": 802336,
-      "sha256": "0f38f76c6da7127ac7954f632d20c9b2c4027cae135aa054dfc6ce48c0c617b9"
+      "sha256": "8354ca22ffbe95fbfcd8c8f780e568f8c11e82fad94c52a4c87e65fb00b2765d"
     },
     {
-      "path": "assets/workerOwnerColorSemanticMaskRuntimePilot-2142ebbf.js",
+      "path": "assets/workerOwnerColorSemanticMaskRuntimePilot-3ed39a04.js",
       "bytes": 1037227,
-      "sha256": "4440bdeccded5d6c74d5a35359bb5a7fe27fa92644f4c1c8c65e6aeafe144ae6"
+      "sha256": "ea3e2c5c4d0fec193521062e744677ffc93cbfddfa37821a5faca1d126ad5b28"
     },
     {
       "path": "code-12-34a-runtime-asset-byte-manifest.json",
-      "bytes": 662446,
-      "sha256": "875b4c7b685b67a002b71cd3da69a8d309f206410ea3afe7d274928ddfbaf22f"
+      "bytes": 773272,
+      "sha256": "a42557a773c26f3b35b83135ba77eb807d7645c24c3b975fedc093f08c1ab267"
     },
     {
       "path": "index.html",
-      "bytes": 2133,
-      "sha256": "6d10c3312ca5be776ded36c5a7a35c92cac2b6271edbae6f3c8621cebcb6a33e"
+      "bytes": 2363,
+      "sha256": "3dd5e08d708c9aef4df297c81686afc06cf0b3b26287f92bcbb619940c3ba90d"
     },
     {
       "path": "play/index.html",
       "bytes": 1885,
-      "sha256": "16f60c7d4655e7dcd8f0eedd7290877a23a0a6be856ba5f0f6e93531ff150390"
+      "sha256": "1d12d0a08b99f10bae6529998077fbb833d7824ed6e917b486ba2ecdd69c6e95"
     },
     {
       "path": "release-version.json",
-      "bytes": 7069,
-      "sha256": "0a4e488793e5a6f9c90b74756745ad14ce42b8d754ed61ce123d314388b90cd6"
+      "bytes": 7982,
+      "sha256": "7a1aeaa31fb49efeda269cf882b4cd5f671dc1148788ad4ea734b39ee3498e18"
     }
   ],
   "ownerAcceptanceRequired": false,
-  "acceptedReviewSourceId": "c6930b7bb1a5d6c718e8273c227ea75b50058adc73656330f2d872325b701577",
-  "ownerAcceptanceSha256": "7256a39c58204525609a9bf12ac016ac54839cc98e5086b622f4d2f0cf9c88e7",
-  "authorityRegistrySha256": "d6495b2a9374982493261db07602fe0775568bf0fc54b7994227fa2a5db691ad",
-  "highLoadPerformanceThresholdPassed": false,
-  "c4": {
-    "mode": "formal",
-    "selector": "default-no-query",
-    "contractSha256": "158adbe6716e15d61970b2b216b1086996106379cda837c12b6a4a478a3d9df9",
-    "ownerAcceptanceSha256": "4c2c6ab1f45d4066618c2f348ebe61e470008d49b00f991520f2f5b4d961759e",
-    "acceptedReviewSourceId": "8dea03cf1666db8d42037b3c74478c4064d417a11e4736cd3d5788a5292399fc"
-  },
   "c4OwnerAccepted": true,
+  "transportOwnerAccepted": true,
   "capabilitiesUnchanged": true
 }
