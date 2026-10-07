@@ -1,6 +1,6 @@
 {
   "schemaVersion": "code-12.34a-runtime-asset-build-manifest-v2",
-  "buildId": "f90287ad707289fe772fe884f7c85580395b5f6ee034d5878805ed606e71e49a",
+  "buildId": "a4455a6edbf3cbc1f5dc4dbbb1798b3dd348ad782988b2139178f804ace63db3",
   "entries": [
     {
       "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v03-c8db4cc2.mp3",
@@ -9997,6 +9997,202 @@
       "encodedBytes": 18768,
       "sha256": "f1b62ac11c423fe20ba958daf91eb274b26293ba20caa30668f063472068bea2",
       "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/missile-six-point-healthy-body-253314ec5edf.png",
+      "urlPath": "/assets/missile-six-point-healthy-body-253314ec5edf.png",
+      "encodedBytes": 28631,
+      "sha256": "253314ec5edfb18b704644f042d863ee2328bf191449a09494acd6ecaeacc066",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-six-point-healthy-body-75e3f52b0406.png",
+      "urlPath": "/assets/missile-six-point-healthy-body-75e3f52b0406.png",
+      "encodedBytes": 8798,
+      "sha256": "75e3f52b0406f7f2a140bc6b36a24f3cd62fb786036ddc80df6bdcbfbe8185d7",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-six-point-healthy-functional-661741bfb61d.png",
+      "urlPath": "/assets/missile-six-point-healthy-functional-661741bfb61d.png",
+      "encodedBytes": 329,
+      "sha256": "661741bfb61d05762450e21078f5f6ccdb6b992a972184e3d4ee28cebd6a3c92",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-six-point-healthy-functional-9707ffdfa5f0.png",
+      "urlPath": "/assets/missile-six-point-healthy-functional-9707ffdfa5f0.png",
+      "encodedBytes": 971,
+      "sha256": "9707ffdfa5f0b457568ecbc858fbb2b7d03ba08a47cb087564d7aa8f8a03c587",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-six-point-healthy-mask-a88513a8bfd9.png",
+      "urlPath": "/assets/missile-six-point-healthy-mask-a88513a8bfd9.png",
+      "encodedBytes": 6039,
+      "sha256": "a88513a8bfd98359d04d12962f5561f62d8744856a11b04e721944bb0ee7dcb2",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-six-point-healthy-mask-ba556f1cf2b8.png",
+      "urlPath": "/assets/missile-six-point-healthy-mask-ba556f1cf2b8.png",
+      "encodedBytes": 1802,
+      "sha256": "ba556f1cf2b87fd145a12c341899895cb5f2f29cb95279019bd5cb973713f692",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-six-point-page-00-body-06aee95a1a28.png",
+      "urlPath": "/assets/missile-six-point-page-00-body-06aee95a1a28.png",
+      "encodedBytes": 1114226,
+      "sha256": "06aee95a1a28480a628db855e7d4df45d4120538bc59e52d9584d1cf3f14a3cf",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-six-point-page-00-body-206fbb4a26f1.png",
+      "urlPath": "/assets/missile-six-point-page-00-body-206fbb4a26f1.png",
+      "encodedBytes": 73040,
+      "sha256": "206fbb4a26f144069d082b54a4a0401afc1bfb4270f788bdb6cff7c6a97e1cea",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-six-point-page-00-body-36e3d5bf0716.png",
+      "urlPath": "/assets/missile-six-point-page-00-body-36e3d5bf0716.png",
+      "encodedBytes": 234373,
+      "sha256": "36e3d5bf0716ca03888a7d932c8916cb29e8f0334ba79e0297acdf24a33ab5d2",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-six-point-page-00-body-7be8435793b1.png",
+      "urlPath": "/assets/missile-six-point-page-00-body-7be8435793b1.png",
+      "encodedBytes": 351758,
+      "sha256": "7be8435793b111e1ecedbda22848cc92a602059ff13299fe327a1ec014eb4af8",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-six-point-page-00-functional-073f11035105.png",
+      "urlPath": "/assets/missile-six-point-page-00-functional-073f11035105.png",
+      "encodedBytes": 2743,
+      "sha256": "073f1103510570293b466796179536813ecf874111649e41d1b7a9d338a8ead5",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-six-point-page-00-functional-d40a3c3c8365.png",
+      "urlPath": "/assets/missile-six-point-page-00-functional-d40a3c3c8365.png",
+      "encodedBytes": 781,
+      "sha256": "d40a3c3c8365994ff8d4c3f7346fd2e07b3ca4fe6e68bfdf5aa81371a553fff9",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-six-point-page-00-mask-04b1b15c84c4.png",
+      "urlPath": "/assets/missile-six-point-page-00-mask-04b1b15c84c4.png",
+      "encodedBytes": 37752,
+      "sha256": "04b1b15c84c488d86195a2d8ee894360f20b30935dc7b90f8aa37a01dd26bf8f",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-six-point-page-00-mask-4a1def079789.png",
+      "urlPath": "/assets/missile-six-point-page-00-mask-4a1def079789.png",
+      "encodedBytes": 10905,
+      "sha256": "4a1def079789cb78888eb70cc5b372e95b9ee68ae8123ee7c8767aa2d2810882",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-six-point-page-00-mask-a69612bb2c8b.png",
+      "urlPath": "/assets/missile-six-point-page-00-mask-a69612bb2c8b.png",
+      "encodedBytes": 331727,
+      "sha256": "a69612bb2c8bfaea5806ce2980df899aeb57e8b256dc517647a52ad9d5cdabaf",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-six-point-page-00-mask-e268331e4f01.png",
+      "urlPath": "/assets/missile-six-point-page-00-mask-e268331e4f01.png",
+      "encodedBytes": 96837,
+      "sha256": "e268331e4f0128e7868111433a0b5d3f6f6db6a20968bb1d03ef2141367184f0",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-six-point-page-00-rgba-276dd87193a0.png",
+      "urlPath": "/assets/missile-six-point-page-00-rgba-276dd87193a0.png",
+      "encodedBytes": 25813,
+      "sha256": "276dd87193a0df05ae34f636959ea65179856772b67dee18a811e1c17dec4764",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-six-point-page-00-rgba-f2ce5640630e.png",
+      "urlPath": "/assets/missile-six-point-page-00-rgba-f2ce5640630e.png",
+      "encodedBytes": 6970,
+      "sha256": "f2ce5640630ee739dade6a093984cbfcc6bdc71fd63718a9c62471fe18251c3d",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-turret-impact-a-3a716f66fe75.mp3",
+      "urlPath": "/assets/missile-turret-impact-a-3a716f66fe75.mp3",
+      "encodedBytes": 9261,
+      "sha256": "3a716f66fe756d41c6d0099ed77aef66fd9afed353316d0bd1c2ecd90cf8b0cc",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/missile-turret-impact-a-44b752dfb3a3.webm",
+      "urlPath": "/assets/missile-turret-impact-a-44b752dfb3a3.webm",
+      "encodedBytes": 6632,
+      "sha256": "44b752dfb3a37433788db1370845cb07626b1fcfde58b6795061927e5539e290",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/missile-turret-impact-b-6108d919158d.webm",
+      "urlPath": "/assets/missile-turret-impact-b-6108d919158d.webm",
+      "encodedBytes": 6646,
+      "sha256": "6108d919158d04f6690fad60b41469049a4a06a8f419314b70bd2d9adbdb9d99",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/missile-turret-impact-b-61c08371e5a3.mp3",
+      "urlPath": "/assets/missile-turret-impact-b-61c08371e5a3.mp3",
+      "encodedBytes": 9261,
+      "sha256": "61c08371e5a3b4ed3a12be566017fac1023ce242d8c45114b977e1b9d9fe2963",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/missile-turret-launch-a-4ef56479d821.mp3",
+      "urlPath": "/assets/missile-turret-launch-a-4ef56479d821.mp3",
+      "encodedBytes": 7341,
+      "sha256": "4ef56479d82123d68de78b06e1c5cb45e0641d1d5a376662bcc4e59fcd5ae1dc",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/missile-turret-launch-a-54f453684746.webm",
+      "urlPath": "/assets/missile-turret-launch-a-54f453684746.webm",
+      "encodedBytes": 5661,
+      "sha256": "54f453684746260131f62a853dde62937ffb1501794477e927be691ac2d25139",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/missile-turret-launch-b-21125f4afe92.webm",
+      "urlPath": "/assets/missile-turret-launch-b-21125f4afe92.webm",
+      "encodedBytes": 5701,
+      "sha256": "21125f4afe92418e39d41096e641455c2950d7bd27ce59da7324d1512cfab662",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/missile-turret-launch-b-c2814de30691.mp3",
+      "urlPath": "/assets/missile-turret-launch-b-c2814de30691.mp3",
+      "encodedBytes": 7341,
+      "sha256": "c2814de3069111dc6304410952b598a056989141a62b43a5831e91148cd1a0e7",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/missile-turret-vfx-8e85b70a2306.png",
+      "urlPath": "/assets/missile-turret-vfx-8e85b70a2306.png",
+      "encodedBytes": 52148,
+      "sha256": "8e85b70a23064d96153063b7b9ed70721eb7f2270ba836f750a2d54800ae88a5",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/missile-turret-vfx-ac11458158b7.png",
+      "urlPath": "/assets/missile-turret-vfx-ac11458158b7.png",
+      "encodedBytes": 172823,
+      "sha256": "ac11458158b7e3521236ae1ffb4dd891b4977861703665e5b6c47e52db2fba24",
+      "mimeType": "image/png"
     },
     {
       "path": "assets/moving-lights-04145eea.webp",
