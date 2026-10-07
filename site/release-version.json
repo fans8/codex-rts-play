@@ -1,9 +1,9 @@
 {
-  "version": "2026.10.05-unit-polish-latest-v1",
-  "sourceId": "3523bf056427759b92fccb1b13d28ba65a3ab640e3412c142f509572a3b1b503",
-  "assetBuildId": "f90287ad707289fe772fe884f7c85580395b5f6ee034d5878805ed606e71e49a",
+  "version": "2026.10.07-missile-turret-v7-latest-v1",
+  "sourceId": "020b49fff55f5617bab96bdc525011f2805a07b8f37600ab56e4baf0f9763c54",
+  "assetBuildId": "a4455a6edbf3cbc1f5dc4dbbb1798b3dd348ad782988b2139178f804ace63db3",
   "channel": "formal-release",
-  "buildDerivationId": "a5fcf5c39768abe119c8eb7528f1c7fed8bc0260c8d77f22a7b007813c1735bb",
+  "buildDerivationId": "d37623f1f660096fde1d20a5238ee1cabd2a45544baac0bea5a00c2f83f8344d",
   "polish": {
     "contractSha256": "c47d8ded85998fc09f55313f4dd14f914aa3b61d082deda9a005814671ed255d",
     "registrySha256": "6944494970cb2ef7718280b12e69b6aef8952c7cc1c23fe3642fd63fe7a220da",
@@ -14,5 +14,22 @@
   },
   "selector": "default-no-query",
   "formalDefault": true,
-  "acceptedBehaviorSourceId": "11e967b73f47036c3c8a86c7620206b54dacfb66e2fa07208d66d4be524deb6d"
+  "missileBinding": {
+    "upperDamageActivationReleaseSha256": "44085e5045405a7615fe97767d9ac114f563f544d46f4ce88e270d4f1ef1c67f",
+    "dualPortInputReleaseSha256": "2a2202efcf67f82c9c7d75c9156324a281362e8b3bdec5593a74d739e6afbdd4",
+    "materialInputReleaseSha256": "ec395f17e360cab971aa545ac509591dce399672cfe4471866166581700f5f63",
+    "contractSha256": "d95bdb98d7c823f7f45bb10a36950849d4522c58d0547f0898e1d54bcd6ba89a",
+    "registrySha256": "138b04d70d19208201cef71e74c3f2dc9b185fae229f53f66dfe361dbe004f19",
+    "baselineSourceId": "3523bf056427759b92fccb1b13d28ba65a3ab640e3412c142f509572a3b1b503",
+    "sourceId": "020b49fff55f5617bab96bdc525011f2805a07b8f37600ab56e4baf0f9763c54",
+    "artInputsSha256": "da68a4ac4cb7afcc65b7aee0cf35acfb896c2c402dde4c7d737faeccb42914f2",
+    "soundInputsSha256": "1e2fcaf9e05d6557bfbbf1c7aa2ef7e57db5243840833bef5fe48796a926a745",
+    "paletteAddendumSha256": "bfbee262f0aa02d4292922f41b041be25d4e0c175e20d938a2efe41ece1c64cf",
+    "paletteParametersSha256": "14c9ceb57eb15e9608610fc948a024a514ecd9b5631ad762b9661357723d33fe",
+    "paletteInputReleaseSha256": "514de4692116ec5a9e7fe4a465b59edcbdf5cc7be6943b380d05ffeafc13b9b4",
+    "ownerDecisionSha256": "5f891db27f67bd110da50a877b1dcbf3b98d4ad50caeb36ae3b40bf51c5585cf",
+    "acceptedBehaviorSourceId": "05dc81f34fb6ca8c1e33eea53e286b4d89bd884531bf379b079451580dcfb5b0",
+    "formalHandoffSha256": "ef974b3d93f9a5f4dadf8c556f7d0e31dba2b1776b9d1001cb1b6a6d9303ecee"
+  },
+  "acceptedBehaviorSourceId": "05dc81f34fb6ca8c1e33eea53e286b4d89bd884531bf379b079451580dcfb5b0"
 }

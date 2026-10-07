@@ -11,22 +11,22 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
-      - name: Verify registered F identity, every byte and public isolation
+      - name: Verify registered Missile V7 identity, every byte and public isolation
         run: |
           python3 - <<'PYCODE'
           import json,pathlib,hashlib,re
           manifest=json.load(open('deployment-manifest.json'))
           assert manifest['ownerAcceptanceRequired'] is False
-          assert manifest['version']=='2026.10.05-unit-polish-latest-v1'
-          assert manifest['sourceId']=='3523bf056427759b92fccb1b13d28ba65a3ab640e3412c142f509572a3b1b503'
-          assert manifest['assetBuildId']=='f90287ad707289fe772fe884f7c85580395b5f6ee034d5878805ed606e71e49a'
-          assert manifest['buildDerivationId']=='a5fcf5c39768abe119c8eb7528f1c7fed8bc0260c8d77f22a7b007813c1735bb'
-          assert manifest['OwnerAuthorizationSha256']=='50ef2985531076d6c4ae7d40fbc0f5e20d4519242d43f3d5aef2d97b0a935479'
-          assert manifest['PMDelegatedFormalAcceptanceSha256']=='9f4031641e5790cc23a1ea0b4cbea02d73be6e57d315e37a8b3ec46edbb20d7f'
-          assert manifest['registeredAuthoritySha256']=='34827409b4ac73692c753e3c0192b07446695913af1e29266c019dbd8bc13908'
+          assert manifest['version']=='2026.10.07-missile-turret-v7-latest-v1'
+          assert manifest['sourceId']=='020b49fff55f5617bab96bdc525011f2805a07b8f37600ab56e4baf0f9763c54'
+          assert manifest['assetBuildId']=='a4455a6edbf3cbc1f5dc4dbbb1798b3dd348ad782988b2139178f804ace63db3'
+          assert manifest['buildDerivationId']=='d37623f1f660096fde1d20a5238ee1cabd2a45544baac0bea5a00c2f83f8344d'
+          assert manifest['OwnerAuthorizationSha256']=='5f891db27f67bd110da50a877b1dcbf3b98d4ad50caeb36ae3b40bf51c5585cf'
+          assert manifest['PMDelegatedFormalAcceptanceSha256']=='8e317c5a84b70265c4e1a924b13d58ea5ff59b6dee7f5936f58441c07e7c3467'
+          assert manifest['registeredAuthoritySha256']=='413617fbc69cff55bbabc886b1984f67773c0b540d4d059e51175f1dd6a961f2'
           assert manifest['publicBase']=='/codex-rts-play/' and manifest['selector']=='default-no-query'
           root=pathlib.Path('site');expected={e['path']:e for e in manifest['files']}
-          assert len(expected)==len(manifest['files'])==2111
+          assert len(expected)==len(manifest['files'])==2139
           actual={str(p.relative_to(root))for p in root.rglob('*')if p.is_file() or p.is_symlink()};assert actual==set(expected)
           for name,e in expected.items():
             assert not name.startswith('/') and '..' not in pathlib.Path(name).parts
@@ -35,11 +35,11 @@ jobs:
             assert p.suffix!='.map' and not name.startswith(('src/','docs/','internal/','tests/'))
             if p.suffix in ['.js','.json','.html','.css','.svg','.txt']:
               assert not re.search(rb'/Users/|/private/|\.private/|/source-v[12]/|codex_import|sourceMappingURL=|BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY|gh[pousr]_[A-Za-z0-9]{30,}|AKIA[0-9A-Z]{16}',b),name
-              assert all(t not in b for t in [b'__shadeQa',b'__transportQa',b'__raider16Qa',b'__raiderPersistentWreckQa']),name
+              assert all(t not in b for t in [b'__missileTurretQa',b'__unitPolishQa',b'localhost',b'127.0.0.1',b'__shadeQa',b'__transportQa',b'__raider16Qa',b'__raiderPersistentWreckQa']),name
           version=json.load(open(root/'release-version.json'))
           for k in ['version','sourceId','assetBuildId','buildDerivationId','acceptedBehaviorSourceId','selector']:assert version[k]==manifest[k],k
           assert version['formalDefault'] is True and version['channel']=='formal-release'
-          assert version['polish']['sourceId']==version['sourceId']
-          assert version['polish']['registrySha256']==manifest['immutableBuildInputRegistrySha256']
-          print(manifest['version'],len(expected),'registered exact F runtime files verified')
+          assert version['missileBinding']['sourceId']==version['sourceId']
+          assert version['missileBinding']['registrySha256']==manifest['immutableBuildInputRegistrySha256']
+          print(manifest['version'],len(expected),'registered exact Missile V7 runtime files verified')
           PYCODE
