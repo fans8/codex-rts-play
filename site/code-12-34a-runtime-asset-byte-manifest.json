@@ -1,6 +1,6 @@
 {
   "schemaVersion": "code-12.34a-runtime-asset-build-manifest-v2",
-  "buildId": "a4455a6edbf3cbc1f5dc4dbbb1798b3dd348ad782988b2139178f804ace63db3",
+  "buildId": "a14f5806014cd5437eadaaa8d797f5c612dd540943cf5c6bcb43e46e1c006111",
   "entries": [
     {
       "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v03-c8db4cc2.mp3",
@@ -5936,6 +5936,83 @@
       "urlPath": "/assets/candidates/raider-code-12-42e-v1/resources/faaf0d677247613588b45769cdca7d005f669da2a2b73e8e8e7013221651f299.webp",
       "encodedBytes": 417398,
       "sha256": "faaf0d677247613588b45769cdca7d005f669da2a2b73e8e8e7013221651f299",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-00.webp",
+      "urlPath": "/assets/candidates/raider-code-12-44c-r1-v1/page-00.webp",
+      "encodedBytes": 396584,
+      "sha256": "c92fe5c769d44713bd6e249bfd8edcea536da8913ed9d1d6d4fb7b777806c213",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-01.webp",
+      "urlPath": "/assets/candidates/raider-code-12-44c-r1-v1/page-01.webp",
+      "encodedBytes": 386024,
+      "sha256": "0cae571492b58f785c4103744bd9a04b80ddca248ca769c3c479074b0ceb01ed",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-02.webp",
+      "urlPath": "/assets/candidates/raider-code-12-44c-r1-v1/page-02.webp",
+      "encodedBytes": 493866,
+      "sha256": "d0bcc52a1da4e2a3a7a449a9b8cdc30d87075b7c14d73c4ff9b3cb3fb567ceb3",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-03.webp",
+      "urlPath": "/assets/candidates/raider-code-12-44c-r1-v1/page-03.webp",
+      "encodedBytes": 419970,
+      "sha256": "17b74890efca37c5742df7932833c8fc0a1d795cdc0fb47a3e7f90a5584ee673",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-04.webp",
+      "urlPath": "/assets/candidates/raider-code-12-44c-r1-v1/page-04.webp",
+      "encodedBytes": 572556,
+      "sha256": "23b09eb82d9b40d9c1c8e29bba487979aebff97639d06d2b9682fe0855311296",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-05.webp",
+      "urlPath": "/assets/candidates/raider-code-12-44c-r1-v1/page-05.webp",
+      "encodedBytes": 593918,
+      "sha256": "73159509a2022718dd6e40483204fc3c8672fc6961c4df0f85864666f70e7b0b",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-06.webp",
+      "urlPath": "/assets/candidates/raider-code-12-44c-r1-v1/page-06.webp",
+      "encodedBytes": 671012,
+      "sha256": "1447ab9f5a1c43f0b3e3772eca2e351bc073cfb5033dcc8aa21a4f838cff2bbe",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-07.webp",
+      "urlPath": "/assets/candidates/raider-code-12-44c-r1-v1/page-07.webp",
+      "encodedBytes": 749196,
+      "sha256": "f2bcfb0bece2351e277ac945599ec27a87780b1808e3c8ba6eb695cd1fcd2ae7",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-08.webp",
+      "urlPath": "/assets/candidates/raider-code-12-44c-r1-v1/page-08.webp",
+      "encodedBytes": 686786,
+      "sha256": "bb5fc512e56b3ca21eabedae7c083ff5f85ec12ba65c0e46123296a6e657bcb0",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-09.webp",
+      "urlPath": "/assets/candidates/raider-code-12-44c-r1-v1/page-09.webp",
+      "encodedBytes": 684880,
+      "sha256": "a0e4a1e30d8fbe2a0a659f23afaa55d7f346022abea790dcd4a4a191f4e2b5bd",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-10.webp",
+      "urlPath": "/assets/candidates/raider-code-12-44c-r1-v1/page-10.webp",
+      "encodedBytes": 122254,
+      "sha256": "26146a654c02eea7a353a9f71522dda888fb79fb468b63aafea4ad33d7d47535",
       "mimeType": "image/webp"
     },
     {
