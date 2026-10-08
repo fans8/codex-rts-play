@@ -10763,5 +10763,13 @@
       "sha256": "26d9f817f6ede6355aea99a763c83b6496aff90c6cd0cc2393ec0eb7f1b6539c"
     }
   ],
-  "publicBase": "/codex-rts-play/"
+  "publicBase": "/codex-rts-play/",
+  "acceptedBehaviorSourceId": "cebe3cf46d1e2cd586471a5b22b8476412766480b14f0217ae7f42047dc07e35",
+  "ownerAcceptanceRequired": false,
+  "OwnerAuthorizationSha256": "3ac6c3705afbe6165787c0680ed7f7ec58083f099906a16b58be8de631b90099",
+  "PMDelegatedFormalAcceptanceSha256": "80528dbf7cf35dc5e7ce3a37dd701a5c505523cafc859fdc31cd3d7715f22fcd",
+  "registeredAuthoritySha256": "c965aeaf940555bef460f83644a54b29ddd32eeedbbb9b4dc4ece86b4264f6e1",
+  "immutableBuildInputRegistrySha256": "be8e0ab470be8ceaab28f981ce58e617d7d3ea95671920e0caa848eb17033b87",
+  "retainedMissileSourceId": "020b49fff55f5617bab96bdc525011f2805a07b8f37600ab56e4baf0f9763c54",
+  "retainedMissileInputRegistrySha256": "138b04d70d19208201cef71e74c3f2dc9b185fae229f53f66dfe361dbe004f19"
 }

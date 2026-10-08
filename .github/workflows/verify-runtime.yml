@@ -11,22 +11,22 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
-      - name: Verify registered Missile V7 identity, every byte and public isolation
+      - name: Verify registered Raider 1x identity, every byte and public isolation
         run: |
           python3 - <<'PYCODE'
           import json,pathlib,hashlib,re
           manifest=json.load(open('deployment-manifest.json'))
           assert manifest['ownerAcceptanceRequired'] is False
-          assert manifest['version']=='2026.10.07-missile-turret-v7-latest-v1'
-          assert manifest['sourceId']=='020b49fff55f5617bab96bdc525011f2805a07b8f37600ab56e4baf0f9763c54'
-          assert manifest['assetBuildId']=='a4455a6edbf3cbc1f5dc4dbbb1798b3dd348ad782988b2139178f804ace63db3'
-          assert manifest['buildDerivationId']=='d37623f1f660096fde1d20a5238ee1cabd2a45544baac0bea5a00c2f83f8344d'
-          assert manifest['OwnerAuthorizationSha256']=='5f891db27f67bd110da50a877b1dcbf3b98d4ad50caeb36ae3b40bf51c5585cf'
-          assert manifest['PMDelegatedFormalAcceptanceSha256']=='8e317c5a84b70265c4e1a924b13d58ea5ff59b6dee7f5936f58441c07e7c3467'
-          assert manifest['registeredAuthoritySha256']=='413617fbc69cff55bbabc886b1984f67773c0b540d4d059e51175f1dd6a961f2'
+          assert manifest['version']=='2026.10.09-raider-1x-latest-v1'
+          assert manifest['sourceId']=='b302d4532702be7c5cec119867f96becfb70bf740970b62716ebeee74a447257'
+          assert manifest['assetBuildId']=='a14f5806014cd5437eadaaa8d797f5c612dd540943cf5c6bcb43e46e1c006111'
+          assert manifest['buildDerivationId']=='956e917100b1f8ca6b9c329938569c32f224d42b00759782df96aa0d08a287e0'
+          assert manifest['OwnerAuthorizationSha256']=='3ac6c3705afbe6165787c0680ed7f7ec58083f099906a16b58be8de631b90099'
+          assert manifest['PMDelegatedFormalAcceptanceSha256']=='80528dbf7cf35dc5e7ce3a37dd701a5c505523cafc859fdc31cd3d7715f22fcd'
+          assert manifest['registeredAuthoritySha256']=='c965aeaf940555bef460f83644a54b29ddd32eeedbbb9b4dc4ece86b4264f6e1'
           assert manifest['publicBase']=='/codex-rts-play/' and manifest['selector']=='default-no-query'
           root=pathlib.Path('site');expected={e['path']:e for e in manifest['files']}
-          assert len(expected)==len(manifest['files'])==2139
+          assert len(expected)==len(manifest['files'])==2151
           actual={str(p.relative_to(root))for p in root.rglob('*')if p.is_file() or p.is_symlink()};assert actual==set(expected)
           for name,e in expected.items():
             assert not name.startswith('/') and '..' not in pathlib.Path(name).parts
@@ -39,7 +39,11 @@ jobs:
           version=json.load(open(root/'release-version.json'))
           for k in ['version','sourceId','assetBuildId','buildDerivationId','acceptedBehaviorSourceId','selector']:assert version[k]==manifest[k],k
           assert version['formalDefault'] is True and version['channel']=='formal-release'
-          assert version['missileBinding']['sourceId']==version['sourceId']
-          assert version['missileBinding']['registrySha256']==manifest['immutableBuildInputRegistrySha256']
-          print(manifest['version'],len(expected),'registered exact Missile V7 runtime files verified')
+          assert version['raider1xR1']['sourceId']==version['sourceId']
+          assert version['raider1xR1']['variant']=='combined' and version['raider1xR1']['formalDefault'] is True
+          assert version['raider1xR1']['formalHandoffSha256']=='9066009211666ebebca46e41b846feed49bc80536e83b7602e3e5a084caabfce'
+          assert version['missileBinding']['sourceId']==manifest['retainedMissileSourceId']=='020b49fff55f5617bab96bdc525011f2805a07b8f37600ab56e4baf0f9763c54'
+          assert manifest['immutableBuildInputRegistrySha256']=='be8e0ab470be8ceaab28f981ce58e617d7d3ea95671920e0caa848eb17033b87'
+          assert version['missileBinding']['registrySha256']==manifest['retainedMissileInputRegistrySha256']=='138b04d70d19208201cef71e74c3f2dc9b185fae229f53f66dfe361dbe004f19'
+          print(manifest['version'],len(expected),'registered exact Raider 1x runtime files verified')
           PYCODE
