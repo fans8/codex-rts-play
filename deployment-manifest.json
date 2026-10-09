@@ -1,26 +1,26 @@
 {
-  "version": "2026.10.07-missile-turret-v7-latest-v1",
-  "sourceId": "020b49fff55f5617bab96bdc525011f2805a07b8f37600ab56e4baf0f9763c54",
-  "assetBuildId": "a4455a6edbf3cbc1f5dc4dbbb1798b3dd348ad782988b2139178f804ace63db3",
+  "version": "2026.10.09-raider-1x-latest-v1",
+  "sourceId": "b302d4532702be7c5cec119867f96becfb70bf740970b62716ebeee74a447257",
+  "assetBuildId": "a14f5806014cd5437eadaaa8d797f5c612dd540943cf5c6bcb43e46e1c006111",
   "channel": "formal-release",
-  "buildDerivationId": "d37623f1f660096fde1d20a5238ee1cabd2a45544baac0bea5a00c2f83f8344d",
-  "acceptedBehaviorSourceId": "05dc81f34fb6ca8c1e33eea53e286b4d89bd884531bf379b079451580dcfb5b0",
+  "buildDerivationId": "956e917100b1f8ca6b9c329938569c32f224d42b00759782df96aa0d08a287e0",
   "selector": "default-no-query",
+  "fileCount": 2151,
   "files": [
     {
-      "path": "assets/armoryRuntimeVisualPilot-bd371ae1.js",
+      "path": "assets/armoryRuntimeVisualPilot-ffc2be65.js",
       "bytes": 112092,
-      "sha256": "482b4a54dba1807ce7d5133e84326445e04ada03addb2eb9db2d9f55ec98b294"
+      "sha256": "8c5724cabbab8a2764caf6fa44823d9fdbeb4e2fa51a7d71ab28b7fd62d4a891"
     },
     {
-      "path": "assets/barracksOwnerColorSemanticMaskRuntimePilot-d9aeebac.js",
+      "path": "assets/barracksOwnerColorSemanticMaskRuntimePilot-ef25868b.js",
       "bytes": 92206,
-      "sha256": "c860c7a17605eab2c06edf576988aed80642cc9e645b3da1c2ebadd6be2c4e01"
+      "sha256": "5a5e5f58b5fad087212ebd765da5690dd73e996bd9ba2778cfe854c5689a3ab8"
     },
     {
-      "path": "assets/baseStreamlinedRuntimeVisualPilot-00fe89ee.js",
+      "path": "assets/baseStreamlinedRuntimeVisualPilot-dd079dc5.js",
       "bytes": 118371,
-      "sha256": "24a65665b3a49309c3adac641ad522f0d415f4658674e06203dd146e78ac7069"
+      "sha256": "28143e52833c6c32b7a1988319c8cde89037e8470d08948943fed874dcba3aab"
     },
     {
       "path": "assets/body-1x-ca609f8c.png",
@@ -2773,6 +2773,66 @@
       "sha256": "faaf0d677247613588b45769cdca7d005f669da2a2b73e8e8e7013221651f299"
     },
     {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/atlas-1x.json",
+      "bytes": 462311,
+      "sha256": "93665d813cb771ae4877b0507cf8ada4dc48152a109f6054166a38e8ce674256"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-00.webp",
+      "bytes": 396584,
+      "sha256": "c92fe5c769d44713bd6e249bfd8edcea536da8913ed9d1d6d4fb7b777806c213"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-01.webp",
+      "bytes": 386024,
+      "sha256": "0cae571492b58f785c4103744bd9a04b80ddca248ca769c3c479074b0ceb01ed"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-02.webp",
+      "bytes": 493866,
+      "sha256": "d0bcc52a1da4e2a3a7a449a9b8cdc30d87075b7c14d73c4ff9b3cb3fb567ceb3"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-03.webp",
+      "bytes": 419970,
+      "sha256": "17b74890efca37c5742df7932833c8fc0a1d795cdc0fb47a3e7f90a5584ee673"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-04.webp",
+      "bytes": 572556,
+      "sha256": "23b09eb82d9b40d9c1c8e29bba487979aebff97639d06d2b9682fe0855311296"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-05.webp",
+      "bytes": 593918,
+      "sha256": "73159509a2022718dd6e40483204fc3c8672fc6961c4df0f85864666f70e7b0b"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-06.webp",
+      "bytes": 671012,
+      "sha256": "1447ab9f5a1c43f0b3e3772eca2e351bc073cfb5033dcc8aa21a4f838cff2bbe"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-07.webp",
+      "bytes": 749196,
+      "sha256": "f2bcfb0bece2351e277ac945599ec27a87780b1808e3c8ba6eb695cd1fcd2ae7"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-08.webp",
+      "bytes": 686786,
+      "sha256": "bb5fc512e56b3ca21eabedae7c083ff5f85ec12ba65c0e46123296a6e657bcb0"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-09.webp",
+      "bytes": 684880,
+      "sha256": "a0e4a1e30d8fbe2a0a659f23afaa55d7f346022abea790dcd4a4a191f4e2b5bd"
+    },
+    {
+      "path": "assets/candidates/raider-code-12-44c-r1-v1/page-10.webp",
+      "bytes": 122254,
+      "sha256": "26146a654c02eea7a353a9f71522dda888fb79fb468b63aafea4ad33d7d47535"
+    },
+    {
       "path": "assets/candidates/raider-wreck-code-12-42g-v1/1x/siege/east/metal.png",
       "bytes": 2486,
       "sha256": "4e72037b0d7eb1cc82a15655d27be5d347665e86cedc638864e52a03d5a7d880"
@@ -5093,9 +5153,9 @@
       "sha256": "deeb5de141670b069ffb00bd31ee57b37ce12e8abd57c677c71d7229d9750373"
     },
     {
-      "path": "assets/controlTowerRuntimeVisualPilot-f6806eda.js",
+      "path": "assets/controlTowerRuntimeVisualPilot-922cb664.js",
       "bytes": 115839,
-      "sha256": "a8c43edee085fffecb9c51e6f111e9c17e9660c6c402a7fdeb6546e5cc3397fe"
+      "sha256": "8fc43974f3bc51136c8c298585ff54114f15338311408708969800d81341ed07"
     },
     {
       "path": "assets/effect-muzzle-flash-candidate-2x-d7c90d1f.png",
@@ -5138,9 +5198,9 @@
       "sha256": "f97bb96cef3ad714fe29c1b573fb47df8f0b7381a9f8fcb18618a02bb389f475"
     },
     {
-      "path": "assets/factoryOwnerColorSemanticMaskRuntimePilot-a1a8c7da.js",
+      "path": "assets/factoryOwnerColorSemanticMaskRuntimePilot-cc05e400.js",
       "bytes": 94021,
-      "sha256": "3203f362e693fd4b5718ef1c55d8e7177fafab3b7262cc062359fc28c4a07f8b"
+      "sha256": "697f1cd747f7a3f6b7f0ec5d7d0518add8c4e66575fb354b3c287a9b28d7fa1a"
     },
     {
       "path": "assets/fixed-lights-bfcd90b1.webp",
@@ -5513,9 +5573,9 @@
       "sha256": "efac2d48b4e7668399c6606df5a9ce74ea2f500d105540ac74b9c08c1954b21b"
     },
     {
-      "path": "assets/geyserRefineryRuntimeVisualPilot-e4449927.js",
+      "path": "assets/geyserRefineryRuntimeVisualPilot-553a8517.js",
       "bytes": 125322,
-      "sha256": "34d1f6e6a8e160e52ca00bfa78337bc7d1ad6f9a30dcfc4552b1566f46327f08"
+      "sha256": "2ab6e2b30acbda27152fa4029a9bae1edb91cb72f3e84249f36956b244902998"
     },
     {
       "path": "assets/ground-blood-death-pools-a-f-balanced-carmine-source-sheet-aa1ca74b.png",
@@ -5528,9 +5588,9 @@
       "sha256": "feee21c1863b635afdcde1dc4c8a5f2bc41363440dc327515094b70f7b4caaf7"
     },
     {
-      "path": "assets/index-970ce631.js",
+      "path": "assets/index-2f78ea1c.js",
       "bytes": 1933,
-      "sha256": "063ffc1c4c736112e55a71b93b2f3dd660869d679eb523304001cec6ad3ee42c"
+      "sha256": "bd63aa765caabc2bdf0913441bb3fd0af9fb690de1072118a45ba576815647fd"
     },
     {
       "path": "assets/local-00fd79334a29afb54317-9efab76f.webp",
@@ -5703,19 +5763,19 @@
       "sha256": "8a86ea6319611527cbc04845c965042bf78738aaf949baee2e63b9263e163651"
     },
     {
-      "path": "assets/machineShopRuntimeVisualPilot-2f7c7c10.js",
+      "path": "assets/machineShopRuntimeVisualPilot-a3083973.js",
       "bytes": 114706,
-      "sha256": "fe357ac3ccc7409744f6d19c17fdf0617a06860022a08cf9e1752c83c3b50929"
+      "sha256": "d9e13ceeab8141661c25fe5efb8c3353189b67a68aee2cedebaee8fa713dacfe"
+    },
+    {
+      "path": "assets/main-17470e2a.js",
+      "bytes": 6813733,
+      "sha256": "cb62577eaa697b88cdc0b6aa45de48577783cc162f62c97b748a0e9eca507137"
     },
     {
       "path": "assets/main-7c6da45e.css",
       "bytes": 105092,
       "sha256": "7c6da45ec1931cd2227354d6c1f9f0eb5e9752e140cc95a68ab12ee9962c5908"
-    },
-    {
-      "path": "assets/main-f5e62800.js",
-      "bytes": 6799442,
-      "sha256": "f75bf56c00de2d492a0b0656da27480e078538ef357b7e2fd70da05f53d8c15d"
     },
     {
       "path": "assets/mask-1535165e.webp",
@@ -5818,9 +5878,9 @@
       "sha256": "f1b62ac11c423fe20ba958daf91eb274b26293ba20caa30668f063472068bea2"
     },
     {
-      "path": "assets/mineralFieldRuntimeVisualPilot-1bf1968a.js",
+      "path": "assets/mineralFieldRuntimeVisualPilot-9b1b2203.js",
       "bytes": 57073,
-      "sha256": "c4c11d42238f5f8d904b9cde60c14478aa9d27b0a0eab596644b315f362491fb"
+      "sha256": "e0c939799f9bd115e82ad741ed2577f9b684de7384cf74d81d04b61b2ac0ce20"
     },
     {
       "path": "assets/missile-six-point-healthy-body-253314ec5edf.png",
@@ -6298,9 +6358,9 @@
       "sha256": "197bbfb4b7068ac7893196c296f5383981105e7ddbe77c35e6523266e3c55b2c"
     },
     {
-      "path": "assets/raiderDeathWreckRuntimePilot-8244586d.js",
+      "path": "assets/raiderDeathWreckRuntimePilot-d1ae0e2a.js",
       "bytes": 180283,
-      "sha256": "567efc01a07b9b14f4c2cea1b9fd70e6ae14b07036215c17a52de110537df2ef"
+      "sha256": "d040cccd38ac2ba009a5c67a2bb42e65509b3f3b697ccb7b06c69e0d3685e12f"
     },
     {
       "path": "assets/refinery-neutral-body-page-0-30b61bf5.webp",
@@ -6323,9 +6383,9 @@
       "sha256": "70ff180dde9086ed0be842dd992b69c6d2c94488741bda8de0bf722fe822c1b0"
     },
     {
-      "path": "assets/ReplayBrowserOverlay-65c813e5.js",
+      "path": "assets/ReplayBrowserOverlay-dc6ccbbf.js",
       "bytes": 7291,
-      "sha256": "0c22203ee9ae1adad9221b5086e339487eeeed2e7664aead11b36af597d80e5e"
+      "sha256": "7bba3d43cccf904bc5e2f59c6f66510875d0c913b2d2a080f19bc0742035692e"
     },
     {
       "path": "assets/replayCompressionWorker-2b909a4f.js",
@@ -6333,14 +6393,14 @@
       "sha256": "db508dc01b0565b7265cc9f13a09c86672ff8a38eca7605f2bb65fcedee5a0e8"
     },
     {
-      "path": "assets/ReplayOperationOverlay-e4994db0.js",
+      "path": "assets/ReplayOperationOverlay-3f61cbd5.js",
       "bytes": 1853,
-      "sha256": "c0f7f8596c0408bbe9b1cf294b5024719db20fae9712bda6f266ec2b4db8e3a4"
+      "sha256": "825109bf10a56ae7033307d4fefa588aba190f413e0c0d26c3418c91ebfbce28"
     },
     {
-      "path": "assets/ReplayPlaybackPanel-ae20fe7b.js",
+      "path": "assets/ReplayPlaybackPanel-be32a4d6.js",
       "bytes": 3449,
-      "sha256": "8ee5f494883a15ee8b954f7b25a83417d84d264429d7d598fa69e9413c7eee2b"
+      "sha256": "442e2e65317e7c49aa62d629b3d534a7ea61517e17a6647caa5b78f5503e8eed"
     },
     {
       "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1-code-12-20l-webp/package-manifest.json",
@@ -9663,9 +9723,9 @@
       "sha256": "7c5a6ade252286d5f2c5aaa7e764c6937d97d03d7d84fe683a3ceae1ce23cdcb"
     },
     {
-      "path": "assets/scienceFacilityRuntimeVisualPilot-df8b7932.js",
+      "path": "assets/scienceFacilityRuntimeVisualPilot-525bcdd8.js",
       "bytes": 153940,
-      "sha256": "72f8fc8021436d7d54f9e430a3cd8ce1b579841e037bd0ef2285f6b7da402096"
+      "sha256": "9ebed1db0c3920eab8cfb5270afe9bfb971c8edf64102cabc83760eb68bf92c4"
     },
     {
       "path": "assets/selection-portrait-enemy-building-barracks-6878cac6.png",
@@ -9833,14 +9893,14 @@
       "sha256": "cff15edd4cd5d70c3d28e1ddd57001491e7dbeb488e2aa0bf3ad6df307ee5dd2"
     },
     {
-      "path": "assets/soldierOwnerColorSemanticMaskRuntimePilot-b3677222.js",
+      "path": "assets/soldierOwnerColorSemanticMaskRuntimePilot-c3165b1e.js",
       "bytes": 1028729,
-      "sha256": "a55dfaed331162fe715716e3ccaaac5340808507c42fa9f15c0440fef012aa40"
+      "sha256": "4e00b290eaa8d4ed949d46ed47186ddee918fcf42cdb8226283745d42d145aa3"
     },
     {
-      "path": "assets/starportRuntimeVisualPilot-26a7745b.js",
+      "path": "assets/starportRuntimeVisualPilot-18a9bfa6.js",
       "bytes": 115038,
-      "sha256": "317f6d681c67bf2044de12560bdcda9cc8024fc0d0c49fcb97391ba8a6d6d6b4"
+      "sha256": "f86de27b444eb7c1308dd76f94928ac0fb993e6326fafda1e0c6a07b8b39968b"
     },
     {
       "path": "assets/status-icon-air-1a68edcf.png",
@@ -10103,9 +10163,9 @@
       "sha256": "f7ecbb4cddac69ad4ff025f05a1cd3d039ed02b48dedff16954cd5c6906e86aa"
     },
     {
-      "path": "assets/supplyDepotRuntimeVisualPilot-669351b0.js",
+      "path": "assets/supplyDepotRuntimeVisualPilot-49979b42.js",
       "bytes": 144088,
-      "sha256": "f346ba67534d24a1cb227b2d4cd45670e31a2fcbe3cea5431c943f83bd340d95"
+      "sha256": "989fbca7ece31a88ccd721aead9f87d36cfe957b6b64aa45f7a4335b13bfea68"
     },
     {
       "path": "assets/ui.alert.addon_complete__candidate-a__selected-master-7618e634.webm",
@@ -10618,9 +10678,9 @@
       "sha256": "c5ed23af68777bd4f75b53ec2230b730b35bd76b33ecf5b139a6b5016af5b803"
     },
     {
-      "path": "assets/unitAnimationCandidateSprites-f1798f60.js",
+      "path": "assets/unitAnimationCandidateSprites-e3f031d9.js",
       "bytes": 39397,
-      "sha256": "5e3d24117416854b6edf07a9cc6b6614dc5c00483019a2d6a05cf4b7750dce72"
+      "sha256": "61c918364c1fa532698eaf4fabdd6200cca7b2b3ef94ae18fe3c766cc1724bd9"
     },
     {
       "path": "assets/vespene-canister-base-vespene-canister-base-page-0-428b869e.webp",
@@ -10673,41 +10733,43 @@
       "sha256": "3725416d64207f2f9a9a27b08f7c105fd98f2aac2c7a45066079631bd120a80d"
     },
     {
-      "path": "assets/workerModularCargoRuntimePilot-046fb41f.js",
+      "path": "assets/workerModularCargoRuntimePilot-379d8151.js",
       "bytes": 802336,
-      "sha256": "9d2ed3eaec48467c15b53e6e1f11bcca0da221eb194944dc0482f5bbf61a42e8"
+      "sha256": "562e14ddbb4ce50d57407d23b654e181b414e105593e8d5651e76507a335eae1"
     },
     {
-      "path": "assets/workerOwnerColorSemanticMaskRuntimePilot-a7ed1278.js",
+      "path": "assets/workerOwnerColorSemanticMaskRuntimePilot-2de90f2b.js",
       "bytes": 1037233,
-      "sha256": "6b568eee55e0fc097e9d9db1b72811716fa8d20a1c3327477275dae0362721ff"
+      "sha256": "c2c73a474f345ef4a1405b79db655f309dcb83f2b29e1335733c3dac8f87b879"
     },
     {
       "path": "code-12-34a-runtime-asset-byte-manifest.json",
-      "bytes": 782386,
-      "sha256": "036a1e973a16afff7b8d48a1e885ef3e58856e5171f630fb04dcde91cb5a6b26"
+      "bytes": 785774,
+      "sha256": "b426393d4b985d98233cc182bf2c907e8080179185a191b0fb904f371b5b11e9"
     },
     {
       "path": "index.html",
       "bytes": 1231,
-      "sha256": "c1c54aa037dc6c7cc44604bb694db77bbeee34611fe11084b6c75ed8200bd05b"
+      "sha256": "97b3159a8d9de90dbc172453e7a998778211b1fe66ed651ee443d8e209df97fc"
     },
     {
       "path": "play/index.html",
       "bytes": 1253,
-      "sha256": "36e0ec97373353aba722d0694d210dc5495066c19c15d0420913753efe528eac"
+      "sha256": "954b4972b796c4b215b673ba9cdb490eefb13f37e27d2ee7c1eb9814cb4f1abf"
     },
     {
       "path": "release-version.json",
-      "bytes": 2518,
-      "sha256": "c43da993cf1d281c64e4ea95dc963c3cf267d01987f22afaefce887eab600ff0"
+      "bytes": 2765,
+      "sha256": "26d9f817f6ede6355aea99a763c83b6496aff90c6cd0cc2393ec0eb7f1b6539c"
     }
   ],
   "publicBase": "/codex-rts-play/",
-  "fileCount": 2139,
+  "acceptedBehaviorSourceId": "cebe3cf46d1e2cd586471a5b22b8476412766480b14f0217ae7f42047dc07e35",
   "ownerAcceptanceRequired": false,
-  "OwnerAuthorizationSha256": "5f891db27f67bd110da50a877b1dcbf3b98d4ad50caeb36ae3b40bf51c5585cf",
-  "PMDelegatedFormalAcceptanceSha256": "8e317c5a84b70265c4e1a924b13d58ea5ff59b6dee7f5936f58441c07e7c3467",
-  "registeredAuthoritySha256": "413617fbc69cff55bbabc886b1984f67773c0b540d4d059e51175f1dd6a961f2",
-  "immutableBuildInputRegistrySha256": "138b04d70d19208201cef71e74c3f2dc9b185fae229f53f66dfe361dbe004f19"
+  "OwnerAuthorizationSha256": "3ac6c3705afbe6165787c0680ed7f7ec58083f099906a16b58be8de631b90099",
+  "PMDelegatedFormalAcceptanceSha256": "80528dbf7cf35dc5e7ce3a37dd701a5c505523cafc859fdc31cd3d7715f22fcd",
+  "registeredAuthoritySha256": "c965aeaf940555bef460f83644a54b29ddd32eeedbbb9b4dc4ece86b4264f6e1",
+  "immutableBuildInputRegistrySha256": "be8e0ab470be8ceaab28f981ce58e617d7d3ea95671920e0caa848eb17033b87",
+  "retainedMissileSourceId": "020b49fff55f5617bab96bdc525011f2805a07b8f37600ab56e4baf0f9763c54",
+  "retainedMissileInputRegistrySha256": "138b04d70d19208201cef71e74c3f2dc9b185fae229f53f66dfe361dbe004f19"
 }

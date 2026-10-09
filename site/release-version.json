@@ -1,9 +1,9 @@
 {
-  "version": "2026.10.07-missile-turret-v7-latest-v1",
-  "sourceId": "020b49fff55f5617bab96bdc525011f2805a07b8f37600ab56e4baf0f9763c54",
-  "assetBuildId": "a4455a6edbf3cbc1f5dc4dbbb1798b3dd348ad782988b2139178f804ace63db3",
+  "version": "2026.10.09-raider-1x-latest-v1",
+  "sourceId": "b302d4532702be7c5cec119867f96becfb70bf740970b62716ebeee74a447257",
+  "assetBuildId": "a14f5806014cd5437eadaaa8d797f5c612dd540943cf5c6bcb43e46e1c006111",
   "channel": "formal-release",
-  "buildDerivationId": "d37623f1f660096fde1d20a5238ee1cabd2a45544baac0bea5a00c2f83f8344d",
+  "buildDerivationId": "956e917100b1f8ca6b9c329938569c32f224d42b00759782df96aa0d08a287e0",
   "polish": {
     "contractSha256": "c47d8ded85998fc09f55313f4dd14f914aa3b61d082deda9a005814671ed255d",
     "registrySha256": "6944494970cb2ef7718280b12e69b6aef8952c7cc1c23fe3642fd63fe7a220da",
@@ -14,6 +14,12 @@
   },
   "selector": "default-no-query",
   "formalDefault": true,
+  "raider1xR1": {
+    "variant": "combined",
+    "sourceId": "b302d4532702be7c5cec119867f96becfb70bf740970b62716ebeee74a447257",
+    "formalDefault": true,
+    "formalHandoffSha256": "9066009211666ebebca46e41b846feed49bc80536e83b7602e3e5a084caabfce"
+  },
   "missileBinding": {
     "upperDamageActivationReleaseSha256": "44085e5045405a7615fe97767d9ac114f563f544d46f4ce88e270d4f1ef1c67f",
     "dualPortInputReleaseSha256": "2a2202efcf67f82c9c7d75c9156324a281362e8b3bdec5593a74d739e6afbdd4",
@@ -31,5 +37,5 @@
     "acceptedBehaviorSourceId": "05dc81f34fb6ca8c1e33eea53e286b4d89bd884531bf379b079451580dcfb5b0",
     "formalHandoffSha256": "ef974b3d93f9a5f4dadf8c556f7d0e31dba2b1776b9d1001cb1b6a6d9303ecee"
   },
-  "acceptedBehaviorSourceId": "05dc81f34fb6ca8c1e33eea53e286b4d89bd884531bf379b079451580dcfb5b0"
+  "acceptedBehaviorSourceId": "cebe3cf46d1e2cd586471a5b22b8476412766480b14f0217ae7f42047dc07e35"
 }
