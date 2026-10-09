@@ -1,6 +1,6 @@
 {
   "schemaVersion": "code-12.34a-runtime-asset-build-manifest-v2",
-  "buildId": "a14f5806014cd5437eadaaa8d797f5c612dd540943cf5c6bcb43e46e1c006111",
+  "buildId": "4fc3591fc11af40b4b6ddfe9b00970089eb6b2ff7199559c99f351020d547979",
   "entries": [
     {
       "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v03-c8db4cc2.mp3",
@@ -14624,6 +14624,503 @@
       "encodedBytes": 235391,
       "sha256": "3725416d64207f2f9a9a27b08f7c105fd98f2aac2c7a45066079631bd120a80d",
       "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/035529193ecf65291dc957af9ac8a8217756ac20278b53e26cfdc9e88a6f0b26.png",
+      "urlPath": "/assets/warden-gray-v1/035529193ecf65291dc957af9ac8a8217756ac20278b53e26cfdc9e88a6f0b26.png",
+      "encodedBytes": 2078,
+      "sha256": "035529193ecf65291dc957af9ac8a8217756ac20278b53e26cfdc9e88a6f0b26",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/05937ced2c8f533ffdf53abf551d6552c0720a086acd95ffaba81b04813a0904.png",
+      "urlPath": "/assets/warden-gray-v1/05937ced2c8f533ffdf53abf551d6552c0720a086acd95ffaba81b04813a0904.png",
+      "encodedBytes": 2360,
+      "sha256": "05937ced2c8f533ffdf53abf551d6552c0720a086acd95ffaba81b04813a0904",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/0ee502c507744e17fda278c7ce330d42019a2872d2fc67e2ab3d716b2b7a38f7.png",
+      "urlPath": "/assets/warden-gray-v1/0ee502c507744e17fda278c7ce330d42019a2872d2fc67e2ab3d716b2b7a38f7.png",
+      "encodedBytes": 6348,
+      "sha256": "0ee502c507744e17fda278c7ce330d42019a2872d2fc67e2ab3d716b2b7a38f7",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/11235d7a3c0981790ffd2122bf9e311c3f730d8b2afbdf45e21fa0cda8d5e336.png",
+      "urlPath": "/assets/warden-gray-v1/11235d7a3c0981790ffd2122bf9e311c3f730d8b2afbdf45e21fa0cda8d5e336.png",
+      "encodedBytes": 3124,
+      "sha256": "11235d7a3c0981790ffd2122bf9e311c3f730d8b2afbdf45e21fa0cda8d5e336",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/11d2f7ed27236d15103b81a402f9530aff8a969a57a8caa958284818cb6a5a3e.png",
+      "urlPath": "/assets/warden-gray-v1/11d2f7ed27236d15103b81a402f9530aff8a969a57a8caa958284818cb6a5a3e.png",
+      "encodedBytes": 600,
+      "sha256": "11d2f7ed27236d15103b81a402f9530aff8a969a57a8caa958284818cb6a5a3e",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/1304a8c7925b63421991b26f9cb17d4d919cba48c996d6860bc27a2a6b4595d1.png",
+      "urlPath": "/assets/warden-gray-v1/1304a8c7925b63421991b26f9cb17d4d919cba48c996d6860bc27a2a6b4595d1.png",
+      "encodedBytes": 286,
+      "sha256": "1304a8c7925b63421991b26f9cb17d4d919cba48c996d6860bc27a2a6b4595d1",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/159fc303bda02f754e1ed8f341a34fd63950f1629bd0a3d619e0f482ee501d77.png",
+      "urlPath": "/assets/warden-gray-v1/159fc303bda02f754e1ed8f341a34fd63950f1629bd0a3d619e0f482ee501d77.png",
+      "encodedBytes": 16512,
+      "sha256": "159fc303bda02f754e1ed8f341a34fd63950f1629bd0a3d619e0f482ee501d77",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/1744e50b087f25c3c20a879c48ce7d8dd18f5faea3da263ebc71eb4e746fb3e5.png",
+      "urlPath": "/assets/warden-gray-v1/1744e50b087f25c3c20a879c48ce7d8dd18f5faea3da263ebc71eb4e746fb3e5.png",
+      "encodedBytes": 993,
+      "sha256": "1744e50b087f25c3c20a879c48ce7d8dd18f5faea3da263ebc71eb4e746fb3e5",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/1e7da662767abfc594524dce103122e07256e70d6259eae96dccc3f1ce5faad7.png",
+      "urlPath": "/assets/warden-gray-v1/1e7da662767abfc594524dce103122e07256e70d6259eae96dccc3f1ce5faad7.png",
+      "encodedBytes": 2099,
+      "sha256": "1e7da662767abfc594524dce103122e07256e70d6259eae96dccc3f1ce5faad7",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/204ccf2e9e649dffce99d5c76d8640d923a1a20d71c7d54f3763ad4867d7d771.png",
+      "urlPath": "/assets/warden-gray-v1/204ccf2e9e649dffce99d5c76d8640d923a1a20d71c7d54f3763ad4867d7d771.png",
+      "encodedBytes": 3844313,
+      "sha256": "204ccf2e9e649dffce99d5c76d8640d923a1a20d71c7d54f3763ad4867d7d771",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/251e82a63f91bb73a137373a04a8906a9e199fdcabc893ba46870b841aec73b4.png",
+      "urlPath": "/assets/warden-gray-v1/251e82a63f91bb73a137373a04a8906a9e199fdcabc893ba46870b841aec73b4.png",
+      "encodedBytes": 857,
+      "sha256": "251e82a63f91bb73a137373a04a8906a9e199fdcabc893ba46870b841aec73b4",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/29d8696767cda208c6b2d1ac1c745c3ec40abbac553d62fa00de46e95e11816e.png",
+      "urlPath": "/assets/warden-gray-v1/29d8696767cda208c6b2d1ac1c745c3ec40abbac553d62fa00de46e95e11816e.png",
+      "encodedBytes": 391815,
+      "sha256": "29d8696767cda208c6b2d1ac1c745c3ec40abbac553d62fa00de46e95e11816e",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/2e839949c19f6fa6827b6b4b472e6b43856b5d727c880fcba40ac423a91559ad.png",
+      "urlPath": "/assets/warden-gray-v1/2e839949c19f6fa6827b6b4b472e6b43856b5d727c880fcba40ac423a91559ad.png",
+      "encodedBytes": 1261234,
+      "sha256": "2e839949c19f6fa6827b6b4b472e6b43856b5d727c880fcba40ac423a91559ad",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/3724e007120262ceb45c8b32bd9d8ef854d8de6403dc82edac3ae567f817a2a9.png",
+      "urlPath": "/assets/warden-gray-v1/3724e007120262ceb45c8b32bd9d8ef854d8de6403dc82edac3ae567f817a2a9.png",
+      "encodedBytes": 448,
+      "sha256": "3724e007120262ceb45c8b32bd9d8ef854d8de6403dc82edac3ae567f817a2a9",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/3957e7d025c4a4771b4479eb52da7b3fefdc0783a55d329140df9145ec2271c3.png",
+      "urlPath": "/assets/warden-gray-v1/3957e7d025c4a4771b4479eb52da7b3fefdc0783a55d329140df9145ec2271c3.png",
+      "encodedBytes": 2994885,
+      "sha256": "3957e7d025c4a4771b4479eb52da7b3fefdc0783a55d329140df9145ec2271c3",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/398b96d23ef620f7f6088b4a74d9ce774720a60e4d17ef0f9d846c9006e7abf5.png",
+      "urlPath": "/assets/warden-gray-v1/398b96d23ef620f7f6088b4a74d9ce774720a60e4d17ef0f9d846c9006e7abf5.png",
+      "encodedBytes": 375956,
+      "sha256": "398b96d23ef620f7f6088b4a74d9ce774720a60e4d17ef0f9d846c9006e7abf5",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/3c593363c371028b5d9b8fb710baa1cfc2bff8c16f843fe33dab8a7432e6b17f.png",
+      "urlPath": "/assets/warden-gray-v1/3c593363c371028b5d9b8fb710baa1cfc2bff8c16f843fe33dab8a7432e6b17f.png",
+      "encodedBytes": 74442,
+      "sha256": "3c593363c371028b5d9b8fb710baa1cfc2bff8c16f843fe33dab8a7432e6b17f",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/4327809100505afc842c2c63664eddcee9a11620c7491034ef94f7371e8c5b14.png",
+      "urlPath": "/assets/warden-gray-v1/4327809100505afc842c2c63664eddcee9a11620c7491034ef94f7371e8c5b14.png",
+      "encodedBytes": 1294,
+      "sha256": "4327809100505afc842c2c63664eddcee9a11620c7491034ef94f7371e8c5b14",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/48286f4d6bbe4ee2cc7991d0e95b8b039cb86180e92c51b6d0edd89a6f9450f1.png",
+      "urlPath": "/assets/warden-gray-v1/48286f4d6bbe4ee2cc7991d0e95b8b039cb86180e92c51b6d0edd89a6f9450f1.png",
+      "encodedBytes": 3496,
+      "sha256": "48286f4d6bbe4ee2cc7991d0e95b8b039cb86180e92c51b6d0edd89a6f9450f1",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/6df5c1a59a1ae9dbe2655c66ba435a802615c6d7c667381cdbda021e28fc8c4b.png",
+      "urlPath": "/assets/warden-gray-v1/6df5c1a59a1ae9dbe2655c66ba435a802615c6d7c667381cdbda021e28fc8c4b.png",
+      "encodedBytes": 1439,
+      "sha256": "6df5c1a59a1ae9dbe2655c66ba435a802615c6d7c667381cdbda021e28fc8c4b",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/705bbd6a0296eb6bf1b8cc3f5167081524d79dc13e0bb3f1074dc8e8ca24576f.png",
+      "urlPath": "/assets/warden-gray-v1/705bbd6a0296eb6bf1b8cc3f5167081524d79dc13e0bb3f1074dc8e8ca24576f.png",
+      "encodedBytes": 193,
+      "sha256": "705bbd6a0296eb6bf1b8cc3f5167081524d79dc13e0bb3f1074dc8e8ca24576f",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/776b6dd235410e3966faf78ec11c5d1eafd9ecfa69d8e63b6aa64852fe340ba7.png",
+      "urlPath": "/assets/warden-gray-v1/776b6dd235410e3966faf78ec11c5d1eafd9ecfa69d8e63b6aa64852fe340ba7.png",
+      "encodedBytes": 1013710,
+      "sha256": "776b6dd235410e3966faf78ec11c5d1eafd9ecfa69d8e63b6aa64852fe340ba7",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/99ea083a10cf9b87e0c8a6433d88971660ab2466559a3d34b4f7f87fcdfa3e12.png",
+      "urlPath": "/assets/warden-gray-v1/99ea083a10cf9b87e0c8a6433d88971660ab2466559a3d34b4f7f87fcdfa3e12.png",
+      "encodedBytes": 62944,
+      "sha256": "99ea083a10cf9b87e0c8a6433d88971660ab2466559a3d34b4f7f87fcdfa3e12",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/9b650ca42620543852cb4e42de4ed0c69d7b870253decb3fdaacfa58b19c25e1.png",
+      "urlPath": "/assets/warden-gray-v1/9b650ca42620543852cb4e42de4ed0c69d7b870253decb3fdaacfa58b19c25e1.png",
+      "encodedBytes": 16547,
+      "sha256": "9b650ca42620543852cb4e42de4ed0c69d7b870253decb3fdaacfa58b19c25e1",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/a4d649939a637e7c4fd33e73042ddba4e9294895b043a810b4114d4600438086.png",
+      "urlPath": "/assets/warden-gray-v1/a4d649939a637e7c4fd33e73042ddba4e9294895b043a810b4114d4600438086.png",
+      "encodedBytes": 1372,
+      "sha256": "a4d649939a637e7c4fd33e73042ddba4e9294895b043a810b4114d4600438086",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/a5f97f06bfefad19474a3890c0e96dab86a859c04102d43cee8e87c6bc5bbc2f.png",
+      "urlPath": "/assets/warden-gray-v1/a5f97f06bfefad19474a3890c0e96dab86a859c04102d43cee8e87c6bc5bbc2f.png",
+      "encodedBytes": 151939,
+      "sha256": "a5f97f06bfefad19474a3890c0e96dab86a859c04102d43cee8e87c6bc5bbc2f",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/a9945f190b37f9977a65245c6592afcd343871116bf2e1e2edc5e5a4d834f21b.png",
+      "urlPath": "/assets/warden-gray-v1/a9945f190b37f9977a65245c6592afcd343871116bf2e1e2edc5e5a4d834f21b.png",
+      "encodedBytes": 126,
+      "sha256": "a9945f190b37f9977a65245c6592afcd343871116bf2e1e2edc5e5a4d834f21b",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/af9968bbdc6a7540121218ef131bbd7bd78d47f59c97a109f5b06ce11d4fde53.png",
+      "urlPath": "/assets/warden-gray-v1/af9968bbdc6a7540121218ef131bbd7bd78d47f59c97a109f5b06ce11d4fde53.png",
+      "encodedBytes": 1726415,
+      "sha256": "af9968bbdc6a7540121218ef131bbd7bd78d47f59c97a109f5b06ce11d4fde53",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/b278eb32901901f273da3ffb36b64fce2d0407e548e9090444d330adcbf223bf.png",
+      "urlPath": "/assets/warden-gray-v1/b278eb32901901f273da3ffb36b64fce2d0407e548e9090444d330adcbf223bf.png",
+      "encodedBytes": 717,
+      "sha256": "b278eb32901901f273da3ffb36b64fce2d0407e548e9090444d330adcbf223bf",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/b2eab28ff19e97116ed3ab92bbce76569ddb455b4d7cbf34ecc8834ffab09b00.png",
+      "urlPath": "/assets/warden-gray-v1/b2eab28ff19e97116ed3ab92bbce76569ddb455b4d7cbf34ecc8834ffab09b00.png",
+      "encodedBytes": 1036,
+      "sha256": "b2eab28ff19e97116ed3ab92bbce76569ddb455b4d7cbf34ecc8834ffab09b00",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/b90e9c3dc10cc3537c48f1379527a1868863e493aaba66e609c36734422d24cb.png",
+      "urlPath": "/assets/warden-gray-v1/b90e9c3dc10cc3537c48f1379527a1868863e493aaba66e609c36734422d24cb.png",
+      "encodedBytes": 2460833,
+      "sha256": "b90e9c3dc10cc3537c48f1379527a1868863e493aaba66e609c36734422d24cb",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/ce61bfa5d5f0e4a4a169cff0f8b3a46a334d2c0f4f12d53df5dcaa09611120bd.png",
+      "urlPath": "/assets/warden-gray-v1/ce61bfa5d5f0e4a4a169cff0f8b3a46a334d2c0f4f12d53df5dcaa09611120bd.png",
+      "encodedBytes": 702,
+      "sha256": "ce61bfa5d5f0e4a4a169cff0f8b3a46a334d2c0f4f12d53df5dcaa09611120bd",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/d405a8139821935db5332162f5faa988aa23a4b298019783af62ff36c066761b.png",
+      "urlPath": "/assets/warden-gray-v1/d405a8139821935db5332162f5faa988aa23a4b298019783af62ff36c066761b.png",
+      "encodedBytes": 1698,
+      "sha256": "d405a8139821935db5332162f5faa988aa23a4b298019783af62ff36c066761b",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/d5a163fb5c1fb01cb745df8ec0284ab891a39b830378dfcacb0d87570aeb093f.png",
+      "urlPath": "/assets/warden-gray-v1/d5a163fb5c1fb01cb745df8ec0284ab891a39b830378dfcacb0d87570aeb093f.png",
+      "encodedBytes": 2098,
+      "sha256": "d5a163fb5c1fb01cb745df8ec0284ab891a39b830378dfcacb0d87570aeb093f",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/d846c3ab46fbe2233c23cb0131f14213308dd83ae46d598454d1dce7aa91e050.png",
+      "urlPath": "/assets/warden-gray-v1/d846c3ab46fbe2233c23cb0131f14213308dd83ae46d598454d1dce7aa91e050.png",
+      "encodedBytes": 3300,
+      "sha256": "d846c3ab46fbe2233c23cb0131f14213308dd83ae46d598454d1dce7aa91e050",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/d9a2bf4b66f189df4ecdbb964eb293edf00a0601ea6ce8d11a6372c04a4d9a3d.png",
+      "urlPath": "/assets/warden-gray-v1/d9a2bf4b66f189df4ecdbb964eb293edf00a0601ea6ce8d11a6372c04a4d9a3d.png",
+      "encodedBytes": 1408,
+      "sha256": "d9a2bf4b66f189df4ecdbb964eb293edf00a0601ea6ce8d11a6372c04a4d9a3d",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/db33cdfae57e366bd58ee927ea0f002db2b5c86d4c73a5130349b8881d94664c.png",
+      "urlPath": "/assets/warden-gray-v1/db33cdfae57e366bd58ee927ea0f002db2b5c86d4c73a5130349b8881d94664c.png",
+      "encodedBytes": 182,
+      "sha256": "db33cdfae57e366bd58ee927ea0f002db2b5c86d4c73a5130349b8881d94664c",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/e4e6dcc4df16d0f58442c1786772d9ff6c46990e547230089e0ced43ae27f5b9.png",
+      "urlPath": "/assets/warden-gray-v1/e4e6dcc4df16d0f58442c1786772d9ff6c46990e547230089e0ced43ae27f5b9.png",
+      "encodedBytes": 6115,
+      "sha256": "e4e6dcc4df16d0f58442c1786772d9ff6c46990e547230089e0ced43ae27f5b9",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/e881c76f6fb4aeb14f0bb8cb87bc67d1582909f39ba153228e895af18313bfd7.png",
+      "urlPath": "/assets/warden-gray-v1/e881c76f6fb4aeb14f0bb8cb87bc67d1582909f39ba153228e895af18313bfd7.png",
+      "encodedBytes": 2106,
+      "sha256": "e881c76f6fb4aeb14f0bb8cb87bc67d1582909f39ba153228e895af18313bfd7",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/f7e78586c007dfddee50c86412f1ff6360227082f9bc3d2388f78dc868e57c98.png",
+      "urlPath": "/assets/warden-gray-v1/f7e78586c007dfddee50c86412f1ff6360227082f9bc3d2388f78dc868e57c98.png",
+      "encodedBytes": 2158,
+      "sha256": "f7e78586c007dfddee50c86412f1ff6360227082f9bc3d2388f78dc868e57c98",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-gray-v1/fb70c141698a167465283015ba675c81d06ca9c584d8fdb70dc1cd6457d75b27.png",
+      "urlPath": "/assets/warden-gray-v1/fb70c141698a167465283015ba675c81d06ca9c584d8fdb70dc1cd6457d75b27.png",
+      "encodedBytes": 971,
+      "sha256": "fb70c141698a167465283015ba675c81d06ca9c584d8fdb70dc1cd6457d75b27",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/warden-sound-v3/086724a006039210b9ee3c54b04bdb094c7a224f6e9ad73099fdce7ef7f93282.mp3",
+      "urlPath": "/assets/warden-sound-v3/086724a006039210b9ee3c54b04bdb094c7a224f6e9ad73099fdce7ef7f93282.mp3",
+      "encodedBytes": 6573,
+      "sha256": "086724a006039210b9ee3c54b04bdb094c7a224f6e9ad73099fdce7ef7f93282",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/warden-sound-v3/091e1a213b647b3a3cfaac8f7b24fd040df3f81a72ece583daf365290fb00248.mp3",
+      "urlPath": "/assets/warden-sound-v3/091e1a213b647b3a3cfaac8f7b24fd040df3f81a72ece583daf365290fb00248.mp3",
+      "encodedBytes": 8877,
+      "sha256": "091e1a213b647b3a3cfaac8f7b24fd040df3f81a72ece583daf365290fb00248",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/warden-sound-v3/1288a4c925244e75c626ff601dcc18605d144622823896bf155bf3e02c1c7deb.webm",
+      "urlPath": "/assets/warden-sound-v3/1288a4c925244e75c626ff601dcc18605d144622823896bf155bf3e02c1c7deb.webm",
+      "encodedBytes": 5183,
+      "sha256": "1288a4c925244e75c626ff601dcc18605d144622823896bf155bf3e02c1c7deb",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/warden-sound-v3/17f1095364608e7eeabc1c788db660a1087071bfc6340fd1b4ec039a8bc253fb.mp3",
+      "urlPath": "/assets/warden-sound-v3/17f1095364608e7eeabc1c788db660a1087071bfc6340fd1b4ec039a8bc253fb.mp3",
+      "encodedBytes": 10413,
+      "sha256": "17f1095364608e7eeabc1c788db660a1087071bfc6340fd1b4ec039a8bc253fb",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/warden-sound-v3/1e476a0e9faa73e587feff24593ddda2cbefd5ee4028b975261bf6985be917dc.mp3",
+      "urlPath": "/assets/warden-sound-v3/1e476a0e9faa73e587feff24593ddda2cbefd5ee4028b975261bf6985be917dc.mp3",
+      "encodedBytes": 6189,
+      "sha256": "1e476a0e9faa73e587feff24593ddda2cbefd5ee4028b975261bf6985be917dc",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/warden-sound-v3/1ed4aca236180e5ca541d3b2f1692f331b98ec336c10574dbce31f6441b10da1.webm",
+      "urlPath": "/assets/warden-sound-v3/1ed4aca236180e5ca541d3b2f1692f331b98ec336c10574dbce31f6441b10da1.webm",
+      "encodedBytes": 19591,
+      "sha256": "1ed4aca236180e5ca541d3b2f1692f331b98ec336c10574dbce31f6441b10da1",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/warden-sound-v3/35163a169b86d9843b87f64270cd381c8b37875487f066c344c5a6ab1311cf95.mp3",
+      "urlPath": "/assets/warden-sound-v3/35163a169b86d9843b87f64270cd381c8b37875487f066c344c5a6ab1311cf95.mp3",
+      "encodedBytes": 8109,
+      "sha256": "35163a169b86d9843b87f64270cd381c8b37875487f066c344c5a6ab1311cf95",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/warden-sound-v3/3c3b0a8b38c49d568fbb1677b0e5ab39eedd3e8eba633944df26ff97e2629a54.mp3",
+      "urlPath": "/assets/warden-sound-v3/3c3b0a8b38c49d568fbb1677b0e5ab39eedd3e8eba633944df26ff97e2629a54.mp3",
+      "encodedBytes": 24621,
+      "sha256": "3c3b0a8b38c49d568fbb1677b0e5ab39eedd3e8eba633944df26ff97e2629a54",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/warden-sound-v3/4f96cfada85d8dff361befd43e6c3a4c08e270e44cc71d0c597c37028228c229.webm",
+      "urlPath": "/assets/warden-sound-v3/4f96cfada85d8dff361befd43e6c3a4c08e270e44cc71d0c597c37028228c229.webm",
+      "encodedBytes": 7690,
+      "sha256": "4f96cfada85d8dff361befd43e6c3a4c08e270e44cc71d0c597c37028228c229",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/warden-sound-v3/5939414fec1cddc1e88690bd2279ce8212153ce59b47a18289b7188d6eb73a4b.mp3",
+      "urlPath": "/assets/warden-sound-v3/5939414fec1cddc1e88690bd2279ce8212153ce59b47a18289b7188d6eb73a4b.mp3",
+      "encodedBytes": 12333,
+      "sha256": "5939414fec1cddc1e88690bd2279ce8212153ce59b47a18289b7188d6eb73a4b",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/warden-sound-v3/677eaaab736df01433facff77e350e7f2501e3f571c091257e36e9fe41e71ba4.webm",
+      "urlPath": "/assets/warden-sound-v3/677eaaab736df01433facff77e350e7f2501e3f571c091257e36e9fe41e71ba4.webm",
+      "encodedBytes": 12671,
+      "sha256": "677eaaab736df01433facff77e350e7f2501e3f571c091257e36e9fe41e71ba4",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/warden-sound-v3/6e8b010a62107ab88f26583ba428b64675e5db1691c6fd829446a5352bcbedb9.mp3",
+      "urlPath": "/assets/warden-sound-v3/6e8b010a62107ab88f26583ba428b64675e5db1691c6fd829446a5352bcbedb9.mp3",
+      "encodedBytes": 17325,
+      "sha256": "6e8b010a62107ab88f26583ba428b64675e5db1691c6fd829446a5352bcbedb9",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/warden-sound-v3/6f62564cdfac7570c8e4c47b64e9652e5703699a570ab3b0e438cabc3138fb34.mp3",
+      "urlPath": "/assets/warden-sound-v3/6f62564cdfac7570c8e4c47b64e9652e5703699a570ab3b0e438cabc3138fb34.mp3",
+      "encodedBytes": 6573,
+      "sha256": "6f62564cdfac7570c8e4c47b64e9652e5703699a570ab3b0e438cabc3138fb34",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/warden-sound-v3/76c072f40edfba56887e434a4f5afb9c1ca500096f2d9cbb2835e73816d05971.webm",
+      "urlPath": "/assets/warden-sound-v3/76c072f40edfba56887e434a4f5afb9c1ca500096f2d9cbb2835e73816d05971.webm",
+      "encodedBytes": 5209,
+      "sha256": "76c072f40edfba56887e434a4f5afb9c1ca500096f2d9cbb2835e73816d05971",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/warden-sound-v3/8b934e0bd5b048e65c828703b934b5156e3451fce9c10270c8ae9b8dd9b33a94.webm",
+      "urlPath": "/assets/warden-sound-v3/8b934e0bd5b048e65c828703b934b5156e3451fce9c10270c8ae9b8dd9b33a94.webm",
+      "encodedBytes": 24845,
+      "sha256": "8b934e0bd5b048e65c828703b934b5156e3451fce9c10270c8ae9b8dd9b33a94",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/warden-sound-v3/94292ecb801a0589fd0c8ac71358cd98663547ef093316349a156026f63199f7.webm",
+      "urlPath": "/assets/warden-sound-v3/94292ecb801a0589fd0c8ac71358cd98663547ef093316349a156026f63199f7.webm",
+      "encodedBytes": 6064,
+      "sha256": "94292ecb801a0589fd0c8ac71358cd98663547ef093316349a156026f63199f7",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/warden-sound-v3/ae681539a3ba5e66d134e3eb87e79f215c7e0a10522d5ad19b2a0a2edc768986.webm",
+      "urlPath": "/assets/warden-sound-v3/ae681539a3ba5e66d134e3eb87e79f215c7e0a10522d5ad19b2a0a2edc768986.webm",
+      "encodedBytes": 26904,
+      "sha256": "ae681539a3ba5e66d134e3eb87e79f215c7e0a10522d5ad19b2a0a2edc768986",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/warden-sound-v3/b1bc69ec69139de3f2df2626bb26f9ec18929067f770468d1026dc36e4b91a57.mp3",
+      "urlPath": "/assets/warden-sound-v3/b1bc69ec69139de3f2df2626bb26f9ec18929067f770468d1026dc36e4b91a57.mp3",
+      "encodedBytes": 17709,
+      "sha256": "b1bc69ec69139de3f2df2626bb26f9ec18929067f770468d1026dc36e4b91a57",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/warden-sound-v3/bc2ed112a9659b76799dbd958fa9b6a0b911c5a6645cc1759689cf4a89359a3e.webm",
+      "urlPath": "/assets/warden-sound-v3/bc2ed112a9659b76799dbd958fa9b6a0b911c5a6645cc1759689cf4a89359a3e.webm",
+      "encodedBytes": 6687,
+      "sha256": "bc2ed112a9659b76799dbd958fa9b6a0b911c5a6645cc1759689cf4a89359a3e",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/warden-sound-v3/cb29b3f83a2bb056ad29defed6c2f6ea288e17dd0d8c47cbed7c7bb1ff5d00f3.mp3",
+      "urlPath": "/assets/warden-sound-v3/cb29b3f83a2bb056ad29defed6c2f6ea288e17dd0d8c47cbed7c7bb1ff5d00f3.mp3",
+      "encodedBytes": 28461,
+      "sha256": "cb29b3f83a2bb056ad29defed6c2f6ea288e17dd0d8c47cbed7c7bb1ff5d00f3",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/warden-sound-v3/d5b895ea40753d87e52d81d537ca80eb0a522c4dea71b69aa9b23a358a92baee.webm",
+      "urlPath": "/assets/warden-sound-v3/d5b895ea40753d87e52d81d537ca80eb0a522c4dea71b69aa9b23a358a92baee.webm",
+      "encodedBytes": 26204,
+      "sha256": "d5b895ea40753d87e52d81d537ca80eb0a522c4dea71b69aa9b23a358a92baee",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/warden-sound-v3/d91f58effdb2a36510a67f51a3c1b8c12b9e4807648628afa1bada32aaab25fa.webm",
+      "urlPath": "/assets/warden-sound-v3/d91f58effdb2a36510a67f51a3c1b8c12b9e4807648628afa1bada32aaab25fa.webm",
+      "encodedBytes": 5282,
+      "sha256": "d91f58effdb2a36510a67f51a3c1b8c12b9e4807648628afa1bada32aaab25fa",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/warden-sound-v3/d953e0aac84a2a40cca455f158939576929cb22d85525de50c641f9af8f162bc.webm",
+      "urlPath": "/assets/warden-sound-v3/d953e0aac84a2a40cca455f158939576929cb22d85525de50c641f9af8f162bc.webm",
+      "encodedBytes": 21462,
+      "sha256": "d953e0aac84a2a40cca455f158939576929cb22d85525de50c641f9af8f162bc",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/warden-sound-v3/dccac73966fc31d45df6a8127b37d3206d884c9bbee745452f45b82fd321c3f6.mp3",
+      "urlPath": "/assets/warden-sound-v3/dccac73966fc31d45df6a8127b37d3206d884c9bbee745452f45b82fd321c3f6.mp3",
+      "encodedBytes": 6189,
+      "sha256": "dccac73966fc31d45df6a8127b37d3206d884c9bbee745452f45b82fd321c3f6",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/warden-sound-v3/dd117e9fbeaad1540dd8db8f0a54b34d26c086f63fbe80e5a0f83c8733da51ea.mp3",
+      "urlPath": "/assets/warden-sound-v3/dd117e9fbeaad1540dd8db8f0a54b34d26c086f63fbe80e5a0f83c8733da51ea.mp3",
+      "encodedBytes": 25005,
+      "sha256": "dd117e9fbeaad1540dd8db8f0a54b34d26c086f63fbe80e5a0f83c8733da51ea",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/warden-sound-v3/de8901ee15872738ce8966e152d0eac4535441c749a5155efa10310121d615b9.webm",
+      "urlPath": "/assets/warden-sound-v3/de8901ee15872738ce8966e152d0eac4535441c749a5155efa10310121d615b9.webm",
+      "encodedBytes": 9206,
+      "sha256": "de8901ee15872738ce8966e152d0eac4535441c749a5155efa10310121d615b9",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/warden-sound-v3/e168c3f3a9c80da34bc821b31feec5b905bdf5164a663f6bd01a9d8ddffcadff.mp3",
+      "urlPath": "/assets/warden-sound-v3/e168c3f3a9c80da34bc821b31feec5b905bdf5164a663f6bd01a9d8ddffcadff.mp3",
+      "encodedBytes": 23853,
+      "sha256": "e168c3f3a9c80da34bc821b31feec5b905bdf5164a663f6bd01a9d8ddffcadff",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/warden-sound-v3/e3c746716095b27bdf6ce064430303e3787b1c5055fb441f9af9429942b58f1c.webm",
+      "urlPath": "/assets/warden-sound-v3/e3c746716095b27bdf6ce064430303e3787b1c5055fb441f9af9429942b58f1c.webm",
+      "encodedBytes": 4832,
+      "sha256": "e3c746716095b27bdf6ce064430303e3787b1c5055fb441f9af9429942b58f1c",
+      "mimeType": "audio/webm; codecs=opus"
+    },
+    {
+      "path": "assets/warden-sound-v3/e5938d906d901d454a2af0e6ea05f2416d8da10ddc06533e0ddbea0a09edd040.mp3",
+      "urlPath": "/assets/warden-sound-v3/e5938d906d901d454a2af0e6ea05f2416d8da10ddc06533e0ddbea0a09edd040.mp3",
+      "encodedBytes": 8493,
+      "sha256": "e5938d906d901d454a2af0e6ea05f2416d8da10ddc06533e0ddbea0a09edd040",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/warden-sound-v3/f4e94168026c307a5d40343c48a8c739ce3e85641c1aea9feba43ce151b45e11.webm",
+      "urlPath": "/assets/warden-sound-v3/f4e94168026c307a5d40343c48a8c739ce3e85641c1aea9feba43ce151b45e11.webm",
+      "encodedBytes": 6847,
+      "sha256": "f4e94168026c307a5d40343c48a8c739ce3e85641c1aea9feba43ce151b45e11",
+      "mimeType": "audio/webm; codecs=opus"
     }
   ],
   "embeddedEntries": []

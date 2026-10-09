@@ -1,26 +1,25 @@
 {
-  "version": "2026.10.09-raider-1x-latest-v1",
-  "sourceId": "b302d4532702be7c5cec119867f96becfb70bf740970b62716ebeee74a447257",
-  "assetBuildId": "a14f5806014cd5437eadaaa8d797f5c612dd540943cf5c6bcb43e46e1c006111",
+  "version": "2026.10.09-healthbar-shadow-f3-v1",
+  "sourceId": "3487a5c409b2eb041501adf4ddd60a5a22a931d390dab999b89e55df86a81848",
+  "assetBuildId": "4fc3591fc11af40b4b6ddfe9b00970089eb6b2ff7199559c99f351020d547979",
   "channel": "formal-release",
-  "buildDerivationId": "956e917100b1f8ca6b9c329938569c32f224d42b00759782df96aa0d08a287e0",
+  "buildDerivationId": "c4b6a244032bbd75ccba6cae3f76a2b0bb558cb44a9e569dc7ab351eadc19573",
   "selector": "default-no-query",
-  "fileCount": 2151,
   "files": [
     {
-      "path": "assets/armoryRuntimeVisualPilot-ffc2be65.js",
+      "path": "assets/armoryRuntimeVisualPilot-083830e7.js",
       "bytes": 112092,
-      "sha256": "8c5724cabbab8a2764caf6fa44823d9fdbeb4e2fa51a7d71ab28b7fd62d4a891"
+      "sha256": "728ce7381d07b8735e5ef499ea31b4b3102ac5acbda7056b35ec6f257c0999ca"
     },
     {
-      "path": "assets/barracksOwnerColorSemanticMaskRuntimePilot-ef25868b.js",
+      "path": "assets/barracksOwnerColorSemanticMaskRuntimePilot-cc6b7e77.js",
       "bytes": 92206,
-      "sha256": "5a5e5f58b5fad087212ebd765da5690dd73e996bd9ba2778cfe854c5689a3ab8"
+      "sha256": "1f4dc51e95c0840ef15dec734ff58de62f77c642be78935a6ba6719597d17711"
     },
     {
-      "path": "assets/baseStreamlinedRuntimeVisualPilot-dd079dc5.js",
+      "path": "assets/baseStreamlinedRuntimeVisualPilot-e0c9d2fe.js",
       "bytes": 118371,
-      "sha256": "28143e52833c6c32b7a1988319c8cde89037e8470d08948943fed874dcba3aab"
+      "sha256": "94fdb337eeac761302b42c629e6d742514b525ffaa70ef2fb9aa6dff6013b3dc"
     },
     {
       "path": "assets/body-1x-ca609f8c.png",
@@ -5153,9 +5152,9 @@
       "sha256": "deeb5de141670b069ffb00bd31ee57b37ce12e8abd57c677c71d7229d9750373"
     },
     {
-      "path": "assets/controlTowerRuntimeVisualPilot-922cb664.js",
+      "path": "assets/controlTowerRuntimeVisualPilot-89264e97.js",
       "bytes": 115839,
-      "sha256": "8fc43974f3bc51136c8c298585ff54114f15338311408708969800d81341ed07"
+      "sha256": "77dc1a2e70943055ef542e6c767e752e9464ffb077591e068d94dedbcc89219f"
     },
     {
       "path": "assets/effect-muzzle-flash-candidate-2x-d7c90d1f.png",
@@ -5198,9 +5197,9 @@
       "sha256": "f97bb96cef3ad714fe29c1b573fb47df8f0b7381a9f8fcb18618a02bb389f475"
     },
     {
-      "path": "assets/factoryOwnerColorSemanticMaskRuntimePilot-cc05e400.js",
+      "path": "assets/factoryOwnerColorSemanticMaskRuntimePilot-ed7749e3.js",
       "bytes": 94021,
-      "sha256": "697f1cd747f7a3f6b7f0ec5d7d0518add8c4e66575fb354b3c287a9b28d7fa1a"
+      "sha256": "f37886f49c90eb74032f535ca18b9e4dbeb6abaecb49d55486935a2ac1336da7"
     },
     {
       "path": "assets/fixed-lights-bfcd90b1.webp",
@@ -5573,9 +5572,9 @@
       "sha256": "efac2d48b4e7668399c6606df5a9ce74ea2f500d105540ac74b9c08c1954b21b"
     },
     {
-      "path": "assets/geyserRefineryRuntimeVisualPilot-553a8517.js",
+      "path": "assets/geyserRefineryRuntimeVisualPilot-1a67c887.js",
       "bytes": 125322,
-      "sha256": "2ab6e2b30acbda27152fa4029a9bae1edb91cb72f3e84249f36956b244902998"
+      "sha256": "2b177d8b0d95ef60fae1e308899363b2248ae17c7fd18a146bd45b67e4d9e804"
     },
     {
       "path": "assets/ground-blood-death-pools-a-f-balanced-carmine-source-sheet-aa1ca74b.png",
@@ -5588,9 +5587,9 @@
       "sha256": "feee21c1863b635afdcde1dc4c8a5f2bc41363440dc327515094b70f7b4caaf7"
     },
     {
-      "path": "assets/index-2f78ea1c.js",
+      "path": "assets/index-dab1d106.js",
       "bytes": 1933,
-      "sha256": "bd63aa765caabc2bdf0913441bb3fd0af9fb690de1072118a45ba576815647fd"
+      "sha256": "547f0c823e3d98c0e6e9c8c51186694036a2f3d28a0a19831534fb939a70fd02"
     },
     {
       "path": "assets/local-00fd79334a29afb54317-9efab76f.webp",
@@ -5763,14 +5762,14 @@
       "sha256": "8a86ea6319611527cbc04845c965042bf78738aaf949baee2e63b9263e163651"
     },
     {
-      "path": "assets/machineShopRuntimeVisualPilot-a3083973.js",
+      "path": "assets/machineShopRuntimeVisualPilot-5d442da6.js",
       "bytes": 114706,
-      "sha256": "d9e13ceeab8141661c25fe5efb8c3353189b67a68aee2cedebaee8fa713dacfe"
+      "sha256": "2ab6777c47078a833f15d36c4d8922101911fa6b9b3976c949db3512ef6d89db"
     },
     {
-      "path": "assets/main-17470e2a.js",
-      "bytes": 6813733,
-      "sha256": "cb62577eaa697b88cdc0b6aa45de48577783cc162f62c97b748a0e9eca507137"
+      "path": "assets/main-185f8e30.js",
+      "bytes": 7849524,
+      "sha256": "2f0cb31658cb27523c923aa522b91190eeed144e3d3e398502f935e24bfb0daf"
     },
     {
       "path": "assets/main-7c6da45e.css",
@@ -5878,9 +5877,9 @@
       "sha256": "f1b62ac11c423fe20ba958daf91eb274b26293ba20caa30668f063472068bea2"
     },
     {
-      "path": "assets/mineralFieldRuntimeVisualPilot-9b1b2203.js",
+      "path": "assets/mineralFieldRuntimeVisualPilot-0cafd351.js",
       "bytes": 57073,
-      "sha256": "e0c939799f9bd115e82ad741ed2577f9b684de7384cf74d81d04b61b2ac0ce20"
+      "sha256": "a9b9c8a414bed586d6866bd1af790b9f52c0b596156e1bcdfb5db59fe6439dda"
     },
     {
       "path": "assets/missile-six-point-healthy-body-253314ec5edf.png",
@@ -6358,9 +6357,9 @@
       "sha256": "197bbfb4b7068ac7893196c296f5383981105e7ddbe77c35e6523266e3c55b2c"
     },
     {
-      "path": "assets/raiderDeathWreckRuntimePilot-d1ae0e2a.js",
+      "path": "assets/raiderDeathWreckRuntimePilot-40a74ec8.js",
       "bytes": 180283,
-      "sha256": "d040cccd38ac2ba009a5c67a2bb42e65509b3f3b697ccb7b06c69e0d3685e12f"
+      "sha256": "4c13c95811f20f9e2436cda2c6cb9ea14d9de8c802dea7f6c826f8cb6adf2b2a"
     },
     {
       "path": "assets/refinery-neutral-body-page-0-30b61bf5.webp",
@@ -6383,9 +6382,9 @@
       "sha256": "70ff180dde9086ed0be842dd992b69c6d2c94488741bda8de0bf722fe822c1b0"
     },
     {
-      "path": "assets/ReplayBrowserOverlay-dc6ccbbf.js",
+      "path": "assets/ReplayBrowserOverlay-294f0838.js",
       "bytes": 7291,
-      "sha256": "7bba3d43cccf904bc5e2f59c6f66510875d0c913b2d2a080f19bc0742035692e"
+      "sha256": "b58fb7cc517d62606f854278fc2ec0886ab3435048115e2ba49c90814bb023c7"
     },
     {
       "path": "assets/replayCompressionWorker-2b909a4f.js",
@@ -6393,14 +6392,14 @@
       "sha256": "db508dc01b0565b7265cc9f13a09c86672ff8a38eca7605f2bb65fcedee5a0e8"
     },
     {
-      "path": "assets/ReplayOperationOverlay-3f61cbd5.js",
+      "path": "assets/ReplayOperationOverlay-07733d4a.js",
       "bytes": 1853,
-      "sha256": "825109bf10a56ae7033307d4fefa588aba190f413e0c0d26c3418c91ebfbce28"
+      "sha256": "930989e30571a79f94fe3bc319440b9db9361fa00123032051b7c1dd39cb385d"
     },
     {
-      "path": "assets/ReplayPlaybackPanel-be32a4d6.js",
+      "path": "assets/ReplayPlaybackPanel-ab70a92d.js",
       "bytes": 3449,
-      "sha256": "442e2e65317e7c49aa62d629b3d534a7ea61517e17a6647caa5b78f5503e8eed"
+      "sha256": "c9bd26599de9ab326ac9132e7886b3af74c0b407d559051da455a3e0c6c5dea2"
     },
     {
       "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1-code-12-20l-webp/package-manifest.json",
@@ -9723,9 +9722,9 @@
       "sha256": "7c5a6ade252286d5f2c5aaa7e764c6937d97d03d7d84fe683a3ceae1ce23cdcb"
     },
     {
-      "path": "assets/scienceFacilityRuntimeVisualPilot-525bcdd8.js",
+      "path": "assets/scienceFacilityRuntimeVisualPilot-2f598d6e.js",
       "bytes": 153940,
-      "sha256": "9ebed1db0c3920eab8cfb5270afe9bfb971c8edf64102cabc83760eb68bf92c4"
+      "sha256": "77d88ad386808b1a926abc80bf8e1ac78aa7918ea7e11f9ca75625d25cb5cf7d"
     },
     {
       "path": "assets/selection-portrait-enemy-building-barracks-6878cac6.png",
@@ -9893,14 +9892,14 @@
       "sha256": "cff15edd4cd5d70c3d28e1ddd57001491e7dbeb488e2aa0bf3ad6df307ee5dd2"
     },
     {
-      "path": "assets/soldierOwnerColorSemanticMaskRuntimePilot-c3165b1e.js",
+      "path": "assets/soldierOwnerColorSemanticMaskRuntimePilot-f2eaca0f.js",
       "bytes": 1028729,
-      "sha256": "4e00b290eaa8d4ed949d46ed47186ddee918fcf42cdb8226283745d42d145aa3"
+      "sha256": "1df43117c96dca74322c131d59a4836e495a429ac39679ef7bff711ab45388ac"
     },
     {
-      "path": "assets/starportRuntimeVisualPilot-18a9bfa6.js",
+      "path": "assets/starportRuntimeVisualPilot-78b11d9c.js",
       "bytes": 115038,
-      "sha256": "f86de27b444eb7c1308dd76f94928ac0fb993e6326fafda1e0c6a07b8b39968b"
+      "sha256": "be6009499debecc9c0a412c86f2c3e9487e5ba66c7a0cefa8240c3fa9fdd9f6f"
     },
     {
       "path": "assets/status-icon-air-1a68edcf.png",
@@ -10163,9 +10162,9 @@
       "sha256": "f7ecbb4cddac69ad4ff025f05a1cd3d039ed02b48dedff16954cd5c6906e86aa"
     },
     {
-      "path": "assets/supplyDepotRuntimeVisualPilot-49979b42.js",
+      "path": "assets/supplyDepotRuntimeVisualPilot-63502c18.js",
       "bytes": 144088,
-      "sha256": "989fbca7ece31a88ccd721aead9f87d36cfe957b6b64aa45f7a4335b13bfea68"
+      "sha256": "d34eb4ac680365df5fe94ab6fd6793477e5346181b5ec177d027807f764d3fb6"
     },
     {
       "path": "assets/ui.alert.addon_complete__candidate-a__selected-master-7618e634.webm",
@@ -10678,9 +10677,9 @@
       "sha256": "c5ed23af68777bd4f75b53ec2230b730b35bd76b33ecf5b139a6b5016af5b803"
     },
     {
-      "path": "assets/unitAnimationCandidateSprites-e3f031d9.js",
+      "path": "assets/unitAnimationCandidateSprites-efc9ebd4.js",
       "bytes": 39397,
-      "sha256": "61c918364c1fa532698eaf4fabdd6200cca7b2b3ef94ae18fe3c766cc1724bd9"
+      "sha256": "4401548dff85835b9fac5d76149a8f4f0c9906fb2400c2a38828967fa3ff312c"
     },
     {
       "path": "assets/vespene-canister-base-vespene-canister-base-page-0-428b869e.webp",
@@ -10733,43 +10732,396 @@
       "sha256": "3725416d64207f2f9a9a27b08f7c105fd98f2aac2c7a45066079631bd120a80d"
     },
     {
-      "path": "assets/workerModularCargoRuntimePilot-379d8151.js",
-      "bytes": 802336,
-      "sha256": "562e14ddbb4ce50d57407d23b654e181b414e105593e8d5651e76507a335eae1"
+      "path": "assets/warden-gray-v1/035529193ecf65291dc957af9ac8a8217756ac20278b53e26cfdc9e88a6f0b26.png",
+      "bytes": 2078,
+      "sha256": "035529193ecf65291dc957af9ac8a8217756ac20278b53e26cfdc9e88a6f0b26"
     },
     {
-      "path": "assets/workerOwnerColorSemanticMaskRuntimePilot-2de90f2b.js",
+      "path": "assets/warden-gray-v1/05937ced2c8f533ffdf53abf551d6552c0720a086acd95ffaba81b04813a0904.png",
+      "bytes": 2360,
+      "sha256": "05937ced2c8f533ffdf53abf551d6552c0720a086acd95ffaba81b04813a0904"
+    },
+    {
+      "path": "assets/warden-gray-v1/0ee502c507744e17fda278c7ce330d42019a2872d2fc67e2ab3d716b2b7a38f7.png",
+      "bytes": 6348,
+      "sha256": "0ee502c507744e17fda278c7ce330d42019a2872d2fc67e2ab3d716b2b7a38f7"
+    },
+    {
+      "path": "assets/warden-gray-v1/11235d7a3c0981790ffd2122bf9e311c3f730d8b2afbdf45e21fa0cda8d5e336.png",
+      "bytes": 3124,
+      "sha256": "11235d7a3c0981790ffd2122bf9e311c3f730d8b2afbdf45e21fa0cda8d5e336"
+    },
+    {
+      "path": "assets/warden-gray-v1/11d2f7ed27236d15103b81a402f9530aff8a969a57a8caa958284818cb6a5a3e.png",
+      "bytes": 600,
+      "sha256": "11d2f7ed27236d15103b81a402f9530aff8a969a57a8caa958284818cb6a5a3e"
+    },
+    {
+      "path": "assets/warden-gray-v1/1304a8c7925b63421991b26f9cb17d4d919cba48c996d6860bc27a2a6b4595d1.png",
+      "bytes": 286,
+      "sha256": "1304a8c7925b63421991b26f9cb17d4d919cba48c996d6860bc27a2a6b4595d1"
+    },
+    {
+      "path": "assets/warden-gray-v1/159fc303bda02f754e1ed8f341a34fd63950f1629bd0a3d619e0f482ee501d77.png",
+      "bytes": 16512,
+      "sha256": "159fc303bda02f754e1ed8f341a34fd63950f1629bd0a3d619e0f482ee501d77"
+    },
+    {
+      "path": "assets/warden-gray-v1/1744e50b087f25c3c20a879c48ce7d8dd18f5faea3da263ebc71eb4e746fb3e5.png",
+      "bytes": 993,
+      "sha256": "1744e50b087f25c3c20a879c48ce7d8dd18f5faea3da263ebc71eb4e746fb3e5"
+    },
+    {
+      "path": "assets/warden-gray-v1/1e7da662767abfc594524dce103122e07256e70d6259eae96dccc3f1ce5faad7.png",
+      "bytes": 2099,
+      "sha256": "1e7da662767abfc594524dce103122e07256e70d6259eae96dccc3f1ce5faad7"
+    },
+    {
+      "path": "assets/warden-gray-v1/204ccf2e9e649dffce99d5c76d8640d923a1a20d71c7d54f3763ad4867d7d771.png",
+      "bytes": 3844313,
+      "sha256": "204ccf2e9e649dffce99d5c76d8640d923a1a20d71c7d54f3763ad4867d7d771"
+    },
+    {
+      "path": "assets/warden-gray-v1/251e82a63f91bb73a137373a04a8906a9e199fdcabc893ba46870b841aec73b4.png",
+      "bytes": 857,
+      "sha256": "251e82a63f91bb73a137373a04a8906a9e199fdcabc893ba46870b841aec73b4"
+    },
+    {
+      "path": "assets/warden-gray-v1/29d8696767cda208c6b2d1ac1c745c3ec40abbac553d62fa00de46e95e11816e.png",
+      "bytes": 391815,
+      "sha256": "29d8696767cda208c6b2d1ac1c745c3ec40abbac553d62fa00de46e95e11816e"
+    },
+    {
+      "path": "assets/warden-gray-v1/2e839949c19f6fa6827b6b4b472e6b43856b5d727c880fcba40ac423a91559ad.png",
+      "bytes": 1261234,
+      "sha256": "2e839949c19f6fa6827b6b4b472e6b43856b5d727c880fcba40ac423a91559ad"
+    },
+    {
+      "path": "assets/warden-gray-v1/3724e007120262ceb45c8b32bd9d8ef854d8de6403dc82edac3ae567f817a2a9.png",
+      "bytes": 448,
+      "sha256": "3724e007120262ceb45c8b32bd9d8ef854d8de6403dc82edac3ae567f817a2a9"
+    },
+    {
+      "path": "assets/warden-gray-v1/3957e7d025c4a4771b4479eb52da7b3fefdc0783a55d329140df9145ec2271c3.png",
+      "bytes": 2994885,
+      "sha256": "3957e7d025c4a4771b4479eb52da7b3fefdc0783a55d329140df9145ec2271c3"
+    },
+    {
+      "path": "assets/warden-gray-v1/398b96d23ef620f7f6088b4a74d9ce774720a60e4d17ef0f9d846c9006e7abf5.png",
+      "bytes": 375956,
+      "sha256": "398b96d23ef620f7f6088b4a74d9ce774720a60e4d17ef0f9d846c9006e7abf5"
+    },
+    {
+      "path": "assets/warden-gray-v1/3c593363c371028b5d9b8fb710baa1cfc2bff8c16f843fe33dab8a7432e6b17f.png",
+      "bytes": 74442,
+      "sha256": "3c593363c371028b5d9b8fb710baa1cfc2bff8c16f843fe33dab8a7432e6b17f"
+    },
+    {
+      "path": "assets/warden-gray-v1/4327809100505afc842c2c63664eddcee9a11620c7491034ef94f7371e8c5b14.png",
+      "bytes": 1294,
+      "sha256": "4327809100505afc842c2c63664eddcee9a11620c7491034ef94f7371e8c5b14"
+    },
+    {
+      "path": "assets/warden-gray-v1/48286f4d6bbe4ee2cc7991d0e95b8b039cb86180e92c51b6d0edd89a6f9450f1.png",
+      "bytes": 3496,
+      "sha256": "48286f4d6bbe4ee2cc7991d0e95b8b039cb86180e92c51b6d0edd89a6f9450f1"
+    },
+    {
+      "path": "assets/warden-gray-v1/6df5c1a59a1ae9dbe2655c66ba435a802615c6d7c667381cdbda021e28fc8c4b.png",
+      "bytes": 1439,
+      "sha256": "6df5c1a59a1ae9dbe2655c66ba435a802615c6d7c667381cdbda021e28fc8c4b"
+    },
+    {
+      "path": "assets/warden-gray-v1/705bbd6a0296eb6bf1b8cc3f5167081524d79dc13e0bb3f1074dc8e8ca24576f.png",
+      "bytes": 193,
+      "sha256": "705bbd6a0296eb6bf1b8cc3f5167081524d79dc13e0bb3f1074dc8e8ca24576f"
+    },
+    {
+      "path": "assets/warden-gray-v1/776b6dd235410e3966faf78ec11c5d1eafd9ecfa69d8e63b6aa64852fe340ba7.png",
+      "bytes": 1013710,
+      "sha256": "776b6dd235410e3966faf78ec11c5d1eafd9ecfa69d8e63b6aa64852fe340ba7"
+    },
+    {
+      "path": "assets/warden-gray-v1/99ea083a10cf9b87e0c8a6433d88971660ab2466559a3d34b4f7f87fcdfa3e12.png",
+      "bytes": 62944,
+      "sha256": "99ea083a10cf9b87e0c8a6433d88971660ab2466559a3d34b4f7f87fcdfa3e12"
+    },
+    {
+      "path": "assets/warden-gray-v1/9b650ca42620543852cb4e42de4ed0c69d7b870253decb3fdaacfa58b19c25e1.png",
+      "bytes": 16547,
+      "sha256": "9b650ca42620543852cb4e42de4ed0c69d7b870253decb3fdaacfa58b19c25e1"
+    },
+    {
+      "path": "assets/warden-gray-v1/a4d649939a637e7c4fd33e73042ddba4e9294895b043a810b4114d4600438086.png",
+      "bytes": 1372,
+      "sha256": "a4d649939a637e7c4fd33e73042ddba4e9294895b043a810b4114d4600438086"
+    },
+    {
+      "path": "assets/warden-gray-v1/a5f97f06bfefad19474a3890c0e96dab86a859c04102d43cee8e87c6bc5bbc2f.png",
+      "bytes": 151939,
+      "sha256": "a5f97f06bfefad19474a3890c0e96dab86a859c04102d43cee8e87c6bc5bbc2f"
+    },
+    {
+      "path": "assets/warden-gray-v1/a9945f190b37f9977a65245c6592afcd343871116bf2e1e2edc5e5a4d834f21b.png",
+      "bytes": 126,
+      "sha256": "a9945f190b37f9977a65245c6592afcd343871116bf2e1e2edc5e5a4d834f21b"
+    },
+    {
+      "path": "assets/warden-gray-v1/af9968bbdc6a7540121218ef131bbd7bd78d47f59c97a109f5b06ce11d4fde53.png",
+      "bytes": 1726415,
+      "sha256": "af9968bbdc6a7540121218ef131bbd7bd78d47f59c97a109f5b06ce11d4fde53"
+    },
+    {
+      "path": "assets/warden-gray-v1/b278eb32901901f273da3ffb36b64fce2d0407e548e9090444d330adcbf223bf.png",
+      "bytes": 717,
+      "sha256": "b278eb32901901f273da3ffb36b64fce2d0407e548e9090444d330adcbf223bf"
+    },
+    {
+      "path": "assets/warden-gray-v1/b2eab28ff19e97116ed3ab92bbce76569ddb455b4d7cbf34ecc8834ffab09b00.png",
+      "bytes": 1036,
+      "sha256": "b2eab28ff19e97116ed3ab92bbce76569ddb455b4d7cbf34ecc8834ffab09b00"
+    },
+    {
+      "path": "assets/warden-gray-v1/b90e9c3dc10cc3537c48f1379527a1868863e493aaba66e609c36734422d24cb.png",
+      "bytes": 2460833,
+      "sha256": "b90e9c3dc10cc3537c48f1379527a1868863e493aaba66e609c36734422d24cb"
+    },
+    {
+      "path": "assets/warden-gray-v1/ce61bfa5d5f0e4a4a169cff0f8b3a46a334d2c0f4f12d53df5dcaa09611120bd.png",
+      "bytes": 702,
+      "sha256": "ce61bfa5d5f0e4a4a169cff0f8b3a46a334d2c0f4f12d53df5dcaa09611120bd"
+    },
+    {
+      "path": "assets/warden-gray-v1/d405a8139821935db5332162f5faa988aa23a4b298019783af62ff36c066761b.png",
+      "bytes": 1698,
+      "sha256": "d405a8139821935db5332162f5faa988aa23a4b298019783af62ff36c066761b"
+    },
+    {
+      "path": "assets/warden-gray-v1/d5a163fb5c1fb01cb745df8ec0284ab891a39b830378dfcacb0d87570aeb093f.png",
+      "bytes": 2098,
+      "sha256": "d5a163fb5c1fb01cb745df8ec0284ab891a39b830378dfcacb0d87570aeb093f"
+    },
+    {
+      "path": "assets/warden-gray-v1/d846c3ab46fbe2233c23cb0131f14213308dd83ae46d598454d1dce7aa91e050.png",
+      "bytes": 3300,
+      "sha256": "d846c3ab46fbe2233c23cb0131f14213308dd83ae46d598454d1dce7aa91e050"
+    },
+    {
+      "path": "assets/warden-gray-v1/d9a2bf4b66f189df4ecdbb964eb293edf00a0601ea6ce8d11a6372c04a4d9a3d.png",
+      "bytes": 1408,
+      "sha256": "d9a2bf4b66f189df4ecdbb964eb293edf00a0601ea6ce8d11a6372c04a4d9a3d"
+    },
+    {
+      "path": "assets/warden-gray-v1/db33cdfae57e366bd58ee927ea0f002db2b5c86d4c73a5130349b8881d94664c.png",
+      "bytes": 182,
+      "sha256": "db33cdfae57e366bd58ee927ea0f002db2b5c86d4c73a5130349b8881d94664c"
+    },
+    {
+      "path": "assets/warden-gray-v1/e4e6dcc4df16d0f58442c1786772d9ff6c46990e547230089e0ced43ae27f5b9.png",
+      "bytes": 6115,
+      "sha256": "e4e6dcc4df16d0f58442c1786772d9ff6c46990e547230089e0ced43ae27f5b9"
+    },
+    {
+      "path": "assets/warden-gray-v1/e881c76f6fb4aeb14f0bb8cb87bc67d1582909f39ba153228e895af18313bfd7.png",
+      "bytes": 2106,
+      "sha256": "e881c76f6fb4aeb14f0bb8cb87bc67d1582909f39ba153228e895af18313bfd7"
+    },
+    {
+      "path": "assets/warden-gray-v1/f7e78586c007dfddee50c86412f1ff6360227082f9bc3d2388f78dc868e57c98.png",
+      "bytes": 2158,
+      "sha256": "f7e78586c007dfddee50c86412f1ff6360227082f9bc3d2388f78dc868e57c98"
+    },
+    {
+      "path": "assets/warden-gray-v1/fb70c141698a167465283015ba675c81d06ca9c584d8fdb70dc1cd6457d75b27.png",
+      "bytes": 971,
+      "sha256": "fb70c141698a167465283015ba675c81d06ca9c584d8fdb70dc1cd6457d75b27"
+    },
+    {
+      "path": "assets/warden-sound-v3/086724a006039210b9ee3c54b04bdb094c7a224f6e9ad73099fdce7ef7f93282.mp3",
+      "bytes": 6573,
+      "sha256": "086724a006039210b9ee3c54b04bdb094c7a224f6e9ad73099fdce7ef7f93282"
+    },
+    {
+      "path": "assets/warden-sound-v3/091e1a213b647b3a3cfaac8f7b24fd040df3f81a72ece583daf365290fb00248.mp3",
+      "bytes": 8877,
+      "sha256": "091e1a213b647b3a3cfaac8f7b24fd040df3f81a72ece583daf365290fb00248"
+    },
+    {
+      "path": "assets/warden-sound-v3/1288a4c925244e75c626ff601dcc18605d144622823896bf155bf3e02c1c7deb.webm",
+      "bytes": 5183,
+      "sha256": "1288a4c925244e75c626ff601dcc18605d144622823896bf155bf3e02c1c7deb"
+    },
+    {
+      "path": "assets/warden-sound-v3/17f1095364608e7eeabc1c788db660a1087071bfc6340fd1b4ec039a8bc253fb.mp3",
+      "bytes": 10413,
+      "sha256": "17f1095364608e7eeabc1c788db660a1087071bfc6340fd1b4ec039a8bc253fb"
+    },
+    {
+      "path": "assets/warden-sound-v3/1e476a0e9faa73e587feff24593ddda2cbefd5ee4028b975261bf6985be917dc.mp3",
+      "bytes": 6189,
+      "sha256": "1e476a0e9faa73e587feff24593ddda2cbefd5ee4028b975261bf6985be917dc"
+    },
+    {
+      "path": "assets/warden-sound-v3/1ed4aca236180e5ca541d3b2f1692f331b98ec336c10574dbce31f6441b10da1.webm",
+      "bytes": 19591,
+      "sha256": "1ed4aca236180e5ca541d3b2f1692f331b98ec336c10574dbce31f6441b10da1"
+    },
+    {
+      "path": "assets/warden-sound-v3/35163a169b86d9843b87f64270cd381c8b37875487f066c344c5a6ab1311cf95.mp3",
+      "bytes": 8109,
+      "sha256": "35163a169b86d9843b87f64270cd381c8b37875487f066c344c5a6ab1311cf95"
+    },
+    {
+      "path": "assets/warden-sound-v3/3c3b0a8b38c49d568fbb1677b0e5ab39eedd3e8eba633944df26ff97e2629a54.mp3",
+      "bytes": 24621,
+      "sha256": "3c3b0a8b38c49d568fbb1677b0e5ab39eedd3e8eba633944df26ff97e2629a54"
+    },
+    {
+      "path": "assets/warden-sound-v3/4f96cfada85d8dff361befd43e6c3a4c08e270e44cc71d0c597c37028228c229.webm",
+      "bytes": 7690,
+      "sha256": "4f96cfada85d8dff361befd43e6c3a4c08e270e44cc71d0c597c37028228c229"
+    },
+    {
+      "path": "assets/warden-sound-v3/5939414fec1cddc1e88690bd2279ce8212153ce59b47a18289b7188d6eb73a4b.mp3",
+      "bytes": 12333,
+      "sha256": "5939414fec1cddc1e88690bd2279ce8212153ce59b47a18289b7188d6eb73a4b"
+    },
+    {
+      "path": "assets/warden-sound-v3/677eaaab736df01433facff77e350e7f2501e3f571c091257e36e9fe41e71ba4.webm",
+      "bytes": 12671,
+      "sha256": "677eaaab736df01433facff77e350e7f2501e3f571c091257e36e9fe41e71ba4"
+    },
+    {
+      "path": "assets/warden-sound-v3/6e8b010a62107ab88f26583ba428b64675e5db1691c6fd829446a5352bcbedb9.mp3",
+      "bytes": 17325,
+      "sha256": "6e8b010a62107ab88f26583ba428b64675e5db1691c6fd829446a5352bcbedb9"
+    },
+    {
+      "path": "assets/warden-sound-v3/6f62564cdfac7570c8e4c47b64e9652e5703699a570ab3b0e438cabc3138fb34.mp3",
+      "bytes": 6573,
+      "sha256": "6f62564cdfac7570c8e4c47b64e9652e5703699a570ab3b0e438cabc3138fb34"
+    },
+    {
+      "path": "assets/warden-sound-v3/76c072f40edfba56887e434a4f5afb9c1ca500096f2d9cbb2835e73816d05971.webm",
+      "bytes": 5209,
+      "sha256": "76c072f40edfba56887e434a4f5afb9c1ca500096f2d9cbb2835e73816d05971"
+    },
+    {
+      "path": "assets/warden-sound-v3/8b934e0bd5b048e65c828703b934b5156e3451fce9c10270c8ae9b8dd9b33a94.webm",
+      "bytes": 24845,
+      "sha256": "8b934e0bd5b048e65c828703b934b5156e3451fce9c10270c8ae9b8dd9b33a94"
+    },
+    {
+      "path": "assets/warden-sound-v3/94292ecb801a0589fd0c8ac71358cd98663547ef093316349a156026f63199f7.webm",
+      "bytes": 6064,
+      "sha256": "94292ecb801a0589fd0c8ac71358cd98663547ef093316349a156026f63199f7"
+    },
+    {
+      "path": "assets/warden-sound-v3/ae681539a3ba5e66d134e3eb87e79f215c7e0a10522d5ad19b2a0a2edc768986.webm",
+      "bytes": 26904,
+      "sha256": "ae681539a3ba5e66d134e3eb87e79f215c7e0a10522d5ad19b2a0a2edc768986"
+    },
+    {
+      "path": "assets/warden-sound-v3/b1bc69ec69139de3f2df2626bb26f9ec18929067f770468d1026dc36e4b91a57.mp3",
+      "bytes": 17709,
+      "sha256": "b1bc69ec69139de3f2df2626bb26f9ec18929067f770468d1026dc36e4b91a57"
+    },
+    {
+      "path": "assets/warden-sound-v3/bc2ed112a9659b76799dbd958fa9b6a0b911c5a6645cc1759689cf4a89359a3e.webm",
+      "bytes": 6687,
+      "sha256": "bc2ed112a9659b76799dbd958fa9b6a0b911c5a6645cc1759689cf4a89359a3e"
+    },
+    {
+      "path": "assets/warden-sound-v3/cb29b3f83a2bb056ad29defed6c2f6ea288e17dd0d8c47cbed7c7bb1ff5d00f3.mp3",
+      "bytes": 28461,
+      "sha256": "cb29b3f83a2bb056ad29defed6c2f6ea288e17dd0d8c47cbed7c7bb1ff5d00f3"
+    },
+    {
+      "path": "assets/warden-sound-v3/d5b895ea40753d87e52d81d537ca80eb0a522c4dea71b69aa9b23a358a92baee.webm",
+      "bytes": 26204,
+      "sha256": "d5b895ea40753d87e52d81d537ca80eb0a522c4dea71b69aa9b23a358a92baee"
+    },
+    {
+      "path": "assets/warden-sound-v3/d91f58effdb2a36510a67f51a3c1b8c12b9e4807648628afa1bada32aaab25fa.webm",
+      "bytes": 5282,
+      "sha256": "d91f58effdb2a36510a67f51a3c1b8c12b9e4807648628afa1bada32aaab25fa"
+    },
+    {
+      "path": "assets/warden-sound-v3/d953e0aac84a2a40cca455f158939576929cb22d85525de50c641f9af8f162bc.webm",
+      "bytes": 21462,
+      "sha256": "d953e0aac84a2a40cca455f158939576929cb22d85525de50c641f9af8f162bc"
+    },
+    {
+      "path": "assets/warden-sound-v3/dccac73966fc31d45df6a8127b37d3206d884c9bbee745452f45b82fd321c3f6.mp3",
+      "bytes": 6189,
+      "sha256": "dccac73966fc31d45df6a8127b37d3206d884c9bbee745452f45b82fd321c3f6"
+    },
+    {
+      "path": "assets/warden-sound-v3/dd117e9fbeaad1540dd8db8f0a54b34d26c086f63fbe80e5a0f83c8733da51ea.mp3",
+      "bytes": 25005,
+      "sha256": "dd117e9fbeaad1540dd8db8f0a54b34d26c086f63fbe80e5a0f83c8733da51ea"
+    },
+    {
+      "path": "assets/warden-sound-v3/de8901ee15872738ce8966e152d0eac4535441c749a5155efa10310121d615b9.webm",
+      "bytes": 9206,
+      "sha256": "de8901ee15872738ce8966e152d0eac4535441c749a5155efa10310121d615b9"
+    },
+    {
+      "path": "assets/warden-sound-v3/e168c3f3a9c80da34bc821b31feec5b905bdf5164a663f6bd01a9d8ddffcadff.mp3",
+      "bytes": 23853,
+      "sha256": "e168c3f3a9c80da34bc821b31feec5b905bdf5164a663f6bd01a9d8ddffcadff"
+    },
+    {
+      "path": "assets/warden-sound-v3/e3c746716095b27bdf6ce064430303e3787b1c5055fb441f9af9429942b58f1c.webm",
+      "bytes": 4832,
+      "sha256": "e3c746716095b27bdf6ce064430303e3787b1c5055fb441f9af9429942b58f1c"
+    },
+    {
+      "path": "assets/warden-sound-v3/e5938d906d901d454a2af0e6ea05f2416d8da10ddc06533e0ddbea0a09edd040.mp3",
+      "bytes": 8493,
+      "sha256": "e5938d906d901d454a2af0e6ea05f2416d8da10ddc06533e0ddbea0a09edd040"
+    },
+    {
+      "path": "assets/warden-sound-v3/f4e94168026c307a5d40343c48a8c739ce3e85641c1aea9feba43ce151b45e11.webm",
+      "bytes": 6847,
+      "sha256": "f4e94168026c307a5d40343c48a8c739ce3e85641c1aea9feba43ce151b45e11"
+    },
+    {
+      "path": "assets/workerModularCargoRuntimePilot-2fb79b06.js",
+      "bytes": 802336,
+      "sha256": "137d273ec49cffda4e34f2e4cea6dd0df3aa0ee5ba126a6dcc672d80f0228e52"
+    },
+    {
+      "path": "assets/workerOwnerColorSemanticMaskRuntimePilot-ccbe49f5.js",
       "bytes": 1037233,
-      "sha256": "c2c73a474f345ef4a1405b79db655f309dcb83f2b29e1335733c3dac8f87b879"
+      "sha256": "5a7fc78a172c9e7508c5e7db2446335b1a00c29e68084f54c4cebe40bbadb20d"
     },
     {
       "path": "code-12-34a-runtime-asset-byte-manifest.json",
-      "bytes": 785774,
-      "sha256": "b426393d4b985d98233cc182bf2c907e8080179185a191b0fb904f371b5b11e9"
+      "bytes": 812745,
+      "sha256": "31f5bcc04b35f352dae4712dcfa61dcf90b79c2a1daa065c86f46c3d75935c70"
     },
     {
       "path": "index.html",
       "bytes": 1231,
-      "sha256": "97b3159a8d9de90dbc172453e7a998778211b1fe66ed651ee443d8e209df97fc"
+      "sha256": "676b6af8560dac8a07483195b1073f3d492652d5218fd88fd76f35ff24c785ad"
     },
     {
       "path": "play/index.html",
       "bytes": 1253,
-      "sha256": "954b4972b796c4b215b673ba9cdb490eefb13f37e27d2ee7c1eb9814cb4f1abf"
+      "sha256": "596304ef00980f589c966d87759fafb32cd1fa63948ee964a14187e3111e78e9"
     },
     {
       "path": "release-version.json",
-      "bytes": 2765,
-      "sha256": "26d9f817f6ede6355aea99a763c83b6496aff90c6cd0cc2393ec0eb7f1b6539c"
+      "bytes": 1948,
+      "sha256": "1ab2964497a1f0e09d1d7fe77c74d6b3d18d07b33b4b5465198cd7c82da5a38f"
     }
   ],
   "publicBase": "/codex-rts-play/",
-  "acceptedBehaviorSourceId": "cebe3cf46d1e2cd586471a5b22b8476412766480b14f0217ae7f42047dc07e35",
-  "ownerAcceptanceRequired": false,
-  "OwnerAuthorizationSha256": "3ac6c3705afbe6165787c0680ed7f7ec58083f099906a16b58be8de631b90099",
-  "PMDelegatedFormalAcceptanceSha256": "80528dbf7cf35dc5e7ce3a37dd701a5c505523cafc859fdc31cd3d7715f22fcd",
-  "registeredAuthoritySha256": "c965aeaf940555bef460f83644a54b29ddd32eeedbbb9b4dc4ece86b4264f6e1",
-  "immutableBuildInputRegistrySha256": "be8e0ab470be8ceaab28f981ce58e617d7d3ea95671920e0caa848eb17033b87",
-  "retainedMissileSourceId": "020b49fff55f5617bab96bdc525011f2805a07b8f37600ab56e4baf0f9763c54",
-  "retainedMissileInputRegistrySha256": "138b04d70d19208201cef71e74c3f2dc9b185fae229f53f66dfe361dbe004f19"
+  "acceptedBehaviorSourceId": "53c7fef9ba1394d0368f26f5652156947a2c40357b3a69a91de777a56c36261d",
+  "OwnerAuthorizationSha256": "317e596b11ac1c5e557ec4dba90f99294ba844510f434e7ddd9b0fdea422d861",
+  "PMDelegatedFormalAcceptanceSha256": "75ab5f5d93280e776a19fb4331713c8def108cb5e8b31321fa5f1d6ec98a04e4",
+  "registeredAuthoritySha256": "66718467fbe32f6cee80f058a05520b732b1f4e6bd7492302724c7b8c6e3a12a",
+  "immutableBuildInputRegistrySha256": "a0b2f125ee86d53b8b3ff48d10c63925f949f1f092fe92180c979fbbf65d9d9a",
+  "ownerAcceptanceRequired": false
 }

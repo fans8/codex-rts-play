@@ -11,39 +11,27 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
-      - name: Verify registered Raider 1x identity, every byte and public isolation
+      - name: Verify registered healthbar shadow F3 identity, every byte and public isolation
         run: |
           python3 - <<'PYCODE'
           import json,pathlib,hashlib,re
-          manifest=json.load(open('deployment-manifest.json'))
-          assert manifest['ownerAcceptanceRequired'] is False
-          assert manifest['version']=='2026.10.09-raider-1x-latest-v1'
-          assert manifest['sourceId']=='b302d4532702be7c5cec119867f96becfb70bf740970b62716ebeee74a447257'
-          assert manifest['assetBuildId']=='a14f5806014cd5437eadaaa8d797f5c612dd540943cf5c6bcb43e46e1c006111'
-          assert manifest['buildDerivationId']=='956e917100b1f8ca6b9c329938569c32f224d42b00759782df96aa0d08a287e0'
-          assert manifest['OwnerAuthorizationSha256']=='3ac6c3705afbe6165787c0680ed7f7ec58083f099906a16b58be8de631b90099'
-          assert manifest['PMDelegatedFormalAcceptanceSha256']=='80528dbf7cf35dc5e7ce3a37dd701a5c505523cafc859fdc31cd3d7715f22fcd'
-          assert manifest['registeredAuthoritySha256']=='c965aeaf940555bef460f83644a54b29ddd32eeedbbb9b4dc4ece86b4264f6e1'
-          assert manifest['publicBase']=='/codex-rts-play/' and manifest['selector']=='default-no-query'
-          root=pathlib.Path('site');expected={e['path']:e for e in manifest['files']}
-          assert len(expected)==len(manifest['files'])==2151
-          actual={str(p.relative_to(root))for p in root.rglob('*')if p.is_file() or p.is_symlink()};assert actual==set(expected)
-          for name,e in expected.items():
-            assert not name.startswith('/') and '..' not in pathlib.Path(name).parts
-            p=root/name;assert not p.is_symlink();b=p.read_bytes();assert len(b)==e['bytes'] and hashlib.sha256(b).hexdigest()==e['sha256'],name
-            assert not b.startswith(b'version https://git-lfs.github.com/spec/v1')
-            assert p.suffix!='.map' and not name.startswith(('src/','docs/','internal/','tests/'))
-            if p.suffix in ['.js','.json','.html','.css','.svg','.txt']:
-              assert not re.search(rb'/Users/|/private/|\.private/|/source-v[12]/|codex_import|sourceMappingURL=|BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY|gh[pousr]_[A-Za-z0-9]{30,}|AKIA[0-9A-Z]{16}',b),name
-              assert all(t not in b for t in [b'__missileTurretQa',b'__unitPolishQa',b'localhost',b'127.0.0.1',b'__shadeQa',b'__transportQa',b'__raider16Qa',b'__raiderPersistentWreckQa']),name
-          version=json.load(open(root/'release-version.json'))
-          for k in ['version','sourceId','assetBuildId','buildDerivationId','acceptedBehaviorSourceId','selector']:assert version[k]==manifest[k],k
-          assert version['formalDefault'] is True and version['channel']=='formal-release'
-          assert version['raider1xR1']['sourceId']==version['sourceId']
-          assert version['raider1xR1']['variant']=='combined' and version['raider1xR1']['formalDefault'] is True
-          assert version['raider1xR1']['formalHandoffSha256']=='9066009211666ebebca46e41b846feed49bc80536e83b7602e3e5a084caabfce'
-          assert version['missileBinding']['sourceId']==manifest['retainedMissileSourceId']=='020b49fff55f5617bab96bdc525011f2805a07b8f37600ab56e4baf0f9763c54'
-          assert manifest['immutableBuildInputRegistrySha256']=='be8e0ab470be8ceaab28f981ce58e617d7d3ea95671920e0caa848eb17033b87'
-          assert version['missileBinding']['registrySha256']==manifest['retainedMissileInputRegistrySha256']=='138b04d70d19208201cef71e74c3f2dc9b185fae229f53f66dfe361dbe004f19'
-          print(manifest['version'],len(expected),'registered exact Raider 1x runtime files verified')
+          m=json.load(open('deployment-manifest.json'));r=pathlib.Path('site');v=json.load(open(r/'release-version.json'))
+          EXPECTED_IDENTITY = {'version': '2026.10.09-healthbar-shadow-f3-v1', 'sourceId': '3487a5c409b2eb041501adf4ddd60a5a22a931d390dab999b89e55df86a81848', 'assetBuildId': '4fc3591fc11af40b4b6ddfe9b00970089eb6b2ff7199559c99f351020d547979', 'channel': 'formal-release'}
+          for k,value in EXPECTED_IDENTITY.items():assert m[k]==v[k]==value,k
+          assert m['ownerAcceptanceRequired'] is False and m['publicBase']=='/codex-rts-play/'
+          assert m['selector']==v['selector']=='default-no-query' and v['formalDefault'] is True
+          assert m['acceptedBehaviorSourceId']==v['healthbarBinding']['acceptedBehaviorSourceId']=='53c7fef9ba1394d0368f26f5652156947a2c40357b3a69a91de777a56c36261d'
+          assert m['registeredAuthoritySha256']=='66718467fbe32f6cee80f058a05520b732b1f4e6bd7492302724c7b8c6e3a12a'
+          assert m['OwnerAuthorizationSha256']=='317e596b11ac1c5e557ec4dba90f99294ba844510f434e7ddd9b0fdea422d861' and m['PMDelegatedFormalAcceptanceSha256']=='75ab5f5d93280e776a19fb4331713c8def108cb5e8b31321fa5f1d6ec98a04e4'
+          assert m['immutableBuildInputRegistrySha256']==v['healthbarBinding']['registrySha256']=='a0b2f125ee86d53b8b3ff48d10c63925f949f1f092fe92180c979fbbf65d9d9a'
+          expected={x['path']:x for x in m['files']};assert len(expected)==len(m['files'])==2222
+          assert {str(p.relative_to(r))for p in r.rglob('*')if p.is_file()or p.is_symlink()}==set(expected)
+          for n,e in expected.items():
+           assert not n.startswith('/') and '..' not in pathlib.Path(n).parts
+           p=r/n;assert not p.is_symlink();b=p.read_bytes();assert len(b)==e['bytes']and hashlib.sha256(b).hexdigest()==e['sha256'],n
+           assert p.suffix!='.map'and not n.startswith(('src/','docs/','internal/','tests/'))and not b.startswith(b'version https://git-lfs.github.com/spec/v1')
+           if p.suffix in ['.js','.json','.html','.css','.svg','.txt']:
+            assert not re.search(rb'/Users/|/private/|\.private/|codex_import|sourceMappingURL=|BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY|gh[pousr]_[A-Za-z0-9]{30,}|AKIA[0-9A-Z]{16}',b),n
+            assert all(t not in b for t in [b'__wardenQa',b'__healthbarQa',b'__missileTurretQa',b'__unitPolishQa',b'localhost',b'127.0.0.1',b'__shadeQa',b'__transportQa',b'__raider16Qa',b'__raiderPersistentWreckQa']),n
+          print(m['version'],len(expected),'registered runtime files verified')
           PYCODE

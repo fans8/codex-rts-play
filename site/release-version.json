@@ -1,41 +1,32 @@
 {
-  "version": "2026.10.09-raider-1x-latest-v1",
-  "sourceId": "b302d4532702be7c5cec119867f96becfb70bf740970b62716ebeee74a447257",
-  "assetBuildId": "a14f5806014cd5437eadaaa8d797f5c612dd540943cf5c6bcb43e46e1c006111",
+  "version": "2026.10.09-healthbar-shadow-f3-v1",
+  "sourceId": "3487a5c409b2eb041501adf4ddd60a5a22a931d390dab999b89e55df86a81848",
+  "assetBuildId": "4fc3591fc11af40b4b6ddfe9b00970089eb6b2ff7199559c99f351020d547979",
   "channel": "formal-release",
-  "buildDerivationId": "956e917100b1f8ca6b9c329938569c32f224d42b00759782df96aa0d08a287e0",
-  "polish": {
-    "contractSha256": "c47d8ded85998fc09f55313f4dd14f914aa3b61d082deda9a005814671ed255d",
-    "registrySha256": "6944494970cb2ef7718280b12e69b6aef8952c7cc1c23fe3642fd63fe7a220da",
-    "baselineSourceId": "772e0f85426e9f78c604c758ae42aa4b50befa59ec9de9a2a5667d478fbf34e9",
-    "sourceId": "3523bf056427759b92fccb1b13d28ba65a3ab640e3412c142f509572a3b1b503",
-    "artSha256": "60bf6aa68dbd98f328937ec6cbff790f77f5ca45c88448fcb2abb85032a8a8b1",
-    "soundSha256": "57c39f348e958d6caad00ec6384253c65745b4b684decc23eafd593e53a124f4"
-  },
+  "buildDerivationId": "c4b6a244032bbd75ccba6cae3f76a2b0bb558cb44a9e569dc7ab351eadc19573",
   "selector": "default-no-query",
   "formalDefault": true,
-  "raider1xR1": {
-    "variant": "combined",
-    "sourceId": "b302d4532702be7c5cec119867f96becfb70bf740970b62716ebeee74a447257",
-    "formalDefault": true,
-    "formalHandoffSha256": "9066009211666ebebca46e41b846feed49bc80536e83b7602e3e5a084caabfce"
+  "healthbarBinding": {
+    "contractSha256": "5318aee73dcd50fd4116f9ac87f6b342f3c8984d86378569867f7262d0202bd6",
+    "registrySha256": "a0b2f125ee86d53b8b3ff48d10c63925f949f1f092fe92180c979fbbf65d9d9a",
+    "baselineSourceId": "b0f828eec97512deb3523cc3e11cb2fc22b8f175b89e75a0c5f1b8d4d22104a8",
+    "sourceId": "3487a5c409b2eb041501adf4ddd60a5a22a931d390dab999b89e55df86a81848",
+    "shadowProfileSha256": "66b52884d7d2df48bbdb49bca428c48cfb7d56bd3985fe1906b179afd33e9457",
+    "shadowContractSha256": "04a604c221522a38d0084aef49e2fb1319206f59db29f537a650f922e9314089",
+    "formalReleaseContractSha256": "01539dcd360db79bec9e851e574ff9b49c614d1d74862a564720d39890488068",
+    "acceptedBehaviorSourceId": "53c7fef9ba1394d0368f26f5652156947a2c40357b3a69a91de777a56c36261d"
   },
-  "missileBinding": {
-    "upperDamageActivationReleaseSha256": "44085e5045405a7615fe97767d9ac114f563f544d46f4ce88e270d4f1ef1c67f",
-    "dualPortInputReleaseSha256": "2a2202efcf67f82c9c7d75c9156324a281362e8b3bdec5593a74d739e6afbdd4",
-    "materialInputReleaseSha256": "ec395f17e360cab971aa545ac509591dce399672cfe4471866166581700f5f63",
-    "contractSha256": "d95bdb98d7c823f7f45bb10a36950849d4522c58d0547f0898e1d54bcd6ba89a",
-    "registrySha256": "138b04d70d19208201cef71e74c3f2dc9b185fae229f53f66dfe361dbe004f19",
-    "baselineSourceId": "3523bf056427759b92fccb1b13d28ba65a3ab640e3412c142f509572a3b1b503",
-    "sourceId": "020b49fff55f5617bab96bdc525011f2805a07b8f37600ab56e4baf0f9763c54",
-    "artInputsSha256": "da68a4ac4cb7afcc65b7aee0cf35acfb896c2c402dde4c7d737faeccb42914f2",
-    "soundInputsSha256": "1e2fcaf9e05d6557bfbbf1c7aa2ef7e57db5243840833bef5fe48796a926a745",
-    "paletteAddendumSha256": "bfbee262f0aa02d4292922f41b041be25d4e0c175e20d938a2efe41ece1c64cf",
-    "paletteParametersSha256": "14c9ceb57eb15e9608610fc948a024a514ecd9b5631ad762b9661357723d33fe",
-    "paletteInputReleaseSha256": "514de4692116ec5a9e7fe4a465b59edcbdf5cc7be6943b380d05ffeafc13b9b4",
-    "ownerDecisionSha256": "5f891db27f67bd110da50a877b1dcbf3b98d4ad50caeb36ae3b40bf51c5585cf",
-    "acceptedBehaviorSourceId": "05dc81f34fb6ca8c1e33eea53e286b4d89bd884531bf379b079451580dcfb5b0",
-    "formalHandoffSha256": "ef974b3d93f9a5f4dadf8c556f7d0e31dba2b1776b9d1001cb1b6a6d9303ecee"
+  "wardenBinding": {
+    "contractSha256": "4ff2e90e37287b292557c0f55bda9f84449072df4058b744bfeebbb8b73c39dc",
+    "registrySha256": "def741477ca1c16d72de1dc0a949ea9e08f8c94c92f747425d6576948a8c9777",
+    "baselineSourceId": "b302d4532702be7c5cec119867f96becfb70bf740970b62716ebeee74a447257",
+    "sourceId": "b0f828eec97512deb3523cc3e11cb2fc22b8f175b89e75a0c5f1b8d4d22104a8",
+    "inputPinsSha256": "ff38f5ac50d8765d8529418a712427ad2cd1985e3dac322de460bf41b6cb5ae4"
   },
-  "acceptedBehaviorSourceId": "cebe3cf46d1e2cd586471a5b22b8476412766480b14f0217ae7f42047dc07e35"
+  "baselineIdentity": {
+    "version": "2026.10.09-healthbar-shared-shadow-v4",
+    "sourceId": "53c7fef9ba1394d0368f26f5652156947a2c40357b3a69a91de777a56c36261d",
+    "assetBuildId": "4fc3591fc11af40b4b6ddfe9b00970089eb6b2ff7199559c99f351020d547979",
+    "channel": "candidate-default-off"
+  }
 }
