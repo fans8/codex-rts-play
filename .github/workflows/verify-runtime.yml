@@ -16,13 +16,13 @@ jobs:
           python3 - <<'PYCODE'
           import json,pathlib,hashlib,re
           m=json.load(open('deployment-manifest.json'));r=pathlib.Path('site');v=json.load(open(r/'release-version.json'))
-          EXPECTED_IDENTITY = {'version': '2026.10.09-healthbar-shadow-f3-v1', 'sourceId': '3487a5c409b2eb041501adf4ddd60a5a22a931d390dab999b89e55df86a81848', 'assetBuildId': '4fc3591fc11af40b4b6ddfe9b00970089eb6b2ff7199559c99f351020d547979', 'channel': 'formal-release'}
+          EXPECTED_IDENTITY = {'version': '2026.10.14-k-r7-f3-release-p-v1', 'sourceId': 'f5a888e3087ac0c1bc0477bf25a0116d81e893a778cc43b26ff228030a379737', 'assetBuildId': '4fc3591fc11af40b4b6ddfe9b00970089eb6b2ff7199559c99f351020d547979', 'channel': 'formal-release'}
           for k,value in EXPECTED_IDENTITY.items():assert m[k]==v[k]==value,k
           assert m['ownerAcceptanceRequired'] is False and m['publicBase']=='/codex-rts-play/'
           assert m['selector']==v['selector']=='default-no-query' and v['formalDefault'] is True
           assert m['acceptedBehaviorSourceId']==v['healthbarBinding']['acceptedBehaviorSourceId']=='53c7fef9ba1394d0368f26f5652156947a2c40357b3a69a91de777a56c36261d'
-          assert m['registeredAuthoritySha256']=='66718467fbe32f6cee80f058a05520b732b1f4e6bd7492302724c7b8c6e3a12a'
-          assert m['OwnerAuthorizationSha256']=='317e596b11ac1c5e557ec4dba90f99294ba844510f434e7ddd9b0fdea422d861' and m['PMDelegatedFormalAcceptanceSha256']=='75ab5f5d93280e776a19fb4331713c8def108cb5e8b31321fa5f1d6ec98a04e4'
+          assert m['registeredAuthoritySha256']=='56f2a738b1e3469827984d70cdb91e4cf0c591676921a9d43f2367c61d00724e'
+          assert m['OwnerAuthorizationSha256']=='b025d991868f79a105868f9344a62dd87a7aa3ff7265c56ad25cdc1776600066' and m['PMDelegatedFormalAcceptanceSha256']=='b73187b91a14017f4c9b71f201eb7aa310e9dba20f4027b8fcf879aead8ae910'
           assert m['immutableBuildInputRegistrySha256']==v['healthbarBinding']['registrySha256']=='a0b2f125ee86d53b8b3ff48d10c63925f949f1f092fe92180c979fbbf65d9d9a'
           expected={x['path']:x for x in m['files']};assert len(expected)==len(m['files'])==2222
           assert {str(p.relative_to(r))for p in r.rglob('*')if p.is_file()or p.is_symlink()}==set(expected)
