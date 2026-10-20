@@ -1,29 +1,24 @@
 {
-  "version": "2026.10.14-k-r7-f3-release-p-v1",
-  "sourceId": "f5a888e3087ac0c1bc0477bf25a0116d81e893a778cc43b26ff228030a379737",
-  "assetBuildId": "4fc3591fc11af40b4b6ddfe9b00970089eb6b2ff7199559c99f351020d547979",
+  "version": "2026.10.20-formal-entry-standard-start-am-public-v1",
+  "sourceId": "b1833143f4d624c035cd8fcaf3bdcfd5527b29b8f2b219fea3dc9b1c01a35de7",
+  "publicDerivationID": "b1833143f4d624c035cd8fcaf3bdcfd5527b29b8f2b219fea3dc9b1c01a35de7",
+  "resourceSHA256": "c8463717be3bf43dcf7c3da0e53fcf87ac00c1e9e28d40ec8fcb25504276d6f6",
   "channel": "formal-release",
-  "formalDefault": true,
   "selector": "default-no-query",
-  "captureCapability": {
-    "version": 1,
-    "enabled": true
+  "formalDefault": true,
+  "entryMode": "formal",
+  "publicBase": "/codex-rts-play/",
+  "latestArtifactReplayOnly": true,
+  "acceptedAL": {
+    "version": "2026.10.20-formal-entry-standard-start-al-v1",
+    "sourceCommit": "aeab8e0a5b15f91a031d5eb3029b3a02a4975452",
+    "sourceId": "89237dc625ab81e92a6a8301dbfb85cea3a84c730c89370f270e83858486d101",
+    "resourceSHA256": "f90496a695d5bae6f0ac0f370e9d13d9ec72e9979b5a49fa0dd0b7fad35324be"
   },
-  "healthbarBinding": {
-    "contractSha256": "5318aee73dcd50fd4116f9ac87f6b342f3c8984d86378569867f7262d0202bd6",
-    "registrySha256": "a0b2f125ee86d53b8b3ff48d10c63925f949f1f092fe92180c979fbbf65d9d9a",
-    "baselineSourceId": "b0f828eec97512deb3523cc3e11cb2fc22b8f175b89e75a0c5f1b8d4d22104a8",
-    "sourceId": "3487a5c409b2eb041501adf4ddd60a5a22a931d390dab999b89e55df86a81848",
-    "shadowProfileSha256": "66b52884d7d2df48bbdb49bca428c48cfb7d56bd3985fe1906b179afd33e9457",
-    "shadowContractSha256": "04a604c221522a38d0084aef49e2fb1319206f59db29f537a650f922e9314089",
-    "formalReleaseContractSha256": "01539dcd360db79bec9e851e574ff9b49c614d1d74862a564720d39890488068",
-    "acceptedBehaviorSourceId": "53c7fef9ba1394d0368f26f5652156947a2c40357b3a69a91de777a56c36261d"
-  },
-  "wardenBinding": {
-    "contractSha256": "4ff2e90e37287b292557c0f55bda9f84449072df4058b744bfeebbb8b73c39dc",
-    "registrySha256": "def741477ca1c16d72de1dc0a949ea9e08f8c94c92f747425d6576948a8c9777",
-    "baselineSourceId": "b302d4532702be7c5cec119867f96becfb70bf740970b62716ebeee74a447257",
-    "sourceId": "b0f828eec97512deb3523cc3e11cb2fc22b8f175b89e75a0c5f1b8d4d22104a8",
-    "inputPinsSha256": "ff38f5ac50d8765d8529418a712427ad2cd1985e3dac322de460bf41b6cb5ae4"
-  }
+  "payloadManifestSHA256ExcludingReleaseVersion": "868561bf4bd6b4505e0d07ab40f1c6a98eed27d2bd221ba0914c6bf298141aa7",
+  "toolSHA256": "97bef7d344c7e6b04cd7e2b3b20d2dcdd6d9ff0706eb25b706d1cce669ea2a87",
+  "countedScienceColdBytes": 9501591,
+  "identityRule": "SHA256(canonical derivation seed: AL lineage, tool/declaration hashes and every immutable input route pin). Output identity fields are excluded to avoid self-reference; final output file hashes are separately pinned.",
+  "nativePassed": false,
+  "embeddedChannelUnchanged": "candidate; formal publication authority recorded externally"
 }
