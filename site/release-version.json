@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.20-formal-entry-standard-start-am-public-v1",
-  "sourceId": "b1833143f4d624c035cd8fcaf3bdcfd5527b29b8f2b219fea3dc9b1c01a35de7",
-  "publicDerivationID": "b1833143f4d624c035cd8fcaf3bdcfd5527b29b8f2b219fea3dc9b1c01a35de7",
+  "version": "2026.10.20-formal-entry-standard-start-am-public-v2",
+  "sourceId": "5ca1435b0411e7448e4e39d8d154769934b54329a8ac5d3aebd2bb52c70b1202",
+  "publicDerivationID": "5ca1435b0411e7448e4e39d8d154769934b54329a8ac5d3aebd2bb52c70b1202",
   "resourceSHA256": "c8463717be3bf43dcf7c3da0e53fcf87ac00c1e9e28d40ec8fcb25504276d6f6",
   "channel": "formal-release",
   "selector": "default-no-query",
@@ -15,9 +15,9 @@
     "sourceId": "89237dc625ab81e92a6a8301dbfb85cea3a84c730c89370f270e83858486d101",
     "resourceSHA256": "f90496a695d5bae6f0ac0f370e9d13d9ec72e9979b5a49fa0dd0b7fad35324be"
   },
-  "payloadManifestSHA256ExcludingReleaseVersion": "868561bf4bd6b4505e0d07ab40f1c6a98eed27d2bd221ba0914c6bf298141aa7",
-  "toolSHA256": "97bef7d344c7e6b04cd7e2b3b20d2dcdd6d9ff0706eb25b706d1cce669ea2a87",
-  "countedScienceColdBytes": 9501591,
+  "payloadManifestSHA256ExcludingReleaseVersion": "2f917080c2562f579e40aecf6f069e6b4a53b026a6372515a437fc47d7e90b18",
+  "toolSHA256": "683ea4fdf8dfc717bdd0d6eb250794e20c009762c27a585c36f25a29f5057d06",
+  "countedScienceColdBytes": 9501636,
   "identityRule": "SHA256(canonical derivation seed: AL lineage, tool/declaration hashes and every immutable input route pin). Output identity fields are excluded to avoid self-reference; final output file hashes are separately pinned.",
   "nativePassed": false,
   "embeddedChannelUnchanged": "candidate; formal publication authority recorded externally"
