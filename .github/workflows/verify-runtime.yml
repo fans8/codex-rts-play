@@ -11,27 +11,35 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
-      - name: Verify registered healthbar shadow F3 identity, every byte and public isolation
+      - name: Verify AL lineage, AM identity, every byte and public isolation
         run: |
           python3 - <<'PYCODE'
           import json,pathlib,hashlib,re
           m=json.load(open('deployment-manifest.json'));r=pathlib.Path('site');v=json.load(open(r/'release-version.json'))
-          EXPECTED_IDENTITY = {'version': '2026.10.14-k-r7-f3-release-p-v1', 'sourceId': 'f5a888e3087ac0c1bc0477bf25a0116d81e893a778cc43b26ff228030a379737', 'assetBuildId': '4fc3591fc11af40b4b6ddfe9b00970089eb6b2ff7199559c99f351020d547979', 'channel': 'formal-release'}
+          EXPECTED_IDENTITY={'version':'2026.10.20-formal-entry-standard-start-am-public-v1','sourceId':'b1833143f4d624c035cd8fcaf3bdcfd5527b29b8f2b219fea3dc9b1c01a35de7','resourceSHA256':'c8463717be3bf43dcf7c3da0e53fcf87ac00c1e9e28d40ec8fcb25504276d6f6','channel':'formal-release'}
           for k,value in EXPECTED_IDENTITY.items():assert m[k]==v[k]==value,k
           assert m['ownerAcceptanceRequired'] is False and m['publicBase']=='/codex-rts-play/'
           assert m['selector']==v['selector']=='default-no-query' and v['formalDefault'] is True
-          assert m['acceptedBehaviorSourceId']==v['healthbarBinding']['acceptedBehaviorSourceId']=='53c7fef9ba1394d0368f26f5652156947a2c40357b3a69a91de777a56c36261d'
-          assert m['registeredAuthoritySha256']=='56f2a738b1e3469827984d70cdb91e4cf0c591676921a9d43f2367c61d00724e'
-          assert m['OwnerAuthorizationSha256']=='b025d991868f79a105868f9344a62dd87a7aa3ff7265c56ad25cdc1776600066' and m['PMDelegatedFormalAcceptanceSha256']=='b73187b91a14017f4c9b71f201eb7aa310e9dba20f4027b8fcf879aead8ae910'
-          assert m['immutableBuildInputRegistrySha256']==v['healthbarBinding']['registrySha256']=='a0b2f125ee86d53b8b3ff48d10c63925f949f1f092fe92180c979fbbf65d9d9a'
-          expected={x['path']:x for x in m['files']};assert len(expected)==len(m['files'])==2222
+          assert m['acceptedAL']==v['acceptedAL'] and v['acceptedAL']['sourceCommit']=='aeab8e0a5b15f91a031d5eb3029b3a02a4975452'
+          assert m['publicDerivationID']==v['publicDerivationID']==m['sourceId']
+          assert m['countedScienceColdBytes']==v['countedScienceColdBytes']==9501591
+          expected={x['path']:x for x in m['files']};assert len(expected)==len(m['files'])==2436
           assert {str(p.relative_to(r))for p in r.rglob('*')if p.is_file()or p.is_symlink()}==set(expected)
           for n,e in expected.items():
            assert not n.startswith('/') and '..' not in pathlib.Path(n).parts
            p=r/n;assert not p.is_symlink();b=p.read_bytes();assert len(b)==e['bytes']and hashlib.sha256(b).hexdigest()==e['sha256'],n
            assert p.suffix!='.map'and not n.startswith(('src/','docs/','internal/','tests/'))and not b.startswith(b'version https://git-lfs.github.com/spec/v1')
-           if p.suffix in ['.js','.json','.html','.css','.svg','.txt']:
+           if p.suffix in ['.js','.mjs','.json','.html','.css','.svg','.txt']:
             assert not re.search(rb'/Users/|/private/|\.private/|codex_import|sourceMappingURL=|BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY|gh[pousr]_[A-Za-z0-9]{30,}|AKIA[0-9A-Z]{16}',b),n
+            context=b'new URL(e,typeof location>"u"?"http://localhost/":location.href)'
+            if n in ['game.js','science/host/game.js']:
+             assert b.count(context)==1,n
+             b=b.replace(context,b'')
             assert all(t not in b for t in [b'__wardenQa',b'__healthbarQa',b'__missileTurretQa',b'__unitPolishQa',b'localhost',b'127.0.0.1',b'__shadeQa',b'__transportQa',b'__raider16Qa',b'__raiderPersistentWreckQa']),n
-          print(m['version'],len(expected),'registered runtime files verified')
+          assert (r/'index.html').read_bytes()==(r/'play/index.html').read_bytes()==(r/'science/host/index.html').read_bytes()
+          assert (r/'game.js').read_bytes()==(r/'science/host/game.js').read_bytes()
+          assert hashlib.sha256((r/'science/compact-resource-manifest-g-v1.json').read_bytes()).hexdigest()==m['resourceSHA256']
+          files=[x for x in m['files']if x['path']!='release-version.json'];payload=json.dumps(files,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
+          assert hashlib.sha256(payload).hexdigest()==m['payloadManifestSHA256ExcludingReleaseVersion']==v['payloadManifestSHA256ExcludingReleaseVersion']
+          print(m['version'],len(expected),'exact AL-derived public runtime files verified')
           PYCODE

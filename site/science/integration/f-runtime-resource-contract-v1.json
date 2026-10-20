@@ -1,0 +1,336 @@
+{
+  "schemaVersion": "science-F-code-integration-contract-v1",
+  "phase": "ART 11.52F",
+  "candidateId": "ART-11.52F-contrast-skill-vfx-v1",
+  "OwnerVisualAcceptance": {
+    "path": "provenance/sha256/7a899c6bbc3ee45ddebc987036da2c59194e94834b969445224e35a50c480eee",
+    "bytes": 2624,
+    "sha256": "386ec864d3e93bcaedf43fc6266dd2da821f21d40b3cad2f6a2e2bdbfd8cca07"
+  },
+  "approvedManifest": {
+    "path": "provenance/sha256/51562dcda0f08c32c634983e1df9667df9da961209838fd4bdd68a419cebf154",
+    "bytes": 13096,
+    "sha256": "85df5dad0567a369211b225b4b9e033031a93758e56fa9e181d0cf4bd2531ed9"
+  },
+  "resourceResolution": "All ids resolve ONLY through this exact F manifest resources[]. Keep its reviewed bytes unchanged. resourceIdAliases apply only to explicitly unchanged profile references. Never consume legacy matrix/emp/irradiate fields. No oldE1 skill texture fallback.",
+  "names": {
+    "matrix": {
+      "zh": "保护罩",
+      "en": "Shield",
+      "key": "D"
+    },
+    "emp": {
+      "zh": "震荡波",
+      "en": "EMP Shockwave",
+      "key": "E"
+    },
+    "irradiate": {
+      "zh": "辐射",
+      "en": "Irradiate",
+      "key": "I"
+    }
+  },
+  "approvedLegacyProfileDocument": {
+    "path": "provenance/sha256/a098535c88d49ccf4b6de43b419cdb96bb58ba25e48f81f2e8cef68f7a769e08",
+    "bytes": 14291,
+    "sha256": "2130e81bbccf2a9921051a09a0d64489026130aa6e3d25ab3e77eb547af79c5a"
+  },
+  "unchangedProfileIds": [
+    "hover-static",
+    "breathing-light",
+    "adjacent-eight-facing",
+    "command-ack",
+    "hit",
+    "caster-release",
+    "death-generic"
+  ],
+  "unchangedProfileResourceIdAliases": {
+    "death-flash-1x": "flash-1x",
+    "death-flash-2x": "flash-2x",
+    "death-smoke-1x": "smoke-1x",
+    "death-smoke-2x": "smoke-2x",
+    "death-fragments-1x": "fragments-1x",
+    "death-fragments-2x": "fragments-2x",
+    "neutral-body-1x": "body-body-1x",
+    "neutral-body-2x": "body-body-2x",
+    "neutral-mask-1x": "body-mask-1x",
+    "neutral-mask-2x": "body-mask-2x",
+    "neutral-light-1x": "body-light-1x",
+    "neutral-light-2x": "body-light-2x"
+  },
+  "logicalBindings": {
+    "path": "provenance/sha256/4fee6981da70726dac97bb1e6a65d16f935dd9694a6764250c003de411c9e0cc",
+    "bytes": 17002,
+    "sha256": "afe7f8fa1c69db885b978d3ac9f2d98c4485df803b34799cd0338749dac11d12"
+  },
+  "socketDocument": {
+    "path": "provenance/sha256/487ccc38f28c2d65c668c2675b5c46026aefd5cace2794a7459f6af410f64e28",
+    "bytes": 18858,
+    "sha256": "c5839f71ba76968486c3a6a2a1571477ad2d518aa7252daff27fbf40e006c4b9"
+  },
+  "targetFitDocument": {
+    "path": "provenance/sha256/ddd4af0cf19789813845a4cb4c60a94a6938ebc6e0ebd330c9651422cd5eed4c",
+    "bytes": 9629,
+    "sha256": "a0c8a2830df0839157804e5427a9a593968d086feaa0f7ba9231f8caf9efd338"
+  },
+  "body": {
+    "headings": 8,
+    "columns": 4,
+    "rows": 2,
+    "sourceCell2x": [
+      224,
+      224
+    ],
+    "runtimeCell1x": [
+      112,
+      112
+    ],
+    "rectEquation": "cellPx*[heading%4,floor(heading/4)] then width=height=cellPx; all Body/Mask/Light co-indexed",
+    "resourceIds": {
+      "1": {
+        "body": "body-body-1x",
+        "mask": "body-mask-1x",
+        "light": "body-light-1x"
+      },
+      "2": {
+        "body": "body-body-2x",
+        "mask": "body-mask-2x",
+        "light": "body-light-2x"
+      }
+    },
+    "bodyRoot": "terrainScreenRoot+(bodyAnchor2x-groundAnchor2x)/2+singleAuthoritativeVisualHoverLogicalOffset",
+    "topLeft": "bodyRoot-bodyAnchor2x/2; no crop offset for these full-cell atlases",
+    "anchors": "Use exact eight fractional headings from static-sockets; no H00 normalization, rounding or second hover",
+    "ownerCompose": "Decode body sRGB to linear. W=mask.rgb/255. Multiply each body channel by (1-sum(W))+sum(Wrole*paletteRoleChannel/[.32,.66,.07]role). Add decoded light once with its coverage, then encode sRGB. Body/Mask alpha paired; do not multiply mask alpha twice. No global palette or full-canvas darkening.",
+    "localTopCorrection": "Top collar/lens correction already baked in F body/light; do not apply a second global dimmer to match screenshot."
+  },
+  "profiles": [
+    {
+      "id": "matrix-recipient",
+      "kind": "shared-sphere-depth-pair-v2",
+      "root": "recipient-body-center",
+      "loopMs": 1600,
+      "sourceFPS": 30,
+      "sourceOffsets": [
+        0,
+        6,
+        12,
+        18,
+        24,
+        30,
+        36,
+        42
+      ],
+      "frameDurationsMs": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "columns": 4,
+      "cell2x": [
+        160,
+        160
+      ],
+      "cell1x": [
+        80,
+        80
+      ],
+      "anchor": "exact center of each full cell",
+      "layerResourceIds": {
+        "1": {
+          "back": "matrix-back-1x",
+          "front": "matrix-front-1x"
+        },
+        "2": {
+          "back": "matrix-back-2x",
+          "front": "matrix-front-2x"
+        }
+      },
+      "sharedSizeFamilies": 1,
+      "fit": "target-fit-v1.json; master visible diameter=.8*cell, same scalar X/Y. One stable transform for back/front/hit/end. Ground is base, body center includes stable offset+hover once. No gameplay radius/HP scaling.",
+      "phaseClock": "read-only authoritative effect instance elapsed; same phase both layers",
+      "lifecycle": [
+        "establish",
+        "sustain",
+        "hit",
+        "end-collapse",
+        "end-fade"
+      ],
+      "establish": {
+        "visualDurationMs": 1000,
+        "alpha": "smoothstep(t)",
+        "scale": 1
+      },
+      "hit": {
+        "visualDurationMs": 1000,
+        "sphereAlpha": ".65+.35*sin(pi*t)",
+        "overlay": "procedural white arc, no additional bitmap",
+        "arcRadiusFractionOfDrawBox": 0.4,
+        "arcAnglesRad": [
+          -0.9,
+          0.5
+        ],
+        "arcWidthLogicalPx": 1.25,
+        "arcAlpha": ".4*sin(pi*t)"
+      },
+      "end-fade": {
+        "visualDurationMs": 1000,
+        "alpha": "1-smoothstep(t)",
+        "scale": 1
+      },
+      "end-collapse": {
+        "visualDurationMs": 1000,
+        "alpha": "1-smoothstep(t)",
+        "uniformScale": "1-smoothstep(t)"
+      },
+      "endReasonAuthority": "CODE native host, never infer logical buff end from bitmap loop",
+      "simulationSideEffects": false
+    },
+    {
+      "id": "irradiate-carrier",
+      "kind": "mottled-cloud-depth-pair-v2",
+      "root": "carrier-body-center",
+      "loopMs": 1600,
+      "sourceFPS": 30,
+      "sourceOffsets": [
+        0,
+        6,
+        12,
+        18,
+        24,
+        30,
+        36,
+        42
+      ],
+      "frameDurationsMs": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "columns": 4,
+      "cell2x": [
+        128,
+        128
+      ],
+      "cell1x": [
+        64,
+        64
+      ],
+      "anchor": "exact center of each full cell",
+      "layerResourceIds": {
+        "1": {
+          "back": "irradiate-back-1x",
+          "front": "irradiate-front-1x"
+        },
+        "2": {
+          "back": "irradiate-back-2x",
+          "front": "irradiate-front-2x"
+        }
+      },
+      "fit": "same stable carrier-center contract and uniform fit as approved review; cloud drawBox=.92*shield drawBox, no gameplay radius change",
+      "phaseClock": "same phase both layers, authoritative carrier/effect instance",
+      "lifecycle": [
+        "attach",
+        "sustain",
+        "end"
+      ],
+      "attach": {
+        "visualDurationMs": 1000,
+        "alpha": "smoothstep(t)"
+      },
+      "end": {
+        "visualDurationMs": 1000,
+        "alpha": "1-smoothstep(t)"
+      },
+      "carrierTracking": true,
+      "notHelixOnly": true,
+      "simulationSideEffects": false
+    },
+    {
+      "id": "emp-world",
+      "kind": "projectile-impact-v2",
+      "root": "authoritative-projectile-world-then-impact-world-snapshot",
+      "projectileResourceIds": {
+        "1": "emp-projectile-1x",
+        "2": "emp-projectile-2x"
+      },
+      "projectileCell2x": [
+        48,
+        48
+      ],
+      "projectileDisplayLogicalPx": [
+        28,
+        28
+      ],
+      "impactResourceIds": {
+        "1": "emp-all-1x",
+        "2": "emp-all-2x"
+      },
+      "impactCell2x": [
+        192,
+        192
+      ],
+      "impactCell1x": [
+        96,
+        96
+      ],
+      "impactColumns": 4,
+      "impactAnchor": "exact full-cell center",
+      "impactDisplayLogicalPx": [
+        160,
+        160
+      ],
+      "sourceFPS": 30,
+      "sourceOffsets": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        30
+      ],
+      "positiveFrameCount": 7,
+      "positiveFrameDurationsMs": [
+        133.33333333333334,
+        133.33333333333334,
+        133.33333333333334,
+        133.33333333333334,
+        133.33333333333334,
+        133.33333333333334,
+        200
+      ],
+      "impactDurationMs": 1000,
+      "terminalFrameIndex": 7,
+      "terminalDwellMs": 0,
+      "terminalAlpha": 0,
+      "launchCommitAndImpactAuthority": "CODE host events, never art timer. Flight follows actual projectile; one impact at actual world point, no recipient-wrapping loop or caster-hover inheritance. Ring and rays already in impact atlas; no old ring texture.",
+      "simulationSideEffects": false
+    }
+  ],
+  "pairing": "back -> current accepted recipient/carrier body -> front; co-index phase, fit and visibility. Health/selection presentation stays readable per CODE current paths.",
+  "eventSemantics": "Internal ids matrix/emp/irradiate and all36 logical binding states preserved. Preparation/cancellation need no separate body bitmap or success cue. Only accepted commit emits caster release cue; never create damage/TTL/command/audio from presentation. Preserve AA native46/17/12 and stable life/event/owner identity.",
+  "runtimeAdmission": "Only PM exact CODE12.44AD candidate contract may consume this accepted-under-test asset; no accepted_current/global/default activation from this document.",
+  "evidenceOnlyNotRuntimeImports": [
+    "reports/semantic-timeline-f-v1.json",
+    "reports/technical-validation-v1.json",
+    "review/",
+    "concepts/",
+    "model/",
+    "source/",
+    "recovery/",
+    "asset-handoff.json"
+  ],
+  "budget": "Count all actually fetched/bundled resources, both densities, root metadata and this contract plus full changed CODE/HTML/CSS/transitive chunks once, before HTTP compression. If CODE consumes evidence-only items, count them too. Full scope<10000000B; unchanged engine/SOUND exclusions stay explicit AA baseline only."
+}

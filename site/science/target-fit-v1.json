@@ -1,0 +1,297 @@
+{
+  "schemaVersion": "science-F-stable-target-fit-v1",
+  "displayUnits": "logical-screen-px",
+  "equation": "center=terrainScreenRoot+stableBodyCenterOffset-visualHoverOnce; diameter=hypot(restBodyWidth,restBodyHeight)*1.04; uniform scale=diameter/(0.8*masterCellPx/density)",
+  "masterVisibleDiameterFraction": 0.8,
+  "sphericalProportions": true,
+  "perTargetSizeBitmaps": false,
+  "frontBackHitEndSameTransform": true,
+  "groundProjectionReceivesHover": false,
+  "hoverApplicationCount": 1,
+  "doNotUse": [
+    "HP",
+    "gameplay collision radius",
+    "per-frame alpha bounds",
+    "ground-contact as sphere center"
+  ],
+  "fixtures": [
+    {
+      "id": "soldier",
+      "label": "士兵",
+      "canvasLogicalPx": [
+        54.0,
+        54.0
+      ],
+      "groundAnchorLogicalPx": [
+        27.0,
+        54.0
+      ],
+      "stableCenterOffsetLogicalPx": [
+        -3.75,
+        -25.0
+      ],
+      "restVisualSizeLogicalPx": [
+        32.5,
+        41.0
+      ],
+      "sphereDiameterLogicalPx": 54.411484081947265,
+      "airborne": false,
+      "previewHoverLogicalPx": 0,
+      "source": {
+        "inventory": {
+          "path": "provenance/sha256/31d257d5d030909b4f3f51cd1397b47043d8233ceed8162404d6d90fc7279bb3",
+          "bytes": 11966,
+          "sha256": "54ee758440af5929452ab65bc0448d825608311254ce350aabb929850ae0a332"
+        },
+        "sourceRows": [
+          {
+            "assetId": "idle",
+            "layer": "neutral-body",
+            "density": "runtime-2x",
+            "path": "art/candidates/art-11-45d-soldier-semantic-owner-mask-package/runtime-2x/v1-3/neutral-body/unit-soldier-neutral-body-idle-v1-3-runtime-2x.png",
+            "sha256": "7d996b52b4f608512bf43fd29be53006754b708894b4256d48f8e01e760d5f34",
+            "sizeBytes": 369455,
+            "sizePx": [
+              864,
+              864
+            ],
+            "cellPx": [
+              108,
+              108
+            ],
+            "columns": 8,
+            "rows": 8,
+            "frames": 64,
+            "anchor": "bottom-center",
+            "revision": "v1-3"
+          },
+          {
+            "assetId": "idle",
+            "layer": "owner-mask",
+            "density": "runtime-2x",
+            "path": "art/candidates/art-11-45d-soldier-semantic-owner-mask-package/runtime-2x/v1-3/owner-mask/unit-soldier-owner-mask-idle-v1-3-runtime-2x.png",
+            "sha256": "887249bde1f420e7a3e87af10a47c8ae4504e6cc2bbdb04c90acd511bd7a666b",
+            "sizeBytes": 183325,
+            "sizePx": [
+              864,
+              864
+            ],
+            "cellPx": [
+              108,
+              108
+            ],
+            "columns": 8,
+            "rows": 8,
+            "frames": 64,
+            "anchor": "bottom-center",
+            "revision": "v1-3",
+            "v1_2SourcePath": "art/candidates/art-11-45d-soldier-semantic-owner-mask-package/runtime-2x/v1-2/owner-mask/unit-soldier-owner-mask-idle-v1-2-runtime-2x.png",
+            "v1_2SourceSha256": "887249bde1f420e7a3e87af10a47c8ae4504e6cc2bbdb04c90acd511bd7a666b",
+            "byteIdenticalToV1_2": true
+          }
+        ],
+        "frame": 0,
+        "heading": 0
+      }
+    },
+    {
+      "id": "worker",
+      "label": "Worker",
+      "canvasLogicalPx": [
+        68.0,
+        60.0
+      ],
+      "groundAnchorLogicalPx": [
+        34.0,
+        60.0
+      ],
+      "stableCenterOffsetLogicalPx": [
+        0.0,
+        -21.5
+      ],
+      "restVisualSizeLogicalPx": [
+        41.0,
+        39.0
+      ],
+      "sphereDiameterLogicalPx": 58.849666099307655,
+      "airborne": false,
+      "previewHoverLogicalPx": 0,
+      "source": {
+        "inventory": {
+          "path": "provenance/sha256/5a820d90e250977305dc75c9222673f7bb4d18711eafe2a2c095aa6a971d4047",
+          "bytes": 12902,
+          "sha256": "41002ef24fd314f4268dce48c09a6aca289a16c369bddc6cca20a6a975aee8d7"
+        },
+        "sourceRows": [
+          {
+            "assetId": "locomotion",
+            "actionOrder": [
+              "idle",
+              "move",
+              "carryMineral"
+            ],
+            "layer": "neutral-body",
+            "density": "runtime-2x",
+            "path": "art/candidates/art-11-45e-worker-semantic-owner-mask-package/runtime-2x/v1-1-r1/neutral-body/unit-worker-neutral-body-locomotion-group-8dir-runtime-2x.png",
+            "sha256": "daf5af92523beda1079bcac1730451c1f3842cb556ddbb0d0aec78bc3519ddd8",
+            "sizeBytes": 2026937,
+            "sizePx": [
+              1088,
+              2880
+            ],
+            "cellPx": [
+              136,
+              120
+            ],
+            "columns": 8,
+            "rowsPerAction": 8,
+            "actionCount": 3,
+            "semanticFramePairs": 192,
+            "anchor": "bottom-center",
+            "reusedByteIdenticalFrom": "ART 11.45E V1.1-R1",
+            "v1_1R1Sha256": "daf5af92523beda1079bcac1730451c1f3842cb556ddbb0d0aec78bc3519ddd8",
+            "byteIdenticalToV1_1R1": true
+          },
+          {
+            "assetId": "locomotion",
+            "actionOrder": [
+              "idle",
+              "move",
+              "carryMineral"
+            ],
+            "layer": "owner-mask",
+            "density": "runtime-2x",
+            "path": "art/candidates/art-11-45e-worker-semantic-owner-mask-package/runtime-2x/v1-1-r1/owner-mask/unit-worker-owner-mask-locomotion-group-8dir-runtime-2x.png",
+            "sha256": "ec6fd5104824305378504fc5606aa624e801c093bd3ac007dbbcfadba326d2ce",
+            "sizeBytes": 771399,
+            "sizePx": [
+              1088,
+              2880
+            ],
+            "cellPx": [
+              136,
+              120
+            ],
+            "columns": 8,
+            "rowsPerAction": 8,
+            "actionCount": 3,
+            "semanticFramePairs": 192,
+            "anchor": "bottom-center",
+            "reusedFromRevision": "V1",
+            "v1Path": "art/candidates/art-11-45e-worker-semantic-owner-mask-package/runtime-2x/owner-mask/unit-worker-owner-mask-locomotion-group-8dir-runtime-2x.png",
+            "v1Sha256": "ec6fd5104824305378504fc5606aa624e801c093bd3ac007dbbcfadba326d2ce",
+            "byteIdenticalToV1": true,
+            "reusedByteIdenticalFrom": "ART 11.45E V1.1-R1",
+            "v1_1R1Sha256": "ec6fd5104824305378504fc5606aa624e801c093bd3ac007dbbcfadba326d2ce",
+            "byteIdenticalToV1_1R1": true
+          }
+        ],
+        "frame": 0,
+        "heading": 0
+      }
+    },
+    {
+      "id": "raider",
+      "label": "大型机械 Raider",
+      "canvasLogicalPx": [
+        160.0,
+        160.0
+      ],
+      "groundAnchorLogicalPx": [
+        80.0,
+        144.0
+      ],
+      "stableCenterOffsetLogicalPx": [
+        3.25,
+        -60.75
+      ],
+      "restVisualSizeLogicalPx": [
+        80.5,
+        59.5
+      ],
+      "sphereDiameterLogicalPx": 104.10654542342667,
+      "airborne": false,
+      "previewHoverLogicalPx": 0,
+      "source": {
+        "immutable5314OverlapOnly": true,
+        "notRuntimeBodyConsumption": true,
+        "acceptedCorrectionReference": "r2-correction-1-seat-base-registration-closure/source/build-correction-review.mjs drawReference H08/H13/F00",
+        "body": {
+          "path": "provenance/sha256/4ef79fe2fb2e0f5ae4bb8582864f8f6f08ae384debf112d05797f0756cc7a90d",
+          "bytes": 29617,
+          "sha256": "a1ccb42792e63e3fb165a177bcc4a83d0ce89055d983869b65ce50bc129a93e5"
+        },
+        "mask": {
+          "path": "provenance/sha256/335037f9df5cf2c9c79c933e0013b1539dc0786d4ce9d0d65307bd86a246abcd",
+          "bytes": 12555,
+          "sha256": "be6b3c23d3e3a38876142343cf6700ed446d641d8589e3c7b085df75f4606873"
+        }
+      }
+    },
+    {
+      "id": "airborne",
+      "label": "空中目标测试（复用科技球）",
+      "canvasLogicalPx": [
+        112.0,
+        112.0
+      ],
+      "groundAnchorLogicalPx": [
+        56.0,
+        99.10885047912598
+      ],
+      "stableCenterOffsetLogicalPx": [
+        0.0,
+        -43.60885047912598
+      ],
+      "restVisualSizeLogicalPx": [
+        74.0,
+        76.0
+      ],
+      "sphereDiameterLogicalPx": 110.31846264338532,
+      "airborne": true,
+      "previewHoverLogicalPx": 14,
+      "source": {
+        "model": {
+          "path": "provenance/sha256/3e3eb8c372a5f95c71ba73bfb945a1491e1282b424cdaa72bbafa4a8f358c61b",
+          "bytes": 439651,
+          "sha256": "85c01703f82a9507be6950929a1102018daf91861d734276c900a12d6a9b9bdb"
+        },
+        "sameAcceptedScienceGeometry": true,
+        "notAnotherUnitAsset": true
+      }
+    },
+    {
+      "id": "science",
+      "label": "科技球",
+      "canvasLogicalPx": [
+        112.0,
+        112.0
+      ],
+      "groundAnchorLogicalPx": [
+        56.0,
+        99.10885047912598
+      ],
+      "stableCenterOffsetLogicalPx": [
+        0.0,
+        -43.60885047912598
+      ],
+      "restVisualSizeLogicalPx": [
+        74.0,
+        76.0
+      ],
+      "sphereDiameterLogicalPx": 110.31846264338532,
+      "airborne": true,
+      "previewHoverLogicalPx": 3,
+      "source": {
+        "model": {
+          "path": "provenance/sha256/3e3eb8c372a5f95c71ba73bfb945a1491e1282b424cdaa72bbafa4a8f358c61b",
+          "bytes": 439651,
+          "sha256": "85c01703f82a9507be6950929a1102018daf91861d734276c900a12d6a9b9bdb"
+        },
+        "sameAcceptedScienceGeometry": true,
+        "notAnotherUnitAsset": true
+      }
+    }
+  ],
+  "airborneCoverageLimit": "No separately accepted second flying type was introduced. Airborne test explicitly reuses accepted Science Vessel geometry with a separate elevation; actual multi-type runtime coverage belongs to CODE AD."
+}

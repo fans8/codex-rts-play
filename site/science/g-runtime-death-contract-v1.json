@@ -1,0 +1,846 @@
+{
+  "schemaVersion": "science-G-death-runtime-contract-v1",
+  "phase": "ART 11.52G",
+  "version": "art-11-52g-death-vfx-v2",
+  "status": "OWNER_DIRECT_INTEGRATION_AUTHORIZED_CODE_SCOPE_BINDING_REQUIRED",
+  "runtimeConsumptionAllowed": false,
+  "formalHandoff": true,
+  "CODEIntegrationAllowed": true,
+  "sourceCadenceFPS": 30,
+  "lifetimeMs": 1400,
+  "timeAuthority": "Read-only authoritative death event age. No new/delayed/repeated gameplay/audio event.",
+  "root": "Immutable world snapshot of body deathOrigin with hover captured exactly once, never ground anchor/living unit tracking.",
+  "rootSource": {
+    "source": {
+      "path": "provenance/sha256/487ccc38f28c2d65c668c2675b5c46026aefd5cace2794a7459f6af410f64e28",
+      "bytes": 18858,
+      "sha256": "c5839f71ba76968486c3a6a2a1571477ad2d518aa7252daff27fbf40e006c4b9"
+    },
+    "bodyAnchor2x": [
+      112.0,
+      112.0000467300415
+    ],
+    "groundAnchor2x": [
+      112.0,
+      198.21770095825195
+    ],
+    "deathOrigin2x": [
+      112.0,
+      109.6051254272461
+    ],
+    "hoverAppliedOnce": true,
+    "deathSnapshotIndependentOfLivingUnit": true
+  },
+  "resources": [
+    {
+      "id": "G-fragments-1x",
+      "path": "resources/death-v2/fragments-1x.png",
+      "bytes": 5314,
+      "sha256": "46f6a20bd67003912d97340a8cbe0931e453a94fdf204056cb5682f1caf6d8c5",
+      "density": 1,
+      "cellPx": [
+        32,
+        32
+      ],
+      "columns": 4,
+      "tileSourceRects": [
+        [
+          0,
+          0,
+          32,
+          32
+        ],
+        [
+          32,
+          0,
+          32,
+          32
+        ],
+        [
+          64,
+          0,
+          32,
+          32
+        ],
+        [
+          96,
+          0,
+          32,
+          32
+        ],
+        [
+          0,
+          32,
+          32,
+          32
+        ],
+        [
+          32,
+          32,
+          32,
+          32
+        ],
+        [
+          64,
+          32,
+          32,
+          32
+        ],
+        [
+          96,
+          32,
+          32,
+          32
+        ]
+      ],
+      "pivotPx": [
+        16.0,
+        16.0
+      ],
+      "anchorPx": [
+        16.0,
+        16.0
+      ],
+      "logicalCellPx": [
+        32.0,
+        32.0
+      ]
+    },
+    {
+      "id": "G-fragments-2x",
+      "path": "resources/death-v2/fragments-2x.png",
+      "bytes": 15536,
+      "sha256": "e8b9408ecc4d7a8a3581d8a02b84bbe41aa24a30d1bd022bdc5633d6bbd815bc",
+      "density": 2,
+      "cellPx": [
+        64,
+        64
+      ],
+      "columns": 4,
+      "tileSourceRects": [
+        [
+          0,
+          0,
+          64,
+          64
+        ],
+        [
+          64,
+          0,
+          64,
+          64
+        ],
+        [
+          128,
+          0,
+          64,
+          64
+        ],
+        [
+          192,
+          0,
+          64,
+          64
+        ],
+        [
+          0,
+          64,
+          64,
+          64
+        ],
+        [
+          64,
+          64,
+          64,
+          64
+        ],
+        [
+          128,
+          64,
+          64,
+          64
+        ],
+        [
+          192,
+          64,
+          64,
+          64
+        ]
+      ],
+      "pivotPx": [
+        32.0,
+        32.0
+      ],
+      "anchorPx": [
+        32.0,
+        32.0
+      ],
+      "logicalCellPx": [
+        32.0,
+        32.0
+      ]
+    },
+    {
+      "id": "G-burst-1x",
+      "path": "resources/death-v2/burst-1x.png",
+      "bytes": 15481,
+      "sha256": "4b2359804c1e2c63911acad1f6d7df167ab42dec81600657d06f214a42976e6c",
+      "density": 1,
+      "cellPx": [
+        80,
+        80
+      ],
+      "columns": 4,
+      "tileSourceRects": [
+        [
+          0,
+          0,
+          80,
+          80
+        ],
+        [
+          80,
+          0,
+          80,
+          80
+        ],
+        [
+          160,
+          0,
+          80,
+          80
+        ],
+        [
+          240,
+          0,
+          80,
+          80
+        ],
+        [
+          0,
+          80,
+          80,
+          80
+        ],
+        [
+          80,
+          80,
+          80,
+          80
+        ],
+        [
+          160,
+          80,
+          80,
+          80
+        ],
+        [
+          240,
+          80,
+          80,
+          80
+        ]
+      ],
+      "pivotPx": [
+        40.0,
+        40.0
+      ],
+      "anchorPx": [
+        40.0,
+        40.0
+      ],
+      "logicalCellPx": [
+        80.0,
+        80.0
+      ]
+    },
+    {
+      "id": "G-burst-2x",
+      "path": "resources/death-v2/burst-2x.png",
+      "bytes": 49500,
+      "sha256": "e68d7e84958d5bf5b3af98d00c6b43a5e539939aec10c68f9090fc522f200808",
+      "density": 2,
+      "cellPx": [
+        160,
+        160
+      ],
+      "columns": 4,
+      "tileSourceRects": [
+        [
+          0,
+          0,
+          160,
+          160
+        ],
+        [
+          160,
+          0,
+          160,
+          160
+        ],
+        [
+          320,
+          0,
+          160,
+          160
+        ],
+        [
+          480,
+          0,
+          160,
+          160
+        ],
+        [
+          0,
+          160,
+          160,
+          160
+        ],
+        [
+          160,
+          160,
+          160,
+          160
+        ],
+        [
+          320,
+          160,
+          160,
+          160
+        ],
+        [
+          480,
+          160,
+          160,
+          160
+        ]
+      ],
+      "pivotPx": [
+        80.0,
+        80.0
+      ],
+      "anchorPx": [
+        80.0,
+        80.0
+      ],
+      "logicalCellPx": [
+        80.0,
+        80.0
+      ]
+    },
+    {
+      "id": "G-smoke-1x",
+      "path": "resources/death-v2/smoke-1x.png",
+      "bytes": 12794,
+      "sha256": "f0fc81a82d3a13f2b381de117e27ee5a63aaa0dd1bc85219ffacbf61b34ef323",
+      "density": 1,
+      "cellPx": [
+        80,
+        80
+      ],
+      "columns": 4,
+      "tileSourceRects": [
+        [
+          0,
+          0,
+          80,
+          80
+        ],
+        [
+          80,
+          0,
+          80,
+          80
+        ],
+        [
+          160,
+          0,
+          80,
+          80
+        ],
+        [
+          240,
+          0,
+          80,
+          80
+        ],
+        [
+          0,
+          80,
+          80,
+          80
+        ],
+        [
+          80,
+          80,
+          80,
+          80
+        ],
+        [
+          160,
+          80,
+          80,
+          80
+        ],
+        [
+          240,
+          80,
+          80,
+          80
+        ]
+      ],
+      "pivotPx": [
+        40.0,
+        40.0
+      ],
+      "anchorPx": [
+        40.0,
+        40.0
+      ],
+      "logicalCellPx": [
+        80.0,
+        80.0
+      ]
+    },
+    {
+      "id": "G-smoke-2x",
+      "path": "resources/death-v2/smoke-2x.png",
+      "bytes": 50024,
+      "sha256": "6479f775d426adbc9eae8661910a32a6b609c0caadb28d034cab4d191bb43a0e",
+      "density": 2,
+      "cellPx": [
+        160,
+        160
+      ],
+      "columns": 4,
+      "tileSourceRects": [
+        [
+          0,
+          0,
+          160,
+          160
+        ],
+        [
+          160,
+          0,
+          160,
+          160
+        ],
+        [
+          320,
+          0,
+          160,
+          160
+        ],
+        [
+          480,
+          0,
+          160,
+          160
+        ],
+        [
+          0,
+          160,
+          160,
+          160
+        ],
+        [
+          160,
+          160,
+          160,
+          160
+        ],
+        [
+          320,
+          160,
+          160,
+          160
+        ],
+        [
+          480,
+          160,
+          160,
+          160
+        ]
+      ],
+      "pivotPx": [
+        80.0,
+        80.0
+      ],
+      "anchorPx": [
+        80.0,
+        80.0
+      ],
+      "logicalCellPx": [
+        80.0,
+        80.0
+      ]
+    }
+  ],
+  "interpolation": {
+    "burstOffsets": [
+      0,
+      1,
+      3,
+      5,
+      8,
+      11,
+      17,
+      24
+    ],
+    "burstZeroTerminalMs": 800,
+    "smokeOffsets": [
+      0,
+      3,
+      6,
+      10,
+      15,
+      21,
+      29,
+      42
+    ],
+    "smokeZeroTerminalMs": 1400,
+    "terminalDwellMs": 0,
+    "method": "Premultiplied RGBA linear interpolation between selected source offsets, shown by two weighted draws in a temporary additive buffer then one source-over composite. No simulation clock change."
+  },
+  "fragmentTransform": {
+    "sourceRect": "fragment tile selected from8 physical chips,4columns2rows",
+    "baseCellLogicalPx": 32,
+    "pivotNormalized": [
+      0.5,
+      0.5
+    ],
+    "logicalCenter": "death-world body snapshot + ballistic delta",
+    "allSizesUniform": true,
+    "noAnisotropicSquash": true,
+    "drawCellSizeLogicalPx": "21 + 12*U(n+70), [21,33)",
+    "uniformScaleFrom32pxCell": "drawCellSizeLogicalPx /32",
+    "initialRotationRadians": "pi*U(n+100), [0,pi)",
+    "angularVelocityRadiansPerSecond": "(1.1 + 3.1*U(n+90)) * (j%2 ? -1 : 1), abs[1.1,4.2)",
+    "fragmentIndex": "j=0..variant.fragmentCount-1",
+    "n": "j + variantIndex*19",
+    "physicalTile": "(j+variantIndex*3)%8",
+    "trajectoryAngleRadians": "j*2.399963 + variantIndex*.63 + (U(n+400)-.5)*.48 + (variantIndex==2 ? .45 : 0)",
+    "radialDistanceLogicalPx": "(39+35*U(n+40))*variant.radius",
+    "radialDistanceOverallRangeLogicalPx": [
+      35.88,
+      84.36
+    ],
+    "dragPerSecond": 2.4,
+    "tSeconds": "clamp(ageMs,0,1400)/1000",
+    "radialProgress": "1-exp(-2.4*t)",
+    "deltaXLogicalPx": "cos(angle)*radialDistance*radialProgress",
+    "deltaYLogicalPx": "sin(angle)*radialDistance*.58*radialProgress -18*t +34*t*t",
+    "gravityLogicalPxPerSec2": 68,
+    "initialVerticalVelocityLogicalPxPerSec": -18,
+    "radialInitialSpeedLogicalPxPerSec": "2.4*radialDistance; [86.112,202.464)",
+    "opacity": "1-smoothstep((ageMs-330)/1070), clamped; zero at1400ms",
+    "rotationAroundSamePivot": true,
+    "destinationMeaning": "Every density maps to identical logical center/size; scale by1x or2x only at final raster draw.",
+    "rotationRadians": "initialRotationRadians+angularVelocityRadiansPerSecond*tSeconds",
+    "optionalDrawCommandMapping": {
+      "pivot": "sourceRect center in density pixels",
+      "rotationRadians": "rotationRadians above",
+      "uniformScale": "baseSizeLogicalPx/32; same logical size at1x and2x",
+      "destination": "center=deathWorldSnapshot+delta; rotate around this center, never destination top-left or terrain anchor"
+    }
+  },
+  "stableRandom": {
+    "actualSeed": "Existing qualified FNV1a32 full death identity hash selected by CODE, no default/mutable frame RNG. Profile hash changes are explicit new resource identity; retain full Replay identity validation.",
+    "previewSeedUint32": 741,
+    "function": "let x=(imul(n+seed,1597334677)^imul(n+13,3812015801))>>>0; x=imul(x^(x>>>16),2246822519)>>>0; return ((x^(x>>>13))>>>0)/4294967296;",
+    "deterministicInputs": [
+      "stableDeathSeed",
+      "variantIndex",
+      "fragmentIndex",
+      "fixed channel offset"
+    ],
+    "MathRandomAllowed": false
+  },
+  "variants": [
+    {
+      "id": "burst",
+      "label": "集中爆裂",
+      "fragmentCount": 8,
+      "radius": 1,
+      "fireScale": 1
+    },
+    {
+      "id": "scatter",
+      "label": "外壳散裂",
+      "fragmentCount": 10,
+      "radius": 1.14,
+      "fireScale": 0.95
+    },
+    {
+      "id": "rupture",
+      "label": "侧向破裂",
+      "fragmentCount": 7,
+      "radius": 0.92,
+      "fireScale": 1.08
+    }
+  ],
+  "layerOrder": [
+    "unchanged terrain/Worker",
+    "soft smoke",
+    "irregular fragments",
+    "short fire burst",
+    "tiny hot visual streaks"
+  ],
+  "CODEAFInterface": {
+    "preflight": {
+      "path": "provenance/sha256/fd24b0ca6369c853f299f5a8b93fb738592bcd497420e979d85860da83421cb9",
+      "bytes": 11181,
+      "sha256": "5f2225fbbfe4c9c9244737e462d24f11001b7d2829cd6b1ed47a8bb3a5dccbae"
+    },
+    "newDeathSourceScopeReleased": false,
+    "optionalTransformProposal": [
+      "pivot",
+      "rotationRadians",
+      "uniformScale"
+    ],
+    "implementationRequiredOnlyAfterOwnerVisualAndSeparateScope": false,
+    "implementationRequiredAfterExactPMSourceScopeBinding": true,
+    "priorOwnerVisualWaitingGateSuperseded": true
+  },
+  "unchangedSystems": [
+    "body geometry/palette",
+    "three skills",
+    "death event/gameplay lifetime",
+    "audio",
+    "other units",
+    "R4"
+  ],
+  "noOwnerOrRuntimeAcceptanceClaim": true,
+  "candidateIntegrationAuthorized": true,
+  "OwnerDirectIntegrationMandate": {
+    "path": "provenance/sha256/3cc21e6ab675e49a9773596bf264ce8f32ecd1b5c0578c2837efd5dd58231c60",
+    "bytes": 2372,
+    "sha256": "78e5146970286a5e350ecf17ded095628db58c10b43ab39eb168c2bf63565c83"
+  },
+  "OwnerManualGVisualVerdictClaimed": false,
+  "approvedResourceManifest": {
+    "path": "provenance/sha256/25f530264a02722f515ad6c9dd428c3b648c6afbe1fb62004aa15161c75a59d0",
+    "bytes": 3929,
+    "sha256": "c8463717be3bf43dcf7c3da0e53fcf87ac00c1e9e28d40ec8fcb25504276d6f6"
+  },
+  "replacesProfileId": "death-generic",
+  "profileId": "death-generic",
+  "kind": "generic-death-G2-v1",
+  "unchangedFProfiles": [
+    "hover-static",
+    "breathing-light",
+    "adjacent-eight-facing",
+    "command-ack",
+    "hit",
+    "caster-release",
+    "matrix-target",
+    "emp-world",
+    "irradiate-carrier"
+  ],
+  "unchangedFInputs": [
+    {
+      "path": "provenance/sha256/28cf93bfd94c9bbb363a549b74446b149d5a7fd17ae6fb220e775e77abf9e788",
+      "bytes": 80369,
+      "sha256": "b73aef46dbb70024e921ab09c75e7f24f7609c839e33c56236fcb8a071c26fda"
+    },
+    {
+      "path": "provenance/sha256/0ecb2011b08099f91bbb2a78d755678898b7ceebe8d97b1ad2cda4792c90f65f",
+      "bytes": 16238,
+      "sha256": "50657041787a63a3afabbd2bb0c225a90c3775d148496dd4c804b39de4e6d19c"
+    },
+    {
+      "path": "provenance/sha256/659b50a3e7e6ced157923e4ec9b15268444d5788e55ee676d7de1ea7ddbcc581",
+      "bytes": 4299,
+      "sha256": "f7d195913f09b3b2c302ceab872cc398ab68b9060ff0f41ad41bf6f40026d15b"
+    },
+    {
+      "path": "provenance/sha256/a062970ad4330cb10508518735e7bfac59b65072cabc6862d6d9981582fcc650",
+      "bytes": 255484,
+      "sha256": "dc82532b99c46cfa3907cd6870f54e6e9a4ecaf71dc5639ab5d38f9fd591c553"
+    },
+    {
+      "path": "provenance/sha256/6ebd90e8cb47a9c92433d9067ff85ca1aa2331ceaca46fba19025b141e1963a0",
+      "bytes": 36841,
+      "sha256": "bc1b6dcd06b415a8d154eafe1468d6770d810d3341cec80e421f7830f52a10fa"
+    },
+    {
+      "path": "provenance/sha256/557f5e6de5c64b5f0bd95ba1e65c844ec1ee285434a375a109376a5b7824c769",
+      "bytes": 8955,
+      "sha256": "8d89cabd2c6b6ddbb5fed6493b43b5e1c9aa0d3e1268d83ae427ae3342b20dbb"
+    },
+    {
+      "path": "provenance/sha256/c4955ef5a0fe52ba2f3d43cf2e1635bd393bcb2673bd65b075a0cfb28f4ebcab",
+      "bytes": 27395,
+      "sha256": "6fa235c6e64df3386493950b561a57fbf9492bd6a0d6cd6e150514a48a1f4c42"
+    },
+    {
+      "path": "provenance/sha256/b0ae921c5e4d73d022e04f9f8bc7fadf738a91e559d9f76e42343b718263a7c0",
+      "bytes": 94169,
+      "sha256": "d64acc92ff7cf02b98ca4da0b9370ce3ab3c3bf08889321f46d62f0f85c5245e"
+    },
+    {
+      "path": "provenance/sha256/1f0dde623643fb424c8dd6724c37c1a983d9d8e572608a50c84757b91b59a048",
+      "bytes": 27389,
+      "sha256": "72a2a36e31e6f50fb71c04b6e070a89c0447ae34ac652ee11fc315d3ece2c7b3"
+    },
+    {
+      "path": "provenance/sha256/6d64c2baeaf7f7585810438c72d276d0440e8f2521055b0503c719efa5897ff4",
+      "bytes": 94721,
+      "sha256": "a98de78891a74e83cd022459cfeaaded208caf61cd5d4b78902dec05e852745e"
+    },
+    {
+      "path": "provenance/sha256/3e2e560d9d5805289ff3c1dc6f0714b6a23572383db106f52d813ffbaf5d871c",
+      "bytes": 16237,
+      "sha256": "380aab21e577ceec9f7d33da5b63bdda689f8ce4f2c6e21f56608ff6ad96d67a"
+    },
+    {
+      "path": "provenance/sha256/19061dc220952dbb5a6a72f927eb5c907e995b8b42e9219313c630411c01d919",
+      "bytes": 36735,
+      "sha256": "18c7b41757328221113ed0b35c7c81fd4295db262a328b7128118a9e305d9655"
+    },
+    {
+      "path": "provenance/sha256/e08fe84abe6d31cdece3b16648f4552aa8ce04b0a8eaca24cf02890c4427f443",
+      "bytes": 32084,
+      "sha256": "bab5c6f1a17a5fdf843d85cc961b8c214089a00d4bda6277bc7b88f2047dcf25"
+    },
+    {
+      "path": "provenance/sha256/9f4e627e61189cffc3f3d1f86c1ac67f8603524c2567fd00d25012d817f9f564",
+      "bytes": 111197,
+      "sha256": "a0fbb5e5bf10f5043c89a6108625ffcb06a3ae98a53ac4b2a386a0e4c943494d"
+    },
+    {
+      "path": "provenance/sha256/b4dc21d7525670d70c665f88a3129681c6d2b9d631626455755edbe10048945c",
+      "bytes": 31802,
+      "sha256": "aa2a950a79c86c8976332642d6f84fafe69faf63839b7aa74ad4e1ea427bd0cb"
+    },
+    {
+      "path": "provenance/sha256/bd3d50c89b573da388b3bcdcc95e70fa257d432dbb985d196b029b5aa5da3595",
+      "bytes": 108747,
+      "sha256": "7cf0407e0785d2132f45a0dfdc1108fbaaf356a7434e9264dac7e7affe865799"
+    },
+    {
+      "path": "provenance/sha256/8070516128c4ffd7d427d06dcee336344f630679332a0c6a66e8f3fe4a832f8c",
+      "bytes": 160,
+      "sha256": "8c35e253d04f5b26631c4867bf340d7c0549b523869de03e0d5a600dfa65b655"
+    },
+    {
+      "path": "provenance/sha256/5ccdb16091defb804956e7385acf269a507551d0ebc5178c0978c1b7c83440fb",
+      "bytes": 215,
+      "sha256": "af97cb8e18d2725f358af91494e6c49dbe44b9d4663799ddc57bfebd3fcc378e"
+    },
+    {
+      "path": "provenance/sha256/be36dc511e7929ba662acd1e32790c6558c29d9ecfb863767a8d3a611944019b",
+      "bytes": 1932,
+      "sha256": "c17a822eecdcede9095884b13f50517af7d58e881f9c68acf505cb61527f6e4c"
+    },
+    {
+      "path": "provenance/sha256/e1ee390f7f46a23dbb959b3c3e22c2960f9eccc9d2de24714a5ac026d9fd0030",
+      "bytes": 333,
+      "sha256": "02dc737dbaec32e797af5138fafb852edb062d4bc53ddda8cfabd0dc49da18da"
+    },
+    {
+      "path": "provenance/sha256/1c0e654c5eb26c50976eb41f6a95e3e501d684094405cc756827740ad05139c0",
+      "bytes": 4495,
+      "sha256": "2e825761704ef0a7f91c8693387bff95e74351b9e0198c5e9db11289371909f0"
+    },
+    {
+      "path": "provenance/sha256/9453983648764a5c2cb59f08df1a0208cdeba0c089998d68cc9b48e1c251d5fc",
+      "bytes": 535,
+      "sha256": "af55976f8dc1ad4963bc7eb99287fb1921983eefb0425b8751fdf7286f0d8448"
+    },
+    {
+      "path": "provenance/sha256/51562dcda0f08c32c634983e1df9667df9da961209838fd4bdd68a419cebf154",
+      "bytes": 13096,
+      "sha256": "85df5dad0567a369211b225b4b9e033031a93758e56fa9e181d0cf4bd2531ed9"
+    },
+    {
+      "path": "provenance/sha256/a098535c88d49ccf4b6de43b419cdb96bb58ba25e48f81f2e8cef68f7a769e08",
+      "bytes": 14291,
+      "sha256": "2130e81bbccf2a9921051a09a0d64489026130aa6e3d25ab3e77eb547af79c5a"
+    },
+    {
+      "path": "provenance/sha256/487ccc38f28c2d65c668c2675b5c46026aefd5cace2794a7459f6af410f64e28",
+      "bytes": 18858,
+      "sha256": "c5839f71ba76968486c3a6a2a1571477ad2d518aa7252daff27fbf40e006c4b9"
+    },
+    {
+      "path": "provenance/sha256/4fee6981da70726dac97bb1e6a65d16f935dd9694a6764250c003de411c9e0cc",
+      "bytes": 17002,
+      "sha256": "afe7f8fa1c69db885b978d3ac9f2d98c4485df803b34799cd0338749dac11d12"
+    },
+    {
+      "path": "provenance/sha256/ddd4af0cf19789813845a4cb4c60a94a6938ebc6e0ebd330c9651422cd5eed4c",
+      "bytes": 9629,
+      "sha256": "a0c8a2830df0839157804e5427a9a593968d086feaa0f7ba9231f8caf9efd338"
+    },
+    {
+      "path": "provenance/sha256/76d8fd68a8dd9df9eed9031cebdeb8f492ce8db81b2420f378658d07e60d19f9",
+      "bytes": 10585,
+      "sha256": "0257cb1bdef47a66c6179bf205113bcff6521ccbe688931101360b610612adce"
+    }
+  ],
+  "replacedFDeathResources": [
+    {
+      "path": "provenance/sha256/fdf6407e9ce00a0f6e971f359c2cb92cd63e7ec4723835e67fff7a8518bf179f",
+      "bytes": 1730,
+      "sha256": "9cc5a9749c83fd7b491f428c565c278a19317a608cf735a05164d7c8c4c8363e"
+    },
+    {
+      "path": "provenance/sha256/111d2b9d14dc97f12b3845a906e59d55245c24925c08f123265c3cddefb114e5",
+      "bytes": 5565,
+      "sha256": "14ee46d5b3c56c095000dc728ae10bf4a4eb564b0ee3ca54a71c921fa6a88df2"
+    },
+    {
+      "path": "provenance/sha256/0be4221cc414f0faffe4d78cd714410675d075d65eb26dec397b0029d11065e9",
+      "bytes": 23915,
+      "sha256": "9f9a1c9c0e901a2d767dc598da5a8683594e0c69830934fb3ca79b6debab431e"
+    },
+    {
+      "path": "provenance/sha256/bf0197406432d6adddcd612eb7d1b4d01e9d732f80b83c221a64547b40aded04",
+      "bytes": 89476,
+      "sha256": "df10d59e0b7879a5fece2f87cfb0d8b00fbb585526c36072a56d13fbaa0c4a6f"
+    },
+    {
+      "path": "provenance/sha256/8374325fa580f30a34359b5c0352a3cb76e6afafc0d5ff23a521090f445de783",
+      "bytes": 1659,
+      "sha256": "8bce867f093fe030cd0371dc195e63e0eaa61a0f4b6fc9f86aaab613793411a2"
+    },
+    {
+      "path": "provenance/sha256/b58d42c0b03516dbc20af52f61ecf8c387bb3663a8970f61c73ec98dd882d9a1",
+      "bytes": 4507,
+      "sha256": "0f0b4e442cc148d52f1838bf22e482ea48bf3cf9d30fbfbcd25f6b214cbf4c0d"
+    }
+  ],
+  "globalRuntimeAdmitted": false,
+  "noOldDeathFallback": true,
+  "deathLogicalSlots": [
+    "death-body",
+    "death.external-debris"
+  ],
+  "sourceModel": {
+    "path": "provenance/sha256/4cdb64f0bf63a7ed6fb76432f766c75c13f304cdc058994b8ed62d6ee1be1efc",
+    "bytes": 298193,
+    "sha256": "b6551621aa7338cf5ee449ec57b24325d4b52be511431f5e8cf9797cde1593ad"
+  },
+  "editableSourceAuthor": {
+    "path": "provenance/sha256/ab17c507b5f49942c3c5844fa1f2b1a9514812b4ca5455c4c0fe34c5af2c664e",
+    "bytes": 12444,
+    "sha256": "1fb0c350c2aa4a50744478965334d96f8b0957540494d590ec2f9cef9e6e3df7"
+  },
+  "oneXDerivation": "Deterministic premultiplied linear-light downsample of authoritative2x using exact F pixels.py derive_rgba; no independent1x authoring",
+  "sourceDerivationRecipe": {
+    "path": "provenance/sha256/83c4f36775e775353cd15dc4163822d412954b80545d8eb811216fa07311c105",
+    "bytes": 4454,
+    "sha256": "0370b24b4d62412fc64bbda74bf1f4d599ae0161a284e8e6a9999ffc69f54845"
+  },
+  "zeroTerminal": "t>=1400 emits no commands; burst terminal at800ms and smoke at1400ms, no positive terminal dwell",
+  "bodyPaletteSkillsUnchanged": true,
+  "warmStreak": {
+    "count": 13,
+    "lifeMs": 560,
+    "visualOnly": true,
+    "formula": "angle=j*2.39996+variantIndex*.58; radius=(24+39*U(j+900))*(1-exp(-6*t)); centerOffset=(cos(angle)*radius, sin(angle)*radius*.72+18*t*t); opacity=(1-smoothstep((ageMs-90)/470))*min(1,ageMs/25); lineLogicalLength=2+3*U(j+1000); width=j%3?.8:1.2; color warm yellow/cream",
+    "implementation": "Exact visual stroke formula is part of G2. CODE qualifies it within same death source/draw scope; no event/audio creation. Optional pivot/rotation/uniformScale is necessary for shards; stroke support must be explicitly validated, no silent drop."
+  }
+}
