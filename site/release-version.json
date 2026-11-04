@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.20-formal-entry-standard-start-am-public-v2",
-  "sourceId": "5ca1435b0411e7448e4e39d8d154769934b54329a8ac5d3aebd2bb52c70b1202",
-  "publicDerivationID": "5ca1435b0411e7448e4e39d8d154769934b54329a8ac5d3aebd2bb52c70b1202",
+  "version": "2026.11.04-code-12-45k-public-v1",
+  "sourceId": "f0513c6fc15186db3ae2ebcc43dbd2448ae3dbb9834b870f094f0b3f96fe2632",
+  "publicDerivationID": "f0513c6fc15186db3ae2ebcc43dbd2448ae3dbb9834b870f094f0b3f96fe2632",
   "resourceSHA256": "c8463717be3bf43dcf7c3da0e53fcf87ac00c1e9e28d40ec8fcb25504276d6f6",
   "channel": "formal-release",
   "selector": "default-no-query",
@@ -9,16 +9,10 @@
   "entryMode": "formal",
   "publicBase": "/codex-rts-play/",
   "latestArtifactReplayOnly": true,
-  "acceptedAL": {
-    "version": "2026.10.20-formal-entry-standard-start-al-v1",
-    "sourceCommit": "aeab8e0a5b15f91a031d5eb3029b3a02a4975452",
-    "sourceId": "89237dc625ab81e92a6a8301dbfb85cea3a84c730c89370f270e83858486d101",
-    "resourceSHA256": "f90496a695d5bae6f0ac0f370e9d13d9ec72e9979b5a49fa0dd0b7fad35324be"
-  },
-  "payloadManifestSHA256ExcludingReleaseVersion": "2f917080c2562f579e40aecf6f069e6b4a53b026a6372515a437fc47d7e90b18",
-  "toolSHA256": "683ea4fdf8dfc717bdd0d6eb250794e20c009762c27a585c36f25a29f5057d06",
-  "countedScienceColdBytes": 9501636,
-  "identityRule": "SHA256(canonical derivation seed: AL lineage, tool/declaration hashes and every immutable input route pin). Output identity fields are excluded to avoid self-reference; final output file hashes are separately pinned.",
   "nativePassed": false,
-  "embeddedChannelUnchanged": "candidate; formal publication authority recorded externally"
+  "countedScienceColdBytes": 9622397,
+  "formalSourceId": "f814167480c89f3f37fbd5c9a5d21a5ffc9d3fb263057ed1b600569c4722b42d",
+  "formalRuntimeManifestSHA256": "615dcf6db94808499c2464157559797546c8cdff9d069f95d0efb2b193c4887d",
+  "payloadManifestSHA256ExcludingReleaseVersion": "5ab3669b7040e85eb5f5395d4a41dfaad5776f4786d2fb274ad4440cfaffedff",
+  "toolSHA256": "027beb2bae6480ddf9ecee0b4fa73d05d6d573d313512307006b7c2c166b58b6"
 }

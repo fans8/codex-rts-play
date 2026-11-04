@@ -11,19 +11,20 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
-      - name: Verify AL lineage, AM identity, every byte and public isolation
+      - name: Verify K formal lineage, public identity, every byte and public isolation
         run: |
           python3 - <<'PYCODE'
           import json,pathlib,hashlib,re
-          m=json.load(open('deployment-manifest.json'));r=pathlib.Path('site');v=json.load(open(r/'release-version.json'))
-          EXPECTED_IDENTITY={'version':'2026.10.20-formal-entry-standard-start-am-public-v2','sourceId':'5ca1435b0411e7448e4e39d8d154769934b54329a8ac5d3aebd2bb52c70b1202','resourceSHA256':'c8463717be3bf43dcf7c3da0e53fcf87ac00c1e9e28d40ec8fcb25504276d6f6','channel':'formal-release'}
+          manifest=pathlib.Path('deployment-manifest.json').read_bytes();assert hashlib.sha256(manifest).hexdigest()=='697309d276855c0bd900c4af3a8d77d90670e5033487525f4469af2c12d63564'
+          m=json.loads(manifest);r=pathlib.Path('site');v=json.load(open(r/'release-version.json'))
+          EXPECTED_IDENTITY={'version': '2026.11.04-code-12-45k-public-v1', 'sourceId': 'f0513c6fc15186db3ae2ebcc43dbd2448ae3dbb9834b870f094f0b3f96fe2632', 'resourceSHA256': 'c8463717be3bf43dcf7c3da0e53fcf87ac00c1e9e28d40ec8fcb25504276d6f6', 'channel': 'formal-release', 'formalSourceId': 'f814167480c89f3f37fbd5c9a5d21a5ffc9d3fb263057ed1b600569c4722b42d', 'formalRuntimeManifestSHA256': '615dcf6db94808499c2464157559797546c8cdff9d069f95d0efb2b193c4887d'}
           for k,value in EXPECTED_IDENTITY.items():assert m[k]==v[k]==value,k
           assert m['ownerAcceptanceRequired'] is False and m['publicBase']=='/codex-rts-play/'
           assert m['selector']==v['selector']=='default-no-query' and v['formalDefault'] is True
-          assert m['acceptedAL']==v['acceptedAL'] and v['acceptedAL']['sourceCommit']=='aeab8e0a5b15f91a031d5eb3029b3a02a4975452'
+          assert m['entryMode']==v['entryMode']=='formal'
           assert m['publicDerivationID']==v['publicDerivationID']==m['sourceId']
-          assert m['countedScienceColdBytes']==v['countedScienceColdBytes']==9501636
-          expected={x['path']:x for x in m['files']};assert len(expected)==len(m['files'])==2436
+          assert m['countedScienceColdBytes']==v['countedScienceColdBytes']==9622397
+          expected={x['path']:x for x in m['files']};assert len(expected)==len(m['files'])==2419
           assert {str(p.relative_to(r))for p in r.rglob('*')if p.is_file()or p.is_symlink()}==set(expected)
           for n,e in expected.items():
            assert not n.startswith('/') and '..' not in pathlib.Path(n).parts
@@ -41,10 +42,10 @@ jobs:
           assert hashlib.sha256((r/'science/compact-resource-manifest-g-v1.json').read_bytes()).hexdigest()==m['resourceSHA256']
           files=[x for x in m['files']if x['path']!='release-version.json'];payload=json.dumps(files,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
           assert hashlib.sha256(payload).hexdigest()==m['payloadManifestSHA256ExcludingReleaseVersion']==v['payloadManifestSHA256ExcludingReleaseVersion']
-          print(m['version'],len(expected),'exact AL-derived public runtime files verified')
+          print(m['version'],len(expected),'exact K-derived public runtime files verified')
+          html=(r/'play/index.html').read_bytes()
           host=(r/'science/host/game.js').read_bytes()
-          for anchor in [b'const a="/codex-rts-play/sound/candidates/sound-8-2-science-vessel-full-bank-v1/"',b'function Bue(e){return BR().items.flatMap(a=>[a.master,a.codecs.opus,a.codecs.mp3]).find(a=>"/codex-rts-play/"+a.path===e)}',b'url:new URL("/codex-rts-play/"+x.url,location.href).href']:
-           assert host.count(anchor)==1
-          assert b'const a="/sound/candidates/sound-8-2-science-vessel-full-bank-v1/"'not in host and b'url:new URL("/"+x.url,location.href).href'not in host
-          print('Exact three Science audio project-base anchors verified, all other strict checks preserved.')
+          assert html.count(b'/codex-rts-play/science/host/')==2
+          assert m['sourceId'].encode() in host and m['version'].encode() in host
+          assert len([n for n in expected if n.startswith('sound/candidates/sound-8-2-science-vessel-full-bank-v1/')])==111
           PYCODE

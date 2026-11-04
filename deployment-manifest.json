@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.20-formal-entry-standard-start-am-public-v2",
-  "sourceId": "5ca1435b0411e7448e4e39d8d154769934b54329a8ac5d3aebd2bb52c70b1202",
-  "publicDerivationID": "5ca1435b0411e7448e4e39d8d154769934b54329a8ac5d3aebd2bb52c70b1202",
+  "version": "2026.11.04-code-12-45k-public-v1",
+  "sourceId": "f0513c6fc15186db3ae2ebcc43dbd2448ae3dbb9834b870f094f0b3f96fe2632",
+  "publicDerivationID": "f0513c6fc15186db3ae2ebcc43dbd2448ae3dbb9834b870f094f0b3f96fe2632",
   "resourceSHA256": "c8463717be3bf43dcf7c3da0e53fcf87ac00c1e9e28d40ec8fcb25504276d6f6",
   "channel": "formal-release",
   "selector": "default-no-query",
@@ -9,18 +9,12 @@
   "entryMode": "formal",
   "publicBase": "/codex-rts-play/",
   "latestArtifactReplayOnly": true,
-  "acceptedAL": {
-    "version": "2026.10.20-formal-entry-standard-start-al-v1",
-    "sourceCommit": "aeab8e0a5b15f91a031d5eb3029b3a02a4975452",
-    "sourceId": "89237dc625ab81e92a6a8301dbfb85cea3a84c730c89370f270e83858486d101",
-    "resourceSHA256": "f90496a695d5bae6f0ac0f370e9d13d9ec72e9979b5a49fa0dd0b7fad35324be"
-  },
-  "payloadManifestSHA256ExcludingReleaseVersion": "2f917080c2562f579e40aecf6f069e6b4a53b026a6372515a437fc47d7e90b18",
-  "toolSHA256": "683ea4fdf8dfc717bdd0d6eb250794e20c009762c27a585c36f25a29f5057d06",
-  "countedScienceColdBytes": 9501636,
-  "identityRule": "SHA256(canonical derivation seed: AL lineage, tool/declaration hashes and every immutable input route pin). Output identity fields are excluded to avoid self-reference; final output file hashes are separately pinned.",
   "nativePassed": false,
-  "embeddedChannelUnchanged": "candidate; formal publication authority recorded externally",
+  "countedScienceColdBytes": 9622397,
+  "formalSourceId": "f814167480c89f3f37fbd5c9a5d21a5ffc9d3fb263057ed1b600569c4722b42d",
+  "formalRuntimeManifestSHA256": "615dcf6db94808499c2464157559797546c8cdff9d069f95d0efb2b193c4887d",
+  "payloadManifestSHA256ExcludingReleaseVersion": "5ab3669b7040e85eb5f5395d4a41dfaad5776f4786d2fb274ad4440cfaffedff",
+  "toolSHA256": "027beb2bae6480ddf9ecee0b4fa73d05d6d573d313512307006b7c2c166b58b6",
   "ownerAcceptanceRequired": false,
   "files": [
     {
@@ -11129,11 +11123,6 @@
       "sha256": "c5e8912207756e37ddc0485f5460ca49f5a6fb97250320c26207926276879c1f"
     },
     {
-      "path": "chunks/ReplayBrowserOverlay-dec6b68d.js",
-      "bytes": 7356,
-      "sha256": "50f0fe9fc8b4546e94ad23c1d92217f81e0752c4bcd320cdd4a32b24c4d0ec7e"
-    },
-    {
       "path": "chunks/ReplayOperationOverlay-ac8b54b3.js",
       "bytes": 1755,
       "sha256": "594df7259cbd6727495e6682a33eedf58cda65dcdc25ffdbdf922980464036a7"
@@ -11142,11 +11131,6 @@
       "path": "chunks/ReplayPlaybackPanel-17f2eec1.js",
       "bytes": 3356,
       "sha256": "5948c6b15cb2aaa681a2482ac073e94b83a6a301c8de5a6b56b2079eddec04e7"
-    },
-    {
-      "path": "chunks/armoryRuntimeVisualPilot-33077c4f.js",
-      "bytes": 111864,
-      "sha256": "f7176ef0f62feea29fc3fdf51c740a46a86afc7ff78c92b59fd0d77bdb3d56da"
     },
     {
       "path": "chunks/armoryRuntimeVisualPilot-532825a8.js",
@@ -11159,19 +11143,9 @@
       "sha256": "1f7f33695750ad6fac3cefded9733bc75a3eb41132c4eda80c27446ebf1d41dc"
     },
     {
-      "path": "chunks/barracksOwnerColorSemanticMaskRuntimePilot-79a365b5.js",
-      "bytes": 91970,
-      "sha256": "dbbb64d1f7265da89713b4aac876cb091a8d207658916ce86c49158f68af3248"
-    },
-    {
       "path": "chunks/baseStreamlinedRuntimeVisualPilot-022dc37e.js",
       "bytes": 118143,
       "sha256": "b7292177059cf3a48e223b036913a590e0fb783bab46a73c9c76bac8ddd949a2"
-    },
-    {
-      "path": "chunks/baseStreamlinedRuntimeVisualPilot-0fb1ebd5.js",
-      "bytes": 118143,
-      "sha256": "69389f6f450d44d11b845dccbbdb1417195c53a0f91a2783c83e05af6e365cb5"
     },
     {
       "path": "chunks/bunkerGarrisonRuntimeAssetUrls-862ca088.js",
@@ -11184,34 +11158,14 @@
       "sha256": "4bef77728be7fdbaf2fecbdc02f38057f5640d8823f0f80d9c3805bc86712a44"
     },
     {
-      "path": "chunks/controlTowerRuntimeVisualPilot-c96d471c.js",
-      "bytes": 115611,
-      "sha256": "83d528a73c00212ef581084c48c4551fb54478147e32ca5d99bc6362b4f73fbe"
-    },
-    {
       "path": "chunks/factoryOwnerColorSemanticMaskRuntimePilot-9f078226.js",
       "bytes": 93785,
       "sha256": "451fe4869e55a3e2b9b72ac0d83af0bbafc918e4ada6a2ebe1c8c4e3d030b56e"
     },
     {
-      "path": "chunks/factoryOwnerColorSemanticMaskRuntimePilot-bc8d119d.js",
-      "bytes": 93785,
-      "sha256": "6acf986a4d2581f0aade8c88bf72fc7d58b90a909d445b6481329f683f4b6686"
-    },
-    {
-      "path": "chunks/geyserRefineryRuntimeVisualPilot-210da745.js",
-      "bytes": 125014,
-      "sha256": "156bdcde2047abcebe9f16f77add1942f6569365d659a35c6b00be34ba83d53a"
-    },
-    {
       "path": "chunks/geyserRefineryRuntimeVisualPilot-219ba65e.js",
       "bytes": 125014,
       "sha256": "a0fc7867b41d451288e4438c6afe11383884e3333065a170c983fcc792ee781a"
-    },
-    {
-      "path": "chunks/machineShopRuntimeVisualPilot-46ef364f.js",
-      "bytes": 114478,
-      "sha256": "b3aca35acce631bb41192e61d9e1de643fec880de72c6c37d5cb593267619953"
     },
     {
       "path": "chunks/machineShopRuntimeVisualPilot-f62fb0ad.js",
@@ -11224,16 +11178,6 @@
       "sha256": "2e335659fc8d76f857276a4d8f91e76de11c1b0ce9f6c42a6274e819a15db5d7"
     },
     {
-      "path": "chunks/mineralFieldRuntimeVisualPilot-eefb838d.js",
-      "bytes": 56925,
-      "sha256": "202b51b7d54200272ec5f87828407a2c982ba6b288bf77967dddcac3c6a94c1c"
-    },
-    {
-      "path": "chunks/raiderDeathWreckRuntimePilot-12875c0f.js",
-      "bytes": 180079,
-      "sha256": "0301282d7203f9768ca8507f05e132ef8d363455bfe76e679ae3b1c9b20e6feb"
-    },
-    {
       "path": "chunks/raiderDeathWreckRuntimePilot-5a6d5e63.js",
       "bytes": 180079,
       "sha256": "9141d9854f2e9b85808f694ab81d9d7b753332565c86b2685ca8b2e923c6fc2b"
@@ -11242,11 +11186,6 @@
       "path": "chunks/scienceFacilityRuntimeVisualPilot-8a44011b.js",
       "bytes": 153688,
       "sha256": "64cc1795c79e34e8c2e249edc686b6b922c3a6c56944d7df2d6473ea938b9837"
-    },
-    {
-      "path": "chunks/scienceFacilityRuntimeVisualPilot-913b8bd9.js",
-      "bytes": 153688,
-      "sha256": "b2e85c7925e25c7b14bd704b6c707b6c40a28d99fe700906dc2ade366d07b948"
     },
     {
       "path": "chunks/semanticOwnerPresentationCanvas-c14d52da.js",
@@ -11259,34 +11198,14 @@
       "sha256": "b09dd4326d2e0bfd6a3e1c188bb4cded62f2bd9d54c47158d46197aa18d67446"
     },
     {
-      "path": "chunks/soldierOwnerColorSemanticMaskRuntimePilot-f9087132.js",
-      "bytes": 1028397,
-      "sha256": "74c32114dd7263050be6b9a7139e7142eff4e04bee22c8b4e4a886cd216ef557"
-    },
-    {
       "path": "chunks/starportRuntimeVisualPilot-2b62bcb2.js",
       "bytes": 114810,
       "sha256": "e5ca7c1132dd4522b4873c331168f1835ad23d8f7424b8e260f42f95951774f3"
     },
     {
-      "path": "chunks/starportRuntimeVisualPilot-4a453a8d.js",
-      "bytes": 114810,
-      "sha256": "109b58af63ab08e66d3306dcd06f654bd8e6c5a15ed38df5531976de038d04e5"
-    },
-    {
-      "path": "chunks/supplyDepotRuntimeVisualPilot-639f3aa6.js",
-      "bytes": 143916,
-      "sha256": "0360d329ada3da24f5651c5f4d9c83a0be4a05315e8cb3d3a1a53833a3a89998"
-    },
-    {
       "path": "chunks/supplyDepotRuntimeVisualPilot-d335a06e.js",
       "bytes": 143916,
       "sha256": "53d6e3b9e10acebe4aec3758cefd530b104bbf2e9f28590135dc263aee4e6756"
-    },
-    {
-      "path": "chunks/unitAnimationCandidateSprites-47d6282a.js",
-      "bytes": 38521,
-      "sha256": "5ed57e3d31758fe794478dbe3a518de3f2070b427a0c3e003146f7edc67fcce1"
     },
     {
       "path": "chunks/unitAnimationCandidateSprites-c95a4263.js",
@@ -11297,16 +11216,6 @@
       "path": "chunks/workerModularCargoRuntimePilot-412bfdbd.js",
       "bytes": 801801,
       "sha256": "8106a027dd57786dc20c0e953911a66fbd69e1cb94f7f26837a9dc2a51043c07"
-    },
-    {
-      "path": "chunks/workerModularCargoRuntimePilot-b18e6e6a.js",
-      "bytes": 801801,
-      "sha256": "3102bbd8300cb1b122309e73367a35fcb1016a5601de9674065712f3fddf06eb"
-    },
-    {
-      "path": "chunks/workerOwnerColorSemanticMaskRuntimePilot-48cb3ff7.js",
-      "bytes": 1036993,
-      "sha256": "fba105135838b31924e1795535419f6e0a036aae80d769f5c76b343642583579"
     },
     {
       "path": "chunks/workerOwnerColorSemanticMaskRuntimePilot-d79f9e2e.js",
@@ -11320,8 +11229,8 @@
     },
     {
       "path": "game.js",
-      "bytes": 8055653,
-      "sha256": "f820cf5c0e1d37e421f04718b6defca41d74266895eeea03f665728cd5bcd94a"
+      "bytes": 8176414,
+      "sha256": "025ecb6d6dc2ffc18c95928fcf44c9a60101c8286ff0fb1e5470e3fb0c456d2c"
     },
     {
       "path": "index.html",
@@ -11335,8 +11244,8 @@
     },
     {
       "path": "release-version.json",
-      "bytes": 1439,
-      "sha256": "110dad75cfd4368fea92ca4252aee185637c45ad6f6dc4cfbd7fffd7b4102a5f"
+      "bytes": 955,
+      "sha256": "b039c0c1094bd51212c007122e366f17d4b4946619baaa592a678df560501def"
     },
     {
       "path": "science/code/science-vessel-compact-presentation-v1.mjs",
@@ -11475,8 +11384,8 @@
     },
     {
       "path": "science/host/game.js",
-      "bytes": 8055653,
-      "sha256": "f820cf5c0e1d37e421f04718b6defca41d74266895eeea03f665728cd5bcd94a"
+      "bytes": 8176414,
+      "sha256": "025ecb6d6dc2ffc18c95928fcf44c9a60101c8286ff0fb1e5470e3fb0c456d2c"
     },
     {
       "path": "science/host/index.html",
