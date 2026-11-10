@@ -11,41 +11,36 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
-      - name: Verify K formal lineage, public identity, every byte and public isolation
+      - name: Verify v4 formal lineage, public identity, every byte and public isolation
         run: |
           python3 - <<'PYCODE'
           import json,pathlib,hashlib,re
-          manifest=pathlib.Path('deployment-manifest.json').read_bytes();assert hashlib.sha256(manifest).hexdigest()=='697309d276855c0bd900c4af3a8d77d90670e5033487525f4469af2c12d63564'
+          manifest=pathlib.Path('deployment-manifest.json').read_bytes();assert hashlib.sha256(manifest).hexdigest()=='1ab35da10fda917823d9600f6e7b96afe334d55ef6a65fdd6a5c719fb9fd0893'
           m=json.loads(manifest);r=pathlib.Path('site');v=json.load(open(r/'release-version.json'))
-          EXPECTED_IDENTITY={'version': '2026.11.04-code-12-45k-public-v1', 'sourceId': 'f0513c6fc15186db3ae2ebcc43dbd2448ae3dbb9834b870f094f0b3f96fe2632', 'resourceSHA256': 'c8463717be3bf43dcf7c3da0e53fcf87ac00c1e9e28d40ec8fcb25504276d6f6', 'channel': 'formal-release', 'formalSourceId': 'f814167480c89f3f37fbd5c9a5d21a5ffc9d3fb263057ed1b600569c4722b42d', 'formalRuntimeManifestSHA256': '615dcf6db94808499c2464157559797546c8cdff9d069f95d0efb2b193c4887d'}
+          EXPECTED_IDENTITY={'version': '2026.11.10-code-12-46d-v4-public-v1', 'sourceId': '987cceb879d3ab023c2b2fe31ccd859e4893a4ca69f06f2a6c8124c6661ea63d', 'resourceSHA256': 'c8463717be3bf43dcf7c3da0e53fcf87ac00c1e9e28d40ec8fcb25504276d6f6', 'channel': 'formal-release', 'formalSourceId': '2ac4f1e830a2c18a0d08921d3b497cedfc1ac89f2c8a7327e9f77999cd59551d', 'formalRuntimeManifestSHA256': '1de14ea9af5b94b9fd304fcd6fe9f58fbad5c6d86eb22da65f8aef8da8cef433'}
           for k,value in EXPECTED_IDENTITY.items():assert m[k]==v[k]==value,k
-          assert m['ownerAcceptanceRequired'] is False and m['publicBase']=='/codex-rts-play/'
-          assert m['selector']==v['selector']=='default-no-query' and v['formalDefault'] is True
+          assert m['publicBase']==v['publicBase']=='/codex-rts-play/'
+          assert m['selector']==v['selector']=='default-no-query' and m['formalDefault'] is v['formalDefault'] is True
           assert m['entryMode']==v['entryMode']=='formal'
           assert m['publicDerivationID']==v['publicDerivationID']==m['sourceId']
-          assert m['countedScienceColdBytes']==v['countedScienceColdBytes']==9622397
-          expected={x['path']:x for x in m['files']};assert len(expected)==len(m['files'])==2419
-          assert {str(p.relative_to(r))for p in r.rglob('*')if p.is_file()or p.is_symlink()}==set(expected)
+          expected={x['path']:x for x in m['files']};assert len(expected)==len(m['files'])==2440
+          assert {str(p.relative_to(r)) for p in r.rglob('*') if p.is_file() or p.is_symlink()}==set(expected)
           for n,e in expected.items():
            assert not n.startswith('/') and '..' not in pathlib.Path(n).parts
-           p=r/n;assert not p.is_symlink();b=p.read_bytes();assert len(b)==e['bytes']and hashlib.sha256(b).hexdigest()==e['sha256'],n
-           assert p.suffix!='.map'and not n.startswith(('src/','docs/','internal/','tests/'))and not b.startswith(b'version https://git-lfs.github.com/spec/v1')
+           p=r/n;assert not p.is_symlink();b=p.read_bytes();assert len(b)==e['bytes'] and hashlib.sha256(b).hexdigest()==e['sha256'],n
+           assert p.suffix!='.map' and not n.startswith(('src/','docs/','internal/','tests/')) and not b.startswith(b'version https://git-lfs.github.com/spec/v1')
            if p.suffix in ['.js','.mjs','.json','.html','.css','.svg','.txt']:
             assert not re.search(rb'/Users/|/private/|\.private/|codex_import|sourceMappingURL=|BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY|gh[pousr]_[A-Za-z0-9]{30,}|AKIA[0-9A-Z]{16}',b),n
             context=b'new URL(e,typeof location>"u"?"http://localhost/":location.href)'
-            if n in ['game.js','science/host/game.js']:
-             assert b.count(context)==1,n
-             b=b.replace(context,b'')
-            assert all(t not in b for t in [b'__wardenQa',b'__healthbarQa',b'__missileTurretQa',b'__unitPolishQa',b'localhost',b'127.0.0.1',b'__shadeQa',b'__transportQa',b'__raider16Qa',b'__raiderPersistentWreckQa']),n
+            if n in ['game.js','science/host/game.js']:assert b.count(context)==1;b=b.replace(context,b'')
+            assert all(t not in b for t in [b'__skyguardQa',b'__wardenQa',b'__healthbarQa',b'__missileTurretQa',b'__unitPolishQa',b'localhost',b'127.0.0.1',b'__shadeQa',b'__transportQa',b'__raider16Qa',b'__raiderPersistentWreckQa']),n
           assert (r/'index.html').read_bytes()==(r/'play/index.html').read_bytes()==(r/'science/host/index.html').read_bytes()
-          assert (r/'game.js').read_bytes()==(r/'science/host/game.js').read_bytes()
           assert hashlib.sha256((r/'science/compact-resource-manifest-g-v1.json').read_bytes()).hexdigest()==m['resourceSHA256']
-          files=[x for x in m['files']if x['path']!='release-version.json'];payload=json.dumps(files,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
-          assert hashlib.sha256(payload).hexdigest()==m['payloadManifestSHA256ExcludingReleaseVersion']==v['payloadManifestSHA256ExcludingReleaseVersion']
-          print(m['version'],len(expected),'exact K-derived public runtime files verified')
-          html=(r/'play/index.html').read_bytes()
-          host=(r/'science/host/game.js').read_bytes()
+          html=(r/'play/index.html').read_bytes();host=(r/'science/host/game.js').read_bytes()
+          assert hashlib.sha256((r/'game.js').read_bytes()).hexdigest()=='d10d7e4f882863e02ed9e33f0889f7225f01052075a353672db021ff8da2797e'
+          assert hashlib.sha256(host).hexdigest()=='5f4bc6cae142f3d0b288e43b1c5aa6d7b81c1fb48c686bf1e1924a0cbe395be4'
           assert html.count(b'/codex-rts-play/science/host/')==2
           assert m['sourceId'].encode() in host and m['version'].encode() in host
           assert len([n for n in expected if n.startswith('sound/candidates/sound-8-2-science-vessel-full-bank-v1/')])==111
+          print(m['version'],len(expected),'exact v4 public files and isolation verified')
           PYCODE

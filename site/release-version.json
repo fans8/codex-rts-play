@@ -1,7 +1,7 @@
 {
-  "version": "2026.11.04-code-12-45k-public-v1",
-  "sourceId": "f0513c6fc15186db3ae2ebcc43dbd2448ae3dbb9834b870f094f0b3f96fe2632",
-  "publicDerivationID": "f0513c6fc15186db3ae2ebcc43dbd2448ae3dbb9834b870f094f0b3f96fe2632",
+  "version": "2026.11.10-code-12-46d-v4-public-v1",
+  "sourceId": "987cceb879d3ab023c2b2fe31ccd859e4893a4ca69f06f2a6c8124c6661ea63d",
+  "publicDerivationID": "987cceb879d3ab023c2b2fe31ccd859e4893a4ca69f06f2a6c8124c6661ea63d",
   "resourceSHA256": "c8463717be3bf43dcf7c3da0e53fcf87ac00c1e9e28d40ec8fcb25504276d6f6",
   "channel": "formal-release",
   "selector": "default-no-query",
@@ -10,9 +10,7 @@
   "publicBase": "/codex-rts-play/",
   "latestArtifactReplayOnly": true,
   "nativePassed": false,
-  "countedScienceColdBytes": 9622397,
-  "formalSourceId": "f814167480c89f3f37fbd5c9a5d21a5ffc9d3fb263057ed1b600569c4722b42d",
-  "formalRuntimeManifestSHA256": "615dcf6db94808499c2464157559797546c8cdff9d069f95d0efb2b193c4887d",
-  "payloadManifestSHA256ExcludingReleaseVersion": "5ab3669b7040e85eb5f5395d4a41dfaad5776f4786d2fb274ad4440cfaffedff",
-  "toolSHA256": "027beb2bae6480ddf9ecee0b4fa73d05d6d573d313512307006b7c2c166b58b6"
+  "formalSourceId": "2ac4f1e830a2c18a0d08921d3b497cedfc1ac89f2c8a7327e9f77999cd59551d",
+  "formalRuntimeManifestSHA256": "1de14ea9af5b94b9fd304fcd6fe9f58fbad5c6d86eb22da65f8aef8da8cef433",
+  "toolSHA256": "4854b9b3032ce2e9858e1a2416149e71fa2d520577f50355309a9e91c703c3b4"
 }
