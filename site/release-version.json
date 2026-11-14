@@ -1,16 +1,13 @@
 {
-  "version": "2026.11.10-code-12-46d-v4-public-v1",
-  "sourceId": "987cceb879d3ab023c2b2fe31ccd859e4893a4ca69f06f2a6c8124c6661ea63d",
-  "publicDerivationID": "987cceb879d3ab023c2b2fe31ccd859e4893a4ca69f06f2a6c8124c6661ea63d",
-  "resourceSHA256": "c8463717be3bf43dcf7c3da0e53fcf87ac00c1e9e28d40ec8fcb25504276d6f6",
+  "version": "2026.11.14-code-12-47o-public-v2",
+  "sourceId": "2f42bdf6d35e78ba5f6ad03aa186f48fcb3babacd73bf81671c1833504e6d631",
+  "publicDerivationID": "2f42bdf6d35e78ba5f6ad03aa186f48fcb3babacd73bf81671c1833504e6d631",
+  "formalSourceId": "e1e3ff4f794115deddffe0971dbabd9bc7a95c3bcc851fc431014ee4b0ab35a1",
+  "formalRuntimeManifestSHA256": "82698db59d584d8792228e0637d2856e905eb89b2ec5a6e6556aff464e9a4051",
+  "resourceSHA256": "bd526eb2a0a98d95256a8d2682a696b242fe4cd0d688d20d9e91e5831268d122",
   "channel": "formal-release",
-  "selector": "default-no-query",
+  "publicBase": "/codex-rts-play/",
   "formalDefault": true,
   "entryMode": "formal",
-  "publicBase": "/codex-rts-play/",
-  "latestArtifactReplayOnly": true,
-  "nativePassed": false,
-  "formalSourceId": "2ac4f1e830a2c18a0d08921d3b497cedfc1ac89f2c8a7327e9f77999cd59551d",
-  "formalRuntimeManifestSHA256": "1de14ea9af5b94b9fd304fcd6fe9f58fbad5c6d86eb22da65f8aef8da8cef433",
-  "toolSHA256": "4854b9b3032ce2e9858e1a2416149e71fa2d520577f50355309a9e91c703c3b4"
+  "selector": "default-no-query"
 }

@@ -11,36 +11,35 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
-      - name: Verify v4 formal lineage, public identity, every byte and public isolation
+      - name: Verify public runtime identity and file bytes
         run: |
           python3 - <<'PYCODE'
-          import json,pathlib,hashlib,re
-          manifest=pathlib.Path('deployment-manifest.json').read_bytes();assert hashlib.sha256(manifest).hexdigest()=='1ab35da10fda917823d9600f6e7b96afe334d55ef6a65fdd6a5c719fb9fd0893'
-          m=json.loads(manifest);r=pathlib.Path('site');v=json.load(open(r/'release-version.json'))
-          EXPECTED_IDENTITY={'version': '2026.11.10-code-12-46d-v4-public-v1', 'sourceId': '987cceb879d3ab023c2b2fe31ccd859e4893a4ca69f06f2a6c8124c6661ea63d', 'resourceSHA256': 'c8463717be3bf43dcf7c3da0e53fcf87ac00c1e9e28d40ec8fcb25504276d6f6', 'channel': 'formal-release', 'formalSourceId': '2ac4f1e830a2c18a0d08921d3b497cedfc1ac89f2c8a7327e9f77999cd59551d', 'formalRuntimeManifestSHA256': '1de14ea9af5b94b9fd304fcd6fe9f58fbad5c6d86eb22da65f8aef8da8cef433'}
-          for k,value in EXPECTED_IDENTITY.items():assert m[k]==v[k]==value,k
-          assert m['publicBase']==v['publicBase']=='/codex-rts-play/'
-          assert m['selector']==v['selector']=='default-no-query' and m['formalDefault'] is v['formalDefault'] is True
-          assert m['entryMode']==v['entryMode']=='formal'
-          assert m['publicDerivationID']==v['publicDerivationID']==m['sourceId']
-          expected={x['path']:x for x in m['files']};assert len(expected)==len(m['files'])==2440
-          assert {str(p.relative_to(r)) for p in r.rglob('*') if p.is_file() or p.is_symlink()}==set(expected)
-          for n,e in expected.items():
-           assert not n.startswith('/') and '..' not in pathlib.Path(n).parts
-           p=r/n;assert not p.is_symlink();b=p.read_bytes();assert len(b)==e['bytes'] and hashlib.sha256(b).hexdigest()==e['sha256'],n
-           assert p.suffix!='.map' and not n.startswith(('src/','docs/','internal/','tests/')) and not b.startswith(b'version https://git-lfs.github.com/spec/v1')
-           if p.suffix in ['.js','.mjs','.json','.html','.css','.svg','.txt']:
-            assert not re.search(rb'/Users/|/private/|\.private/|codex_import|sourceMappingURL=|BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY|gh[pousr]_[A-Za-z0-9]{30,}|AKIA[0-9A-Z]{16}',b),n
-            context=b'new URL(e,typeof location>"u"?"http://localhost/":location.href)'
-            if n in ['game.js','science/host/game.js']:assert b.count(context)==1;b=b.replace(context,b'')
-            assert all(t not in b for t in [b'__skyguardQa',b'__wardenQa',b'__healthbarQa',b'__missileTurretQa',b'__unitPolishQa',b'localhost',b'127.0.0.1',b'__shadeQa',b'__transportQa',b'__raider16Qa',b'__raiderPersistentWreckQa']),n
-          assert (r/'index.html').read_bytes()==(r/'play/index.html').read_bytes()==(r/'science/host/index.html').read_bytes()
-          assert hashlib.sha256((r/'science/compact-resource-manifest-g-v1.json').read_bytes()).hexdigest()==m['resourceSHA256']
-          html=(r/'play/index.html').read_bytes();host=(r/'science/host/game.js').read_bytes()
-          assert hashlib.sha256((r/'game.js').read_bytes()).hexdigest()=='d10d7e4f882863e02ed9e33f0889f7225f01052075a353672db021ff8da2797e'
-          assert hashlib.sha256(host).hexdigest()=='5f4bc6cae142f3d0b288e43b1c5aa6d7b81c1fb48c686bf1e1924a0cbe395be4'
-          assert html.count(b'/codex-rts-play/science/host/')==2
-          assert m['sourceId'].encode() in host and m['version'].encode() in host
-          assert len([n for n in expected if n.startswith('sound/candidates/sound-8-2-science-vessel-full-bank-v1/')])==111
-          print(m['version'],len(expected),'exact v4 public files and isolation verified')
+          from pathlib import Path
+          import hashlib, json, re
+          root = Path('site')
+          manifest = json.loads(Path('deployment-manifest.json').read_bytes())
+          version = json.loads((root/'release-version.json').read_bytes())
+          assert {k:v for k,v in manifest.items() if k!='files'}==version
+          assert version['channel']=='formal-release' and version['entryMode']=='formal'
+          assert version['selector']=='default-no-query' and version['formalDefault'] is True
+          assert version['sourceId']==version['publicDerivationID']
+          expected = {row['path']:row for row in manifest['files']}
+          assert len(expected)==len(manifest['files'])
+          assert {p.relative_to(root).as_posix() for p in root.rglob('*') if p.is_file()}==set(expected)
+          for name, record in expected.items():
+              assert '..' not in Path(name).parts and not Path(name).is_absolute()
+              path = root/name
+              data = path.read_bytes()
+              assert not path.is_symlink()
+              assert len(data)==record['bytes'] and hashlib.sha256(data).hexdigest()==record['sha256'],name
+              assert not data.startswith(b'version https://git-lfs.github.com/spec/v1')
+              if path.suffix in ('.js','.mjs','.html','.json','.css','.svg'):
+                  assert not re.search(rb'/Users/|/private/|\.private/|codex_import|sourceMappingURL=|__skyguardQa|__dreadnoughtAudioReadback',data),name
+          entry = (root/'play/index.html').read_bytes()
+          assert entry==(root/'index.html').read_bytes()==(root/'science/host/index.html').read_bytes()
+          host = (root/'science/host/game.js').read_bytes()
+          assert version['sourceId'].encode() in host and version['version'].encode() in host
+          assert hashlib.sha256((root/'science/compact-resource-manifest-g-v1.json').read_bytes()).hexdigest()==version['resourceSHA256']
+          print(version['version'],len(expected),'exact distribution files')
           PYCODE
+

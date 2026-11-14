@@ -1,18 +1,15 @@
 {
-  "version": "2026.11.10-code-12-46d-v4-public-v1",
-  "sourceId": "987cceb879d3ab023c2b2fe31ccd859e4893a4ca69f06f2a6c8124c6661ea63d",
-  "publicDerivationID": "987cceb879d3ab023c2b2fe31ccd859e4893a4ca69f06f2a6c8124c6661ea63d",
-  "resourceSHA256": "c8463717be3bf43dcf7c3da0e53fcf87ac00c1e9e28d40ec8fcb25504276d6f6",
+  "version": "2026.11.14-code-12-47o-public-v2",
+  "sourceId": "2f42bdf6d35e78ba5f6ad03aa186f48fcb3babacd73bf81671c1833504e6d631",
+  "publicDerivationID": "2f42bdf6d35e78ba5f6ad03aa186f48fcb3babacd73bf81671c1833504e6d631",
+  "formalSourceId": "e1e3ff4f794115deddffe0971dbabd9bc7a95c3bcc851fc431014ee4b0ab35a1",
+  "formalRuntimeManifestSHA256": "82698db59d584d8792228e0637d2856e905eb89b2ec5a6e6556aff464e9a4051",
+  "resourceSHA256": "bd526eb2a0a98d95256a8d2682a696b242fe4cd0d688d20d9e91e5831268d122",
   "channel": "formal-release",
-  "selector": "default-no-query",
+  "publicBase": "/codex-rts-play/",
   "formalDefault": true,
   "entryMode": "formal",
-  "publicBase": "/codex-rts-play/",
-  "latestArtifactReplayOnly": true,
-  "nativePassed": false,
-  "formalSourceId": "2ac4f1e830a2c18a0d08921d3b497cedfc1ac89f2c8a7327e9f77999cd59551d",
-  "formalRuntimeManifestSHA256": "1de14ea9af5b94b9fd304fcd6fe9f58fbad5c6d86eb22da65f8aef8da8cef433",
-  "toolSHA256": "4854b9b3032ce2e9858e1a2416149e71fa2d520577f50355309a9e91c703c3b4",
+  "selector": "default-no-query",
   "files": [
     {
       "path": "assets/armoryRuntimeVisualPilot-2a92c3ba.js",
@@ -6115,11 +6112,6 @@
       "sha256": "7f661a34248f4dd7b903610e8be4b4df3df94cacfbce01aa6a707f244fb61cc3"
     },
     {
-      "path": "assets/neutral-body-page-0-802a0fce.webp",
-      "bytes": 349732,
-      "sha256": "802a0fce0ca2275d6d128083a88274f5d74e2f7a4f10c6fc93ece4bf6cf21dea"
-    },
-    {
       "path": "assets/neutral-body-page-0-a00dcd4b.webp",
       "bytes": 806460,
       "sha256": "a00dcd4b399dfceefdb28e0e8fd3546c28dee0f447c2c32a613cf6cd17bacfa4"
@@ -6148,11 +6140,6 @@
       "path": "assets/neutral-body-page-0-bec4a26d.webp",
       "bytes": 143832,
       "sha256": "bec4a26d3e3084415a8bbbd6c99fa5a54a3a5efa0ba1e236540486bcde9d1bab"
-    },
-    {
-      "path": "assets/neutral-body-page-0-cdfdd761.webp",
-      "bytes": 157354,
-      "sha256": "cdfdd76144a197ec83ccc8e3831d8dff67c4dfddb214a1815c406618afe9b64f"
     },
     {
       "path": "assets/neutral-body-page-0-d4fd36f1.webp",
@@ -6195,11 +6182,6 @@
       "sha256": "617728fff3abbe05c269c66a635700d81e72bf2c746aff492254be6fdbf3b978"
     },
     {
-      "path": "assets/owner-mask-page-0-0ca30881.webp",
-      "bytes": 35466,
-      "sha256": "0ca30881f9be9a7f6e9455fe5c9ba50c31780ba5805612e2496df806c4337c6b"
-    },
-    {
       "path": "assets/owner-mask-page-0-16a67d19.webp",
       "bytes": 96786,
       "sha256": "16a67d193a96f6ba92ebcd7ba58d5e53669da3d11794fb72c5ffcedf1e71a9d1"
@@ -6213,11 +6195,6 @@
       "path": "assets/owner-mask-page-0-210dbbc2.webp",
       "bytes": 36678,
       "sha256": "210dbbc2fef06761365ddeb5bd12dcce23d6764f9d0cc62e3f04289f13b1d9a2"
-    },
-    {
-      "path": "assets/owner-mask-page-0-27ce2006.webp",
-      "bytes": 62794,
-      "sha256": "27ce200614add12d20c0438bf36496bc776d28564102b97a35cb59db1637c014"
     },
     {
       "path": "assets/owner-mask-page-0-2d3cf775.webp",
@@ -11215,6 +11192,521 @@
       "sha256": "31f5bcc04b35f352dae4712dcfa61dcf90b79c2a1daa065c86f46c3d75935c70"
     },
     {
+      "path": "dreadnought-audio-v1/audio/2eb8f427fe624fbe7f557b9f686efc3baa445809f443c2a49712165b461c31cc.wav",
+      "bytes": 244902,
+      "sha256": "2eb8f427fe624fbe7f557b9f686efc3baa445809f443c2a49712165b461c31cc"
+    },
+    {
+      "path": "dreadnought-audio-v1/audio/2fc5d5bfb50b37fafcce1a78b9a75e3261993aa00256d0e0f211c86551c5e27a.wav",
+      "bytes": 374502,
+      "sha256": "2fc5d5bfb50b37fafcce1a78b9a75e3261993aa00256d0e0f211c86551c5e27a"
+    },
+    {
+      "path": "dreadnought-audio-v1/audio/35371390592a4655013bfc23884b96e6227ee2fd4f4e7168105a7d4d0a1d3cf9.wav",
+      "bytes": 576102,
+      "sha256": "35371390592a4655013bfc23884b96e6227ee2fd4f4e7168105a7d4d0a1d3cf9"
+    },
+    {
+      "path": "dreadnought-audio-v1/audio/38954cf983baa567e75f456f463a6aa3dce24fee75f77ca30afee30acdab5e36.wav",
+      "bytes": 280902,
+      "sha256": "38954cf983baa567e75f456f463a6aa3dce24fee75f77ca30afee30acdab5e36"
+    },
+    {
+      "path": "dreadnought-audio-v1/audio/4ba025b742f9a1e17d785d5b595e86a59fc2fcb0b89e07d5e5598fc980b6e4aa.wav",
+      "bytes": 576102,
+      "sha256": "4ba025b742f9a1e17d785d5b595e86a59fc2fcb0b89e07d5e5598fc980b6e4aa"
+    },
+    {
+      "path": "dreadnought-audio-v1/audio/51ad9ab4227f3b1760e4687d2a6cd3320bc1f91fe112495c7aa6dd4c890f7838.wav",
+      "bytes": 424902,
+      "sha256": "51ad9ab4227f3b1760e4687d2a6cd3320bc1f91fe112495c7aa6dd4c890f7838"
+    },
+    {
+      "path": "dreadnought-audio-v1/audio/5d4e0a4dac543e4fdcd4981ec8acccd08025f9c6600a48ba597730077de81474.wav",
+      "bytes": 362982,
+      "sha256": "5d4e0a4dac543e4fdcd4981ec8acccd08025f9c6600a48ba597730077de81474"
+    },
+    {
+      "path": "dreadnought-audio-v1/audio/65f2ffdbf920954063579957090589743b96a78bdebadd3e161a828ef0ba8220.wav",
+      "bytes": 216102,
+      "sha256": "65f2ffdbf920954063579957090589743b96a78bdebadd3e161a828ef0ba8220"
+    },
+    {
+      "path": "dreadnought-audio-v1/audio/9eadf18d3bb34dc91dbef28b04f08a005bdaf0b0dcbe88285319abd5fda0ae7d.wav",
+      "bytes": 237702,
+      "sha256": "9eadf18d3bb34dc91dbef28b04f08a005bdaf0b0dcbe88285319abd5fda0ae7d"
+    },
+    {
+      "path": "dreadnought-audio-v1/audio/a8ded8cb091226e7d164308983afce50ed1f8e6d82938afc8a4aba5d0228c451.wav",
+      "bytes": 349302,
+      "sha256": "a8ded8cb091226e7d164308983afce50ed1f8e6d82938afc8a4aba5d0228c451"
+    },
+    {
+      "path": "dreadnought-audio-v1/audio/ed86e9107c3f227398eb68b8e0dc864306bc5cd9a22db3bfd5ca5b612baa2d73.wav",
+      "bytes": 363702,
+      "sha256": "ed86e9107c3f227398eb68b8e0dc864306bc5cd9a22db3bfd5ca5b612baa2d73"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/01243f7187627cdf6255ae1285c3de4f4904dcecedb1b5e9ab39aeb02c03c797.webp",
+      "bytes": 107698,
+      "sha256": "01243f7187627cdf6255ae1285c3de4f4904dcecedb1b5e9ab39aeb02c03c797"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/050d3b0542f38a8641bda767b1b2e656839e5760a5d054f916be9a25cf6c7f56.webp",
+      "bytes": 17202,
+      "sha256": "050d3b0542f38a8641bda767b1b2e656839e5760a5d054f916be9a25cf6c7f56"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/0a3cfecc28f0ab404e941e56660c1da2a7cef0384e49f58214d325efd17c85d2.webp",
+      "bytes": 5086,
+      "sha256": "0a3cfecc28f0ab404e941e56660c1da2a7cef0384e49f58214d325efd17c85d2"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/0b3fd9769cf5796ddde795b92c1239f91dd9cffc2ebfb4eb612575f884c7e391.webp",
+      "bytes": 6170,
+      "sha256": "0b3fd9769cf5796ddde795b92c1239f91dd9cffc2ebfb4eb612575f884c7e391"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/0dcb44ae489d922a7aa65cfd2166bf7aec942c14a0689357cea3321dbf47dbcf.webp",
+      "bytes": 726,
+      "sha256": "0dcb44ae489d922a7aa65cfd2166bf7aec942c14a0689357cea3321dbf47dbcf"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/10cdfababdccea05c2dbd3ddadbcb1d8f519c6404b3d7741251b289a0300f405.webp",
+      "bytes": 2918,
+      "sha256": "10cdfababdccea05c2dbd3ddadbcb1d8f519c6404b3d7741251b289a0300f405"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/112c6ea80ed3c9b0f38f0d3a33757ee1148879eec291c6a18ccb6010bc617ab3.webp",
+      "bytes": 504,
+      "sha256": "112c6ea80ed3c9b0f38f0d3a33757ee1148879eec291c6a18ccb6010bc617ab3"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/148a4a71548dbcea5afb355830b68e64a25675a42e5e3a9af9d273b6e44c967d.webp",
+      "bytes": 878,
+      "sha256": "148a4a71548dbcea5afb355830b68e64a25675a42e5e3a9af9d273b6e44c967d"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/153194f0fb3cdd095916a0f044b0298515204932b210c53d15ce8a45c6e7a17a.webp",
+      "bytes": 21048,
+      "sha256": "153194f0fb3cdd095916a0f044b0298515204932b210c53d15ce8a45c6e7a17a"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/181d3a61ddcd58db7645539cad13b48b80bb676df77166b5bf7cce80bfa0ba69.webp",
+      "bytes": 25746,
+      "sha256": "181d3a61ddcd58db7645539cad13b48b80bb676df77166b5bf7cce80bfa0ba69"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/2016ab494d2e81a32f6a3fe28c03855135178f32de86d2cc5c3e6ceb862871e3.webp",
+      "bytes": 9628,
+      "sha256": "2016ab494d2e81a32f6a3fe28c03855135178f32de86d2cc5c3e6ceb862871e3"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/25d5bff412535b31683243f8072a1e2ea3e0397cc3debaf39c4b84a62aede08b.webp",
+      "bytes": 4780,
+      "sha256": "25d5bff412535b31683243f8072a1e2ea3e0397cc3debaf39c4b84a62aede08b"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/26effc8be3a6b21a8bebf51c600919e543f067becc71280e8cc284f1df16b57a.webp",
+      "bytes": 2472,
+      "sha256": "26effc8be3a6b21a8bebf51c600919e543f067becc71280e8cc284f1df16b57a"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/28e418957b90500d61341d2a8e18f04f73a9cec3c6b6a670b3802b474da8038e.webp",
+      "bytes": 5874,
+      "sha256": "28e418957b90500d61341d2a8e18f04f73a9cec3c6b6a670b3802b474da8038e"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/2a3703e270ed2576acbc077477cde913a9b71a867114a29adca5c0cddf40ff94.webp",
+      "bytes": 44834,
+      "sha256": "2a3703e270ed2576acbc077477cde913a9b71a867114a29adca5c0cddf40ff94"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/2b21e19d85bddecb4e2828d69797f6655f3a162ce66759b07c903aeaf23c85fa.webp",
+      "bytes": 41026,
+      "sha256": "2b21e19d85bddecb4e2828d69797f6655f3a162ce66759b07c903aeaf23c85fa"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/2b941bc9aa6a99e9d2de7d23ff6a99f4552e8d670c8d9245d4c2980516f369db.webp",
+      "bytes": 43282,
+      "sha256": "2b941bc9aa6a99e9d2de7d23ff6a99f4552e8d670c8d9245d4c2980516f369db"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/2c0a32783191da5a78b73ab604ad325b1b578197df46e40b5047bf1ac197523e.webp",
+      "bytes": 14020,
+      "sha256": "2c0a32783191da5a78b73ab604ad325b1b578197df46e40b5047bf1ac197523e"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/33bf900a855121e4bcd15de93a8b131cef039032dfd7a536c6b34364c505fc17.webp",
+      "bytes": 10872,
+      "sha256": "33bf900a855121e4bcd15de93a8b131cef039032dfd7a536c6b34364c505fc17"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/38357d94baede171e1023eb10f91a2aaff01d1342b3af05c1acccd5fc1177142.webp",
+      "bytes": 39098,
+      "sha256": "38357d94baede171e1023eb10f91a2aaff01d1342b3af05c1acccd5fc1177142"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/3af031099318992d25be0b42ac3a926fbe7195c5e0214d1b5eadcb05e9bf568c.webp",
+      "bytes": 8016,
+      "sha256": "3af031099318992d25be0b42ac3a926fbe7195c5e0214d1b5eadcb05e9bf568c"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/3e0c1488f635ebffbad3e813fa83eda99d3123b243a76280801e6438b763d7bb.webp",
+      "bytes": 9950,
+      "sha256": "3e0c1488f635ebffbad3e813fa83eda99d3123b243a76280801e6438b763d7bb"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/4042dc9672e6fd7c47d5d47212a0897d2bb51791b3edc3d138756e12fa5ad5d2.webp",
+      "bytes": 1334,
+      "sha256": "4042dc9672e6fd7c47d5d47212a0897d2bb51791b3edc3d138756e12fa5ad5d2"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/43b343f13d2bc54ca37516023496d94051c165fe1dc56e4d3e41ba94a532fa4b.webp",
+      "bytes": 3088,
+      "sha256": "43b343f13d2bc54ca37516023496d94051c165fe1dc56e4d3e41ba94a532fa4b"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/454bd25afa5d510d446fde46764c2969a7926c1475b5eb26f4b7422cff05254f.webp",
+      "bytes": 5548,
+      "sha256": "454bd25afa5d510d446fde46764c2969a7926c1475b5eb26f4b7422cff05254f"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/455abdbf373bfb3a3a29cad521b1bd18e79190950cbc30e2d61b13f8b3094c76.webp",
+      "bytes": 268,
+      "sha256": "455abdbf373bfb3a3a29cad521b1bd18e79190950cbc30e2d61b13f8b3094c76"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/45d1bf5cbcb87a00bcccf1607fd12056c2ccecbe9a3799b9f4dfbe66201cd782.webp",
+      "bytes": 247396,
+      "sha256": "45d1bf5cbcb87a00bcccf1607fd12056c2ccecbe9a3799b9f4dfbe66201cd782"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/4636141db837e0388548513675d7f11c209bb1c814549035310e752a3795b957.webp",
+      "bytes": 138,
+      "sha256": "4636141db837e0388548513675d7f11c209bb1c814549035310e752a3795b957"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/496f334c9b5677ad902471b12fc6ffd0a5d1b4b86809e9e0aa9bb42fc3bc6dca.webp",
+      "bytes": 5778,
+      "sha256": "496f334c9b5677ad902471b12fc6ffd0a5d1b4b86809e9e0aa9bb42fc3bc6dca"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/4ab94123a058e3b485990ab92e32fa61ddd30fcdf9454f06608f25316cd4c188.webp",
+      "bytes": 5752,
+      "sha256": "4ab94123a058e3b485990ab92e32fa61ddd30fcdf9454f06608f25316cd4c188"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/5348b70c57c7730ceb40caf4d6e36e9de14f595170291a90b9c03d0321a2ae22.webp",
+      "bytes": 2966,
+      "sha256": "5348b70c57c7730ceb40caf4d6e36e9de14f595170291a90b9c03d0321a2ae22"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/588bc5bbcf8fb6f90351cdcde4027acf308e7d673f75f237c8f84fa66958ea56.webp",
+      "bytes": 14268,
+      "sha256": "588bc5bbcf8fb6f90351cdcde4027acf308e7d673f75f237c8f84fa66958ea56"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/5a7cacf16f6e96eb785bcb3ce8d97ec9280611dc1edd36e9bde334d7ba645223.webp",
+      "bytes": 20666,
+      "sha256": "5a7cacf16f6e96eb785bcb3ce8d97ec9280611dc1edd36e9bde334d7ba645223"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/64153b22afda5af89d75ca719115ef54064b5947b069c9a0f2d623af2b01ad87.webp",
+      "bytes": 17026,
+      "sha256": "64153b22afda5af89d75ca719115ef54064b5947b069c9a0f2d623af2b01ad87"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/678b59b007deca59e600dbf0ac07b5d5291578f03ef30157188ce9fc4f328236.webp",
+      "bytes": 16642,
+      "sha256": "678b59b007deca59e600dbf0ac07b5d5291578f03ef30157188ce9fc4f328236"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/68c1d6e1b0196354806b47ac9e9c97efe38b9da10be1405b38dd7bac7e210dbd.webp",
+      "bytes": 6002,
+      "sha256": "68c1d6e1b0196354806b47ac9e9c97efe38b9da10be1405b38dd7bac7e210dbd"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/6c8827a94507c37b80cf07455339b961d774c397eef148cffc0039c2dd79948a.webp",
+      "bytes": 13514,
+      "sha256": "6c8827a94507c37b80cf07455339b961d774c397eef148cffc0039c2dd79948a"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/6f41b52783d980e060c31edad9104b401b59878da675f3c8fad1e92497070551.webp",
+      "bytes": 839812,
+      "sha256": "6f41b52783d980e060c31edad9104b401b59878da675f3c8fad1e92497070551"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/6fe27fb5c1fc495bf3f98fb5f765968e5f64e89b8a4279aa1bfbd986a2520006.webp",
+      "bytes": 308,
+      "sha256": "6fe27fb5c1fc495bf3f98fb5f765968e5f64e89b8a4279aa1bfbd986a2520006"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/713c5b5b515955a3549ca57ec050aac90321e0ca634e0e709f1975b31804ff1c.webp",
+      "bytes": 1070,
+      "sha256": "713c5b5b515955a3549ca57ec050aac90321e0ca634e0e709f1975b31804ff1c"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/728cb10e562a196ae77bb7582efb12950ff238b1a7d4d10bd4b3df1c79c55ac6.webp",
+      "bytes": 2822,
+      "sha256": "728cb10e562a196ae77bb7582efb12950ff238b1a7d4d10bd4b3df1c79c55ac6"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/72b729e0f03b5638c882630a2d00eb43d134b22f977eb6fc590e9304d302278e.webp",
+      "bytes": 17512,
+      "sha256": "72b729e0f03b5638c882630a2d00eb43d134b22f977eb6fc590e9304d302278e"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/74355b4760762d86e162a2f8c86b9a305a7042ce2b5768c63feceb88bee62473.webp",
+      "bytes": 5412,
+      "sha256": "74355b4760762d86e162a2f8c86b9a305a7042ce2b5768c63feceb88bee62473"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/7a29ea134fea3895a7adadfe843711774276e2e6505250e4de9d4e649cb922f8.webp",
+      "bytes": 263078,
+      "sha256": "7a29ea134fea3895a7adadfe843711774276e2e6505250e4de9d4e649cb922f8"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/7eeb58883697ac49501a2af0a95da2e84c52d8ac22f5deba5997c24053200a2f.webp",
+      "bytes": 3032,
+      "sha256": "7eeb58883697ac49501a2af0a95da2e84c52d8ac22f5deba5997c24053200a2f"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/80167c16bc8d7d3341d28e3e84f73620986b12ff3e3b0e2863509d3844347a3c.webp",
+      "bytes": 12594,
+      "sha256": "80167c16bc8d7d3341d28e3e84f73620986b12ff3e3b0e2863509d3844347a3c"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/81e8b7a42db575a23e6b3400b89e316e953472e427ff4876aaa45e2be1bae7e5.webp",
+      "bytes": 3214,
+      "sha256": "81e8b7a42db575a23e6b3400b89e316e953472e427ff4876aaa45e2be1bae7e5"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/84c80c781baa665db70a007923c0a5af1e0a4fa912d4c941295e13890195a985.webp",
+      "bytes": 10860,
+      "sha256": "84c80c781baa665db70a007923c0a5af1e0a4fa912d4c941295e13890195a985"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/8988b69c90703e2780cbd35c4c8bc1d4284eace2699b7bf7f5307e62a28ef617.webp",
+      "bytes": 33568,
+      "sha256": "8988b69c90703e2780cbd35c4c8bc1d4284eace2699b7bf7f5307e62a28ef617"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/8a0b7b0aa79a90311a94caed49b642f566f0050cce871f50c078e7731344c94c.webp",
+      "bytes": 260808,
+      "sha256": "8a0b7b0aa79a90311a94caed49b642f566f0050cce871f50c078e7731344c94c"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/8b37700588504c3935ee5298a6ee87a62e515fac6fcd6e15847bc0caf503b7fa.webp",
+      "bytes": 843500,
+      "sha256": "8b37700588504c3935ee5298a6ee87a62e515fac6fcd6e15847bc0caf503b7fa"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/91036d30f6eb4a276992de1c5b424b62b2ef76445423bdf0ad1219c95987d0c0.webp",
+      "bytes": 1432,
+      "sha256": "91036d30f6eb4a276992de1c5b424b62b2ef76445423bdf0ad1219c95987d0c0"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/9559c334e87bfe780e904cba981fdb9bdb540d7fb4ecccb9ee1b355aa71659e6.webp",
+      "bytes": 2866,
+      "sha256": "9559c334e87bfe780e904cba981fdb9bdb540d7fb4ecccb9ee1b355aa71659e6"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/9586d01b661908e8d6bb816a5e26fac65307d734b62d0a76d3077cb371e4a967.webp",
+      "bytes": 10088,
+      "sha256": "9586d01b661908e8d6bb816a5e26fac65307d734b62d0a76d3077cb371e4a967"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/95bf0523348ad19fc44d5d2e51e05d26f2613237788f759005ac6fe386e58b5e.webp",
+      "bytes": 42942,
+      "sha256": "95bf0523348ad19fc44d5d2e51e05d26f2613237788f759005ac6fe386e58b5e"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/a23c89a9fe53ffd45abe7487693a27dffcd78139c5f07690bcb111a721451951.webp",
+      "bytes": 1686,
+      "sha256": "a23c89a9fe53ffd45abe7487693a27dffcd78139c5f07690bcb111a721451951"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/a547ddad0da716d94546d412ca095cf1c66983b6cab58e11d57960a1fb6be06b.webp",
+      "bytes": 14092,
+      "sha256": "a547ddad0da716d94546d412ca095cf1c66983b6cab58e11d57960a1fb6be06b"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/a56f7e113c52827396df548fd75a9a331cdef0cde4257ad8d11d8716654494a9.webp",
+      "bytes": 234394,
+      "sha256": "a56f7e113c52827396df548fd75a9a331cdef0cde4257ad8d11d8716654494a9"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/a6632730b291d7f64d62f6ac641beb257e68b527c3b6cd16e77503cecc0c6d85.webp",
+      "bytes": 17372,
+      "sha256": "a6632730b291d7f64d62f6ac641beb257e68b527c3b6cd16e77503cecc0c6d85"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/a946d0af1a28aee2a188bc208ac70df50d2759cf25867e87f06a36e1bdfc9c12.webp",
+      "bytes": 8700,
+      "sha256": "a946d0af1a28aee2a188bc208ac70df50d2759cf25867e87f06a36e1bdfc9c12"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/abea54d89ad751b1f89a34cd73d95101308b1fffd52ad50c9aafc9697e2b9b67.webp",
+      "bytes": 9230,
+      "sha256": "abea54d89ad751b1f89a34cd73d95101308b1fffd52ad50c9aafc9697e2b9b67"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/addb380e51963cf6e69b1748ade5bd052e82cb0f7360fb1b415c5e06295032b7.webp",
+      "bytes": 312,
+      "sha256": "addb380e51963cf6e69b1748ade5bd052e82cb0f7360fb1b415c5e06295032b7"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/aee5502be2322b639c10dcc14f0757112eaeb10f0fdfc4dae1e1ad2adfa278b2.webp",
+      "bytes": 4954,
+      "sha256": "aee5502be2322b639c10dcc14f0757112eaeb10f0fdfc4dae1e1ad2adfa278b2"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/b4d45aba59962e436ce07c3cc544203f1a5da3da33eaed80529d24377f0f38ed.webp",
+      "bytes": 130,
+      "sha256": "b4d45aba59962e436ce07c3cc544203f1a5da3da33eaed80529d24377f0f38ed"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/b521d263b0e43933543473712e55cb573b140e433650bf3072eed3e697f0d424.webp",
+      "bytes": 4338,
+      "sha256": "b521d263b0e43933543473712e55cb573b140e433650bf3072eed3e697f0d424"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/b7d9243e35036d051d10dec9042d745a8f3a138e56048b751e9c22449695d54a.webp",
+      "bytes": 296,
+      "sha256": "b7d9243e35036d051d10dec9042d745a8f3a138e56048b751e9c22449695d54a"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/bb5be567aad4e9094c38ee99504fc30d096d25b7379dd9c9cc6e8542956e1ebb.webp",
+      "bytes": 14674,
+      "sha256": "bb5be567aad4e9094c38ee99504fc30d096d25b7379dd9c9cc6e8542956e1ebb"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/bd8e8d0470b03a653da4eb568d652f63918d26c690a94d64553c282374443d7d.webp",
+      "bytes": 8276,
+      "sha256": "bd8e8d0470b03a653da4eb568d652f63918d26c690a94d64553c282374443d7d"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/bfeef857d6b1f488339dfdc48bdc8a2c9e876c43aac89ff8d4168f9ef441897f.webp",
+      "bytes": 3650,
+      "sha256": "bfeef857d6b1f488339dfdc48bdc8a2c9e876c43aac89ff8d4168f9ef441897f"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/c33ab13bc2696e0004da723f1a8d46f70d633ede1e1d6f0f2958cbd60081b297.webp",
+      "bytes": 602322,
+      "sha256": "c33ab13bc2696e0004da723f1a8d46f70d633ede1e1d6f0f2958cbd60081b297"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/c33d66ff6870107f35402e647e83866cb9cecdd12606076f903a7ce32c818018.webp",
+      "bytes": 1068,
+      "sha256": "c33d66ff6870107f35402e647e83866cb9cecdd12606076f903a7ce32c818018"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/c4fcf776740daa7af1e3f9505365336e93a2b98f2f9616df3bf75ae5f22fdfa3.webp",
+      "bytes": 2970,
+      "sha256": "c4fcf776740daa7af1e3f9505365336e93a2b98f2f9616df3bf75ae5f22fdfa3"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/c5b7a7dd541fff2c8d3a0371d7fe947413383e795f173283e2764d95e737a48b.webp",
+      "bytes": 14298,
+      "sha256": "c5b7a7dd541fff2c8d3a0371d7fe947413383e795f173283e2764d95e737a48b"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/c65ef8fed0f3cd4ca7b06252ae0ae73008096a0e9bb838ff7046f64b4d05d9dc.webp",
+      "bytes": 9332,
+      "sha256": "c65ef8fed0f3cd4ca7b06252ae0ae73008096a0e9bb838ff7046f64b4d05d9dc"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/c7e6e789861195581ddbf5f749df9d0f960bf64f7e44169d1c80525d6ee70efa.webp",
+      "bytes": 3012,
+      "sha256": "c7e6e789861195581ddbf5f749df9d0f960bf64f7e44169d1c80525d6ee70efa"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/c9566f17666a88bdeeab1a4c3ab678e587e9d7e69ea5ad2ae0a8f9fa083a9a27.webp",
+      "bytes": 41364,
+      "sha256": "c9566f17666a88bdeeab1a4c3ab678e587e9d7e69ea5ad2ae0a8f9fa083a9a27"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/ce170d6e202d14da9be08e5ba2dac7003ec7117032914e5d63fcc4de42927637.webp",
+      "bytes": 6076,
+      "sha256": "ce170d6e202d14da9be08e5ba2dac7003ec7117032914e5d63fcc4de42927637"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/d0ce0740cbfbbd613976390509ab29e34cee00cd6cbe185da5fbe84012d20807.webp",
+      "bytes": 633944,
+      "sha256": "d0ce0740cbfbbd613976390509ab29e34cee00cd6cbe185da5fbe84012d20807"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/d0e33effba5b6defa39dea59328c5e2c512e69048bb1a6bdce5fae5c5b48ed09.webp",
+      "bytes": 16316,
+      "sha256": "d0e33effba5b6defa39dea59328c5e2c512e69048bb1a6bdce5fae5c5b48ed09"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/d2eb04739cd4049d31aceccb7974ebbca9dfcb30c79b6ae60157fc001067b316.webp",
+      "bytes": 18318,
+      "sha256": "d2eb04739cd4049d31aceccb7974ebbca9dfcb30c79b6ae60157fc001067b316"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/d985346d4498c16ab7a9d5fb0f77e1d07b2be9cfadc6d399e22e3a0ab4eff047.webp",
+      "bytes": 14460,
+      "sha256": "d985346d4498c16ab7a9d5fb0f77e1d07b2be9cfadc6d399e22e3a0ab4eff047"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/dde1ff6198950ba6d072421f1f6cb83600107351fd558c78bdb264076b6e36a6.webp",
+      "bytes": 19824,
+      "sha256": "dde1ff6198950ba6d072421f1f6cb83600107351fd558c78bdb264076b6e36a6"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/e8fd355c20a656d1e1785b2f9c947c4aec206392f07aa3e8d6bdc2b850161cd1.webp",
+      "bytes": 18152,
+      "sha256": "e8fd355c20a656d1e1785b2f9c947c4aec206392f07aa3e8d6bdc2b850161cd1"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/f586ae2571e9250e704fdaab2088ef6d38c1e73b00a0b12caa1c4923a367aed9.webp",
+      "bytes": 5360,
+      "sha256": "f586ae2571e9250e704fdaab2088ef6d38c1e73b00a0b12caa1c4923a367aed9"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/f83605ec6e77ff4082e5674b57b4bf48f0a80f2ec3a775e5efad5018c7813e0b.webp",
+      "bytes": 44530,
+      "sha256": "f83605ec6e77ff4082e5674b57b4bf48f0a80f2ec3a775e5efad5018c7813e0b"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/f8c0ee401a1ab9119b7e8fb55f6ee51b095487916019e1f56e7f6a54e8b95617.webp",
+      "bytes": 734,
+      "sha256": "f8c0ee401a1ab9119b7e8fb55f6ee51b095487916019e1f56e7f6a54e8b95617"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/fa2931c2cc3884e5096d2d46733858717025805588cab35ad7d89bdcafd97d06.webp",
+      "bytes": 5708,
+      "sha256": "fa2931c2cc3884e5096d2d46733858717025805588cab35ad7d89bdcafd97d06"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/fbffbb8d30670b2949a58090316b96600e9b92c4be05dabe73c30a7f7a542786.webp",
+      "bytes": 1506,
+      "sha256": "fbffbb8d30670b2949a58090316b96600e9b92c4be05dabe73c30a7f7a542786"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/fc8db3db83e1e93dcc3299a75310e114a9b2823439b98fda9927977348bcb957.webp",
+      "bytes": 4018,
+      "sha256": "fc8db3db83e1e93dcc3299a75310e114a9b2823439b98fda9927977348bcb957"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/fe3473e4ed0e9d0d2d4d33ef455126b0f8d77ba5e7dadcdd60a0c89dca3042d8.webp",
+      "bytes": 9804,
+      "sha256": "fe3473e4ed0e9d0d2d4d33ef455126b0f8d77ba5e7dadcdd60a0c89dca3042d8"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/ff684f5c928ec4b76d627d7d02f37468db0293e41ef3fcdfee60abaf44f42b45.webp",
+      "bytes": 5926,
+      "sha256": "ff684f5c928ec4b76d627d7d02f37468db0293e41ef3fcdfee60abaf44f42b45"
+    },
+    {
+      "path": "dreadnought-facilities-lossless-v1/packed/ff8e32f3b2afe6982c35642e4fae24e937e2274c24ee26ff3f136816715e2b56.webp",
+      "bytes": 2236,
+      "sha256": "ff8e32f3b2afe6982c35642e4fae24e937e2274c24ee26ff3f136816715e2b56"
+    },
+    {
       "path": "game.js",
       "bytes": 8176412,
       "sha256": "d10d7e4f882863e02ed9e33f0889f7225f01052075a353672db021ff8da2797e"
@@ -11231,28 +11723,28 @@
     },
     {
       "path": "release-version.json",
-      "bytes": 802,
-      "sha256": "a6b33abd4c1bec8e35cb3c2d3fac4682eeed2486355442b371ec308709d6e10a"
+      "bytes": 654,
+      "sha256": "3bce78a5b4c9358a10f90e05198ec52d939370d4b33ac628eaeb08b9b7de100e"
     },
     {
       "path": "science/code/science-vessel-compact-presentation-v1.mjs",
       "bytes": 83396,
-      "sha256": "fd2c50ae6b6d89812b20b8d89384ef6163e4c1c081a72cfdbf01e39d1c99ba8f"
+      "sha256": "1e17b92846123b81e74744b62da56c309808e47e55a072f2905942a783278119"
     },
     {
       "path": "science/compact-resource-manifest-g-v1.json",
-      "bytes": 3929,
-      "sha256": "c8463717be3bf43dcf7c3da0e53fcf87ac00c1e9e28d40ec8fcb25504276d6f6"
+      "bytes": 2766,
+      "sha256": "bd526eb2a0a98d95256a8d2682a696b242fe4cd0d688d20d9e91e5831268d122"
     },
     {
       "path": "science/compact-resource-manifest-v1.json",
-      "bytes": 13096,
-      "sha256": "85df5dad0567a369211b225b4b9e033031a93758e56fa9e181d0cf4bd2531ed9"
+      "bytes": 8995,
+      "sha256": "10b28612eecda5f74869bdc720ae7a17ff31114b563e3afddc1ef457958878e7"
     },
     {
       "path": "science/g-runtime-death-contract-v1.json",
-      "bytes": 22479,
-      "sha256": "fde6e18fb0cfd594481a9d8875fdc0d8f26817f0235f10e5a28d0c41c36aec57"
+      "bytes": 15753,
+      "sha256": "a91a1c5257b12d0d88b67fb8f1fe427e5ff4de180a1362846f91f1652f082656"
     },
     {
       "path": "science/host/assets/compactCandidateEntry-10e952d4.css",
@@ -11288,6 +11780,11 @@
       "path": "science/host/chunks/controlTowerRuntimeVisualPilot-285859c3.js",
       "bytes": 115611,
       "sha256": "4bef77728be7fdbaf2fecbdc02f38057f5640d8823f0f80d9c3805bc86712a44"
+    },
+    {
+      "path": "science/host/chunks/dreadnoughtAudioRuntime-71ca6e359dab.js",
+      "bytes": 13786,
+      "sha256": "71ca6e359dab2a65a538f8f0f6f28a1a8356fecf2d1df96a2c7046f3eb82f97c"
     },
     {
       "path": "science/host/chunks/factoryOwnerColorSemanticMaskRuntimePilot-9f078226.js",
@@ -11371,8 +11868,8 @@
     },
     {
       "path": "science/host/game.js",
-      "bytes": 8379087,
-      "sha256": "5f4bc6cae142f3d0b288e43b1c5aa6d7b81c1fb48c686bf1e1924a0cbe395be4"
+      "bytes": 8555147,
+      "sha256": "e6d5d33120ba38b5670e4cc790969b6244b538c093851da3476cb7942c681af0"
     },
     {
       "path": "science/host/index.html",
@@ -11381,8 +11878,8 @@
     },
     {
       "path": "science/integration/f-runtime-resource-contract-v1.json",
-      "bytes": 10585,
-      "sha256": "0257cb1bdef47a66c6179bf205113bcff6521ccbe688931101360b610612adce"
+      "bytes": 8071,
+      "sha256": "83490ffc4fb97c5155af30d6f79f801416e8726ee022337e44aa7722d980fcad"
     },
     {
       "path": "science/logical-slot-bindings-v1.json",
@@ -11536,13 +12033,13 @@
     },
     {
       "path": "science/static-sockets-v1.json",
-      "bytes": 18858,
-      "sha256": "c5839f71ba76968486c3a6a2a1571477ad2d518aa7252daff27fbf40e006c4b9"
+      "bytes": 9913,
+      "sha256": "d368ac72cb983fc15eb2fe78ff629841230188950afb7f1525a5179f4f110103"
     },
     {
       "path": "science/target-fit-v1.json",
-      "bytes": 9629,
-      "sha256": "a0c8a2830df0839157804e5427a9a593968d086feaa0f7ba9231f8caf9efd338"
+      "bytes": 6546,
+      "sha256": "d9663c0ea8bea4771c1147d9d9c0d88f759f1fc361569dbdba5bf80d29b8eecf"
     },
     {
       "path": "skyguard/body-00-1x.png",
