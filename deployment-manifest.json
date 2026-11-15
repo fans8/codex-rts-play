@@ -1,9 +1,9 @@
 {
-  "version": "2026.11.14-code-12-47o-public-v2",
-  "sourceId": "2f42bdf6d35e78ba5f6ad03aa186f48fcb3babacd73bf81671c1833504e6d631",
-  "publicDerivationID": "2f42bdf6d35e78ba5f6ad03aa186f48fcb3babacd73bf81671c1833504e6d631",
-  "formalSourceId": "e1e3ff4f794115deddffe0971dbabd9bc7a95c3bcc851fc431014ee4b0ab35a1",
-  "formalRuntimeManifestSHA256": "82698db59d584d8792228e0637d2856e905eb89b2ec5a6e6556aff464e9a4051",
+  "version": "2026.11.15-code-12-48ab-public-v1",
+  "sourceId": "afb1f75de3f0ea740523755563b0817952e8a27bc6c92bccd8611d65828b7c75",
+  "publicDerivationID": "afb1f75de3f0ea740523755563b0817952e8a27bc6c92bccd8611d65828b7c75",
+  "formalSourceId": "90fb2e24475f1a2061fc1b26a897c5a2b6689ed0d5ee5e71e3d5f5f3f1901cf3",
+  "formalRuntimeManifestSHA256": "89b746df849e4fc93939c386a1934b63b945df90c7e7bc948da10f4c0bef8a35",
   "resourceSHA256": "bd526eb2a0a98d95256a8d2682a696b242fe4cd0d688d20d9e91e5831268d122",
   "channel": "formal-release",
   "publicBase": "/codex-rts-play/",
@@ -20,11 +20,6 @@
       "path": "assets/barracksOwnerColorSemanticMaskRuntimePilot-ee5450a6.js",
       "bytes": 92094,
       "sha256": "8dc67417f953534175b04e6468892a95c8424e3b8e88434ffe646e25dcb8fe06"
-    },
-    {
-      "path": "assets/baseStreamlinedRuntimeVisualPilot-debb49c2.js",
-      "bytes": 118203,
-      "sha256": "e600560d8ebfd456a01009c2b90340d11a19c4366cb9da2a6ffe787c6b104945"
     },
     {
       "path": "assets/body-1x-ca609f8c.png",
@@ -175,26 +170,6 @@
       "path": "assets/building-barracks-player-candidate-2x-9a12b1e7.png",
       "bytes": 250729,
       "sha256": "9a12b1e74532cafc8b11c8b4afa534a2a19a71989f8c2a96c7e5675c27a85d4e"
-    },
-    {
-      "path": "assets/building-base-worker-exit-door-neutral-body-atlas-runtime-1x-v2-6f38120e.png",
-      "bytes": 168798,
-      "sha256": "6f38120e3de2d6c6496b2c6c37d7e2b9c30d289e139b3c12490646b1c0286bc5"
-    },
-    {
-      "path": "assets/building-base-worker-exit-door-neutral-body-atlas-runtime-2x-v2-29f9c863.png",
-      "bytes": 485118,
-      "sha256": "29f9c8637094460b48852e9efe98af34e959ce13ae22b19975cad2e803c81158"
-    },
-    {
-      "path": "assets/building-base-worker-exit-door-owner-mask-atlas-runtime-1x-v2-1725eb6b.png",
-      "bytes": 50272,
-      "sha256": "1725eb6baccc6894db317f5425434496ca6960b8f9491a26d3b1db4a89d22229"
-    },
-    {
-      "path": "assets/building-base-worker-exit-door-owner-mask-atlas-runtime-2x-v2-c3d72d9d.png",
-      "bytes": 106408,
-      "sha256": "c3d72d9d93c32250fc369e64779674c4382be43cbad45f7d9450be4db526b2a0"
     },
     {
       "path": "assets/building-bunker-c13-capacity-count-0-runtime-1x-v1-89a2c4f8.png",
@@ -6107,11 +6082,6 @@
       "sha256": "6e95a10b0e3c6bfaaa26c39754c249925fe62592c02f3bdfa2bbe8e65fe2ee87"
     },
     {
-      "path": "assets/neutral-body-page-0-7f661a34.webp",
-      "bytes": 601178,
-      "sha256": "7f661a34248f4dd7b903610e8be4b4df3df94cacfbce01aa6a707f244fb61cc3"
-    },
-    {
       "path": "assets/neutral-body-page-0-a00dcd4b.webp",
       "bytes": 806460,
       "sha256": "a00dcd4b399dfceefdb28e0e8fd3546c28dee0f447c2c32a613cf6cd17bacfa4"
@@ -6162,11 +6132,6 @@
       "sha256": "ec16f10abf6f36776db7c02e673148146f3ff5e2f4fb9dc5c303dd03ce98eeff"
     },
     {
-      "path": "assets/neutral-body-page-0-f04177b8.webp",
-      "bytes": 226096,
-      "sha256": "f04177b8803b809b18db0eb7f0dc71477e79c9be530308f8caca7f2994931352"
-    },
-    {
       "path": "assets/overlay-worker-player-cargo-mineral-attack-8dir-runtime-44583689.png",
       "bytes": 39558,
       "sha256": "4458368908a2e29c1600767ed356063479b5563a154d3bd9ebb4c6fab4377c21"
@@ -6180,11 +6145,6 @@
       "path": "assets/overlay-worker-player-cargo-mineral-repair-8dir-runtime-617728ff.png",
       "bytes": 9484,
       "sha256": "617728fff3abbe05c269c66a635700d81e72bf2c746aff492254be6fdbf3b978"
-    },
-    {
-      "path": "assets/owner-mask-page-0-16a67d19.webp",
-      "bytes": 96786,
-      "sha256": "16a67d193a96f6ba92ebcd7ba58d5e53669da3d11794fb72c5ffcedf1e71a9d1"
     },
     {
       "path": "assets/owner-mask-page-0-17d58ec5.webp",
@@ -6215,11 +6175,6 @@
       "path": "assets/owner-mask-page-0-4359c561.webp",
       "bytes": 80982,
       "sha256": "4359c5611ad72ba2b0b2b0565512f99d3000f482a6912d9aa5cd104ef555e24d"
-    },
-    {
-      "path": "assets/owner-mask-page-0-4cb90d94.webp",
-      "bytes": 50110,
-      "sha256": "4cb90d944e58e970970473a6aff3f1aaa8e28b7050a3dad976613ad92e6f95dc"
     },
     {
       "path": "assets/owner-mask-page-0-54e555ca.webp",
@@ -6390,6 +6345,11 @@
       "path": "assets/ReplayPlaybackPanel-6c5021ea.js",
       "bytes": 3449,
       "sha256": "5e475b761c7c0c61db093d32bc4e4824e69e4b4936250915853fae96a2559987"
+    },
+    {
+      "path": "assets/rts/audio/code-12-48a-v3/comsat-telegraph.mp3",
+      "bytes": 18093,
+      "sha256": "6a7e46e183cec90cb2ddd4fd60c0493920e197827c833326ac2a52c47c3d3c4c"
     },
     {
       "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1-code-12-20l-webp/package-manifest.json",
@@ -6657,509 +6617,424 @@
       "sha256": "859978d866822931e541962598a2a91edd167d0347e606dea6e75262fa0716e4"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-1x/building-base-enemy-command-activity-loop-16f-runtime.webp",
-      "bytes": 112916,
-      "sha256": "0e945215835bc6088e67a88fa8c8568f63a8764c66139162107064ea81e3bd3d"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/base-construction-finish-body.webp",
+      "bytes": 24738,
+      "sha256": "04da99c99a1339fb7526ef5d182ee099966317d16586ae196e143c8e7e20b9fc"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-1x/building-base-enemy-construction-finish-runtime.webp",
-      "bytes": 37914,
-      "sha256": "c03ee4be686e2c60df4970943ac6e052dee3a57403ea0d9f8404091bde515e6b"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/base-construction-finish-owner-mask.webp",
+      "bytes": 2892,
+      "sha256": "cccb3797dd2be5a28b0598b5939f28e5f97890cd20405f515ffefb3f01589630"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-1x/building-base-enemy-construction-foundation-runtime.webp",
-      "bytes": 19634,
-      "sha256": "28cb39af5a9fd5839b80a5fe70cb8a1425e79c092945e70974562b3ccbaa7e76"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/base-construction-foundation-body.webp",
+      "bytes": 11092,
+      "sha256": "dc39ae1ca0894a1c9e48cbddc3042f174fbcf26083578015e84598d8d77add0f"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-1x/building-base-enemy-construction-frame-runtime.webp",
-      "bytes": 37664,
-      "sha256": "e4403f4dacfd9af2a8ae7a2c2aedcb760f679b31b0b470ebf41ea75476fdda67"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/base-construction-foundation-owner-mask.webp",
+      "bytes": 1796,
+      "sha256": "cb35c82deb226b01c984325733b882fd62547e11b55c8ff43dd00ab061058321"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-1x/building-base-enemy-construction-shell-runtime.webp",
-      "bytes": 28378,
-      "sha256": "b33aa12e32290f448045cbdbe1b748d0b8bb3f794d3b577df8c7d11dea0fde40"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/base-construction-frame-body.webp",
+      "bytes": 16272,
+      "sha256": "621b910ff311a06b2f1d95674de7c65cc37361885f1ba9f083dd076984b6e5d4"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-1x/building-base-enemy-damage-i-runtime.webp",
-      "bytes": 36540,
-      "sha256": "61f0a790bab778901682d1d704b3ff4629dba0efd0c6713709efcfab97da85d7"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/base-construction-frame-owner-mask.webp",
+      "bytes": 2502,
+      "sha256": "82c8206d15708dc082d43925c6cf7e7347e8c90a16a3fa9c237047ae24977445"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-1x/building-base-enemy-damage-ii-runtime.webp",
-      "bytes": 34610,
-      "sha256": "784ac9e783a0b0c0dca7102bd3ce6d7b7c588133b647e72a52f22e07573749f5"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/base-construction-shell-body.webp",
+      "bytes": 18580,
+      "sha256": "2642f188a90b650b322045cc55e642ab59b10946d6b64c7873e47d9971547545"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-1x/building-base-enemy-damage-iii-runtime.webp",
-      "bytes": 32914,
-      "sha256": "89822f1a82905e5fc0598115288df5328d54e830c5ac802239e7ff52e4dfd8ce"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/base-construction-shell-owner-mask.webp",
+      "bytes": 2658,
+      "sha256": "1f9c240d2723b0682eb794582f10c43d03132433a3ceaf3d647d75be1a1a5d78"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-1x/building-base-enemy-healthy-static-runtime.webp",
-      "bytes": 37914,
-      "sha256": "c03ee4be686e2c60df4970943ac6e052dee3a57403ea0d9f8404091bde515e6b"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/base-damage-ii-body.webp",
+      "bytes": 25962,
+      "sha256": "53ca3c0582be138ecf0419041291b1b3e6052cd06502cec08919b3ae4baf1683"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-1x/building-base-enemy-hp0-destroyed-wreck-runtime.webp",
-      "bytes": 19020,
-      "sha256": "d59e8ad4ca4eced83a23add19b4bfaec62a81d5a80d46142411f39235e5f0465"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/base-damage-ii-owner-mask.webp",
+      "bytes": 3250,
+      "sha256": "3d8d2dc7971aa237089e9257f614a469fd29d80f4132dd75dca06be00c2b2ea9"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-1x/building-base-enemy-worker-deployment-door-cycle-16f-runtime.webp",
-      "bytes": 117046,
-      "sha256": "486146a909e4a21aec0e490f70587ce39ca630eaf66c26f307b552cacd689e10"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/base-damage-iii-body.webp",
+      "bytes": 24874,
+      "sha256": "10e09a8413f4fdff548ffa278fb2575fdf6e795768bb0a5999c367f3efe939a5"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-2x/building-base-enemy-command-activity-loop-16f-runtime-2x.webp",
-      "bytes": 277660,
-      "sha256": "ee76490125475ecfc67e6e5f87493c1d5a26de056c0f7c41f8ad45d6fc3c30fe"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/base-damage-iii-owner-mask.webp",
+      "bytes": 3118,
+      "sha256": "ea3eef24b60688a2e11b02b23421b05834e09aec4fc2983cbdf66674aa28c8b8"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-2x/building-base-enemy-construction-finish-runtime-2x.webp",
-      "bytes": 105320,
-      "sha256": "28233590d1c49e6b28334bb3441f98791a3e631682ef97f84e28ffca0de8e6fd"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/base-healthy-idle-body.webp",
+      "bytes": 24938,
+      "sha256": "fb566e6c4eb97bbf5ba4b8c2efc251fc432c431af219bca76ae27be983d8c4dc"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-2x/building-base-enemy-construction-foundation-runtime-2x.webp",
-      "bytes": 54372,
-      "sha256": "3ad86a7facee2f0a37b48a9c21fe1ecd05b86300bf25bfab2d2907275841498c"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/base-healthy-idle-owner-mask.webp",
+      "bytes": 3212,
+      "sha256": "50d0b5799cff6ec555f539fe99e59e1fd67f003b97d8ae2c602a47a4ee56f0ca"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-2x/building-base-enemy-construction-frame-runtime-2x.webp",
-      "bytes": 99986,
-      "sha256": "34377b9b7d46395ba4bd325f4c7a4fd1ec5bf22bd7f46d7b623a1c411ffb9429"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/base-wreck-body.webp",
+      "bytes": 10984,
+      "sha256": "633eb995e915d6b62d12962d9cb290cd998b7fc0b9a07462e0118b0e28e64642"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-2x/building-base-enemy-construction-shell-runtime-2x.webp",
-      "bytes": 78778,
-      "sha256": "32902ff10362f2802e53eb84c9f570900ccbecd1f52ae6cc8b5667caa32cfeca"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/base-wreck-owner-mask.webp",
+      "bytes": 1580,
+      "sha256": "d82c8312960806d0b8247b0df3304fbddf2d30a67e9747cbc3130dc2ad7d453b"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-2x/building-base-enemy-damage-i-runtime-2x.webp",
-      "bytes": 100544,
-      "sha256": "511e71a58a49eadd5eb44cecb1091d81e0cc91233d7a463550ba24066307a772"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/comsat-construction-finish-body.webp",
+      "bytes": 9006,
+      "sha256": "48797c0f0309f8a23ea5191414ee6f3d7f0ff52fdd1cd5a582c579485e7e38a0"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-2x/building-base-enemy-damage-ii-runtime-2x.webp",
-      "bytes": 95306,
-      "sha256": "006a842b95db6fc5820961991ad653f415ecaa8abbaab7a33fd501352f564988"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/comsat-construction-finish-owner-mask.webp",
+      "bytes": 1300,
+      "sha256": "d5491361ca41821996148eafb3d94bd3697e0a3fa071f3b52f3a899c27b4225e"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-2x/building-base-enemy-damage-iii-runtime-2x.webp",
-      "bytes": 90422,
-      "sha256": "548601447a6b37d9e51798cf4eb621c09f253063a757b0766b18fdee1021cb16"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/comsat-construction-foundation-body.webp",
+      "bytes": 5606,
+      "sha256": "ea68d7430a7ff927b112b0fe260d5057a999902507283c35610b834f43655620"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-2x/building-base-enemy-healthy-static-runtime-2x.webp",
-      "bytes": 105028,
-      "sha256": "64470172af1a8408219a79628d19641419d3d650b8d5844b41f4cc27b8a86a30"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/comsat-construction-foundation-owner-mask.webp",
+      "bytes": 848,
+      "sha256": "06bc7db6c844d1c7169161c8a9f9194bdadd00f1ff9c122f0dde5e58378c93ce"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-2x/building-base-enemy-hp0-destroyed-wreck-runtime-2x.webp",
-      "bytes": 48550,
-      "sha256": "a33165d5c8ecde8e0c10139882c8e0d27c4a4d1d98b62ebc3cb1715591d6a707"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/comsat-construction-frame-body.webp",
+      "bytes": 7544,
+      "sha256": "219be1e46a86b893ffd4bfcf261a3f536b82b66ce7958fdbbe1acc30d5fb07f0"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/enemy/runtime-2x/building-base-enemy-worker-deployment-door-cycle-16f-runtime-2x.webp",
-      "bytes": 320704,
-      "sha256": "03e2dd139d40c0c1bb9e44e5d860ce3166daee149b75f54628ae3b2315cb01d2"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/comsat-construction-frame-owner-mask.webp",
+      "bytes": 1034,
+      "sha256": "aee66234cc701ec4c4d2b5934ff02ef3951298d960c7a6f436283dfbe434b93c"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/package-manifest.json",
-      "bytes": 62374,
-      "sha256": "036da9fd6a58e9075092060c429b47a9e307f08da65222923d1e69b837cbfabf"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/comsat-construction-shell-body.webp",
+      "bytes": 7488,
+      "sha256": "6dd0555bec1c1b0fdcd559dcf83a4c696aa5e756d5dbb52a492fd4250ad1e773"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-1x/building-base-player-command-activity-loop-16f-runtime-1x.webp",
-      "bytes": 102382,
-      "sha256": "3a25e9b2a006a49590cbf58b39c75b317abda99cc75d68aabaccf7c8d64f2363"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/comsat-construction-shell-owner-mask.webp",
+      "bytes": 1128,
+      "sha256": "223ee54d046c17709281f3e3173ef1699c224b9d38dc2c9b797873f61418bef3"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-1x/building-base-player-construction-finish-runtime-1x.webp",
-      "bytes": 34164,
-      "sha256": "20c93ebcadd16b4ccca05dcac7a994423e59eaa603920b1f97f9d5528cccddc3"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/comsat-damage-i-body.webp",
+      "bytes": 9688,
+      "sha256": "a7b3b643ff2c0cd33c48a04fc719d1a2f232ff96a279563af92c4cfe1bea0883"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-1x/building-base-player-construction-foundation-runtime-1x.webp",
-      "bytes": 18292,
-      "sha256": "ab3b5bccbcc8146decc9335e65eb9129731c175324a9537783d0903d7aa7e388"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/comsat-damage-i-owner-mask.webp",
+      "bytes": 1326,
+      "sha256": "7f7daabee27d444a9f28ed4d9c85bd5025adf228aa3ed9a907e02b6c25aef06c"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-1x/building-base-player-construction-frame-runtime-1x.webp",
-      "bytes": 33920,
-      "sha256": "5c20c06b1f316bbfe3c7b41f81258370b1d659457b79acb1e783673cb726fd0f"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/comsat-damage-ii-body.webp",
+      "bytes": 9372,
+      "sha256": "13254f5b05026c828243dedfd04ac1b44c6921bde53e435f46ead547d73f5411"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-1x/building-base-player-construction-shell-runtime-1x.webp",
-      "bytes": 25176,
-      "sha256": "19d216f56c457b4fc26759e72b4f21ba7a4046646e26afb1813b0eba1bacad18"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/comsat-damage-ii-owner-mask.webp",
+      "bytes": 1302,
+      "sha256": "e5e0b454c945c5fb15f0f6024d10884e8a2bffe44fd081832c41018de13561a8"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-1x/building-base-player-damage-i-runtime-1x.webp",
-      "bytes": 33180,
-      "sha256": "489fed44d1085cb6ed8ac6efcafaac681284eae51db861c6feb0cf272b65b0a5"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/comsat-damage-iii-body.webp",
+      "bytes": 9102,
+      "sha256": "68d462297015be833afa2e3106ccd7f61aa11d4cb354ca88a21ad751e239ef80"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-1x/building-base-player-damage-ii-runtime-1x.webp",
-      "bytes": 31298,
-      "sha256": "25e3d4ad315b243e78ae9ebe2d324b362386344130373b79dc4e4d5857f8b194"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/comsat-damage-iii-owner-mask.webp",
+      "bytes": 1250,
+      "sha256": "69d67afa764c3addf5ad011ded835e88aaec8ff6a6cf101a61ed53e0138d8142"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-1x/building-base-player-damage-iii-runtime-1x.webp",
-      "bytes": 29812,
-      "sha256": "57857e8331278aab15e68b82d4c98551ae8a0ed230a467e5e2506273d4992475"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/comsat-healthy-idle-body.webp",
+      "bytes": 7792,
+      "sha256": "0a7ddef665c86e22f80c827d6872a9607d2dcfdf8ecc6d355a97856a51448c3c"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-1x/building-base-player-healthy-static-runtime-1x.webp",
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/comsat-healthy-idle-owner-mask.webp",
+      "bytes": 1162,
+      "sha256": "939589e109f7607fdfd61307a3683f24120d49a06aacc326b62f1414c9f911d9"
+    },
+    {
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/comsat-wreck-body.webp",
+      "bytes": 5182,
+      "sha256": "e6eac94c218d98d9ee78957cbd741ae422e7c0965488f13c8bb06ae2ea53137b"
+    },
+    {
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/comsat-wreck-owner-mask.webp",
+      "bytes": 694,
+      "sha256": "5c320ab96f40ec9e6ab98e348f0bd46d61c02bcda96e1e31bc715be05918a918"
+    },
+    {
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/dish-local.webp",
+      "bytes": 107328,
+      "sha256": "b838c5213637646b56f6d06128e30b07dbbdb51dcf77e7af200ebff1931cbb31"
+    },
+    {
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/door-local.webp",
+      "bytes": 3250,
+      "sha256": "991575f2685aaee3ea61977b6acb3e2e308ee6a893c52da763718b9dca96ebe5"
+    },
+    {
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/lamp-local.webp",
+      "bytes": 470,
+      "sha256": "346a19e98d1badffbab2d55f2081f65d4dd7f3f3ac26bd9b9ff0afbec5a4f854"
+    },
+    {
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/ready-local.webp",
+      "bytes": 232,
+      "sha256": "71740c9ef8dad1a061f12f1b587214c5b407ad6bfd26a81114843e27c0690676"
+    },
+    {
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/roof-local.webp",
+      "bytes": 1574,
+      "sha256": "83d3507c52707af3bfda18b092a1bb18d3e324352b7e0a6fe8875c76ecbdddaa"
+    },
+    {
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/1x/warm-local.webp",
+      "bytes": 8254,
+      "sha256": "0a710ac1f01727f3f4c80cae5e5506f680a6c2e71dd6fb6a037972ee36281f32"
+    },
+    {
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/base-construction-finish-body.webp",
+      "bytes": 75410,
+      "sha256": "12484fcc83a22a3d4e6b63c6c899d058333369b9a802745e1b3eb2d108d046e1"
+    },
+    {
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/base-construction-finish-owner-mask.webp",
+      "bytes": 9826,
+      "sha256": "d6ed66e27588e03f59a7309cce3a56ee140fcded2fc5728722d8a63c64b2ec8f"
+    },
+    {
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/base-construction-foundation-body.webp",
       "bytes": 34158,
-      "sha256": "4b197502efd0494aa97cbc08cb0446ceeae2cbfc50c0c9b7d60720c07918f123"
+      "sha256": "e4ea1b3809613f1e8ea9e2c64e7414c98c687cdf470a97fe2fad3239afc4f680"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-1x/building-base-player-hp0-destroyed-wreck-runtime-1x.webp",
-      "bytes": 17472,
-      "sha256": "7fc40a30b70c7b081ea7bc829be11140a10e02194086abf34f4ba8654b6668bd"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/base-construction-foundation-owner-mask.webp",
+      "bytes": 5918,
+      "sha256": "e2f1be34b0e0804737ed1dbdeac910fc0887665ea18727dfe2a875ae4846b7be"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-1x/building-base-player-worker-deployment-door-cycle-16f-runtime-1x.webp",
-      "bytes": 120844,
-      "sha256": "500c92f03ac299b2b4dd81854213ab0eecc6adad83841b65377ab53aaed6fc31"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/base-construction-frame-body.webp",
+      "bytes": 48726,
+      "sha256": "138a428101db2582e38885abdac917e64f66e0958bb6a1e85c9d6762e9e44a8e"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-2x/building-base-player-command-activity-loop-16f-runtime-2x.webp",
-      "bytes": 271410,
-      "sha256": "5be590214f9d03b2a7616506b3cdbf1ce9c236e9ba1bf166bfa9b07b6af644af"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/base-construction-frame-owner-mask.webp",
+      "bytes": 8446,
+      "sha256": "66310428162001f138688a00d73a67529a052a2ebacb68922588031399fd6782"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-2x/building-base-player-construction-finish-runtime-2x.webp",
-      "bytes": 101106,
-      "sha256": "9d6cb33a3cae27d39f76d858458c8c8e526f6d8f79d0657a84327c25ea9c9a6b"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/base-construction-shell-body.webp",
+      "bytes": 57458,
+      "sha256": "fe684aef36c31ad31c50a657884be97ddc475b05cc2b63af19c0592d29519671"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-2x/building-base-player-construction-foundation-runtime-2x.webp",
-      "bytes": 52142,
-      "sha256": "48c102a4447ee3841a0f6742491d3c970e70ff8c050dbe0bbfa9178c098d3fb4"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/base-construction-shell-owner-mask.webp",
+      "bytes": 9036,
+      "sha256": "f41be42876505356ddb1a1c2599a25a0374c18eeed282efce46272bc54be2d4a"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-2x/building-base-player-construction-frame-runtime-2x.webp",
-      "bytes": 96820,
-      "sha256": "4234f9b9112a5b6a25d099e302aad60147e4d8d0ef27bf86e8cd88d586acd00c"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/base-damage-ii-body.webp",
+      "bytes": 78906,
+      "sha256": "595bfc37457e3685d33c567135ab6e42b36d4f90281449c95a71cb4c53ea5388"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-2x/building-base-player-construction-shell-runtime-2x.webp",
-      "bytes": 75164,
-      "sha256": "22ccffc579b1bfdd45135031c563e0a58372914ff25cedebd61cab1af4c2aeed"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/base-damage-ii-owner-mask.webp",
+      "bytes": 10944,
+      "sha256": "83ea9284cb931b61792775e74760991491a9392fdb309ffbfd6b79698ac5e786"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-2x/building-base-player-damage-i-runtime-2x.webp",
-      "bytes": 97154,
-      "sha256": "a5a5d47264e2f588d3848f471eab312209cc49f783deb6f26cc4d80e878c9a6f"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/base-damage-iii-body.webp",
+      "bytes": 75678,
+      "sha256": "8abbad099c6be8284bf4b153b0c1b9df4741e2ea14ec11897896f22d2c7466d3"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-2x/building-base-player-damage-ii-runtime-2x.webp",
-      "bytes": 91448,
-      "sha256": "39baa27379fea83f12e0f78ed3a8031055b002786c3ed3d9e15018c1cbd50b24"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/base-damage-iii-owner-mask.webp",
+      "bytes": 10474,
+      "sha256": "3f948e6302bee742c56257ab32315c7ea8d5b8d140689c9ae603ef15f62a7871"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-2x/building-base-player-damage-iii-runtime-2x.webp",
-      "bytes": 87466,
-      "sha256": "4cca72c61e792932a1635240e34845c6281323ee28315e0459515804da37c607"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/base-healthy-idle-body.webp",
+      "bytes": 76282,
+      "sha256": "572d87f17ff6342d4c7614c31bab109a37126fad4670640889e8db213410e537"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-2x/building-base-player-healthy-static-runtime-2x.webp",
-      "bytes": 101106,
-      "sha256": "9d6cb33a3cae27d39f76d858458c8c8e526f6d8f79d0657a84327c25ea9c9a6b"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/base-healthy-idle-owner-mask.webp",
+      "bytes": 10826,
+      "sha256": "a50b6c0fa2ab7c0e10a852db38fb5e98c903376095615b8a3d0e8172855e18fd"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-2x/building-base-player-hp0-destroyed-wreck-runtime-2x.webp",
-      "bytes": 48102,
-      "sha256": "988d6f7d7adb32189eb5f70decd8f080ab8244665d4218c7505545da266f12fa"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/base-wreck-body.webp",
+      "bytes": 33120,
+      "sha256": "b12dbab2bb5a1a7c8d9e566491a4cbb22ea2b6908363aaa94784416e1cbd0003"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/player/runtime-2x/building-base-player-worker-deployment-door-cycle-16f-runtime-2x.webp",
-      "bytes": 314790,
-      "sha256": "d59c8cab1c6237f20924d242c31f4578734168e8414d80f7865cf29cacdd4b00"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/base-wreck-owner-mask.webp",
+      "bytes": 5216,
+      "sha256": "16cca02322de47b5a66d8345ebe89b184cd7ccb2803cda7635f9625cc874ebed"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/shared-vfx/runtime-1x/effect-building-damage-fire-spark-loop-16f-runtime.webp",
-      "bytes": 31718,
-      "sha256": "912a4b0b98be593abb999308452bd73e19fa1917262e587495349a3c8a29a02d"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/comsat-construction-finish-body.webp",
+      "bytes": 26842,
+      "sha256": "4a956bc0a911a9d4fbcf7807cde7514da7d475733c1338db563c7f5305a5c821"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/shared-vfx/runtime-1x/effect-building-damage-smoke-wisp-loop-16f-runtime.webp",
-      "bytes": 48622,
-      "sha256": "b255e45d50ec394922f5d41c9a224d5616c6bf02d3647ddf3d715098f7e4ce3e"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/comsat-construction-finish-owner-mask.webp",
+      "bytes": 4160,
+      "sha256": "09c5c928a76e2006c544976b4dbfd777d472d8ded3bfa0b2709a9849dd437791"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/shared-vfx/runtime-1x/effect-building-destruction-core-rupture-8f-runtime.webp",
-      "bytes": 48076,
-      "sha256": "e3b9ded17aa60fc4537fdea797bc147c8ea561c7746e10cf341e90af6b8ace6f"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/comsat-construction-foundation-body.webp",
+      "bytes": 16334,
+      "sha256": "38a4cef5d6712b4d03137d59afbfc39731f8d43be22cdefcf17ee7b1dad1c960"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/shared-vfx/runtime-2x/effect-building-damage-fire-spark-loop-16f-2x.webp",
-      "bytes": 100386,
-      "sha256": "3b7f87e69493bf38233ff32030b5d83aab11d6e52ce14acd071eed74d6203eb7"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/comsat-construction-foundation-owner-mask.webp",
+      "bytes": 2738,
+      "sha256": "52aca8400a46982629b4e4a0d701250d3f84422ac990c75286b393bb2c42861f"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/shared-vfx/runtime-2x/effect-building-damage-smoke-wisp-loop-16f-2x.webp",
-      "bytes": 161394,
-      "sha256": "cf65809edce262e3e6a711f090b56e81d434dba7a1b568b30d2ade3be58abe79"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/comsat-construction-frame-body.webp",
+      "bytes": 22496,
+      "sha256": "96899f8c7db21c34e2674b039a24c40f6a00a3c5218e19ee7ce943b52c1f6b61"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1-code-12-20m-webp/shared-vfx/runtime-2x/effect-building-destruction-core-rupture-8f-2x.webp",
-      "bytes": 157640,
-      "sha256": "20aaffc4e2f670db8fc359ba285be3d5351a4289cb04364ff1b1442c72e70e7f"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/comsat-construction-frame-owner-mask.webp",
+      "bytes": 3314,
+      "sha256": "1f25d7657b6a5b3ff5af14fd615203df609572a862738266fbd592a2e6bd3742"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-command-activity-loop-16f-runtime.png",
-      "bytes": 113896,
-      "sha256": "976d7c8b67a0141d9572ac843ee188c74967eb02949f43bd2ff85db4a9e80027"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/comsat-construction-shell-body.webp",
+      "bytes": 22226,
+      "sha256": "29bdfc311b580768977b67c6efb55a4681e991c973848a0af460a6ddeb20d23a"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-construction-finish-runtime.png",
-      "bytes": 49256,
-      "sha256": "ffc2f487128e68d57d6d0251843dd6eef296c07c5b75956e95ba924f120fc092"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/comsat-construction-shell-owner-mask.webp",
+      "bytes": 3598,
+      "sha256": "215a5fe5a84e9a583900f96dc417ba286a055c19cd31b98657244fc12d065a4c"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-construction-foundation-runtime.png",
-      "bytes": 21147,
-      "sha256": "152854e064d04523349c2bdb4c86a0ae153bb0c066c0a449d6aaeee0d3c07ace"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/comsat-damage-i-body.webp",
+      "bytes": 29526,
+      "sha256": "bf6e311ffd0393c758793db4df5cb21a6bac7f4ccb5c03f31a26aa4c72e17619"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-construction-frame-runtime.png",
-      "bytes": 47462,
-      "sha256": "0a0243d0059658e7d156ba1264617246d99ad44ac298b7aed491205abf34a076"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/comsat-damage-i-owner-mask.webp",
+      "bytes": 4312,
+      "sha256": "d67c9b724048e89492753b76f56fa84a5e8878204b90123fd82d886ac2f201dc"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-construction-shell-runtime.png",
-      "bytes": 36583,
-      "sha256": "73a70f18a900d132022e8186ab2b99beac7a1ad84ea5fc77aed1c74297b9f1fe"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/comsat-damage-ii-body.webp",
+      "bytes": 27862,
+      "sha256": "531953fdaa75ae8cbfe33690fd0093e7ea4c2f5bde03342fbff14d248c950e4e"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-damage-i-runtime.png",
-      "bytes": 47843,
-      "sha256": "112a3648a5ed10ed6fdc8fbf98a7b92ce978f2ed1893b4d096f4d7d7eedf4df6"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/comsat-damage-ii-owner-mask.webp",
+      "bytes": 4190,
+      "sha256": "705e5e698963537e7ef7b5302c39421af6e51c8e1d67b6d0ea3fc1da91940ccd"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-damage-ii-runtime.png",
-      "bytes": 45644,
-      "sha256": "97a6e546f688bbe3a913daee8c9225a72200be1fb6170d0e17b3cc7e89f4c2bb"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/comsat-damage-iii-body.webp",
+      "bytes": 27684,
+      "sha256": "d02be7dc5d0b8098a299462a9f123a8e4ec1323f9873a4ac10b608680fe75c12"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-damage-iii-runtime.png",
-      "bytes": 43575,
-      "sha256": "fa9952abfc073ca8278dd8bbc2022112e758382d90725b9d4d481c17c3b6157a"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/comsat-damage-iii-owner-mask.webp",
+      "bytes": 4074,
+      "sha256": "e282aaf200edb950e0b7208afe2d49de42f3d33cb5500207fce1dac46aa27edb"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-healthy-static-runtime.png",
-      "bytes": 49256,
-      "sha256": "ffc2f487128e68d57d6d0251843dd6eef296c07c5b75956e95ba924f120fc092"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/comsat-healthy-idle-body.webp",
+      "bytes": 23708,
+      "sha256": "5a1421b683c777c98422523c7c36222b6b4990058eb03f1aed3a4418a0afa741"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-hp0-destroyed-wreck-runtime.png",
-      "bytes": 24086,
-      "sha256": "e9ecfb14c607ed4e6c14f873664c805a3f3f0d386a72e46963861521e56d170d"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/comsat-healthy-idle-owner-mask.webp",
+      "bytes": 3718,
+      "sha256": "1878452b227e748988eeb07d621b2c4b0e7ac28ffa718228538d874788ee2e09"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-1x/building-base-enemy-worker-deployment-door-cycle-16f-runtime.png",
-      "bytes": 138808,
-      "sha256": "d0560441f17aa7191882ec61c3e4e29a39aefc5f7eb0f2897b80223c91bcdfe9"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/comsat-wreck-body.webp",
+      "bytes": 15370,
+      "sha256": "97c6026601c2806ffff61903521b93890f2c7c05141a81e94c9fcae501225ec5"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-command-activity-loop-16f-runtime-2x.png",
-      "bytes": 341411,
-      "sha256": "eeea10e22f0ad410aeeab7bdbfb219c719dce10231cf8d377866720aefc5ce2a"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/comsat-wreck-owner-mask.webp",
+      "bytes": 2200,
+      "sha256": "f0d944a64154cc92c3b57f74e6c00bf032ae42017314a8730ba117ee902f0106"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-construction-finish-runtime-2x.png",
-      "bytes": 194382,
-      "sha256": "251f54340defdb9db039adf007ed8386bf0f374ca6537c1dfb996e2cc28c3bd3"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/dish-local.webp",
+      "bytes": 344290,
+      "sha256": "a56f3b5fb8f12d0f9a2c3c73d54e4beea325832138daaa182d7662777c1e69ba"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-construction-foundation-runtime-2x.png",
-      "bytes": 105816,
-      "sha256": "8cbe3a48a58bc130ea132fec86a6b1d11b149161c15a851ce576519adac5d194"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/door-local.webp",
+      "bytes": 12000,
+      "sha256": "92f23303bec2a6dcfa5912d0d2db488c1ccc716327e7dfae8dbb177a62b724cd"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-construction-frame-runtime-2x.png",
-      "bytes": 182522,
-      "sha256": "12eba9c12fa6964d55b389c81d62452ffff10f046df004a8c9ed171a5f5653fd"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/lamp-local.webp",
+      "bytes": 1364,
+      "sha256": "4c487fddbc2304b1639e98842ef81eaba71dbf30e486c5e8abcd7a4c6a136140"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-construction-shell-runtime-2x.png",
-      "bytes": 159199,
-      "sha256": "7af213944316e3d146ddc867974bc40b9743fd08db51fd9c99dac1c363458730"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/ready-local.webp",
+      "bytes": 664,
+      "sha256": "179c4a41dcf5e6f722fb0e015154e8d7d884b380e48ee03cc627ff3682316602"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-damage-i-runtime-2x.png",
-      "bytes": 190383,
-      "sha256": "2a77ddaf7dd9be255d863acfa0b2268fa2e34fa9f8ff969ae390db663836990b"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/roof-local.webp",
+      "bytes": 7066,
+      "sha256": "3d45a42c525737ed131faa1c795b0f37974da1f4d16dbecd02c0671f1942c5a6"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-damage-ii-runtime-2x.png",
-      "bytes": 184485,
-      "sha256": "4563449698d76d9f4a7ce8bf4fd183a2c088de3c59e40fbcfa90daf01111dd41"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v1/2x/warm-local.webp",
+      "bytes": 22076,
+      "sha256": "7d306e1106da9d1deada73747e952ab2cc3863fc3bab5947821377f8e1077a27"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-damage-iii-runtime-2x.png",
-      "bytes": 177793,
-      "sha256": "22bfd30733ff15148d1e6406453483a7db22b0dffd5b03e1a740bfbcdf804c32"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v2/1x/base-damage-iii-v2-r1-body.webp",
+      "bytes": 20928,
+      "sha256": "6f60551b11beba9c139a068e7fd7406247c644a0bbf174031a054fab8de12b7e"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-healthy-static-runtime-2x.png",
-      "bytes": 194381,
-      "sha256": "e2833a5efceca9e63be25a973c28b41b5b12748e59af393b731bbb0552578c71"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v2/1x/base-damage-iii-v2-r1-owner-mask.webp",
+      "bytes": 2646,
+      "sha256": "01ee240f8ca2d5d610b3499f0e493436dd7fdb222a75838b722d62bcb1281965"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-hp0-destroyed-wreck-runtime-2x.png",
-      "bytes": 110879,
-      "sha256": "93b50de5503d73fd6041e2320da83aef9a5e9b948514d820d1ea0027ed133778"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v2/2x/base-damage-iii-v2-r1-body.webp",
+      "bytes": 64116,
+      "sha256": "774105a35eb9250be533db7ef42d89fec20a52112762a9b639c02163cadaa621"
     },
     {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/enemy/runtime-2x/building-base-enemy-worker-deployment-door-cycle-16f-runtime-2x.png",
-      "bytes": 423764,
-      "sha256": "4f0f684ad54f862ef1aa7816c8e1303950e1c1a2a16f75b13bfa647d200a087a"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-command-activity-loop-16f-runtime-1x.png",
-      "bytes": 109829,
-      "sha256": "c903a71f4a775f310308bce32582bfab0074bba4c9f8a23c69df7ebf5620e64c"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-construction-finish-runtime-1x.png",
-      "bytes": 58052,
-      "sha256": "f93de13a6220ece487417b565709902a43fe481b26a1050caf46214029f8ac10"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-construction-foundation-runtime-1x.png",
-      "bytes": 32050,
-      "sha256": "6f8898b221e280ac5195fd46d07d0646e0458271e12266af1fdd84559889c341"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-construction-frame-runtime-1x.png",
-      "bytes": 56110,
-      "sha256": "ba35a119175bab5dc1c14ac9330e1271a005fc616bf14d4869db1affcca3ed49"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-construction-shell-runtime-1x.png",
-      "bytes": 47060,
-      "sha256": "8d5bee9d06a7b41ea6d560e3b20f8717bd442dcc0ce88c631ab3b6c6a127c258"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-damage-i-runtime-1x.png",
-      "bytes": 57047,
-      "sha256": "fdb98421f2863c9f5f8a4d97396292121ee7324c1cc6a022f1be75e347e4e54e"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-damage-ii-runtime-1x.png",
-      "bytes": 55141,
-      "sha256": "7514904049ddd9085b881fcaf4e88d6271afa14bde5c11b13bab68c2ef8767d0"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-damage-iii-runtime-1x.png",
-      "bytes": 53593,
-      "sha256": "cbaf669e6cb2e4ab8e9c0c3286d826416162b083a33112ffa2a8e9830ac50e4b"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-healthy-static-runtime-1x.png",
-      "bytes": 58052,
-      "sha256": "ca0eb685256d4f7009e89b647887847623abbefc5561929fa481ff79fc916afd"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-hp0-destroyed-wreck-runtime-1x.png",
-      "bytes": 34707,
-      "sha256": "aeb9c8edb35553c53f8b2d7cafb80f24620dcf3a5c5acc8b3bd86793966026e2"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-1x/building-base-player-worker-deployment-door-cycle-16f-runtime-1x.png",
-      "bytes": 138251,
-      "sha256": "cf2a43c544d861a3fcc04a5e0a1a3933a199c4b37df022d91069e2b204a9a9c0"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-command-activity-loop-16f-runtime-2x.png",
-      "bytes": 335875,
-      "sha256": "3d646f8cddc7cb0f6a9c0bc94c7bd94e1907f204e507168c452fbee6b45e8284"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-construction-finish-runtime-2x.png",
-      "bytes": 191474,
-      "sha256": "57008a804018c278b86b7fedece30679362d4f49ed875f46215e4993f0a6b5d4"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-construction-foundation-runtime-2x.png",
-      "bytes": 105229,
-      "sha256": "d35b8070d868f7ae303c8578c5ac1c5c447e30da2f0cf6ae26f5f3df363fb421"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-construction-frame-runtime-2x.png",
-      "bytes": 181574,
-      "sha256": "776b626e46a3e2d437c84b04edbd48d24a15c07dad0b937f4a83cbd617020404"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-construction-shell-runtime-2x.png",
-      "bytes": 155418,
-      "sha256": "845dd46ff5c7bd46924a330f921674bb1244d3361e591f2e31cfa9fc1f082fbf"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-damage-i-runtime-2x.png",
-      "bytes": 188020,
-      "sha256": "3364bde3b89341b5bc5c611a1c631290a3ec2372ef0591684c62ed79a24c2583"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-damage-ii-runtime-2x.png",
-      "bytes": 181756,
-      "sha256": "bd4c8f9e73dc34ce6b960c9439f0eff43768906b5b78d0c9e70e99cd394ad293"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-damage-iii-runtime-2x.png",
-      "bytes": 176350,
-      "sha256": "161f475d1560e3d68f0904bdcf3f9be2c07b28248f674833af3938e9d5942262"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-healthy-static-runtime-2x.png",
-      "bytes": 191474,
-      "sha256": "20962d50faeb437ff59c35a52c6bf284b2ac237845586ac52e2a2dd0114f64e7"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-hp0-destroyed-wreck-runtime-2x.png",
-      "bytes": 110888,
-      "sha256": "d66859b7835f6eb75a3989ba8bb579ce368213c57a3209382b96505fe804ba0d"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/player/runtime-2x/building-base-player-worker-deployment-door-cycle-16f-runtime-2x.png",
-      "bytes": 434773,
-      "sha256": "b132eced2d5b68fa831fe1a974444fbc4b3835b6cfeb44d84a8ec989f38d1c60"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/shared-vfx/runtime-1x/effect-building-damage-fire-spark-loop-16f-runtime.png",
-      "bytes": 39349,
-      "sha256": "a06233c4f98e9e0694ddbd39dba6de64801b968d66634dd9f5c775cf6de09bb6"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/shared-vfx/runtime-1x/effect-building-damage-smoke-wisp-loop-16f-runtime.png",
-      "bytes": 67834,
-      "sha256": "50f30665e7cfa3154b1847ed50a385a62e7f23b49378ba7ae071058a0dab741e"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/shared-vfx/runtime-1x/effect-building-destruction-core-rupture-8f-runtime.png",
-      "bytes": 65447,
-      "sha256": "d642b80df2e99ff27ec8fc67d7420394477eb416545559dc91d02a43823c129b"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/shared-vfx/runtime-2x/effect-building-damage-fire-spark-loop-16f-2x.png",
-      "bytes": 119448,
-      "sha256": "7e1182479e7a76da4fa48bdb59fca18e22c33c9f0ebec4eec590a3abd0d02d7c"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/shared-vfx/runtime-2x/effect-building-damage-smoke-wisp-loop-16f-2x.png",
-      "bytes": 242054,
-      "sha256": "6bf942474b8a8feba1fdf35edd41ad09175bb6763a3a8b3daccaaa9d89b4ecb2"
-    },
-    {
-      "path": "assets/rts/base/presentation/base-dual-owner-presentation-dual-resolution-v1/shared-vfx/runtime-2x/effect-building-destruction-core-rupture-8f-2x.png",
-      "bytes": 213911,
-      "sha256": "859978d866822931e541962598a2a91edd167d0347e606dea6e75262fa0716e4"
+      "path": "assets/rts/base-comsat-lifecycle/art-11-55b-v2/2x/base-damage-iii-v2-r1-owner-mask.webp",
+      "bytes": 8966,
+      "sha256": "4e58f4b98fb3039d504563d42bb3e003fded3e22e121f89cfa428b86ff7af470"
     },
     {
       "path": "assets/rts/building-barracks-enemy.png",
@@ -7190,26 +7065,6 @@
       "path": "assets/rts/building-barracks-player.png.pre-promotion-backup.png",
       "bytes": 28676,
       "sha256": "2e1b0f332824a7634901aec613b13f913ad64da357069eba1c77a5e539de8946"
-    },
-    {
-      "path": "assets/rts/building-base-enemy.png",
-      "bytes": 188235,
-      "sha256": "55bdb449cde1a7f8d3b1c67378e364d038b509b649216ce2f6390680e9fc167e"
-    },
-    {
-      "path": "assets/rts/building-base-enemy.png.pre-promotion-backup.png",
-      "bytes": 38866,
-      "sha256": "7ca7eea5188b3c696af99a3f856fddcc1fd6d864a259a2f028dfd558d8bedddf"
-    },
-    {
-      "path": "assets/rts/building-base-player.png",
-      "bytes": 190646,
-      "sha256": "ce392c3fb83a2cc29906de6d3b1ea0baf5dfb414b6d0eae059c38c609f647298"
-    },
-    {
-      "path": "assets/rts/building-base-player.png.pre-promotion-backup.png",
-      "bytes": 39795,
-      "sha256": "442e1ae7ccb53162c9b0d9314fa7fccb60f27dcd17ab9924d40fc9f5e195a0df"
     },
     {
       "path": "assets/rts/effects/effect-flesh-impact.png",
@@ -7590,6 +7445,16 @@
       "path": "assets/rts/resource-mineral.png",
       "bytes": 7373,
       "sha256": "1cef80fe03b2ba979680da28a8e71eb33b71d3a9fabab15a7ce8fabcbcf0612e"
+    },
+    {
+      "path": "assets/rts/shared-building-vfx/building-vfx-1x.webp",
+      "bytes": 128826,
+      "sha256": "dfbbd79c13cc850e0ab607a0ac1703cfcc2c9b205398303906d2f6d8b5c00408"
+    },
+    {
+      "path": "assets/rts/shared-building-vfx/building-vfx-2x.webp",
+      "bytes": 420768,
+      "sha256": "2125c42778c738f2ab17826df3b7e7440722f1bcabc162d25929a3140f6712ad"
     },
     {
       "path": "assets/rts/terrain-dirt-0.png",
@@ -9727,16 +9592,6 @@
       "sha256": "c3a94efe2a7bb340fc41ffa9ff71d12dc7c7b0810a5bf0258c6ebc38c8e76500"
     },
     {
-      "path": "assets/selection-portrait-enemy-building-base-5438c1a3.png",
-      "bytes": 55131,
-      "sha256": "5438c1a3ac25b76bc72dccf43c309386659bcdb6a9d1635bbb02b09958fde3fb"
-    },
-    {
-      "path": "assets/selection-portrait-enemy-building-base-7972c41c.png",
-      "bytes": 16758,
-      "sha256": "7972c41c0270af51aff94fddd7018bdd4723b562c16f77b046d1171908611590"
-    },
-    {
       "path": "assets/selection-portrait-enemy-unit-interceptor-078f914c.png",
       "bytes": 12077,
       "sha256": "078f914ce63274d2ce153f0836531700c3dc7386136b8c634fb4398a58487c14"
@@ -9795,16 +9650,6 @@
       "path": "assets/selection-portrait-player-building-barracks-b1abf2c6.png",
       "bytes": 46118,
       "sha256": "b1abf2c68e61a0de30de1a075ff9676b131a35d69150e623196ac2aa467e7b7f"
-    },
-    {
-      "path": "assets/selection-portrait-player-building-base-790bb89d.png",
-      "bytes": 16477,
-      "sha256": "790bb89d6ace85719af2cbeaaa96a8d6f353dc78bad273e81bdbe4fb6d30ad47"
-    },
-    {
-      "path": "assets/selection-portrait-player-building-base-98462000.png",
-      "bytes": 53734,
-      "sha256": "98462000f830c024522505c945710aaa00289d86e6dc87cf0334585834ba09b4"
     },
     {
       "path": "assets/selection-portrait-player-unit-interceptor-53d1cd83.png",
@@ -11097,11 +10942,6 @@
       "sha256": "1f7f33695750ad6fac3cefded9733bc75a3eb41132c4eda80c27446ebf1d41dc"
     },
     {
-      "path": "chunks/baseStreamlinedRuntimeVisualPilot-022dc37e.js",
-      "bytes": 118143,
-      "sha256": "b7292177059cf3a48e223b036913a590e0fb783bab46a73c9c76bac8ddd949a2"
-    },
-    {
       "path": "chunks/bunkerGarrisonRuntimeAssetUrls-862ca088.js",
       "bytes": 15747,
       "sha256": "8e013894cdef228832be5b1952e76ac52247358a48463e0f3c496248331fb0ad"
@@ -11188,8 +11028,8 @@
     },
     {
       "path": "code-12-34a-runtime-asset-byte-manifest.json",
-      "bytes": 812745,
-      "sha256": "31f5bcc04b35f352dae4712dcfa61dcf90b79c2a1daa065c86f46c3d75935c70"
+      "bytes": 681145,
+      "sha256": "bf918d3868a288dc0c06fc99d664104939054efe484bf00906b5a47fb173d55b"
     },
     {
       "path": "dreadnought-audio-v1/audio/2eb8f427fe624fbe7f557b9f686efc3baa445809f443c2a49712165b461c31cc.wav",
@@ -11713,18 +11553,18 @@
     },
     {
       "path": "index.html",
-      "bytes": 383,
-      "sha256": "10e5b5863b74d70a6cb26d6b62a9ca1d22cbbc45e16f732a83a50275ba4bd276"
+      "bytes": 492,
+      "sha256": "954ea7bbb750edcb1401db281674d4d9ca58b08de9ece80acf420c571e543329"
     },
     {
       "path": "play/index.html",
-      "bytes": 383,
-      "sha256": "10e5b5863b74d70a6cb26d6b62a9ca1d22cbbc45e16f732a83a50275ba4bd276"
+      "bytes": 492,
+      "sha256": "954ea7bbb750edcb1401db281674d4d9ca58b08de9ece80acf420c571e543329"
     },
     {
       "path": "release-version.json",
-      "bytes": 654,
-      "sha256": "3bce78a5b4c9358a10f90e05198ec52d939370d4b33ac628eaeb08b9b7de100e"
+      "bytes": 655,
+      "sha256": "c72a923de2fce9e84d33440cf8e58c30e4de9ee407e9dcd919f7ca6020d60800"
     },
     {
       "path": "science/code/science-vessel-compact-presentation-v1.mjs",
@@ -11765,11 +11605,6 @@
       "path": "science/host/chunks/barracksOwnerColorSemanticMaskRuntimePilot-52c0d2e6.js",
       "bytes": 91970,
       "sha256": "1f7f33695750ad6fac3cefded9733bc75a3eb41132c4eda80c27446ebf1d41dc"
-    },
-    {
-      "path": "science/host/chunks/baseStreamlinedRuntimeVisualPilot-022dc37e.js",
-      "bytes": 118143,
-      "sha256": "b7292177059cf3a48e223b036913a590e0fb783bab46a73c9c76bac8ddd949a2"
     },
     {
       "path": "science/host/chunks/bunkerGarrisonRuntimeAssetUrls-862ca088.js",
@@ -11822,9 +11657,9 @@
       "sha256": "594df7259cbd6727495e6682a33eedf58cda65dcdc25ffdbdf922980464036a7"
     },
     {
-      "path": "science/host/chunks/ReplayPlaybackPanel-17f2eec1.js",
-      "bytes": 3356,
-      "sha256": "5948c6b15cb2aaa681a2482ac073e94b83a6a301c8de5a6b56b2079eddec04e7"
+      "path": "science/host/chunks/ReplayPlaybackPanel-fd66ee06.js",
+      "bytes": 3518,
+      "sha256": "eca78d70a89d5516d92483f091261a03280132474a3113ed9c7da7787af1ff83"
     },
     {
       "path": "science/host/chunks/scienceFacilityRuntimeVisualPilot-8a44011b.js",
@@ -11868,13 +11703,13 @@
     },
     {
       "path": "science/host/game.js",
-      "bytes": 8555147,
-      "sha256": "e6d5d33120ba38b5670e4cc790969b6244b538c093851da3476cb7942c681af0"
+      "bytes": 8417355,
+      "sha256": "8bd746ef70454bcf40867ce8e5303614e3df5d3720d43207dc0d2c0a4c912e61"
     },
     {
       "path": "science/host/index.html",
-      "bytes": 383,
-      "sha256": "10e5b5863b74d70a6cb26d6b62a9ca1d22cbbc45e16f732a83a50275ba4bd276"
+      "bytes": 492,
+      "sha256": "954ea7bbb750edcb1401db281674d4d9ca58b08de9ece80acf420c571e543329"
     },
     {
       "path": "science/integration/f-runtime-resource-contract-v1.json",
