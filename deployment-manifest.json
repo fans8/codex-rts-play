@@ -1,9 +1,9 @@
 {
-  "version": "2026.11.15-code-12-48ab-public-v1",
-  "sourceId": "afb1f75de3f0ea740523755563b0817952e8a27bc6c92bccd8611d65828b7c75",
-  "publicDerivationID": "afb1f75de3f0ea740523755563b0817952e8a27bc6c92bccd8611d65828b7c75",
-  "formalSourceId": "90fb2e24475f1a2061fc1b26a897c5a2b6689ed0d5ee5e71e3d5f5f3f1901cf3",
-  "formalRuntimeManifestSHA256": "89b746df849e4fc93939c386a1934b63b945df90c7e7bc948da10f4c0bef8a35",
+  "version": "2026.11.17-code-12-49b-formal-play-v3",
+  "sourceId": "8251834433073c073bb3824e54aaa769a9dd93f26996df4de568bbd7e8f5e119",
+  "publicDerivationID": "8251834433073c073bb3824e54aaa769a9dd93f26996df4de568bbd7e8f5e119",
+  "formalSourceId": "2649be322d7b8280db94838388658e0f644207de255af320ba0f4860ac8863c0",
+  "formalRuntimeManifestSHA256": "a1d0edab177c01107612ef0651a8b448641596a6ab06431ae4beac87a23a21d5",
   "resourceSHA256": "bd526eb2a0a98d95256a8d2682a696b242fe4cd0d688d20d9e91e5831268d122",
   "channel": "formal-release",
   "publicBase": "/codex-rts-play/",
@@ -6347,9 +6347,234 @@
       "sha256": "5e475b761c7c0c61db093d32bc4e4824e69e4b4936250915853fae96a2559987"
     },
     {
+      "path": "assets/rts/art/ghost-r6/ghost-cobalt-death-r6-1x.webp",
+      "bytes": 399102,
+      "sha256": "592e2e7b87dfb09f023517639f45d841dfd84051e27b2212462bae7c758661e4"
+    },
+    {
+      "path": "assets/rts/art/ghost-r6/ghost-cobalt-death-r6-2x.webp",
+      "bytes": 991946,
+      "sha256": "884e8bb9c6561a85232ae8567cc7d9e01400ab2bb25c0b3c7486d50c966ac64d"
+    },
+    {
+      "path": "assets/rts/art/ghost-r6/ghost-cobalt-fire8-1x.webp",
+      "bytes": 120726,
+      "sha256": "265d09be942015bd84b1ea3b4a0c59c482117e10efeb1306a68cd6d91de34963"
+    },
+    {
+      "path": "assets/rts/art/ghost-r6/ghost-cobalt-fire8-2x.webp",
+      "bytes": 303838,
+      "sha256": "3c939a4c330a22c9be7e0bbf3b496a6b996d930652c48b07c64154b99a95ab52"
+    },
+    {
+      "path": "assets/rts/art/ghost-r6/ghost-cobalt-move12-1x.webp",
+      "bytes": 234338,
+      "sha256": "c77359892dd3968db22258984b77a42404a168725e00f27599d97b3cfcd4603f"
+    },
+    {
+      "path": "assets/rts/art/ghost-r6/ghost-cobalt-move12-2x.webp",
+      "bytes": 590144,
+      "sha256": "14de252f6c240b48a023c563284b52f78f22f649f1acb3aa80c7fa98313eae57"
+    },
+    {
+      "path": "assets/rts/art/ghost-r6/ghost-optics-1x.json",
+      "bytes": 16051,
+      "sha256": "c9ad9800f5ab9f31784f9fd38f1b233cb4d8db15683d9da9a6c1cc67ffa778d7"
+    },
+    {
+      "path": "assets/rts/art/ghost-r6/ghost-optics-2x.json",
+      "bytes": 41479,
+      "sha256": "85b75c4557e612951eae70258a1784861332d3e85877c90b2a07be9682971499"
+    },
+    {
+      "path": "assets/rts/art/ghost-r6/ghost-red-death-r6-1x.webp",
+      "bytes": 397258,
+      "sha256": "de69a175506d969174564250ee0b08573c814bcec6916ad393b18a5677236628"
+    },
+    {
+      "path": "assets/rts/art/ghost-r6/ghost-red-death-r6-2x.webp",
+      "bytes": 986758,
+      "sha256": "bd2dc8320ec6c605357720357419b9f0bb00446ea25fe45e5eacef9f23e182f4"
+    },
+    {
+      "path": "assets/rts/art/ghost-r6/ghost-red-fire8-1x.webp",
+      "bytes": 119442,
+      "sha256": "89d1dd2eada09a0a15cd8d884bc399c1d1ea18713a9da452fec28d433dbc3233"
+    },
+    {
+      "path": "assets/rts/art/ghost-r6/ghost-red-fire8-2x.webp",
+      "bytes": 301114,
+      "sha256": "ed2c22994d4e12d7c004c1f5fc57b21874ed51b7fa92514f25ff1749492edecb"
+    },
+    {
+      "path": "assets/rts/art/ghost-r6/ghost-red-move12-1x.webp",
+      "bytes": 232690,
+      "sha256": "e3a67677226416005d5402aabe0b83f8dd6a171a4eb061ae0e83509ca477e2bc"
+    },
+    {
+      "path": "assets/rts/art/ghost-r6/ghost-red-move12-2x.webp",
+      "bytes": 585666,
+      "sha256": "4018b5881300c0f2071dfb9b060d16d3b4695463f4257e4bb56e20723bb7af17"
+    },
+    {
+      "path": "assets/rts/art/ghost-r6/runtime-payload-manifest.json",
+      "bytes": 29551,
+      "sha256": "8d788ba39d0de2cdc89ae3dca82f62660d2e850686a6e160c6b1f684a36751b7"
+    },
+    {
+      "path": "assets/rts/art/ghost-r6/soldier-contact-shadow.png",
+      "bytes": 1206,
+      "sha256": "596b4e0b0a5331fc47836bcd28b624e926fdf6cbb6794127fb1db07b7b4d074b"
+    },
+    {
+      "path": "assets/rts/art/ghost-standing-breath/ghost-cobalt-standing-breath-v1-1x.webp",
+      "bytes": 54528,
+      "sha256": "5948ea7c5e13b172562ab75990bc0bb30fd1df453ec5b0cb576ef0e04f635650"
+    },
+    {
+      "path": "assets/rts/art/ghost-standing-breath/ghost-cobalt-standing-breath-v1-2x.webp",
+      "bytes": 134820,
+      "sha256": "f83d12aa2b7d1a1ddf77dd31af4012e46fda04984da7abb62046734d3dc3748b"
+    },
+    {
+      "path": "assets/rts/art/ghost-standing-breath/ghost-cobalt-standing-optics-v1-1x.json",
+      "bytes": 620,
+      "sha256": "acc58f5138da8972e132e264751bb9c0013fed38d26f725859f1b8e8ffe36aa0"
+    },
+    {
+      "path": "assets/rts/art/ghost-standing-breath/ghost-cobalt-standing-optics-v1-2x.json",
+      "bytes": 1440,
+      "sha256": "d0c74ec277083cb5a5db00e2ec5887ed08d6d70d8bc8aba084081b57976d3774"
+    },
+    {
+      "path": "assets/rts/art/ghost-standing-breath/ghost-red-standing-breath-v1-1x.webp",
+      "bytes": 53864,
+      "sha256": "fdf11d73a91603ea0e85c53371f9ecc2f50e62472b9814ebabb0671d7455683d"
+    },
+    {
+      "path": "assets/rts/art/ghost-standing-breath/ghost-red-standing-breath-v1-2x.webp",
+      "bytes": 133706,
+      "sha256": "f6f9bcec4c6b3fe6aa180babd683e59613c1729426e7388bc89d48ba9d7f2b33"
+    },
+    {
+      "path": "assets/rts/art/ghost-standing-breath/ghost-red-standing-optics-v1-1x.json",
+      "bytes": 613,
+      "sha256": "f7db945a94b46be8c43c4e348df3c7ee0a62a27db99021239f65f6ee865771be"
+    },
+    {
+      "path": "assets/rts/art/ghost-standing-breath/ghost-red-standing-optics-v1-2x.json",
+      "bytes": 1429,
+      "sha256": "c4284cdc10c75c0d028d3eb04e7c576bd94a5cfb1f566cde190d84116f1d2839"
+    },
+    {
+      "path": "assets/rts/art/ghost-standing-breath/runtime-payload-manifest.json",
+      "bytes": 2447,
+      "sha256": "2486c291f73e3fd6ec7ca259999574ee82f1f597bec6b584adf3785b195c2428"
+    },
+    {
       "path": "assets/rts/audio/code-12-48a-v3/comsat-telegraph.mp3",
       "bytes": 18093,
       "sha256": "6a7e46e183cec90cb2ddd4fd60c0493920e197827c833326ac2a52c47c3d3c4c"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/advisor-ready.mp3",
+      "bytes": 25389,
+      "sha256": "1a11b81f0e2618ef821f8a70da85fa1c975db3a96cd9ba1ec1152bdbada80d62"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/advisor-warning.mp3",
+      "bytes": 30381,
+      "sha256": "60b66e4934e4044a4f7b1cbc2f7a4d1eee296f491f99822bdea9fcf2e30c3444"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/ghost-annoyed-1.mp3",
+      "bytes": 40941,
+      "sha256": "6febc29a116f9c0f55c21001f654530f540880d91cbd09a4d47d223d4b31a4c2"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/ghost-annoyed-2.mp3",
+      "bytes": 44973,
+      "sha256": "b59b32cb089498c6aa1f5d11b3e212fe8b1c0af46453713dd5ec8a1ab524c75b"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/ghost-annoyed-4.mp3",
+      "bytes": 49581,
+      "sha256": "78d673546377237cee96ecbce9c06fe55e7ebaa81c0ca8d0cb5085a7f76ecff5"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/ghost-c10-fire.mp3",
+      "bytes": 12717,
+      "sha256": "92696a4738a51d036f47b129831ca795314f25ee04b3e7cf005db305e1201b45"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/ghost-command-1.mp3",
+      "bytes": 33453,
+      "sha256": "558999ab410622d8d3a39ae3267a6e52034c9fca004e22d18952f18abeb88967"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/ghost-command-3.mp3",
+      "bytes": 27117,
+      "sha256": "fc5900cc76f80cbb1a58001dbcd1464c3bdcfadb89db9b4030e7d24873be63d0"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/ghost-command-4.mp3",
+      "bytes": 37485,
+      "sha256": "fb6c57086ecdd8fe0b57ed0bfdab10dc43749f7a20292e738e9ce3bd8e06d40b"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/ghost-death.mp3",
+      "bytes": 12333,
+      "sha256": "a4a6ca60c96cce6693e8b226be48480e0edf9929230b86b19d5fc112cbd99f4d"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/ghost-nuke-target-confirm-b.mp3",
+      "bytes": 25965,
+      "sha256": "906678a3ef657fc47d3e6ceac94878c303cefba5738e71e46d5fd05104962c68"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/ghost-ready.mp3",
+      "bytes": 44397,
+      "sha256": "9f81046536c1d864e8e709e846982c252465bcee3f57e8fb41ff5243b3a26dea"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/ghost-selected-2.mp3",
+      "bytes": 32301,
+      "sha256": "6dc182a928488c9bcf3d1400ae8622a6c730429bc472b8171004a7b9a27372db"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/ghost-selected-3.mp3",
+      "bytes": 38061,
+      "sha256": "3aeaf550092654525f1242c231ec466c011d309ca1eda0b53c64d3c50260e92d"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/ghost-selected-4.mp3",
+      "bytes": 31725,
+      "sha256": "afd1569dee5fe1b668aa75ebd6f860d5652e8bca2d8e4eb6e76202bd265eed14"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/nuke-descent-a.mp3",
+      "bytes": 49581,
+      "sha256": "b89d181c5f2bfe22354ecac0d35c830932bf0ddae6d8001ec56b93cfea689303"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/nuke-impact-a.mp3",
+      "bytes": 169389,
+      "sha256": "2bfa1f356245a475581f0fc4a9d7709cb1c487abec9a9e69ea1d0d8293daa683"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/nuke-launch.mp3",
+      "bytes": 66285,
+      "sha256": "3cc8dbe1441057232e62db59ed92b6fa5e2a7adafd0a6f3dc4ebecf6cdde921c"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/nuke-silo-hatch-b.mp3",
+      "bytes": 54189,
+      "sha256": "f6f60366fd0ab55820de9bbb79b63af36cd296559b388555eb17f5a6d946d0eb"
+    },
+    {
+      "path": "assets/rts/audio/nuclear-ghost-12-49b/nuke-warning-siren-a.mp3",
+      "bytes": 56493,
+      "sha256": "befa895f420e9464d20db229deaacae73b836ec919e3f7cdb51bef25500e5151"
     },
     {
       "path": "assets/rts/barracks/player/presentation/barracks-player-presentation-dual-resolution-v1-code-12-20l-webp/package-manifest.json",
@@ -11553,18 +11778,18 @@
     },
     {
       "path": "index.html",
-      "bytes": 492,
-      "sha256": "954ea7bbb750edcb1401db281674d4d9ca58b08de9ece80acf420c571e543329"
+      "bytes": 365,
+      "sha256": "da41346c58150bec177596a0a15896a1f61981cd065f3a4b7f1c0c6c6652afc5"
     },
     {
       "path": "play/index.html",
       "bytes": 492,
-      "sha256": "954ea7bbb750edcb1401db281674d4d9ca58b08de9ece80acf420c571e543329"
+      "sha256": "d2485bf4d202ed2544c267db9d8ebe27f94238259c8142b6bd7f79925b213b81"
     },
     {
       "path": "release-version.json",
-      "bytes": 655,
-      "sha256": "c72a923de2fce9e84d33440cf8e58c30e4de9ee407e9dcd919f7ca6020d60800"
+      "bytes": 659,
+      "sha256": "3e75b7e0e0854c4f2298b242698febe1378c7a39b3cf499ee167d6e1c20e2ee8"
     },
     {
       "path": "science/code/science-vessel-compact-presentation-v1.mjs",
@@ -11587,9 +11812,9 @@
       "sha256": "a91a1c5257b12d0d88b67fb8f1fe427e5ff4de180a1362846f91f1652f082656"
     },
     {
-      "path": "science/host/assets/compactCandidateEntry-10e952d4.css",
-      "bytes": 105784,
-      "sha256": "10e952d4282af53a7fc105dea60ca89197ad9a3b3d8735980f33d20d1815254d"
+      "path": "science/host/assets/compactCandidateEntry-8be4b701.css",
+      "bytes": 106670,
+      "sha256": "8be4b701c4956cb0b0ca3aeea7d96cdb3e13d595c378239e5dc0c4abe439501e"
     },
     {
       "path": "science/host/assets/replayCompressionWorker-17f03a67.js",
@@ -11703,13 +11928,13 @@
     },
     {
       "path": "science/host/game.js",
-      "bytes": 8417355,
-      "sha256": "8bd746ef70454bcf40867ce8e5303614e3df5d3720d43207dc0d2c0a4c912e61"
+      "bytes": 8512992,
+      "sha256": "e648d087fd6f8a09fed5811fe21a08460f1336f7c71f4ab5bba15588f2ac1346"
     },
     {
       "path": "science/host/index.html",
       "bytes": 492,
-      "sha256": "954ea7bbb750edcb1401db281674d4d9ca58b08de9ece80acf420c571e543329"
+      "sha256": "d2485bf4d202ed2544c267db9d8ebe27f94238259c8142b6bd7f79925b213b81"
     },
     {
       "path": "science/integration/f-runtime-resource-contract-v1.json",
