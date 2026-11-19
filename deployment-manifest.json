@@ -1,9 +1,9 @@
 {
-  "version": "2026.11.17-code-12-49c-formal-play-v1",
-  "sourceId": "8c20a6aab721f42cb13b1c2c43cf08f4d5bb2c6bfc9f2229845d3db250be5726",
-  "publicDerivationID": "8c20a6aab721f42cb13b1c2c43cf08f4d5bb2c6bfc9f2229845d3db250be5726",
-  "formalSourceId": "2603a60ad77acfd8681d9e8a89385081324522f913075ae8be5f622db8032af1",
-  "formalRuntimeManifestSHA256": "4a619f778fe20fe5ab89aeea74cf862435a6667d5ca7f5db43c5133622d1a4dc",
+  "version": "2026.11.19-code-12-50k-unified-ui-v1",
+  "sourceId": "821737c887b0c006cb30804087879fd058c6783f059950b3e7cb933d989773a3",
+  "publicDerivationID": "821737c887b0c006cb30804087879fd058c6783f059950b3e7cb933d989773a3",
+  "formalSourceId": "4c695b821c6ffb88404916234015b990f9874fa89e2251def2513c1f0d3b0850",
+  "formalRuntimeManifestSHA256": "55fba61881b2379ae1285e03f7916abfb53b4b7ca1652fd1b6a507608cc84b63",
   "resourceSHA256": "bd526eb2a0a98d95256a8d2682a696b242fe4cd0d688d20d9e91e5831268d122",
   "channel": "formal-release",
   "publicBase": "/codex-rts-play/",
@@ -6347,6 +6347,246 @@
       "sha256": "5e475b761c7c0c61db093d32bc4e4824e69e4b4936250915853fae96a2559987"
     },
     {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/construction-dust.webp",
+      "bytes": 2008,
+      "sha256": "faae7f5a6b2dce2a59cc37b50883dfe7d86b57101bc498716f784418c17ef312"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/construction-finish-body.webp",
+      "bytes": 7798,
+      "sha256": "cf9e39499cd2fde5c9d381bcaae96d25ecd790ebfc6fd63c3c1f2b49fb7072dd"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/construction-finish-owner-mask.webp",
+      "bytes": 908,
+      "sha256": "b59776c94908d75e383626b7b1e5567db821816e19ba8519c199b44471f7fece"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/construction-foundation-body.webp",
+      "bytes": 5750,
+      "sha256": "2eefcd193f10a9ebc43f7ef89f8ff145aceda682397f1d396a81a4d0ce0b240e"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/construction-foundation-owner-mask.webp",
+      "bytes": 688,
+      "sha256": "7aa88e54c6e96f0ebd02be0282e18aed8cd553a13e629db97c8a0e3758dd19a3"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/construction-frame-body.webp",
+      "bytes": 7242,
+      "sha256": "541382b0003819ff6d5e5ccdc70e70a6b577b004a7a7a4622db57cfc1d2a66df"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/construction-frame-owner-mask.webp",
+      "bytes": 982,
+      "sha256": "891122761dc0d2c26452ebdc9a312898d5b96ecac7846388574a5b6b02dec870"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/construction-shell-body.webp",
+      "bytes": 7928,
+      "sha256": "bf6fd87b85bec65d2bfea6072cdcdb111d78518f87001761abee1985a935c188"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/construction-shell-owner-mask.webp",
+      "bytes": 1176,
+      "sha256": "739e16bfea636beb90617fb5d31fe552e19a672136d89e337a1c48012c65757b"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/damage-i-body.webp",
+      "bytes": 8374,
+      "sha256": "f240ac6b35fd982238fab90e09f8781a32a0de07a2b005d39dd200110f747913"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/damage-i-functional.webp",
+      "bytes": 160,
+      "sha256": "2e3750cd08e03d33d9781816f9e6a603793690f1c19c4be5be4d28f43a7761c2"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/damage-i-owner-mask.webp",
+      "bytes": 916,
+      "sha256": "4c4357b3ccc2625e7dc1cd45d763900519447a354a5ce4502a92b6047c4a862f"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/damage-ii-body.webp",
+      "bytes": 8014,
+      "sha256": "c3b67d575febb9be9426aa03579e88316c22609d5f730b6c2a31e5aa4f8b60a7"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/damage-ii-functional.webp",
+      "bytes": 160,
+      "sha256": "2e3750cd08e03d33d9781816f9e6a603793690f1c19c4be5be4d28f43a7761c2"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/damage-ii-owner-mask.webp",
+      "bytes": 952,
+      "sha256": "3c79971ad20b9e80262c5040e309f2fe2b3e1e2f9ec70d3b16be9dd918a3daf8"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/damage-iii-body.webp",
+      "bytes": 7904,
+      "sha256": "b78a238304ad42c1be9314668012716f6991b9c51fea2f633d43086fbb0c6a45"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/damage-iii-functional.webp",
+      "bytes": 142,
+      "sha256": "00fc2ea3826e0bd305d651c3361d862eafdbba365e5a05aa35e48234290c91eb"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/damage-iii-owner-mask.webp",
+      "bytes": 804,
+      "sha256": "a7a52ef8923981422f6f1b979768fb2875959f378bd4d89420b473c282cc949f"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/healthy-idle-body.webp",
+      "bytes": 8242,
+      "sha256": "f3460a75721158c5df245c2a0242b82aac1341d78a8778cac49db8fd4e4195b3"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/healthy-idle-functional.webp",
+      "bytes": 202,
+      "sha256": "ff5dba305d23c7590377b47b1ff8d0387ab02ffdc992a14dbde003677909499a"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/healthy-idle-owner-mask.webp",
+      "bytes": 916,
+      "sha256": "4c4357b3ccc2625e7dc1cd45d763900519447a354a5ce4502a92b6047c4a862f"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/runtime-payload-v1.json",
+      "bytes": 15636,
+      "sha256": "2bec8da2065a54918e1591a433e607aa2073690052f96b58df20094fd5df2882"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/wreck-body.webp",
+      "bytes": 4608,
+      "sha256": "e6da464e87819dfcd4f3af0bdbb83440d768841aedcdab34ae3a252706aadb6b"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/1x/wreck-owner-mask.webp",
+      "bytes": 614,
+      "sha256": "cb47c37c7ca6c4c007ce9d079c773c9e7ec17cd3613b01594598609dfc0bcd38"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/construction-dust.webp",
+      "bytes": 10688,
+      "sha256": "c99c042db454d8e0dc0303f235e48ec73498708aa8a213a5884d1a43c9064c7d"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/construction-finish-body.webp",
+      "bytes": 23220,
+      "sha256": "19bc2c0cd1b9a8354ecbe7d7f1b91c7b2316ef123e89c18e84c85067bba7f5bd"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/construction-finish-owner-mask.webp",
+      "bytes": 2566,
+      "sha256": "71e22736cf012c6a0969dff54f0bdcfd2a7e7ede5b2eb9f2c20a567e85c8313b"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/construction-foundation-body.webp",
+      "bytes": 16972,
+      "sha256": "b2bd182e31f2d1eceeb604d27736417b2cdca97c083d4f4752c49c506dfd40f5"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/construction-foundation-owner-mask.webp",
+      "bytes": 1882,
+      "sha256": "f2ab962cf0194182077795c21b18d170a791ab79d5fb88352830e8275e14de3a"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/construction-frame-body.webp",
+      "bytes": 22472,
+      "sha256": "0f98263121fcec8c722c7d947c705c5358591889706f1ab4990f2452697c8f15"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/construction-frame-owner-mask.webp",
+      "bytes": 2850,
+      "sha256": "2bfc060f03e4b43e338b300c9f93bf0e8bd31fb83ac287a5c6a29d2b6c70d0ff"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/construction-shell-body.webp",
+      "bytes": 24612,
+      "sha256": "6935015879f84cc4c0add84431e5d782a26892dc0db852ee3999fbf8287b04ba"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/construction-shell-owner-mask.webp",
+      "bytes": 3376,
+      "sha256": "c419014314c8117a0c26b8cc7076a510829e59ddeb246ba7bd7a8f6d32aa23ad"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/damage-i-body.webp",
+      "bytes": 25138,
+      "sha256": "c9a911d305190efd96b48e80ba9cda89cf75f1661295f2fce9f1234a82a20908"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/damage-i-functional.webp",
+      "bytes": 386,
+      "sha256": "89016674d6aa5df289e542a8921bb0952278013bd5fb7aa86f0b8bccf7c759c2"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/damage-i-owner-mask.webp",
+      "bytes": 2580,
+      "sha256": "2c547cc307c35aa11e823f32fe1abdbd73b7bc303328c0f5994981e7d9282457"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/damage-ii-body.webp",
+      "bytes": 23926,
+      "sha256": "18275cbd83dcffdf3af4056506b8928ad4fb4105a4dbb3e835f933811849ca8d"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/damage-ii-functional.webp",
+      "bytes": 386,
+      "sha256": "89016674d6aa5df289e542a8921bb0952278013bd5fb7aa86f0b8bccf7c759c2"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/damage-ii-owner-mask.webp",
+      "bytes": 2602,
+      "sha256": "b48186cdb5314923fccbcc98802fa905a609c858fd8510434dd68b10288d02c3"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/damage-iii-body.webp",
+      "bytes": 23436,
+      "sha256": "1f1f68639e0c3ed8fe3628604606c54e55f01874b1ffeb4bcf3a5aa7de288817"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/damage-iii-functional.webp",
+      "bytes": 320,
+      "sha256": "e6f59a035a67fc3f7ea6b34ad7d5eaf02eb6fe02e0c6e69448dc35afe67eed04"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/damage-iii-owner-mask.webp",
+      "bytes": 2302,
+      "sha256": "0f7a9b12385a14f9e25bc951bffe0111d44c8a996839fc6b32865eb1eb6bfc9d"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/healthy-idle-body.webp",
+      "bytes": 24076,
+      "sha256": "47758d4ba150b714d0160cbb189045a0d857cac5e5fb36e84df5c1dca4a29963"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/healthy-idle-functional.webp",
+      "bytes": 484,
+      "sha256": "bdd6c3963e9b8b149e6af26d873ba8c9bb6ec143dca048189831620e86fb7d22"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/healthy-idle-owner-mask.webp",
+      "bytes": 2580,
+      "sha256": "2c547cc307c35aa11e823f32fe1abdbd73b7bc303328c0f5994981e7d9282457"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/runtime-payload-v1.json",
+      "bytes": 15810,
+      "sha256": "10f6aa40cd8cd08eebd5d6f5ecbdebd19d5c7d8b5a43af539eda8d87fdc825b2"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/wreck-body.webp",
+      "bytes": 13294,
+      "sha256": "08450ae07dbb750c1629f6ecd4e25be875f903bc9ed063a08e35033993ab8669"
+    },
+    {
+      "path": "assets/rts/art/covert-ops-11-56c/2x/wreck-owner-mask.webp",
+      "bytes": 1472,
+      "sha256": "e42c8a2258d4c9275637362e91f9a643ae0664586fd2ae72113ff33725d87378"
+    },
+    {
       "path": "assets/rts/art/ghost-r6/ghost-cobalt-death-r6-1x.webp",
       "bytes": 399102,
       "sha256": "592e2e7b87dfb09f023517639f45d841dfd84051e27b2212462bae7c758661e4"
@@ -12084,12 +12324,12 @@
     {
       "path": "play/index.html",
       "bytes": 492,
-      "sha256": "d2485bf4d202ed2544c267db9d8ebe27f94238259c8142b6bd7f79925b213b81"
+      "sha256": "475a496b858767f3f074ac58bb1e6c9207b470bf8593bccf1dc5cdc9a1a0739a"
     },
     {
       "path": "release-version.json",
-      "bytes": 659,
-      "sha256": "6c95e80a8374d8e48eaa7df265ae5cfea5c4124fe10073d07bb799a0565aa9b3"
+      "bytes": 658,
+      "sha256": "9adf5ce9218f3731765f6a8b0e6dadee85c8089aae477f3f7788c7dd704bbca0"
     },
     {
       "path": "science/code/science-vessel-compact-presentation-v1.mjs",
@@ -12112,9 +12352,9 @@
       "sha256": "a91a1c5257b12d0d88b67fb8f1fe427e5ff4de180a1362846f91f1652f082656"
     },
     {
-      "path": "science/host/assets/compactCandidateEntry-8be4b701.css",
-      "bytes": 106670,
-      "sha256": "8be4b701c4956cb0b0ca3aeea7d96cdb3e13d595c378239e5dc0c4abe439501e"
+      "path": "science/host/assets/compactCandidateEntry-3cf759ff.css",
+      "bytes": 120438,
+      "sha256": "3cf759ff7fb0204b977a5552744d477cad3f2a72ec9706b04f14e3c8380e85f1"
     },
     {
       "path": "science/host/assets/replayCompressionWorker-17f03a67.js",
@@ -12142,9 +12382,9 @@
       "sha256": "4bef77728be7fdbaf2fecbdc02f38057f5640d8823f0f80d9c3805bc86712a44"
     },
     {
-      "path": "science/host/chunks/dreadnoughtAudioRuntime-71ca6e359dab.js",
-      "bytes": 13786,
-      "sha256": "71ca6e359dab2a65a538f8f0f6f28a1a8356fecf2d1df96a2c7046f3eb82f97c"
+      "path": "science/host/chunks/dreadnoughtAudioRuntime-33e074f22989.js",
+      "bytes": 13819,
+      "sha256": "33e074f22989cee7f32933ac6fbd750c959620063d6d5166028a0337351d36e5"
     },
     {
       "path": "science/host/chunks/factoryOwnerColorSemanticMaskRuntimePilot-9f078226.js",
@@ -12228,13 +12468,13 @@
     },
     {
       "path": "science/host/game.js",
-      "bytes": 8534253,
-      "sha256": "f403e70dca8a503864b956c84e4b48d8598fd516839594b3784daae19fbb25ea"
+      "bytes": 8428735,
+      "sha256": "55772b188ebb01d578020736486e93329437a842b58b89d0c24781274af4b95b"
     },
     {
       "path": "science/host/index.html",
       "bytes": 492,
-      "sha256": "d2485bf4d202ed2544c267db9d8ebe27f94238259c8142b6bd7f79925b213b81"
+      "sha256": "475a496b858767f3f074ac58bb1e6c9207b470bf8593bccf1dc5cdc9a1a0739a"
     },
     {
       "path": "science/integration/f-runtime-resource-contract-v1.json",
