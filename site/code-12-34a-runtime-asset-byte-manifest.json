@@ -1,6 +1,6 @@
 {
   "schemaVersion": "code-12.34a-runtime-asset-build-manifest-v2",
-  "buildId": "f24c0dccf004cc988ab154d45b93e0bc42d527d418f1778b60f14e133f15f6f2",
+  "buildId": "402d1fa567903a860315d574b8234d0cb93e31f161a260e551a5fcceb60fea8e",
   "entries": [
     {
       "path": "assets/S12-A01__ui.command.accept__stable-audio-3-small-sfx-mlx__v03-c8db4cc2.mp3",
@@ -2411,20 +2411,6 @@
       "mimeType": "image/png"
     },
     {
-      "path": "assets/building-bunker-c13-construction-finish-owner-mask-runtime-1x-v1-6a574dbe.png",
-      "urlPath": "/assets/building-bunker-c13-construction-finish-owner-mask-runtime-1x-v1-6a574dbe.png",
-      "encodedBytes": 2246,
-      "sha256": "6a574dbe9460e3a8918c059e5a590eec2c181fd90c98a76a63e03e60e2f5c049",
-      "mimeType": "image/png"
-    },
-    {
-      "path": "assets/building-bunker-c13-construction-finish-owner-mask-runtime-2x-v1-18b2a23f.png",
-      "urlPath": "/assets/building-bunker-c13-construction-finish-owner-mask-runtime-2x-v1-18b2a23f.png",
-      "encodedBytes": 5068,
-      "sha256": "18b2a23fc7f6c4f34545bb25100b83cfa231bf0f7373ce58e102a834f867ce48",
-      "mimeType": "image/png"
-    },
-    {
       "path": "assets/building-bunker-c13-construction-foundation-neutral-body-runtime-1x-v1-192ec7a4.png",
       "urlPath": "/assets/building-bunker-c13-construction-foundation-neutral-body-runtime-1x-v1-192ec7a4.png",
       "encodedBytes": 5411,
@@ -2523,20 +2509,6 @@
       "mimeType": "image/png"
     },
     {
-      "path": "assets/building-bunker-c13-damage-i-owner-mask-runtime-1x-v1-01d5b608.png",
-      "urlPath": "/assets/building-bunker-c13-damage-i-owner-mask-runtime-1x-v1-01d5b608.png",
-      "encodedBytes": 2633,
-      "sha256": "01d5b6086f29b4d8483219f765c223e41c751e8b1a87e5aed41ce839fdcfaba9",
-      "mimeType": "image/png"
-    },
-    {
-      "path": "assets/building-bunker-c13-damage-i-owner-mask-runtime-2x-v1-0fe47dd1.png",
-      "urlPath": "/assets/building-bunker-c13-damage-i-owner-mask-runtime-2x-v1-0fe47dd1.png",
-      "encodedBytes": 6114,
-      "sha256": "0fe47dd1328fe783d4cf3dbada5f63511a9c605915262609750102f0137d6042",
-      "mimeType": "image/png"
-    },
-    {
       "path": "assets/building-bunker-c13-damage-ii-neutral-body-runtime-1x-v1-fb0d84b4.png",
       "urlPath": "/assets/building-bunker-c13-damage-ii-neutral-body-runtime-1x-v1-fb0d84b4.png",
       "encodedBytes": 13380,
@@ -2548,20 +2520,6 @@
       "urlPath": "/assets/building-bunker-c13-damage-ii-neutral-body-runtime-2x-v1-01858d78.png",
       "encodedBytes": 40794,
       "sha256": "01858d783625f58af4ca7401eb9d6b6aeb29f5171d60505fa1eecf8a142c0f16",
-      "mimeType": "image/png"
-    },
-    {
-      "path": "assets/building-bunker-c13-damage-ii-owner-mask-runtime-1x-v1-2c5fab17.png",
-      "urlPath": "/assets/building-bunker-c13-damage-ii-owner-mask-runtime-1x-v1-2c5fab17.png",
-      "encodedBytes": 2417,
-      "sha256": "2c5fab17bff8e37e628a46234a45b60e283eb96c8abbeca9c50584e0f5fc2559",
-      "mimeType": "image/png"
-    },
-    {
-      "path": "assets/building-bunker-c13-damage-ii-owner-mask-runtime-2x-v1-098833af.png",
-      "urlPath": "/assets/building-bunker-c13-damage-ii-owner-mask-runtime-2x-v1-098833af.png",
-      "encodedBytes": 5520,
-      "sha256": "098833af7d6c2b21d843865765fdb27e512af12d98d5582cca4af039199068cb",
       "mimeType": "image/png"
     },
     {
@@ -2579,20 +2537,6 @@
       "mimeType": "image/png"
     },
     {
-      "path": "assets/building-bunker-c13-damage-iii-owner-mask-runtime-1x-v1-d0b6b5fb.png",
-      "urlPath": "/assets/building-bunker-c13-damage-iii-owner-mask-runtime-1x-v1-d0b6b5fb.png",
-      "encodedBytes": 1809,
-      "sha256": "d0b6b5fb0c114a222a5ccc58b219d24fc98aa775f97d3a057769620bd6784894",
-      "mimeType": "image/png"
-    },
-    {
-      "path": "assets/building-bunker-c13-damage-iii-owner-mask-runtime-2x-v1-841dc489.png",
-      "urlPath": "/assets/building-bunker-c13-damage-iii-owner-mask-runtime-2x-v1-841dc489.png",
-      "encodedBytes": 4152,
-      "sha256": "841dc4896b0b9e751a7bc5af853405aa026fec8f5366bd51edeb25a52b4bd648",
-      "mimeType": "image/png"
-    },
-    {
       "path": "assets/building-bunker-c13-healthy-idle-neutral-body-runtime-1x-v1-a311693b.png",
       "urlPath": "/assets/building-bunker-c13-healthy-idle-neutral-body-runtime-1x-v1-a311693b.png",
       "encodedBytes": 13571,
@@ -2604,20 +2548,6 @@
       "urlPath": "/assets/building-bunker-c13-healthy-idle-neutral-body-runtime-2x-v1-c7f0b40a.png",
       "encodedBytes": 40773,
       "sha256": "c7f0b40a73af63fab9efbfe389a2f8aa75ce7a5712af6896e80f29e2c9bd45bb",
-      "mimeType": "image/png"
-    },
-    {
-      "path": "assets/building-bunker-c13-healthy-idle-owner-mask-runtime-1x-v1-67c6a66d.png",
-      "urlPath": "/assets/building-bunker-c13-healthy-idle-owner-mask-runtime-1x-v1-67c6a66d.png",
-      "encodedBytes": 2521,
-      "sha256": "67c6a66d538b93a47d20eff1a1cf43989d700d3d01f64e42c0d9c48e8936be8c",
-      "mimeType": "image/png"
-    },
-    {
-      "path": "assets/building-bunker-c13-healthy-idle-owner-mask-runtime-2x-v1-08a2c355.png",
-      "urlPath": "/assets/building-bunker-c13-healthy-idle-owner-mask-runtime-2x-v1-08a2c355.png",
-      "encodedBytes": 5723,
-      "sha256": "08a2c355b8be35053a69ea69b885c1b5c595e80039fcbc5f2a7103b665f56ee1",
       "mimeType": "image/png"
     },
     {
@@ -10636,6 +10566,20 @@
       "urlPath": "/assets/rts/art/armory-11-57i-lifecycle-v1-2/media/wreck-2x-mask.webp"
     },
     {
+      "path": "assets/rts/art/barracks-11-57d-flag-deck-v1/1x/flag-deck-1x.webp",
+      "urlPath": "/assets/rts/art/barracks-11-57d-flag-deck-v1/1x/flag-deck-1x.webp",
+      "encodedBytes": 1400,
+      "sha256": "b5a8e67ad0143e822c3bb875a78b4097d73e61f621dc485eb53bdc97a0681a34",
+      "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/rts/art/barracks-11-57d-flag-deck-v1/2x/flag-deck-2x.webp",
+      "urlPath": "/assets/rts/art/barracks-11-57d-flag-deck-v1/2x/flag-deck-2x.webp",
+      "encodedBytes": 4576,
+      "sha256": "ca028b4ac4e4a7f812fbf4ec929dc41de5f5098c28bc5e234e497489faca95b8",
+      "mimeType": "image/webp"
+    },
+    {
       "path": "assets/rts/art/barracks-11-57d-flag-v1/1x/flag-blue-1x.webp",
       "urlPath": "/assets/rts/art/barracks-11-57d-flag-v1/1x/flag-blue-1x.webp",
       "encodedBytes": 6278,
@@ -10676,6 +10620,76 @@
       "encodedBytes": 2282,
       "sha256": "94bbd947952c5382cdab867765bec4ccaecc6bd30af32ef99f0a263df190ced7",
       "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/rts/art/bunker-11-51a-gray-roof-v1/1x/construction-finish-gray-roof-owner-mask-1x.png",
+      "urlPath": "/assets/rts/art/bunker-11-51a-gray-roof-v1/1x/construction-finish-gray-roof-owner-mask-1x.png",
+      "encodedBytes": 1260,
+      "sha256": "3dd1e98925c53ac9285e4a901cc4ee30bcd6d879a7b5df8bcd45e6c527ebf497",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/rts/art/bunker-11-51a-gray-roof-v1/1x/damage-i-gray-roof-owner-mask-1x.png",
+      "urlPath": "/assets/rts/art/bunker-11-51a-gray-roof-v1/1x/damage-i-gray-roof-owner-mask-1x.png",
+      "encodedBytes": 1305,
+      "sha256": "7fd824617bd7969fcebb4aebcd3cf8af29f9965d7231d1222df320218d5fce92",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/rts/art/bunker-11-51a-gray-roof-v1/1x/damage-ii-gray-roof-owner-mask-1x.png",
+      "urlPath": "/assets/rts/art/bunker-11-51a-gray-roof-v1/1x/damage-ii-gray-roof-owner-mask-1x.png",
+      "encodedBytes": 1249,
+      "sha256": "09c63eaf60aafcb97054215c614c5166c913ae8db1ac009e2c4c10db3eb534f6",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/rts/art/bunker-11-51a-gray-roof-v1/1x/damage-iii-gray-roof-owner-mask-1x.png",
+      "urlPath": "/assets/rts/art/bunker-11-51a-gray-roof-v1/1x/damage-iii-gray-roof-owner-mask-1x.png",
+      "encodedBytes": 902,
+      "sha256": "ddcb7b688f24b2c3d0571d18171b33c30dd4032660431f798bac22269b06a545",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/rts/art/bunker-11-51a-gray-roof-v1/1x/healthy-idle-gray-roof-owner-mask-1x.png",
+      "urlPath": "/assets/rts/art/bunker-11-51a-gray-roof-v1/1x/healthy-idle-gray-roof-owner-mask-1x.png",
+      "encodedBytes": 1285,
+      "sha256": "bde597a2458beb4db86b782f9c2c265dc8be3f9c27f25aa8e66aac9ba4263777",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/rts/art/bunker-11-51a-gray-roof-v1/2x/construction-finish-gray-roof-owner-mask-2x.png",
+      "urlPath": "/assets/rts/art/bunker-11-51a-gray-roof-v1/2x/construction-finish-gray-roof-owner-mask-2x.png",
+      "encodedBytes": 3103,
+      "sha256": "27e9b17f334d990c99500d41a6074dc7bc45c74ecda725fdf477775b42efd14b",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/rts/art/bunker-11-51a-gray-roof-v1/2x/damage-i-gray-roof-owner-mask-2x.png",
+      "urlPath": "/assets/rts/art/bunker-11-51a-gray-roof-v1/2x/damage-i-gray-roof-owner-mask-2x.png",
+      "encodedBytes": 3249,
+      "sha256": "bd1827ac0434d0b67ccbe0a9d9418150f193eae9acb90e67b32e7e7a8a2b56ab",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/rts/art/bunker-11-51a-gray-roof-v1/2x/damage-ii-gray-roof-owner-mask-2x.png",
+      "urlPath": "/assets/rts/art/bunker-11-51a-gray-roof-v1/2x/damage-ii-gray-roof-owner-mask-2x.png",
+      "encodedBytes": 3169,
+      "sha256": "ab18b1c7656e85af7470545ed1bf3944319be5471e0fa1aeb43e49bf2eacdf93",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/rts/art/bunker-11-51a-gray-roof-v1/2x/damage-iii-gray-roof-owner-mask-2x.png",
+      "urlPath": "/assets/rts/art/bunker-11-51a-gray-roof-v1/2x/damage-iii-gray-roof-owner-mask-2x.png",
+      "encodedBytes": 2341,
+      "sha256": "57154cdc8122783816affc4e5c678780b04f7847a2fb23298bc2dcd793bd73cf",
+      "mimeType": "image/png"
+    },
+    {
+      "path": "assets/rts/art/bunker-11-51a-gray-roof-v1/2x/healthy-idle-gray-roof-owner-mask-2x.png",
+      "urlPath": "/assets/rts/art/bunker-11-51a-gray-roof-v1/2x/healthy-idle-gray-roof-owner-mask-2x.png",
+      "encodedBytes": 3185,
+      "sha256": "0c018894f93d97503aa82016e63a74663886fc75d612755a55b415d29fce9e57",
+      "mimeType": "image/png"
     },
     {
       "path": "assets/rts/art/control-tower-11-57r-lifecycle-v1/1x/construction-finish/neutral.webp",
@@ -13420,6 +13434,20 @@
       "encodedBytes": 1280,
       "sha256": "a830f44deeae54b9efc1d881af64d6e29431d52e934cc4fac76bcf4e685bab9e",
       "mimeType": "image/webp"
+    },
+    {
+      "path": "assets/rts/audio/building-flight-8-9/liftoff-v1.mp3",
+      "urlPath": "/assets/rts/audio/building-flight-8-9/liftoff-v1.mp3",
+      "encodedBytes": 29997,
+      "sha256": "21b720f54f954596af970f5bc3189d3ed1c32e8948192cf68b1a7c53244c33a4",
+      "mimeType": "audio/mpeg"
+    },
+    {
+      "path": "assets/rts/audio/building-flight-8-9/touchdown-v1.mp3",
+      "urlPath": "/assets/rts/audio/building-flight-8-9/touchdown-v1.mp3",
+      "encodedBytes": 19629,
+      "sha256": "f283c459f2ec08d5d4285cf6c9602157e23fc10b076097dc403bbbe89027a6ff",
+      "mimeType": "audio/mpeg"
     },
     {
       "path": "assets/rts/audio/code-12-48a-v3/comsat-telegraph.mp3",

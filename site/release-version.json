@@ -1,15 +1,15 @@
 {
-  "version": "2026.11.24-code-12-51e-r3-startup",
-  "sourceId": "b7d6da7582085458f01139a9df14404c0dea5b2cd0ce8b0c7313222c32b2665f",
-  "publicDerivationID": "b7d6da7582085458f01139a9df14404c0dea5b2cd0ce8b0c7313222c32b2665f",
-  "formalSourceId": "f4201b32bb9dd34267192846760ebba0815530116314fa33b3edbe71af2bdb4b",
-  "formalRuntimeManifestSHA256": "ef1714c57ba82d7d28b654e405acd6efd0cedc3a51cda873ed92749eac15c707",
+  "version": "2026.11.24-code-12-51f-r5-bunker-gray-roof-integrated-release",
+  "sourceId": "2a4c43bda37bdf6a13a03ac9914e62e4e057f1aaf28d51b24468df79c60fe8b3",
+  "publicDerivationID": "2a4c43bda37bdf6a13a03ac9914e62e4e057f1aaf28d51b24468df79c60fe8b3",
+  "formalSourceId": "777e1f8b1e158467f17c3a4fc20141e11b63fcb630eab7f3a1055f92d1ea9dce",
+  "formalRuntimeManifestSHA256": "7c4c696e9b86de6f8effe4f5e3000c40eaccf3a64a01b226a46a5768a0ca221b",
   "resourceSHA256": "bd526eb2a0a98d95256a8d2682a696b242fe4cd0d688d20d9e91e5831268d122",
   "channel": "formal-release",
   "publicBase": "/codex-rts-play/",
   "formalDefault": true,
   "entryMode": "formal",
   "selector": "default-no-query",
-  "inheritedEngineSourceId": "56f87568d40d8987a57cc460ec55bbdc02993becaa34a7b6ae6936273833fdf7",
-  "parentPublicSourceId": "4ea7d7cb720d7a7a00fba384d8c15d298e55282bf4acd7997a77685411004a6f"
+  "inheritedEngineSourceId": "2a4c43bda37bdf6a13a03ac9914e62e4e057f1aaf28d51b24468df79c60fe8b3",
+  "parentPublicSourceId": "b7d6da7582085458f01139a9df14404c0dea5b2cd0ce8b0c7313222c32b2665f"
 }
