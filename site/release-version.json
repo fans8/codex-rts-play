@@ -1,13 +1,14 @@
 {
-  "version": "2026.11.24-code-12-51e-hud-attribute-and-command-order",
-  "sourceId": "56f87568d40d8987a57cc460ec55bbdc02993becaa34a7b6ae6936273833fdf7",
-  "publicDerivationID": "56f87568d40d8987a57cc460ec55bbdc02993becaa34a7b6ae6936273833fdf7",
-  "formalSourceId": "36716cd0d62080674bcf912ac9c9940d05d523ac9f2eac5ac10e298c0001aa91",
-  "formalRuntimeManifestSHA256": "1a102f6d801c817148c786ec704dc3ad10721468128cbcf54aff407779585a78",
+  "version": "2026.11.24-code-12-51e-r2-hud-portrait-parity",
+  "sourceId": "4ea7d7cb720d7a7a00fba384d8c15d298e55282bf4acd7997a77685411004a6f",
+  "publicDerivationID": "4ea7d7cb720d7a7a00fba384d8c15d298e55282bf4acd7997a77685411004a6f",
+  "formalSourceId": "7dc50adab3656967f23c0457d87d46ecc509d3364eda522b6720c273083beaf7",
+  "formalRuntimeManifestSHA256": "3f64236d8d3460f2d48887a5dd0af8f5a262e3f87e61d78402c8a2d8762748fa",
   "resourceSHA256": "bd526eb2a0a98d95256a8d2682a696b242fe4cd0d688d20d9e91e5831268d122",
   "channel": "formal-release",
   "publicBase": "/codex-rts-play/",
   "formalDefault": true,
   "entryMode": "formal",
-  "selector": "default-no-query"
+  "selector": "default-no-query",
+  "inheritedEngineSourceId": "56f87568d40d8987a57cc460ec55bbdc02993becaa34a7b6ae6936273833fdf7"
 }
